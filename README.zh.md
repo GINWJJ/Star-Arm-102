@@ -364,3 +364,16 @@ sudo chmod 777 /dev/ttyUSB*
 - [Lerobot 框架](https://github.com/huggingface/lerobot)
 - [ROS2 官方文档](https://docs.ros.org/en/humble/)
 - [MoveIt2 官方文档](https://moveit.picknik.ai/humble/)
+
+
+## 预训练模型：夹方块
+
+Star Arm 102 的 ACT 方块抓取与放置模型，已训练 100,000 步。按案例教程布置机械臂和两路相机后，可下载模型进行实机验证。
+
+- [完整运行教程与摆位照片](./Lerobot/examples/act_pick/README.md)
+- [下载模型与原视频](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0)
+- [客户运行手册](./Lerobot/examples/act_pick/docs/Star_Arm_102_ACT_客户运行指南.docx)
+
+训练完成后的现场演示，点击下方播放器即可在线观看。
+
+https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7
