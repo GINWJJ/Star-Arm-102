@@ -1,15 +1,15 @@
-# LeRobot + fs101_follower Integration
+# Star Arm 102 follower plugin — release-compatible generation
 
-## Getting Started
+This package registers `lerobot_robot_stararm102` and supplies the FL follower used by the released ACT example. It exposes `Motor_0.pos` through `Motor_5.pos` and `gripper.pos`.
+
+Start with the [LeRobot guide](../README.md) or [ACT model instructions](../examples/act_pick/inference.md). The release guide uses package version `0.0.1` and LeRobot `0.4.1`.
+
+For development, from the repository root in the release-compatible environment:
 
 ```bash
-pip install lerobot_robot_stararm102
-
-lerobot-teleoperate \
-    --robot.type=lerobot_robot_stararm102 \
-    --robot.port=/dev/ttyUSB1 \
-    --robot.id=my_awesome_stararm102_follower_arm \
-    --teleop.type=lerobot_teleoperator_stararm102 \
-    --teleop.port=/dev/ttyUSB0 \
-    --teleop.id=my_awesome_stararm102_leader_arm
+python -m pip install ./Lerobot/lerobot-robot-stararm102
 ```
+
+Reinstall after source edits. Default editable installs can be missed by LeRobot 0.4.1 plugin discovery.
+
+This directory retains its [Apache-2.0 license](LICENSE). Do not mix the released ACT model with the refactored `stararm102_fl` joint representation.

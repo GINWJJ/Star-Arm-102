@@ -1,15 +1,33 @@
-# StarArm102 HD Teleoperator
+# Star Arm 102 HD/FL — refactored LeRobot integration
 
 This package contains a refactored StarArm102 / reBot Arm 102 integration with:
 
 - a leader teleoperator: `stararm102_hd`
 - a follower robot: `stararm102_fl`
 
+[LeRobot entry](../README.md) · [Compatibility](../../docs/compatibility.md)
+
+Use this integration for named-joint HD/FL development. **The supplied ACT release uses the other plugin generation**; follow its [inference guide](../examples/act_pick/inference.md) instead to try that model.
+
 ## Install
 
+Use a separate Python 3.10 environment on Ubuntu 22.04. With [Miniforge](https://github.com/conda-forge/miniforge#install) installed, run from the repository root:
+
 ```bash
-pip install -e .
+conda create -n stararm102-hd python=3.10 -y
+conda activate stararm102-hd
+conda install -c conda-forge ffmpeg -y
+python -m pip install "lerobot==0.4.1" "lerobot-motor-starai==0.0.6" "fashionstar-uart-sdk==1.3.12"
+python -m pip install ./Lerobot/lerobot-stararm102
+python -m pip check
+python -c "from lerobot_teleoperator_stararm102 import Stararm102HD, Stararm102FL; print('HD/FL imports OK')"
+lerobot-teleoperate --help
+cd Lerobot/lerobot-stararm102
 ```
+
+These versions define a reproducible candidate environment for this guide; hardware validation is tracked in [validation](../../docs/validation.md). Do not install the 0.0.1 leader plugin in this environment. Example scripts below run from this package directory. Use the regular install shown above: a default editable install can import successfully while remaining invisible to LeRobot 0.4.1's plugin discovery. Reinstall after changing package source.
+
+Complete [hardware preparation](../../docs/hardware-setup.md) and [communication checks](../../Python_SDK/README.md#check-communication-without-commanding-motion) before calibration. Connecting this plugin can unlock joints and reset multi-turn counts. `Ctrl+C` is not a hardware emergency stop.
 
 ## Registered Teleoperator
 
@@ -31,6 +49,8 @@ Typical workflow:
 
 ## Teleoperate
 
+Complete the calibration section below first. LD leaders use `stararm102_hd` with `--teleop.button.enabled=false`; verify joint directions for your hardware. HD button mode requires the board at ID 7.
+
 ```bash
 lerobot-teleoperate \
   --teleop.type=stararm102_hd \
@@ -40,7 +60,7 @@ lerobot-teleoperate \
   --robot.type=stararm102_fl \
   --robot.id=stararm102_fl \
   --robot.port=/dev/ttyUSB1 \
-  --teleop.baudrate=1000000
+  --robot.baudrate=1000000
 ```
 
 This starts direct teleoperation from:
@@ -52,16 +72,16 @@ Enable the optional external button device:
 
 ```bash
 lerobot-teleoperate \
-  --fps=120 \
+  --fps=30 \
   --teleop.type=stararm102_hd \
   --teleop.id=stararm102_hd \
   --teleop.port=/dev/ttyUSB0 \
   --teleop.baudrate=1000000 \
-  --teleop.button.enabled=false \
+  --teleop.button.enabled=true \
   --robot.type=stararm102_fl \
   --robot.id=stararm102_fl \
   --robot.port=/dev/ttyUSB1 \
-  --teleop.baudrate=1000000
+  --robot.baudrate=1000000
 ```
 
 When `teleop.button.enabled=true`, servo id `7` is treated as an external button-like device:
@@ -112,7 +132,7 @@ If you want to rerun calibration from scratch, just execute the command again an
 
 ## Examples
 
-Read only the button servo state:
+Read the button state (connecting also unlocks joints and resets multi-turn counts):
 
 ```bash
 python \
@@ -164,7 +184,7 @@ It is useful for checking:
 
 ## Leader Config
 
-`stararm102_hd_leader` currently supports these main config fields:
+`stararm102_hd` currently supports these main config fields:
 
 - `port`
 - `baudrate`
@@ -212,7 +232,7 @@ The follower does not include any button configuration. Its role is to receive a
 The package exposes the StarArm teleoperator and follower implementations:
 
 ```python
-from lerobot_teleoperator_stararm102_hd import (
+from lerobot_teleoperator_stararm102 import (
     Stararm102HD,
     Stararm102HDConfig,
     Stararm102FL,
@@ -242,111 +262,53 @@ lerobot-teleoperate \
   --robot.cameras="{first_person: {type: opencv, index_or_path: 0, width: 640, height: 480, fps: 30}, third_person: {type: opencv, index_or_path: 2, width: 640, height: 480, fps: 30}}"
 ```
 
-### record
+### Record your own demonstrations
+
+Use a new local dataset directory for each task; do not delete existing recordings to make an example run. This example uses two cameras named `first_person` and `third_person`. Adjust device indices, then keep camera names, dimensions, orientation, and placement consistent throughout collection, training, and inference.
 
 ```bash
-rm -rf ./outputs/datasets
 lerobot-record \
   --robot.type=stararm102_fl \
   --robot.id=stararm102_fl \
   --robot.port=/dev/ttyUSB1 \
-  --robot.baudrate=1000000 \
-  --robot.cameras="{first_person: {type: opencv, index_or_path: 0, width: 480, height: 640, fps: 30, rotation: ROTATE_270}, third_person: {type: opencv, index_or_path: 2, width: 640, height: 480, fps: 30}}" \
+  --robot.cameras="{first_person: {type: opencv, index_or_path: 0, width: 640, height: 480, fps: 30}, third_person: {type: opencv, index_or_path: 2, width: 640, height: 480, fps: 30}}" \
   --teleop.type=stararm102_hd \
   --teleop.id=stararm102_hd \
   --teleop.port=/dev/ttyUSB0 \
-  --teleop.baudrate=1000000 \
-  --dataset.repo_id=kian/stararm102_test \
-  --dataset.single_task="Test recording" \
+  --teleop.button.enabled=true \
+  --dataset.repo_id=customer/stararm102_block_demo \
+  --dataset.root=./outputs/stararm102_block_demo \
+  --dataset.single_task="Place the block in the center" \
   --dataset.num_episodes=2 \
-  --dataset.episode_time_s=600 \
+  --dataset.episode_time_s=30 \
   --dataset.reset_time_s=10 \
   --dataset.push_to_hub=false \
-  --dataset.root=./outputs/datasets \
-  --display_data=false
-```
-
-```bash
-rm -rf ~/.cache/huggingface/lerobot/kian/stararm102_test
-```
-
-
-### Pick up a block
-
-```bash
-lerobot-record \
-  --robot.type=stararm102_fl \
-  --robot.id=stararm102_fl \
-  --robot.port=/dev/ttyUSB1 \
-  --robot.baudrate=1000000 \
-  --robot.cameras="{first_person: {type: opencv, index_or_path: 0, width: 480, height: 640, fps: 20, rotation: ROTATE_270}, third_person: {type: opencv, index_or_path: 2, width: 640, height: 480, fps: 20}}" \
-  --teleop.type=stararm102_hd \
-  --teleop.id=stararm102_hd \
-  --teleop.port=/dev/ttyUSB0 \
-  --teleop.baudrate=1000000 \
-  --dataset.repo_id=kian/stararm102_pick_block_v4 \
-  --dataset.single_task="Pick up a block from the table and hold it steadily" \
-  --dataset.num_episodes=200 \
-  --dataset.episode_time_s=60 \
-  --dataset.reset_time_s=3 \
-  --dataset.push_to_hub=false \
-  --dataset.root=./outputs/stararm102_pick_block_v4 \
   --display_data=true
 ```
 
-### train
+Two episodes are a recording check, not a sufficient training dataset. For LD or an HD without a button board, set `--teleop.button.enabled=false`. This dataset uses the refactored joint representation and is separate from the released ACT model.
+
+### Train a first ACT checkpoint
+
+After collecting and reviewing sufficient demonstrations, a starter command is:
 
 ```bash
 lerobot-train \
-  --dataset.repo_id=kian/stararm102_pick_block_v3 \
-  --dataset.root=./outputs/stararm102_pick_block_v3 \
+  --dataset.repo_id=customer/stararm102_block_demo \
+  --dataset.root=./outputs/stararm102_block_demo \
   --policy.type=act \
   --policy.device=cuda \
   --policy.push_to_hub=false \
-  --output_dir=./outputs/train_stararm102_pick_block_v3 \
+  --output_dir=./outputs/train_stararm102_block_demo \
   --batch_size=8 \
   --steps=5000 \
-  --save_freq=200 \
+  --save_freq=1000 \
   --eval_freq=0 \
   --num_workers=0
 ```
 
-### test
+These are starter settings, not the recipe used to produce the released 100,000-step model. See [training scope and next steps](../examples/act_pick/training.md). Review a trained checkpoint before hardware evaluation, and keep its plugin, calibration, and camera schema unchanged.
 
-```bash
-rm -rf ./outputs/eval_stararm102_pick_block_v3_last_run1
-LD_LIBRARY_PATH="$CONDA_PREFIX/lib:${LD_LIBRARY_PATH}" lerobot-record \
-  --robot.type=stararm102_fl \
-  --robot.id=stararm102_fl \
-  --robot.port=/dev/ttyUSB1 \
-  --robot.baudrate=1000000 \
-  --robot.cameras="{first_person: {type: opencv, index_or_path: /dev/video0, width: 640, height: 480, fps: 30, backend: V4L2}, third_person: {type: opencv, index_or_path: /dev/video2, width: 640, height: 480, fps: 30, backend: V4L2}}" \
-  --policy.path=./outputs/train_stararm102_pick_block_v3/checkpoints/last/pretrained_model \
-  --dataset.repo_id=kian/eval_stararm102_pick_block_v3_last_run1 \
-  --dataset.single_task="eval checkpoint last" \
-  --dataset.num_episodes=1 \
-  --dataset.episode_time_s=50 \
-  --dataset.reset_time_s=8 \
-  --dataset.push_to_hub=false \
-  --dataset.root=./outputs/eval_stararm102_pick_block_v3_last_run1 \
-  --display_data=true
-```
+## reBot follower
 
-## reBot Arm 102
-
-## Teleoperate
-
-```bash
-lerobot-teleoperate \
-  --robot.type=seeed_b601_dm_follower \
-  --robot.port=/dev/ttyACM0 \
-  --robot.id=follower1 \
-  --robot.can_adapter=damiao \
-  --robot.joint_directions='{"shoulder_pan":1,"shoulder_lift":1,"elbow_flex":1,"wrist_flex":1,"wrist_yaw":1,"wrist_roll":1,"gripper":10}' \
-  --teleop.type=stararm102_hd \
-  --teleop.port=/dev/ttyUSB0 \
-  --teleop.id=stararm102_hd \
-  --teleop.button.enabled=true
-  ```
-
-  `--teleop.button.enabled=false` if Leader is stararm102_LD
+See [reBot setup and compatibility](../../docs/rebot.md). Upstream B601 device names and dependencies differ from older fork examples; use the upstream guide for the matching revision.

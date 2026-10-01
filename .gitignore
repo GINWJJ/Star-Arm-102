@@ -43,3 +43,8 @@ htmlcov/
 .agents/
 
 .gitignore
+
+# Customer example environments and local run data
+.venv-*/
+outputs/
+stararm102*-environment.txt

@@ -67,7 +67,7 @@ def main(args):
         button_id = 7
         filtered_size = 1
     else:
-        print(f"警告：未知 leader.type={args.leader_type}，使用默认102LD配置")
+        print(f"Unknown leader type {args.leader_type}; using 102LD defaults")
 
     if args.button is not None:
         button_enable = args.button
@@ -82,7 +82,7 @@ def main(args):
         filtered_size = args.filtered_size
 
     # 初始化leader
-    leader_uart = serial.Serial(port=LEADER_PORT_NAME,baudrate=SERVO_BAUDRATE,parity=serial.PARITY_NONE,stopbits=1,bytesize=8,timeout=0)
+    leader_uart = serial.Serial(port=args.leader_port,baudrate=SERVO_BAUDRATE,parity=serial.PARITY_NONE,stopbits=1,bytesize=8,timeout=0)
     leader_control = uservo.UartServoManager(leader_uart)
     leader_control.stop_on_control_mode(0xff,0x10,0x00)     # 解锁机械臂
     leader_control.reset_multi_turn_angle(0xff)             # 重置圈数
@@ -90,13 +90,13 @@ def main(args):
     if button_enable:
         button_get = leader_control.ping(button_id)
         if button_get==False:
-            raise ValueError(f"找不到button_id={button_id}")
+            raise ValueError(f"Button device ID {button_id} did not respond")
 
     # 初始化follower
-    follower_uart_arr = [serial.Serial(port=NAME,baudrate=SERVO_BAUDRATE,parity=serial.PARITY_NONE,stopbits=1,bytesize=8,timeout=0) for NAME in FOLLOWER_PORT_NAME_Arr]
+    follower_uart_arr = [serial.Serial(port=NAME,baudrate=SERVO_BAUDRATE,parity=serial.PARITY_NONE,stopbits=1,bytesize=8,timeout=0) for NAME in (args.follower_port or FOLLOWER_PORT_NAME_Arr)]
     follower_control_arr = [uservo.UartServoManager(uart) for uart in follower_uart_arr]
-    [follower_control_arr[i].stop_on_control_mode(0xff,0x10,0x00) for i in range(len(FOLLOWER_PORT_NAME_Arr))]  # 解锁机械臂
-    [follower_control_arr[i].reset_multi_turn_angle(0xff) for i in range(len(FOLLOWER_PORT_NAME_Arr))]          # 重置圈数
+    [follower_control_arr[i].stop_on_control_mode(0xff,0x10,0x00) for i in range(len(follower_control_arr))]  # 解锁机械臂
+    [follower_control_arr[i].reset_multi_turn_angle(0xff) for i in range(len(follower_control_arr))]          # 重置圈数
     
     button = Button(id=button_id)
 
@@ -137,25 +137,51 @@ def main(args):
 
         command_data_list = [struct.pack("<BlLHHH", i, int(filtered_angle[i]*10), 100, 50, 50, 0) for i in servo_ids]
 
-        for i in range(len(FOLLOWER_PORT_NAME_Arr)):
+        for i in range(len(follower_control_arr)):
             follower_control_arr[i].send_sync_multiturnanglebyinterval(14,7, command_data_list)
         time.sleep(0.001)
 
         freq = get_frequency()
         if freq is not None:
-            print(f"当前运行频率: {freq:.2f} Hz")
+            print(f"Loop frequency: {freq:.2f} Hz")
+
+
+def positive_int(value):
+    number = int(value)
+    if number < 1:
+        raise argparse.ArgumentTypeError("must be a positive integer")
+    return number
+
+
+def parse_bool(value):
+    if value.lower() not in ("true", "false"):
+        raise argparse.ArgumentTypeError("use true or false")
+    return value.lower() == "true"
+
+
+def build_parser():
+    parser = argparse.ArgumentParser(description="Direct Star Arm 102 leader-to-FL teleoperation")
+    parser.add_argument("--leader-port", default=LEADER_PORT_NAME,
+                        help="leader serial port (default: %(default)s)")
+    parser.add_argument("--follower-port", action="append",
+                        help="FL serial port; repeat for multiple followers (default: /dev/ttyUSB3)")
+    parser.add_argument("--leader_type", "--leader-type", choices=("102LD", "102HD"), default="102LD",
+                        help="leader model (default: %(default)s)")
+    button_group = parser.add_mutually_exclusive_group()
+    button_group.add_argument("--button_enable", action="store_true", help="enable the HD button board")
+    button_group.add_argument("--button_disable", action="store_true", help="disable the button board")
+    button_group.add_argument("--button", type=parse_bool, default=None, help="button override: true or false")
+    parser.add_argument("--button_id", type=int, choices=range(7, 254), default=None,
+                        metavar="ID", help="button ID, 7–253; joint IDs 0–6 are reserved")
+    parser.add_argument("--filtered_size", type=positive_int, default=None,
+                        help="moving-average window, >=1 (default: 1)")
+    return parser
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="leader类型自动配置按键与滤波参数")
-
-    parser.add_argument("--leader_type", type=str, default=None, help="设备型号：102HD / 102LD，默认102LD")
-    parser.add_argument("--button_enable", action="store_true", help="启用按键")
-    parser.add_argument("--button_disable", action="store_true", help="禁用按键")
-    parser.add_argument("--button", type=lambda x: (str(x).lower() == 'true'), default=None,
-                        help="直接指定按键状态，True开启 / False关闭")
-    parser.add_argument("--button_id", type=int, default=None, help="按键ID")
-    parser.add_argument("--filtered_size", type=int, default=None, help="均值滤波窗口大小")
-
+    parser = build_parser()
     args = parser.parse_args()
+    follower_ports = args.follower_port or FOLLOWER_PORT_NAME_Arr
+    if args.leader_port in follower_ports or len(set(follower_ports)) != len(follower_ports):
+        parser.error("leader and follower ports must be distinct; do not repeat a follower port")
     main(args)

@@ -1,0 +1,17 @@
+name: Documentation correction
+description: Report an unclear step, missing translation, or broken link.
+title: "[Docs] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should be clearer or corrected?
+      description: Quote the affected step and explain the missing or incorrect information.
+    validations:
+      required: true

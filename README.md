@@ -1,371 +1,133 @@
-# Star Arm 102: Open-Source Robotic Arm Development Resources
-[中文](README.zh.md)
+<h1 align="center">🦾 Star Arm 102</h1>
 
-## Ecosystem
+<p align="center">
+  <strong>Open-Source 6+1 DOF Robot Arm for LeRobot</strong><br>
+  Teleoperate. Learn from demonstrations. Run your first AI task.
+</p>
 
-Star-Arm-102 is the central repository for Fashion Star's Star Arm 102 robotic arm ecosystem, bringing together teleoperation, ROS 2, LeRobot integrations, and hardware resources.
+<p align="center">
+  <a href="docs/specifications.md"><img src="https://img.shields.io/badge/DOF-6%2B1-16A085?style=flat-square" alt="6 arm joints plus 1 gripper"></a>
+  <a href="Lerobot/README.md"><img src="https://img.shields.io/badge/LeRobot-Integration-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=FFD21E" alt="LeRobot integration"></a>
+  <a href="Python_SDK/README.md"><img src="https://img.shields.io/badge/Python-SDK-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python SDK"></a>
+  <a href="ROS2_HUMBLE/README.md"><img src="https://img.shields.io/badge/ROS_2-Humble-22314E?style=flat-square&amp;logo=ros&amp;logoColor=white" alt="ROS 2 Humble"></a>
+  <a href="Lerobot/examples/act_pick/README.md"><img src="https://img.shields.io/badge/ACT-Pretrained_Model-8B5CF6?style=flat-square" alt="ACT pretrained model"></a>
+</p>
 
-- 🔗 [Star Arm 102 Series Hub](https://fashionstar.com.hk/robot-arm/star-arm-102/)
-- 🐙 [Main Repo: Star-Arm-102](https://github.com/servodevelop/Star-Arm-102)
+<p align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/Language-English-8B5CF6?style=flat-square" alt="English"></a>
+  <a href="README.zh.md"><img src="https://img.shields.io/badge/语言-简体中文-64748B?style=flat-square" alt="简体中文"></a>
+</p>
 
-## Related Repositories
+<p align="center">
+  <a href="docs/getting-started.md"><strong>🚀 Get Started</strong></a> ·
+  <a href="Lerobot/examples/act_pick/README.md"><strong>🤖 Try the ACT Model</strong></a> ·
+  <a href="Lerobot/examples/act_pick/README.md#watch-the-demo"><strong>▶ Watch the Demo</strong></a>
+</p>
 
-- [piper-mate](https://github.com/servodevelop/piper-mate) — Main repository for the PiPER-Mate robotic arm project and its teleoperation workflows.
-- [lerobot](https://github.com/servodevelop/lerobot) — Fashion Star's LeRobot framework integration fork for robotic arm learning and teleoperation.
-- [servo-canbus-sdk](https://github.com/servodevelop/servo-canbus-sdk) — CAN bus servo SDK with Python examples for Fashion Star CAN bus servos.
-- [servo-uart-rs485-sdk](https://github.com/servodevelop/servo-uart-rs485-sdk) — UART/RS485 servo SDK with serial-bus examples and development tools.
-- [Star Arm 102 Series Hub](https://fashionstar.com.hk/robot-arm/star-arm-102/) — Official series overview and product information.
+<p align="center">
+  <a href="https://fashionstar.com.hk/">🌐 Official Website</a> ·
+  <a href="https://fashionstar.com.hk/robot-arm/star-arm-102/">🦾 Series Overview</a> ·
+  <a href="#where-to-buy">🛒 Where to Buy</a> ·
+  <a href="#documentation-and-support">💬 Support</a>
+</p>
 
-![Programming Language](https://img.shields.io/badge/language-Python-blue?style=flat-square)
-![Framework](https://img.shields.io/badge/framework-ROS2%20Humble-orange?style=flat-square)
-![Hardware](https://img.shields.io/badge/hardware-StarArm%20102-green?style=flat-square)
-![OS](https://img.shields.io/badge/OS-Ubuntu%2022.04-purple?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)
+<p align="center">
+  <a href="https://fashionstar.com.hk/robot-arm/star-arm-102/">
+    <img src="Media/images/11.png" alt="Fashion Star Star Arm 102 leader and follower arm family" width="880">
+  </a>
+</p>
+
+<p align="center"><strong>Six arm joints + one gripper · LD / HD leaders + FL follower · Teleoperation & imitation learning</strong></p>
+
+Star Arm 102 is developed by **[Fashion Star](https://fashionstar.com.hk/)**. Connect your arms, explore Python and LeRobot, or try the released ACT block-placement policy. This repository brings together the code, hardware resources, and guides for your first setup and subsequent development.
+
+| 🦾 6+1 DOF | 🎮 Learn by demonstration | 🤖 Try a pretrained policy |
+| :---: | :---: | :---: |
+| Six arm joints and a gripper control | Teleoperate with an LD or HD leader | Start with the supplied ACT block-placement model |
+| [Explore the hardware](docs/specifications.md) | [Set up teleoperation](Python_SDK/README.md) | [Open the model guide](Lerobot/examples/act_pick/README.md) |
+
+📑 **Explore:** [Shop](#where-to-buy) · [ACT Demo](#try-your-first-ai-task) · [Choose Your Setup](#choose-your-setup) · [Development](#development-paths) · [Docs & Support](#documentation-and-support)
 
 ---
 
-## 📖 Project Overview
-
-<p align="center">
-  <img src="./Media/images/11.png" alt="Star-Arm-102 assembly overview" width="720">
-</p>
-
-Star Arm 102 is an open-source 6+1 DOF leader–follower robotic arm system for teleoperation and robotics development. This repository brings together the code and resources needed to work with it, including Python SDK examples, ROS 2 Humble packages, LeRobot integrations, hardware files, and setup guides.
-
-Use it to connect and control the arms, try supported software workflows, and build your own robotics applications.
-
-Learn more about the full Star Arm 102 series:
-[Star Arm 102 robot arm — series overview](https://fashionstar.com.hk/robot-arm/star-arm-102/)
+<a id="where-to-buy"></a>
 
 ## 🛒 Where to Buy
-- [Star Arm 102-LD — LeRobot Certified Leader Arm](https://fashionstar.com.hk/store/product/star-arm-102-ld/)
-- [Star Arm 102-HD — Pose-Holding Leader Arm](https://fashionstar.com.hk/store/product/star-arm-102-hd/)
-- [Star Arm 102-FL — Follower Arm](https://fashionstar.com.hk/store/product/star-arm-102-fl/)
 
+Explore the [Star Arm 102 series](https://fashionstar.com.hk/robot-arm/star-arm-102/) or visit the official store:
 
-## 🔗 Related Links
-- [Fashion Star Official Website](https://fashionstar.com.hk/)
+| Model | Role | Official store |
+| --- | --- | --- |
+| Star Arm 102-LD | Leader arm for teleoperation | [Shop 102-LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/) |
+| Star Arm 102-HD | Leader arm with button-based pose holding | [Shop 102-HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/) |
+| Star Arm 102-FL | Follower arm for teleoperation and policy execution | [Shop 102-FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
 
-### ✨ Key Features
+<a id="try-your-first-ai-task"></a>
 
-- 🔓 **Open source · Low cost · Flexible access**
+## 🤖 Try your first AI task
 
-Fully open-source design lowers the barrier to learning and use.
-
-Two access options are available: purchase a pre-assembled unit for immediate use, or print and assemble it yourself by preparing the printed parts and components. The DIY option is well suited for teaching and hands-on practice.
-
-- ⚙️ **Well-designed robotic arm configuration**
-
-6 active joints + 1 end effector.
-
-The joint configuration strictly satisfies the Pieper criterion and supports analytical inverse kinematics. The algorithm is transparent, making it easy to teach and extend.
-
-- 🔗 **LD model: highly compatible teleoperation leader arm**
-
-Star Arm 102-LD can smoothly teleoperate the FL model in the same series.
-
-It is also directly compatible with reBot and other robotic arms that have identical or similar kinematic configurations.
-
-One leader arm can work with multiple arms, providing a smoother teleoperation experience across different systems.
-
-- 🔒 **HD model: enhanced leader arm with one-button locking**
-
-Star Arm 102-HD is an upcoming leader-arm model in the Star Arm 102 series.
-
-Compared with the LD model, HD adds a one-button locking function: after the lock button is pressed, the leader arm holds its current pose and the follower arm enters the locked state at the same time; pressing the button again unlocks the system.
-
-- 🕹️ **Multi-platform compatibility · Plug and play**
-
-Supports direct teleoperation through the Python SDK.
-
-Deeply compatible with the LeRobot and ROS 2 ecosystems.
-
-Covers the full workflow of real robotic applications: data collection → simulation → model training → physical deployment.
-
-- 📚 **Complete learning resources**
-
-Provides tutorials, API documentation, and example code from beginner to advanced levels.
-
-Suitable for university teaching, research experiments, and self-learning by individual developers.
-
----
-
-## 🔧 Arm Specifications
-
-|   | Star Arm 102-HD | Star Arm 102-LD | Star Arm 102-FL |
-|---|---|---|---|
-| Arm span | 420mm | 420mm | 420mm |
-| DOF | 6+1 | 6+1 | 6+1 |
-| Repeatability | - | - | ±0.5mm |
-| Suggested maximum payload | - | - | 500g |
-| Joint range<br> | Joint 1: ±110°<br>Joint 2: 0°\~180°<br>Joint 3: 0°\~270°<br>Joint 4: ±90°<br>Joint 5: ±65°<br>Joint 6: ±150°<br>Handle: 0\~90° | Joint 1: ±110°<br>Joint 2: 0°\~180°<br>Joint 3: 0°\~270°<br>Joint 4: ±90°<br>Joint 5: ±65°<br>Joint 6: ±150°<br>Handle: 0\~90° | Joint 1: ±110°<br>Joint 2: 0°\~180°<br>Joint 3: 0°\~270°<br>Joint 4: ±90°<br>Joint 5: ±65°<br>Joint 6: ±150°<br>Gripper: 0\~90° |
-| Servo configuration | Joints 1-4 (servo IDs 0-3): RP8-U45H-M;<br>Joint 5 (servo ID 4): RP8-U45H-M-C029;<br>Joint 6 and handle joint (servo IDs 5-6): RP8-U45H-M-C028; | Joints 1-4 (servo IDs 0-3): RA8-U01H-M;<br>Joint 5 (servo ID 4): RA8-U02H-M;<br>Joint 6 and handle joint (servo IDs 5-6): RA8-U03H-M; | Joints 1, 4, 7, and gripper joint (servo IDs 0, 3, 6): RA8-U35H-M;<br>Joints 2 and 3 (servo IDs 1-2): RX8-U50H-M;<br>Joint 5 (servo ID 4): RA8-U27H-M-C005;<br>Joint 6 (servo ID 5): RA8-U35H-M-C047; |
-| Communication hub | UC-01 | UC-01 | UC-01 |
-| Communication method | UART | UART | UART |
-| Power supply | 12V10A / XT30 | 12V3A / DC5521 | 12V10A / XT30 |
-| Accessories | Screws, threadlocker, woodworking clamps x2, spare PCB (UC01), DC power adapter cable (5.5×2.1mm connector), 200mm servo extension cable, USB-A to USB-C cable, mouse pad, base support | Screws, threadlocker, woodworking clamps x2, spare PCB (UC01), XT30 power adapter cable, 200mm servo extension cable, USB-A to USB-C cable, mouse pad, base support | Screws, threadlocker, woodworking clamps x2, spare PCB (UC01), DC power adapter cable (5.5×2.1mm connector), 200mm servo extension cable, USB-A to USB-C cable, mouse pad |
-| Encoder | 12-bit magnetic encoder | 12-bit magnetic encoder | 12-bit magnetic encoder |
-| Weight | 883g | 721g | 791g |
-| Recommended operating temperature | 0-40°C | 0-40°C | 0-40°C |
-| Button lock support | ✓ | × | - |
-| LeRobot support | ✓ | ✓ | ✓ |
-| ROS 2 support | ✓ | ✓ | ✓ |
-| MoveIt support | - | - | ✓ |
-| Gazebo support | - | - | ✓ |
-
----
-
-## 🔧 Hardware Resources
+**No training required for the supplied ACT demo.** Run the released block-placement policy on a Star Arm 102-FL after setting up its environment, calibration, and two cameras. A matching scene matters: this is a policy for a specific task, not a general-purpose grasping model.
 
 <p align="center">
-  <img src="./Media/images/10.png" alt="Star-Arm-102 assembly overview" width="480">
+  <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7">
+    <img src="Lerobot/examples/act_pick/docs/images/setup-front.jpg" alt="Watch the Star Arm 102 ACT block-placement demo" width="640">
+  </a><br>
+  <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7"><strong>▶ Watch Star Arm 102 in action</strong></a>
 </p>
 
-- [Parts List](./Hardware/README.md): view the complete parts list, quantities, and accessories
-
-- [Engineering Drawings](./Hardware/cad/README.md): view assembly drawings and manufacturing drawings
-
-- [Assembly Guide](./Hardware/assembly/README.md): view assembly sequence, notes, and reference images. This section is still being improved.
-
-- [MakerWorld Models](https://makerworld.com.cn/zh/models/2366043-xing-bi-102-ld?from=search#profileId-2682765): download the 3D printable files for Star Arm 102-LD, which can be used to replace parts or assemble the robotic arm yourself
-
-> The firmware and documentation for the Star Arm 102-HD lock-button board are located in the `Star-Arm-102-dev-main` project. The button board uses ID 7 by default. In host mode, it can directly send lock / unlock commands. In slave mode, it can be polled by the host as a simulated servo and returns 0.0° / 180.0° to indicate unlocked / locked states.
-
----
-
-## 🚀 Quick Start
-
-### Requirements
-
-| Item | Requirement |
-|------|-------------|
-| Operating System | Ubuntu 22.04 |
-| ROS Version | ROS 2 Humble |
-| Hardware | StarArm 102 robotic arms (Leader/HD + Follower) |
-| Driver | [CH340 USB Driver](https://www.wch.cn/downloads/CH341SER_EXE.html) |
-
-### Installation
-
-#### Method 1: Bare-metal teleoperation with Python SDK (recommended for beginners)
-
-```bash
-# 1. Install dependencies
-pip install pyserial fashionstar-uart-sdk
-
-# 2. Run the program
-sudo chmod 777 /dev/ttyUSB*
-python3 ./Python_SDK/stararm102_ro.py
-```
-
-#### Method 2: ROS 2 Humble
-
-```bash
-# See ROS2_HUMBLE/README.md for configuration instructions
-```
-
-#### Method 3: LeRobot framework
-
-```bash
-# See Lerobot/README.md for configuration instructions
-```
-
----
-
-## 📂 Project Structure
-
-<details>
-<summary>Expand to view the project structure</summary>
-
-```text
-Star-Arm-102/
-|-- .gitignore                               # Git ignore rules
-|-- Hardware/                                # Hardware resources
-|   |-- assembly/                            # Assembly instructions
-|   |-- cad/                                 # CAD models and engineering drawing documentation
-|   |-- parts/                               # Parts list and BOM
-|   `-- README.md                            # Hardware overview
-|-- Lerobot/                                 # LeRobot framework control workflow
-|   |-- lerobot-robot-stararm102/            # Follower robot configuration
-|   |-- lerobot-teleoperator-stararm102/     # Leader teleoperator
-|   |-- lerobot-stararm102/                  # New StarArm102 LeRobot plugin package
-|   |   |-- examples/                        # State reading and leader-follower replay examples
-|   |   |-- lerobot_teleoperator_stararm102/ # HD/FL device configuration and driver implementation
-|   |   |-- pyproject.toml                   # Python package configuration
-|   |   `-- README.md                        # Plugin package usage instructions
-|   |-- media/                               # Media assets for LeRobot documentation
-|   |-- stararm102_en.md                     # LeRobot usage documentation in English
-|   |-- stararm102.md                        # LeRobot usage documentation
-|   `-- README.md                            # Usage steps
-|-- Media/                                   # Image assets used by README files and documentation
-|   |-- images/                              # Image assets
-|   `-- video/                               # Video assets
-|-- Python_SDK/                              # Python SDK control workflow
-|   |-- stararm102_ro.py                     # Leader-follower control program with LD/HD configuration support
-|   |-- stararm102_ro_hover.py               # Hover / lock control example program
-|   `-- PYTHON_SDK_GUIDE.md                  # Detailed Python SDK usage documentation
-|-- ROS2_HUMBLE/                             # ROS 2 control workflow
-|   `-- src/
-|       |-- arm_moveit_read/                 # Pose reading node
-|       |-- arm_moveit_write/                # Pose writing node
-|       |-- arm_read_pose/                   # Real-time pose reading
-|       |-- robo_driver/                     # Robotic arm hardware driver node
-|       |-- robo_interfaces/                 # Custom ROS 2 interfaces
-|       |-- ros2_bag_recorder/               # Demonstration trajectory recording
-|       |-- stararm102_controller/           # Robotic arm controller
-|       |-- stararm102_description/          # Robotic arm URDF model description
-|       |-- stararm102_gazebo/               # Gazebo simulation environment configuration
-|       `-- stararm102_moveit_config/        # MoveIt 2 motion planning configuration
-|-- README.md                                # English README (default)
-`-- README.zh.md                             # Chinese README
-```
-
-</details>
+- [Run the pretrained model](Lerobot/examples/act_pick/inference.md): download, camera setup, calibration, and one trial.
+- [Model release and original video](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0).
+- [Training your own task](Lerobot/examples/act_pick/training.md): next steps and current documentation status.
 
----
+<a id="choose-your-setup"></a>
 
-## 🎯 Control Method Comparison
+## 🧭 Choose your setup
 
-| Feature | Python SDK | ROS 2 Humble | LeRobot |
-|------|------------|-------------|---------|
-| Difficulty | ⭐ Easy | ⭐⭐⭐ Medium | ⭐⭐⭐⭐⭐ Advanced |
-| Real-time performance | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| Extensibility | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| Use cases | Quick testing, teaching | Robotic system integration | AI training, research |
+| What you have | Where to start |
+| --- | --- |
+| **102-LD + 102-FL** | [Python first teleoperation](Python_SDK/README.md), then [LeRobot](Lerobot/README.md) for learning workflows |
+| **102-HD + 102-FL** | [Python setup and HD button requirements](Python_SDK/README.md); use the separate [HD/FL LeRobot guide](Lerobot/lerobot-stararm102/README.md) for the refactored integration |
+| **102-FL only** | [Check communication](Python_SDK/README.md#check-communication-without-commanding-motion), then [ACT demo](Lerobot/examples/act_pick/inference.md) or [ROS 2](ROS2_HUMBLE/README.md) |
+| **102 leader + Seeed reBot** | [reBot compatibility and upstream setup](docs/rebot.md); the Python FL example is not a reBot driver |
+| **Parts / DIY build** | [Hardware index](Hardware/README.md); the full assembly tutorial is still in preparation |
 
----
+LD and HD are leader arms. FL is the follower that executes tasks. A leader alone cannot run the supplied autonomous ACT task. “6+1” means six arm joints and one gripper control on FL; the leaders have a corresponding handle control.
 
-## 🔧 Hardware Connection
+<a id="before-connecting"></a>
 
-### Connection Topology
+## 🔌 Before connecting
 
-```bash
-                    ┌─────────────────┐
-                    │                 │
-                    │    Computer     │
-                    │ (Ubuntu 22.04)  │
-                    └────────┬────────┘
-                             │
-              ┌──────────────┼──────────────┐
-             USB                           USB
-              │                             │
-       ┌──────┴──────┐               ┌──────┴────────┐
-       │             │               │               │
-       │ Leader Arm  │               │ Follower Arm  │
-       │(StarArm 102)│               │ (StarArm 102) │
-       └─────────────┘               └───────────────┘
-```
+Read [hardware setup](docs/hardware-setup.md) for power, wiring, and port identification. Use the [compatibility table](docs/compatibility.md) to select one environment. ROS is not required for Python teleoperation or the ACT demo.
 
-### Device Detection
+<a id="development-paths"></a>
 
-```bash
-# List all USB devices
-lsusb
+## 🛠️ Development paths
 
-# List serial devices
-ls -l /dev/ttyUSB*
+| Path | Use it for | Guide |
+| --- | --- | --- |
+| Python examples | Communication checks and direct LD/HD → FL teleoperation | [Python SDK examples](Python_SDK/README.md) |
+| LeRobot | Calibration, demonstrations, policies, and the released ACT model | [Choose an integration](Lerobot/README.md) |
+| ROS 2 Humble | RViz, MoveIt, Gazebo, and robot-system development | [ROS 2 guide](ROS2_HUMBLE/README.md) |
+| Hardware | LD BOM, drawings, editable parts, and accessories | [Hardware resources](Hardware/README.md) |
 
-# Grant permissions
-sudo chmod 777 /dev/ttyUSB*
-```
+The ACT release and the refactored HD/FL integration use different joint representations. Keep them in separate environments. See [versions and validation status](docs/compatibility.md).
 
----
+<a id="documentation-and-support"></a>
 
-## 📊 Joint Mapping
+## 📚 Documentation and support
 
-The StarArm 102 robotic arm has 7 joints in total: 6 DOF + 1 rotary gripper. The joint numbers used in the documentation start from 1, while the servo IDs used in code and on the servo bus start from 0. The mapping is shown below:
+- 🚀 [Start here](docs/getting-started.md) · 🔎 [Troubleshooting](docs/troubleshooting.md)
+- ⚙️ [Specifications and joint mapping](docs/specifications.md)
+- 💬 [Report a problem](https://github.com/servodevelop/Star-Arm-102/issues/new/choose)
+- 📝 [Changes](CHANGELOG.md) · 🤝 [Contributing](CONTRIBUTING.md) · 📄 [License scope](LICENSE.md)
 
-| Functional joint | Code joint name | Servo ID | Angle range | Description |
-|------|------|------|----------|------|
-| Joint 1 | Joint1 | 0 | -110° ~ 110° | Base rotation |
-| Joint 2 | Joint2 | 1 | 0° ~ 180° | Shoulder pitch |
-| Joint 3 | Joint3 | 2 | 0° ~ 270° | Elbow pitch |
-| Joint 4 | Joint4 | 3 | -90° ~ 90° | Wrist rotation |
-| Joint 5 | Joint5 | 4 | -65° ~ 65° | Wrist yaw |
-| Joint 6 | Joint6 | 5 | -150° ~ 150° | Wrist rotation |
-| Gripper / Joint 7 | Gripper (joint7_left) | 6 | 0° ~ 90° | Rotary gripper |
+<a id="related-projects"></a>
 
-> 📝 **Note**: The rotary gripper is controlled through `joint7_left`. `joint7_right` is a coupled joint and automatically synchronizes in the opposite direction.
+## 🌐 Related projects
 
----
+- [PiPER-Mate](https://github.com/servodevelop/piper-mate) — Fashion Star's PiPER-Mate project and teleoperation resources.
+- [Fashion Star CAN bus SDK](https://github.com/servodevelop/servo-canbus-sdk)
+- [Fashion Star UART/RS485 SDK](https://github.com/servodevelop/servo-uart-rs485-sdk)
+- [Fashion Star LeRobot fork](https://github.com/servodevelop/lerobot) · [Upstream LeRobot](https://github.com/huggingface/lerobot)
 
-## ⚠️ Safety Notes
-
-1. **Check before operation**: Make sure there are no obstacles around the robotic arm and that the workspace is safe.
-2. **Emergency stop**: Press `Ctrl+C` while the program is running to stop immediately.
-3. **Joint limits**: Safety angle limits are configured automatically to prevent out-of-range motion.
-4. **Power management**: Ensure stable power supply to avoid voltage fluctuations.
-
----
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Q1: Cannot find `/dev/ttyUSB0`?**
-
-```bash
-# Check USB devices
-ls -l /dev/ttyUSB*
-
-# Check USB device information
-lsusb
-
-# View serial port logs
-sudo dmesg | grep ttyUSB
-
-# If the device is occupied by brltty, remove it
-sudo apt remove brltty
-
-# Grant permissions
-sudo chmod 777 /dev/ttyUSB*
-```
-
-**Q2: Serial connection failed?**
-
-- Check whether the USB cable is loose.
-- Confirm that the robotic arm is powered on.
-- Try a different USB port.
-- Check whether the driver is installed correctly.
-
-**Q3: Control frequency is too low?**
-
-- Check whether serial communication is working properly.
-- Reduce the load from other running programs.
-- Use a USB 3.0 port for better performance.
-
-**Q4: Robotic arm connection failed?**
-
-- Check whether the USB cable is loose.
-- Confirm that the robotic arm is powered on.
-- Check the servo communication status.
-- Try a different USB port.
-
----
-
-## 📖 Detailed Documentation
-
-Choose the control method you need and read the corresponding documentation:
-
-- 📘 **[Python SDK Documentation](./Python_SDK/PYTHON_SDK_GUIDE.md)** - Recommended, the easiest way to get started
-- 📗 **[ROS 2 Humble Documentation](./ROS2_HUMBLE/README.md)** - Suitable for robotic system integration
-- 📙 **[LeRobot Documentation](./Lerobot/README.md)** - Suitable for AI training and research
-
-## 📄 License
-
-This project is open source under the [MIT License](LICENSE).
-
----
-
-## 👥 Acknowledgements
-
-- **Thanks to** FashionStar for hardware support and SDK resources.
-
----
-
-## 🔗 Related Links
-
-- [FashionStar Official Website](https://fashionstar.com.hk/)
-- [Star Arm 102 series overview](https://fashionstar.com.hk/robot-arm/star-arm-102/)
-- [LeRobot Framework](https://github.com/huggingface/lerobot)
-- [ROS 2 Documentation](https://docs.ros.org/en/humble/)
-- [MoveIt 2 Documentation](https://moveit.picknik.ai/humble/)
+Existing software directories and model release URLs are retained. Chinese supplementary guides remain available through the [Chinese navigation](README.zh.md); the English path is the default customer entry.

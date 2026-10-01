@@ -1,0 +1,40 @@
+name: Setup or hardware/software problem
+description: Get help with installation, communication, calibration, or a task.
+title: "[Support] "
+body:
+  - type: textarea
+    id: setup
+    attributes:
+      label: Hardware and environment
+      description: Arm models/revisions, firmware if known, OS, Python, LeRobot and plugin versions, GPU, and camera models.
+    validations:
+      required: true
+  - type: dropdown
+    id: path
+    attributes:
+      label: Which path are you following?
+      options:
+        - Python teleoperation
+        - Released ACT model / 0.0.1 plugins
+        - Refactored HD/FL LeRobot
+        - ROS 2 Humble
+        - Hardware / assembly
+        - reBot integration
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Guide, command, and complete error
+      description: Link the page and paste the command plus full error. Remove secrets from logs.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+      description: Include reproducible steps, communication-check results, and relevant photos when helpful.
+    validations:
+      required: true

@@ -1,3 +1,5 @@
+> Historical English integration guide. For the current installation paths, start with [LeRobot setup](README.md). Do not combine commands across plugin generations. Product descriptions below may refer to earlier hardware.
+
 # How to use the LeRobot-starai robotic arm in Lerobot
 
 https://github.com/user-attachments/assets/dcbd27da-9e24-4562-b682-ff3212f6ac4a
@@ -139,7 +141,7 @@ For example：
 > lsusb
 > ```
 >
-> <img src="./../media/stararm102/image-20241230112928879-1749511998299-1.png" alt="image-20241230112928879-1749511998299-1" style="zoom:80%;" />
+> <img src="./media/stararm102/image-20241230112928879-1749511998299-1.png" alt="image-20241230112928879-1749511998299-1" style="zoom:80%;" />
 >
 > Once identified, check the information of the ttyusb.
 >
@@ -147,7 +149,7 @@ For example：
 > sudo dmesg | grep ttyUSB
 > ```
 >
-> <img src="./../media/stararm102/image-20241230113058856-1749512093309-2.png" alt="image-20241230113058856" style="zoom:80%;" />
+> <img src="./media/stararm102/image-20241230113058856-1749512093309-2.png" alt="image-20241230113058856" style="zoom:80%;" />
 >
 > The last line indicates a disconnection because brltty is occupying the USB. Removing brltty will resolve the issue.
 >
@@ -155,7 +157,7 @@ For example：
 > sudo apt remove brltty
 > ```
 >
-> <img src="./../media/stararm102/image-20241230113211143-1749512102599-4.png" alt="image-20241230113211143" style="zoom: 80%;" />
+> <img src="./media/stararm102/image-20241230113211143-1749512102599-4.png" alt="image-20241230113211143" style="zoom: 80%;" />
 >
 > Finally，use chmod command.
 >
@@ -369,7 +371,7 @@ lerobot-record  \
 
 ## Reference Documentation
 
-Seeed Wiki：[How to use the SO10xArm robotic arm in Lerobot | Seeed Studio Wiki]([如何在 Lerobot 中使用 SO100/101Arm 机器人手臂 | Seeed Studio Wiki](https://wiki.seeedstudio.com/cn/lerobot_so100m/))
+Seeed Wiki: [SO-100/101 LeRobot tutorial](https://wiki.seeedstudio.com/lerobot_so100m/)
 
 Huggingface Project:[Lerobot](https://github.com/huggingface/lerobot/tree/main)
 
