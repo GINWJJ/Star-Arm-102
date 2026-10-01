@@ -70,7 +70,7 @@ Explore the [Star Arm 102 series](https://fashionstar.com.hk/robot-arm/star-arm-
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7">
-    <img src="Lerobot/examples/act_pick/docs/images/setup-front.jpg" alt="Watch the Star Arm 102 ACT block-placement demo" width="640">
+    <img src="Lerobot/examples/act_pick/docs/images/setup-side.jpg" alt="Side view of the Star Arm 102 ACT workspace — watch the block-placement demo" width="640">
   </a><br>
   <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7"><strong>▶ Watch Star Arm 102 in action</strong></a>
 </p>
