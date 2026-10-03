@@ -9,6 +9,50 @@ Choose your exact model: **[102-LD](102-ld/README.md)** · **[102-HD](102-hd/REA
 
 LD and HD share their main mechanical body. HD additionally has a button base, button cover and UK-01 board, and different servo, cable and fastener selections. Each model has its own downloads so customers do not need to combine a common BOM with a difference list.
 
+## Directory structure
+
+The LD layout is expanded below. HD and FL use the same resource categories; the additional drawings/images directory shown under LD contains its existing drawing preview. Individual downloads and historical files are omitted.
+
+```text
+hardware/
+├── README.md
+├── README.zh.md
+├── CHANGELOG.md
+├── 102-ld/
+│   ├── README.md
+│   ├── README.zh.md
+│   ├── step/
+│   │   ├── assembly/
+│   │   └── parts/
+│   ├── printing/
+│   │   ├── stl/
+│   │   └── 3mf/
+│   ├── drawings/
+│   │   ├── pdf/
+│   │   ├── cad/
+│   │   └── images/
+│   ├── bom/
+│   ├── assembly-guide/
+│   │   └── images/
+│   └── robot-description/
+│       ├── urdf/
+│       └── meshes/
+├── 102-hd/
+├── 102-fl/
+├── robot-description/
+│   ├── README.md
+│   ├── urdf/
+│   │   └── star-arm-102.urdf
+│   └── meshes/
+├── handoff-review.md
+├── handoff-review.zh.md
+├── handoff-imports.json
+├── handoff-inventory.json
+└── handoff-step-validation.json
+```
+
+`step/assembly/` contains CAD assemblies; `assembly-guide/` is for customer assembly instructions. Model-specific `robot-description/` directories track pending resources, while the shared `hardware/robot-description/` contains the existing ROS model. A directory may currently contain only a README: consult the resource status table before downloading or manufacturing.
+
 ## Resource status
 
 As of 2026-10-03. **Available** means the named file set is present. **Partial** means only some resources exist. **Review / Conflict** means reference files are present but cannot yet be treated as a matched production release. **Missing** means no usable model-specific file has been supplied. STEP counts cover the main printed parts named in the handoff BOM; they exclude purchased servos, electronics, accessories and native CAD sources. File availability is not manufacturing or print validation.

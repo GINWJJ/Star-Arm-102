@@ -8,6 +8,50 @@
 
 LD 和 HD 共用主体机械结构。HD 另外有按钮底座、按钮盖和 UK-01 按键板，舵机、线材及紧固件选型也不同。各型号提供独立下载入口，客户无需自行合并共用 BOM 和差异清单。
 
+## 目录结构
+
+下方展开 LD 的目录。HD 和 FL 采用相同的资源分类；LD 额外列出的 drawings/images 目录存放已有图纸预览。省略具体下载文件及历史资料。
+
+```text
+hardware/
+├── README.md
+├── README.zh.md
+├── CHANGELOG.md
+├── 102-ld/
+│   ├── README.md
+│   ├── README.zh.md
+│   ├── step/
+│   │   ├── assembly/
+│   │   └── parts/
+│   ├── printing/
+│   │   ├── stl/
+│   │   └── 3mf/
+│   ├── drawings/
+│   │   ├── pdf/
+│   │   ├── cad/
+│   │   └── images/
+│   ├── bom/
+│   ├── assembly-guide/
+│   │   └── images/
+│   └── robot-description/
+│       ├── urdf/
+│       └── meshes/
+├── 102-hd/
+├── 102-fl/
+├── robot-description/
+│   ├── README.md
+│   ├── urdf/
+│   │   └── star-arm-102.urdf
+│   └── meshes/
+├── handoff-review.md
+├── handoff-review.zh.md
+├── handoff-imports.json
+├── handoff-inventory.json
+└── handoff-step-validation.json
+```
+
+`step/assembly/` 存放 CAD 装配模型；`assembly-guide/` 用于客户装配说明。各型号的 `robot-description/` 记录待补资源，共用的 `hardware/robot-description/` 则存放现有 ROS 模型。部分目录目前只有 README，请在下载或制造前核对资源状态表。
+
 <a id="resource-status"></a>
 
 ## 资源状态

@@ -161,6 +161,47 @@ Explore the Star Arm 102 web interface for connection, teleoperation, and 3D pos
 
 The ACT release and the refactored HD/FL integration use different joint representations. Keep them in separate environments. See [versions and validation status](docs/compatibility.md).
 
+## Repository structure
+
+Main entry points are shown below; individual assets, historical guides, and local caches are omitted.
+
+```text
+Star-Arm-102/
+├── README.md
+├── README.zh.md
+├── hardware/
+│   ├── 102-ld/
+│   ├── 102-hd/
+│   ├── 102-fl/
+│   └── robot-description/
+├── integrations/
+│   ├── galaxea-a1/
+│   ├── lumos-touch/
+│   ├── yam/
+│   ├── seeed-rebot/
+│   └── butterfly/
+├── lerobot/
+│   ├── examples/act_pick/
+│   ├── lerobot-robot-stararm102/
+│   ├── lerobot-teleoperator-stararm102/
+│   └── lerobot-stararm102/
+├── python-sdk/
+├── ros2-humble/
+│   └── src/
+├── tools/
+├── docs/
+├── media/
+├── scripts/
+├── tests/
+├── .github/
+├── AGENTS.md
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+└── LICENSE.md
+```
+
+`hardware/` holds mechanical resources; `integrations/` organizes follower pairings and partner applications. Implementations live in `python-sdk/`, `lerobot/`, and `ros2-humble/`. `tools/` links to Wiki-hosted customer tools; `scripts/` and `tests/` support repository maintenance.
+
 <a id="documentation-and-support"></a>
 
 ## 📚 Documentation and support

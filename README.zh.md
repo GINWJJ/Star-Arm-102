@@ -161,6 +161,47 @@ LD 和 HD 是主臂，FL 是执行任务的从臂。仅有主臂不能运行提�
 
 ACT 发布版本和重构后的 HD/FL 集成使用不同的关节表示，请保持独立环境。参见 [版本及验证状态](docs/compatibility.md)。
 
+## 仓库目录结构
+
+下方展示主要入口，省略单个资源文件、历史教程和本地缓存。
+
+```text
+Star-Arm-102/
+├── README.md
+├── README.zh.md
+├── hardware/
+│   ├── 102-ld/
+│   ├── 102-hd/
+│   ├── 102-fl/
+│   └── robot-description/
+├── integrations/
+│   ├── galaxea-a1/
+│   ├── lumos-touch/
+│   ├── yam/
+│   ├── seeed-rebot/
+│   └── butterfly/
+├── lerobot/
+│   ├── examples/act_pick/
+│   ├── lerobot-robot-stararm102/
+│   ├── lerobot-teleoperator-stararm102/
+│   └── lerobot-stararm102/
+├── python-sdk/
+├── ros2-humble/
+│   └── src/
+├── tools/
+├── docs/
+├── media/
+├── scripts/
+├── tests/
+├── .github/
+├── AGENTS.md
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+└── LICENSE.md
+```
+
+`hardware/` 存放机械资料；`integrations/` 按从臂搭配及伙伴应用组织入口。实现代码位于 `python-sdk/`、`lerobot/` 和 `ros2-humble/`。`tools/` 链接 Wiki 中的客户工具；`scripts/` 和 `tests/` 用于仓库维护。
+
 <a id="documentation-and-support"></a>
 
 ## 📚 文档与支持
