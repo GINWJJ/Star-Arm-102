@@ -2,7 +2,7 @@
 
 [Hardware index and status](../README.md) · [Handoff review](../handoff-review.md)
 
-Follower arm. Use FL-specific gripper parts and BOM.
+Follower arm for teleoperation and policy execution, using RA8 and brushless servo joints with a specified 500 g working payload. Use FL-specific gripper parts and BOM.
 
 | Resource | Current status |
 | --- | --- |

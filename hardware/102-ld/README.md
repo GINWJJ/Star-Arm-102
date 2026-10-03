@@ -4,7 +4,7 @@
 
 [Hardware index and status](../README.md) · [Handoff review](../handoff-review.md)
 
-Leader arm. Shares its main body with HD, but uses the LD servo and accessory selection.
+Lightweight, hand-guided leader for teaching, teleoperation, and demonstration collection. Torque-disabled joints move freely. Shares its main body with HD, but uses the LD servo and accessory selection.
 
 | Resource | Current status |
 | --- | --- |

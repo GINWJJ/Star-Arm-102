@@ -28,13 +28,13 @@
 
 <p align="center">
   <a href="https://fashionstar.com.hk/">🌐 官方网站</a> ·
-  <a href="https://fashionstar.com.hk/robot-arm/star-arm-102/">🦾 系列介绍</a> ·
+  <a href="https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/">🦾 系列介绍</a> ·
   <a href="#where-to-buy">🛒 购买入口</a> ·
   <a href="#documentation-and-support">💬 支持</a>
 </p>
 
 <p align="center">
-  <a href="https://fashionstar.com.hk/robot-arm/star-arm-102/">
+  <a href="https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/">
     <img src="media/images/11.png" alt="Fashion Star Star Arm 102 leader and follower arm family" width="880">
   </a>
 </p>
@@ -56,15 +56,17 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
 
 ## 🛒 购买入口
 
-了解 [Star Arm 102 系列](https://fashionstar.com.hk/robot-arm/star-arm-102/)，或访问官方商城：
+对比 [Star Arm 102 系列](https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/)。三款均采用 6+1 自由度、420 mm 臂展；主臂用于示范，从臂用于执行任务。产品页面提供整机和 DIY 套件选项。
 
-| 型号 | 用途 | 官方商城 |
+**国际商城：**
+
+| 型号 | 产品简介 | 国际商城 |
 | --- | --- | --- |
-| Star Arm 102-LD | 用于遥操作的主臂 | [购买 102-LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/) |
-| Star Arm 102-HD | 支持按键保持姿态的主臂 | [购买 102-HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/) |
-| Star Arm 102-FL | 执行遥操作及策略的从臂 | [购买 102-FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
+| Star Arm 102-LD | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 | [购买 102-LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/) |
+| Star Arm 102-HD | **姿态保持主臂（Pose-holding）**：采用高扭矩 RP8 空心杯舵机，用于稳定示范和长时间数据采集 | [购买 102-HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/) |
+| Star Arm 102-FL | **任务执行从臂**：采用 RA8 与无刷舵机关节，标称工作负载 500 g，用于遥操作和策略执行 | [购买 102-FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
 
-中文购买入口：[中文官网](https://fashionstar.com.cn/) · [中文系列页](https://fashionstar.com.cn/robot-arm/star-arm-102/) · [102-LD](https://fashionstar.com.cn/store/product/star-arm-102-ld/) · [102-HD](https://fashionstar.com.cn/store/product/star-arm-102-hd/) · [102-FL](https://fashionstar.com.cn/store/product/star-arm-102-fl/) · [淘宝](https://item.taobao.com/item.htm?ft=t&id=1045277992605)
+**中文购买入口：** [淘宝购买](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433)。请在商品页面选择所需型号及整机／套件选项。
 
 <a id="cross-brand-pairings"></a>
 

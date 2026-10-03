@@ -2,7 +2,7 @@
 
 [Hardware index and status](../README.md) · [Handoff review](../handoff-review.md)
 
-Leader arm with HD servo selection and dedicated button components. Main body shared with LD.
+Pose-holding leader arm with high-torque RP8 coreless servos for stable demonstrations and extended data collection. Includes HD-specific button components; the main mechanical body is shared with LD.
 
 | Resource | Current status |
 | --- | --- |

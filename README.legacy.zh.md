@@ -34,10 +34,7 @@ Star Arm 102 是一套面向遥操作与机器人开发的开源 6+1 自由度�
 [Star Arm 102 机械臂 — 系列总览](https://fashionstar.com.hk/robot-arm/star-arm-102/)
 
 ## 🛒 购买渠道
-- [Star Arm 102-LD — LeRobot 认证 Leader 主臂](https://fashionstar.com.cn/store/product/star-arm-102-ld/)
-- [Star Arm 102-HD — 一键悬停 Leader 主臂](https://fashionstar.com.cn/store/product/star-arm-102-hd/)
-- [Star Arm 102-FL — Follower 从臂](https://fashionstar.com.cn/store/product/star-arm-102-fl/)
-- [淘宝购买](https://item.taobao.com/item.htm?ft=t&id=1045277992605)：推荐中国大陆用户购买
+- [淘宝购买](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433)：推荐中国大陆用户购买
 
 ## 🔗 相关链接
 - [华馨京科技｜FashionStar 官网](https://fashionstar.com.cn/)

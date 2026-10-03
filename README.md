@@ -28,13 +28,13 @@
 
 <p align="center">
   <a href="https://fashionstar.com.hk/">🌐 Official Website</a> ·
-  <a href="https://fashionstar.com.hk/robot-arm/star-arm-102/">🦾 Series Overview</a> ·
+  <a href="https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/">🦾 Series Overview</a> ·
   <a href="#where-to-buy">🛒 Where to Buy</a> ·
   <a href="#documentation-and-support">💬 Support</a>
 </p>
 
 <p align="center">
-  <a href="https://fashionstar.com.hk/robot-arm/star-arm-102/">
+  <a href="https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/">
     <img src="media/images/11.png" alt="Fashion Star Star Arm 102 leader and follower arm family" width="880">
   </a>
 </p>
@@ -56,15 +56,17 @@ Star Arm 102 is developed by **[Fashion Star](https://fashionstar.com.hk/)**. Co
 
 ## 🛒 Where to Buy
 
-Explore the [Star Arm 102 series](https://fashionstar.com.hk/robot-arm/star-arm-102/) or visit the official store:
+Compare the [Star Arm 102 series](https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/). All three models offer 6+1 DoF and 420 mm reach; choose a leader for demonstrations or a follower for task execution. Assembled and DIY kit options are listed on the product pages.
 
-| Model | Role | Official store |
+**International store:**
+
+| Model | Product overview | International store |
 | --- | --- | --- |
-| Star Arm 102-LD | Leader arm for teleoperation | [Shop 102-LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/) |
-| Star Arm 102-HD | Leader arm with button-based pose holding | [Shop 102-HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/) |
-| Star Arm 102-FL | Follower arm for teleoperation and policy execution | [Shop 102-FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
+| Star Arm 102-LD | **Lightweight leader arm** for hand-guided teaching, teleoperation, and demonstration collection; torque-disabled joints move freely | [Shop 102-LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/) |
+| Star Arm 102-HD | **Pose-holding leader arm** with high-torque RP8 coreless servos, for stable demonstrations and extended data collection | [Shop 102-HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/) |
+| Star Arm 102-FL | **Follower arm** for teleoperation and policy execution; RA8 and brushless servo joints, with a specified 500 g working payload | [Shop 102-FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
 
-Chinese purchasing options: [Chinese website](https://fashionstar.com.cn/) · [Series overview](https://fashionstar.com.cn/robot-arm/star-arm-102/) · [102-LD](https://fashionstar.com.cn/store/product/star-arm-102-ld/) · [102-HD](https://fashionstar.com.cn/store/product/star-arm-102-hd/) · [102-FL](https://fashionstar.com.cn/store/product/star-arm-102-fl/) · [Taobao](https://item.taobao.com/item.htm?ft=t&id=1045277992605)
+**Chinese purchase channel:** [Taobao](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433). Select the required model and kit option on the listing.
 
 <a id="cross-brand-pairings"></a>
 
