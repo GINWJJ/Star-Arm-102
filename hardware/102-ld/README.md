@@ -1,5 +1,7 @@
 # Star Arm 102-LD hardware
 
+[English](README.md) · [简体中文](README.zh.md)
+
 [Hardware index and status](../README.md) · [Handoff review](../handoff-review.md)
 
 Leader arm. Shares its main body with HD, but uses the LD servo and accessory selection.
@@ -15,3 +17,5 @@ Leader arm. Shares its main body with HD, but uses the LD servo and accessory se
 | [Assembly guide](assembly-guide/README.md) | Complete instructions, photos and video links pending |
 
 File coverage does not establish fit, strength, kinematic accuracy or a matched hardware release. See individual download notes before using files.
+
+[Historical Chinese material (not the current operating guide)](legacy-guide.zh.md)

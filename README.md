@@ -64,6 +64,8 @@ Explore the [Star Arm 102 series](https://fashionstar.com.hk/robot-arm/star-arm-
 | Star Arm 102-HD | Leader arm with button-based pose holding | [Shop 102-HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/) |
 | Star Arm 102-FL | Follower arm for teleoperation and policy execution | [Shop 102-FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
 
+Chinese purchasing options: [Chinese website](https://fashionstar.com.cn/) · [Series overview](https://fashionstar.com.cn/robot-arm/star-arm-102/) · [102-LD](https://fashionstar.com.cn/store/product/star-arm-102-ld/) · [102-HD](https://fashionstar.com.cn/store/product/star-arm-102-hd/) · [102-FL](https://fashionstar.com.cn/store/product/star-arm-102-fl/) · [Taobao](https://item.taobao.com/item.htm?ft=t&id=1045277992605)
+
 <a id="cross-brand-pairings"></a>
 
 ## 🌐 One Leader, Multiple Robot Platforms
@@ -175,7 +177,7 @@ The ACT release and the refactored HD/FL integration use different joint represe
 - [Fashion Star UART/RS485 SDK](https://github.com/servodevelop/servo-uart-rs485-sdk)
 - [Fashion Star LeRobot fork](https://github.com/servodevelop/lerobot) · [Upstream LeRobot](https://github.com/huggingface/lerobot)
 
-Existing software directories and model release URLs are retained. Chinese supplementary guides remain available through the [Chinese navigation](README.zh.md); the English path is the default customer entry.
+Software directories and model release URLs remain available. English is the default entry; existing English and Chinese READMEs maintain matching sections, images, commands, and status. English-only detailed documents remain accessible through their links. The [historical Chinese homepage](README.legacy.zh.md) is retained for reference, not as the current operating guide.
 
 ## Hardware resource status
 

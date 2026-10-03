@@ -1,345 +1,106 @@
-> 中文补充资料：保留原有使用说明。当前版本与英文入口中的兼容性说明为准。
+# Star Arm 102 与 ROS 2 Humble
 
-# StarArm102 机械臂 - ROS2 MoveIt 使用教程
-## StarArm102 Manipulator - ROS2 MoveIt Guide
+[开始使用](../docs/getting-started.md) · [排错](../docs/troubleshooting.md) · [English](README.md)
 
-<div align="center">
-  <img
-    src="../media/images/11.png"
-    alt="StarArm102 Robotic Arm"
-    title="StarArm102"
-    style="width: 60%; max-width: 800px; border-radius: 10px;"
-  />
-</div>
+本工作区包含 FL 驱动、URDF、MoveIt 配置、Gazebo 仿真和示教示例。Python 遥操作和 ACT 演示无需 ROS。
 
----
+## 安装与构建
 
-## 当前入口
-
-本文件为原中文教程。安装、虚拟机械臂、实机连接和常见问题请优先查阅 [当前英文指南](README.md)。
-
-## 🔧 环境依赖
-
-### 系统要求
+使用现有项目指南指定的 **Ubuntu 22.04 + ROS 2 Humble**。在 LeRobot／Conda 环境之外启动终端，按照 [ROS 2 Humble Ubuntu 安装指南](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) 安装，然后执行：
 
 ```bash
-No LSB modules are available.
-
-Distributor ID: Ubuntu
-Description:    Ubuntu 22.04.5 LTS
-Release:        22.04
-Codename:       Jammy
-ROS2:           Humble
-```
-
----
-
-## 📦 安装指南
-
-### 1️⃣ 安装 ROS2 Humble
-
-**中文指南：**
-[ROS2 Humble 安装指南](https://wiki.seeedstudio.com/cn/install_ros2_humble/)
-
-**English Guide：**
-[ROS2 Humble Installation](https://wiki.seeedstudio.com/install_ros2_humble/)
-
-### 2️⃣ 安装 MoveIt2
-
-```bash
-sudo apt install ros-humble-moveit*
-```
-
-### 3️⃣ 安装舵机 SDK 库
-
-```bash
-sudo pip install pyserial
-sudo pip install fashionstar-uart-sdk
-```
-
-### 4️⃣ 克隆 StarArm102 功能包
-
-```bash
-cd ~/
+sudo apt update
+sudo apt install ros-humble-moveit python3-colcon-common-extensions python3-rosdep python3-pip python3-serial
+python3 -m pip install --user fashionstar-uart-sdk==1.3.12
+source /opt/ros/humble/setup.bash
 git clone https://github.com/servodevelop/Star-Arm-102.git
-cd ~/Star-Arm-102/ros2-humble
-colcon build
-echo "source ~/Star-Arm-102/ros2-humble/install/setup.bash" >> ~/.bashrc
-source ~/.bashrc
+cd Star-Arm-102/ros2-humble
 ```
 
-> [!NOTE]
-> 编译完成后，请执行 `source` 命令以使环境变量生效。
-> After compilation, run `source` command to make environment variables take effect.
+如果已经克隆仓库，直接进入工作区。若尚未初始化 rosdep，先执行一次 `sudo rosdep init`，然后：
 
----
+```bash
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
+colcon build
+source install/setup.bash
+```
 
-## 📦 功能包说明
+每个新终端都需加载 `/opt/ros/humble/setup.bash` 和本工作区的 `install/setup.bash`。本次文档更新尚未在 ROS 主机上构建验证，见 [验证状态](../docs/validation.md)。
 
-| 功能包 | 说明 |
-|--------|------|
-| `robo_driver` | 机械臂硬件驱动节点，负责与舵机通信 |
-| `stararm102_description` | 机械臂URDF模型描述文件 |
-| `stararm102_gazebo` | Gazebo仿真环境配置 |
-| `stararm102_moveit_config` | MoveIt2运动规划配置 |
-| `stararm102_controller` | 机械臂控制器节点 |
-| `arm_moveit_read` | 位姿读取节点示例 |
-| `arm_moveit_write` | 位姿写入节点示例 |
-| `arm_read_pose` | 实时位姿读取节点 |
-| `ros2_bag_recorder` | 示教轨迹录制与重播 |
-| `robo_interfaces` | 自定义ROS2接口定义 |
-
----
-
-## 🚀 MoveIt2 快速开始
-
-### 🎮 使用虚拟机械臂
-
-启动 RViz2 进行虚拟机械臂的路径规划和可视化控制。
-
-**启动命令：**
+## 先体验虚拟机械臂
 
 ```bash
 ros2 launch stararm102_moveit_config demo.launch.py
 ```
 
-启动后，您可以在 RViz2 界面中：
+在 RViz 的 Motion Planning 面板中选择规划组，移动交互标记，先点击 **Plan**，再点击 **Execute**。这是虚拟机械臂启动路径；此项检查无需启动实物驱动。
 
-- 使用 **Motion Planning** 面板进行路径规划
-- 拖动 **交互标记** 进行末端执行器定位
-- 选择 **Planning Group** 来控制不同关节组
-- 点击 **Plan** 查看规划路径
-- 点击 **Execute** 执行规划轨迹
+**成功标志：**模型正常显示，规划轨迹能在虚拟场景中执行。
 
----
+## 连接真实 FL
 
-### 🦾 使用真实的机械臂
+完成 [硬件配置与端口识别](../docs/hardware-setup.md)，关闭其他占用串口的程序。
 
-连接真实机械臂并进行实际控制。
+当前驱动在 [robo_driver.py](src/robo_driver/robo_driver/robo_driver.py) 中设置端口：构建前将 `SERVO_PORT_NAME` 改为 FL 的实际端口；默认值为 `/dev/ttyUSB0`，波特率为 `1000000`。修改后重新构建并加载工作区环境。不要假定 LeRobot 示例中的端口就是此驱动的默认端口。
 
-**终端 1：启动手臂硬件驱动**
+**启动驱动可能使机械臂移动到零位。** 请固定底座、核对实物参考姿态、清空工作区域，并确保可随时切断舵机电源。`Ctrl+C` 不是硬件急停。
 
-> [!IMPORTANT]
-> 启动驱动后，手臂会移动到零位，请确保周围无障碍物。
-> The arm will move to zero position after starting the driver. Ensure there are no obstacles nearby.
+终端 1：
 
 ```bash
 ros2 launch stararm102_moveit_config driver.launch.py
 ```
 
-> [!TIP]
->
-> - 如果serial出现问题可以运行
->
-> ```bash
-> sudo apt install --reinstall python3-serial
-> ```
-
-**终端 2**
-
-**：启动 MoveIt2**
+终端 2：
 
 ```bash
 ros2 launch stararm102_moveit_config actual_robot_demo.launch.py
 ```
 
-✅ 到此可实现虚拟机械臂控制真实机械臂的功能。
-At this point, you can control the real robotic arm with the virtual robotic arm.
+从经过检查的小范围轨迹开始。执行较大轨迹前确认关节反馈与方向。不要让驱动和 Python／LeRobot 控制程序同时占用同一个串口。
 
----
+## 其他示例
 
-### 📐 手臂末端位姿读写示例
+真实驱动运行时，这些示例可能下发运动指令。启动前请检查目标。
 
-演示如何读取和写入机械臂末端的位姿信息。
+| 用途 | 命令 |
+| --- | --- |
+| 末端位姿读写 | `ros2 launch stararm102_moveit_config moveit_write_read.launch.py` |
+| 发布位姿目标 | `ros2 run arm_moveit_write topic_publisher` |
+| 关节解锁示教 | `ros2 run robo_driver driver --ros-args -p lock:=disable` |
+| 记录示教轨迹 | `ros2 run ros2_bag_recorder bag_recorder --ros-args -p dataset:=star/record-test` |
+| 回放已保存轨迹 | `ros2 bag play ./star/record-test` |
 
-**终端 3：启动末端位姿读写示例**
+解锁时请托住机械臂。录制时按 Enter 开始，再按一次结束。每次录制使用新的数据集路径。真机回放前停止示教驱动，准备好机械臂后再启动正常驱动；播放 bag 可能执行已记录的动作。
 
-```bash
-ros2 launch stararm102_moveit_config moveit_write_read.launch.py
-```
+## Gazebo
 
-该示例会：
-- 实时显示当前末端执行器的位姿（位置和姿态）
-- 演示如何设置目标位姿并执行运动
-- 输出关节角度和笛卡尔坐标信息
-
----
-
-### 📡 位姿话题发送节点示例
-
-通过 ROS2 话题发送目标位姿，控制机械臂运动。
-
-**终端 4：启动位姿话题发送节点**
+停止真实驱动，使用独立仿真会话：
 
 ```bash
-# 运行话题发布节点
-ros2 run arm_moveit_write topic_publisher
-```
-
-该节点会持续发布目标位姿到话题，MoveIt2 接收后控制机械臂运动到目标位置。
-
----
-
-### 🎯 MoveIt2-Gazebo 仿真机械臂例程
-
-在 Gazebo 物理仿真环境中测试机械臂控制。
-
-> [!TIP]
-> - 在关闭 Gazebo 图形界面后，建议使用 `pkill -9 -f gazebo` 命令彻底关闭
-> - 运行例程前，需要关闭其他所有正在运行的节点
-> - `killall -9 gazebo gzserver gzclient ros2`
-
-#### 安装 Gazebo
-
-```bash
-sudo apt install gazebo
-sudo apt install ros-humble-moveit*
-sudo apt install -y ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros
-```
-
-#### 终端 1：启动 Gazebo 图形界面
-
-```bash
+sudo apt install gazebo ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros
 ros2 launch stararm102_gazebo stararm102_gazebo.launch.py
 ```
 
-启动 Gazebo 后，您会看到 StarArm102 机械臂在仿真环境中。
-
-#### 终端 2：启动 MoveIt2 界面
+在另一个已加载环境的终端中执行：
 
 ```bash
 ros2 launch stararm102_moveit_config gazebo_demo.launch.py
 ```
 
-✅ 现在您可以在 RViz2 中进行路径规划，机械臂将在 Gazebo 仿真环境中执行运动。
+## 工作区结构
 
----
+| 功能包 | 用途 |
+| --- | --- |
+| `robo_driver` / `robo_interfaces` | 舵机通信和接口 |
+| `stararm102_description` | 机器人几何模型和 URDF |
+| `stararm102_controller` | 控制器集成 |
+| `stararm102_moveit_config` | 运动规划启动文件及配置 |
+| `stararm102_gazebo` | 仿真 |
+| `arm_moveit_read`, `arm_moveit_write`, `arm_read_pose` | 位姿示例 |
+| `ros2_bag_recorder` | 示教轨迹记录 |
 
-## 🎓 机械臂示教模式
+串口访问权限见 [端口权限指南](../docs/hardware-setup.md#identify-serial-ports)。遇到 RViz 缩放问题时，可在重新打开前尝试 `export QT_AUTO_SCREEN_SCALE_FACTOR=0`。构建失败时，请在 [问题反馈](https://github.com/servodevelop/Star-Arm-102/issues/new/choose) 中提供失败的功能包及完整错误。
 
-记录并重放机械臂的运动轨迹。
-
-> [!TIP]
-> - 需要重新录制轨迹时，可删除 `record-test` 文件夹或新建记录文件夹（如 `record-test1`）
-> - 示教模式下，手臂驱动器需要解锁
-
-### 终端 1：启动手臂硬件驱动（示教模式）
-
-```bash
-ros2 run robo_driver driver --ros-args -p lock:='disable'
-```
-
-> [!IMPORTANT]
-> 设置 `lock:='disable'` 参数可以解锁关节，允许手动拖动机械臂进行示教。
-> Setting `lock:='disable'` unlocks the joints, allowing manual dragging for teaching.
-
-### 终端 2：记录手臂轨迹
-
-按下回车开始录制，再次按下回车结束录制。通过 `dataset` 参数指定保存路径。
-
-```bash
-ros2 run ros2_bag_recorder bag_recorder --ros-args -p dataset:=star/record-test
-```
-
-**操作步骤：**
-
-1. 运行命令后，按 **Enter** 开始录制
-2. 手动拖动机械臂到目标位置
-3. 完成后按 **Enter** 结束录制
-4. 轨迹数据会保存到 `star/record-test` 文件夹
-
-```bash
-ros2 bag play ./star/record-test
-```
-
-机械臂会按照记录的轨迹自动运动。
-
-> [!TIP]
->
-> - 如果路径位置已经存在可以尝试删除旧路径`rm -rf star/record-test`或者更换新的路径如`dataset:=star/record-test2`
-
----
-
-## 📊 关节配置
-
-StarArm102 采用 6自由度机械臂 + 旋转夹爪：
-
-| 关节 | 类型 | 角度范围 | 说明 |
-|------|------|----------|------|
-| Joint1 | revolute | -110° ~ 110° | 底座旋转 |
-| Joint2 | revolute | 0° ~ 180° | 肩部俯仰 |
-| Joint3 | revolute | 0° ~ 270° | 肘部俯仰 |
-| Joint4 | revolute | -90° ~ 90° | 手腕旋转 |
-| Joint5 | revolute | -65° ~ 65° | 手腕俯仰 |
-| Joint6 | revolute | -150° ~ 150° | 手腕偏航 |
-| joint7_left | revolute | 0° ~ 90° | 旋转夹爪（主动） |
-| joint7_right | revolute | -90° ~ 0° | 旋转夹爪（联动） |
-
-> 📝 **旋转夹爪说明**：`joint7_right` 为 mimic 关节，自动与 `joint7_left` 反向同步。
-
----
-
-## ❓ 常见问题 / FAQ
-
-### RViz2 界面闪烁问题
-
-如果 RViz2 界面出现频闪，可以尝试以下命令：
-
-```bash
-export QT_AUTO_SCREEN_SCALE_FACTOR=0
-```
-
-然后重新启动 RViz2。
-
-### Gazebo 无法启动
-
-如果 Gazebo 启动失败，请先检查是否有残留进程：
-
-```bash
-killall -9 gazebo gzserver gzclient 2>/dev/null || true
-```
-
-然后重新运行启动命令。
-
-### 编译错误
-
-如果在编译过程中遇到错误，请确保：
-
-1. 已安装所有依赖：`sudo apt install ros-humble-moveit*`
-2. 已正确 source ROS2 环境：`source /opt/ros/humble/setup.bash`
-3. 在正确的目录下编译：`cd ~/Star-Arm-102/ros2-humble`
-
-### 机械臂无法连接
-
-如果机械臂无法连接，请检查：
-
-1. USB 串口连接是否正常
-2. 串口权限是否正确：`sudo chmod 666 /dev/ttyUSB0`
-3. 舵机 SDK 是否已正确安装
-
-### 示教轨迹重播不正常
-
-如果示教轨迹重播时机械臂运动不正常：
-
-1. 检查 URDF 配置是否正确
-2. 确认 `joint7_left` 和 `joint7_right` 的 mimic 配置
-3. 查看 joint_states 话题数据是否正确
-
----
-
-## 📞 技术支持
-
-如遇到问题，请访问：
-
-- GitHub 仓库：[Star-Arm-102](https://github.com/servodevelop/Star-Arm-102)
-- 提交 Issue 获取帮助
-
----
-
-<div align="center">
-
-**StarArm102 - 让机械臂控制更简单**
-
-*StarArm102 - Making Robot Arm Control Simpler*
-
-</div>
+[历史中文资料（非当前操作指南）](legacy-guide.zh.md)

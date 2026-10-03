@@ -4,7 +4,9 @@ Use [GitHub Issues](https://github.com/servodevelop/Star-Arm-102/issues/new/choo
 
 ## Documentation
 
-English is the default for customer-facing entry pages and executable instructions. Chinese supplementary material is welcome through [README.zh.md](README.zh.md). Keep one current command sequence per integration; link to it rather than maintaining conflicting copies. Label historical material clearly.
+English remains the default entry. Where a Chinese README exists, both languages are full, synchronized versions: preserve section order, images, tables, navigation, commands, compatibility limits, and validation status. Update both in the same change whenever fixing or extending either language. Use `README.md` and `README.zh.md`; keep the existing Butterfly `README.zh-CN.md` path for link compatibility. Do not add duplicate underscore-named entry pages.
+
+Current README pairs must not become short summaries of one another. Historical material is explicitly archived and linked from both versions; archives are not current instructions. Detailed documents without a translation may remain English-only. Check translation meaning manually; automated structural checks cannot establish semantic equivalence.
 
 Preserve existing package names, source directory paths, and model release links unless a migration is explicitly documented. Do not put model weights, local datasets, calibration files, or virtual environments into Git.
 
@@ -25,6 +27,7 @@ From the repository root in a Python environment:
 ```bash
 python -m pip install -r scripts/requirements-docs.txt -r python-sdk/requirements.txt
 python scripts/check_docs.py
+python scripts/check_readme_sync.py
 python -m unittest discover -s tests -v
 ```
 

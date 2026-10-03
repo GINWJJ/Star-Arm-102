@@ -1,23 +1,12 @@
-> 中文补充资料：保留原有使用说明。当前版本与英文入口中的兼容性说明为准。
+# Star Arm 102-LD 图纸
 
-# CAD 图纸与工程文件
+[English](README.md) · [型号资源](../README.zh.md)
 
-本目录用于存放 Star Arm 102-LD 的 CAD 图纸与工程文件，方便查看结构设计、核对关键尺寸。
+- [star-arm-102-ld-drawing-2026-07-13.dwg](cad/star-arm-102-ld-drawing-2026-07-13.dwg)：交接参考；PDF 标题栏日期为 2026/7/13
+- [star-arm-102-ld.dwg](cad/star-arm-102-ld.dwg)：仓库原有文件；保留，不自动视为已被新版替代
+- [star-arm-102-ld-drawing-2026-07-13.pdf](pdf/star-arm-102-ld-drawing-2026-07-13.pdf)：交接参考；PDF 标题栏日期为 2026/7/13
+- [star-arm-102-ld.pdf](pdf/star-arm-102-ld.pdf)：仓库原有文件；保留，不自动视为已被新版替代
 
-<p align="center">
-  <img src="./images/ld-cad.png" alt="Star Arm 102-LD CAD preview" width="900">
-</p>
+交接的两款型号图纸均使用图号 KHZY-43。制造前请确认图号、版本，以及与装配 STEP／BOM 的一致性。DWG 按原文件复制，其尺寸尚未与 PDF 独立核对。
 
-上图展示了 `Star Arm 102-LD` 的整体 CAD 图纸预览。
-
-## 文件说明
-
-- [star-arm-102-ld.pdf](./pdf/star-arm-102-ld.pdf)：用于快速查看与分享的 PDF 图纸
-- [star-arm-102-ld.dwg](./cad/star-arm-102-ld.dwg)：可在兼容 CAD 软件中继续编辑的原始工程文件
-- [ld-cad.png](./images/ld-cad.png)：本 README 中使用的预览图片
-
-## 使用建议
-
-- 如果你只是想浏览图纸，建议优先使用 `PDF` 文件。
-- 如果你需要编辑、复用或继续修改图纸，建议使用 `DWG` 文件。
-- 在进行制造前，请确认 CAD 软件中的单位、比例和打印设置是否正确。
+[历史中文资料（非当前操作指南）](legacy-guide.zh.md)

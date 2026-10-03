@@ -2,7 +2,7 @@
 
 **Run a supplied policy before training your own.** This example uses a Star Arm 102-FL and two cameras to place a block in the center of a prepared workspace.
 
-**[Run the model](inference.md) · [Download the release](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0) · [Training next steps](training.md) · [中文补充](README.zh.md)**
+**[Run the model](inference.md) · [Download the release](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0) · [Training next steps](training.md) · [简体中文](README.zh.md)**
 
 ## Watch the demo
 
@@ -44,3 +44,5 @@ Keep the weights, configuration, and processor files together. The refactored `s
 [Start installation and the first trial →](inference.md)
 
 The original [Chinese customer guide (DOCX)](docs/Star_Arm_102_ACT_客户运行指南.docx) remains available as supplementary material. Use the English inference guide for the current command sequence.
+
+[Historical Chinese material (not the current operating guide)](legacy-guide.zh.md)

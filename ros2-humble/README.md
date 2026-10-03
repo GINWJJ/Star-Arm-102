@@ -1,6 +1,6 @@
 # Star Arm 102 with ROS 2 Humble
 
-[Get started](../docs/getting-started.md) · [Troubleshooting](../docs/troubleshooting.md) · [中文补充](README.zh.md)
+[Get started](../docs/getting-started.md) · [Troubleshooting](../docs/troubleshooting.md) · [简体中文](README.zh.md)
 
 This workspace contains the FL driver, URDF, MoveIt configuration, Gazebo simulation, and teaching examples. Python teleoperation and the ACT demo do not require ROS.
 
@@ -26,7 +26,7 @@ colcon build
 source install/setup.bash
 ```
 
-In each new terminal, source `/opt/ros/humble/setup.bash` and this workspace's `install/setup.bash`. The English update has not been built on a ROS host; see [validation status](../docs/validation.md).
+In each new terminal, source `/opt/ros/humble/setup.bash` and this workspace's `install/setup.bash`. This documentation update has not been built on a ROS host; see [validation status](../docs/validation.md).
 
 ## Try the virtual arm first
 
@@ -102,3 +102,5 @@ ros2 launch stararm102_moveit_config gazebo_demo.launch.py
 | `ros2_bag_recorder` | Teaching trajectory recording |
 
 For serial access, use the [port permissions guide](../docs/hardware-setup.md#identify-serial-ports). For an RViz scaling issue, try `export QT_AUTO_SCREEN_SCALE_FACTOR=0` before reopening RViz. If a build fails, include the failed package and complete error in a [support issue](https://github.com/servodevelop/Star-Arm-102/issues/new/choose).
+
+[Historical Chinese material (not the current operating guide)](legacy-guide.zh.md)

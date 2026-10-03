@@ -29,7 +29,7 @@ Start with [common preparation](common-setup.md), then your model guide. For an 
 | --- | --- | --- |
 | Butterfly Community Robot Arm | Natural-language task control and partner-maintained robot application | [Overview](butterfly/README.md) · [Compatibility](butterfly/compatibility.md) · [Setup](butterfly/setup.md) · [Troubleshooting](butterfly/troubleshooting.md) |
 
-Partner applications are a separate category from leader–follower pairings. Check each application's model and environment requirements before use. See the [Chinese Butterfly guide](butterfly/README.zh-CN.md) for supplementary documentation.
+Partner applications are a separate category from leader–follower pairings. Check each application's model and environment requirements before use. See the [Chinese Butterfly guide](butterfly/README.zh-CN.md) for the complete Chinese version.
 
 ## How these resources are maintained
 
