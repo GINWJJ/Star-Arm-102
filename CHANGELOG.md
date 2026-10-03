@@ -2,6 +2,8 @@
 
 ## Unreleased — English-first customer entry
 
+- Audit coverage against previous main, restore nested ignore rules and the refactored LeRobot checkpoint evaluation entry, and record migration validation and remaining gaps in `docs/main-migration-review.md`.
+
 - Align all eight existing bilingual README pairs; archive older Chinese guides, remove the redundant root README_zh.md redirect, and add bilingual maintenance rules and structural CI checks.
 
 - Add cross-brand pairing navigation for Galaxea A1, Lumos Touch, YAM, and Seeed reBot; separate documented upstream paths from pending setup and validation records. Move the reBot guide into `integrations/` while preserving its old documentation link.

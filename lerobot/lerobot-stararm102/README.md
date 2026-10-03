@@ -309,6 +309,33 @@ lerobot-train \
 
 These are starter settings, not the recipe used to produce the released 100,000-step model. See [training scope and next steps](../examples/act_pick/training.md). Review a trained checkpoint before hardware evaluation, and keep its plugin, calibration, and camera schema unchanged.
 
+### Evaluate your own trained checkpoint
+
+Use the same plugin environment, calibration ID, camera names, resolution, orientation, and placement used for recording and training. This example evaluates the checkpoint from the training command above; it does not run the separately released ACT model.
+
+Before connecting hardware, inspect `config.json` and the saved training configuration in the checkpoint directory. Confirm that its robot state/action features and image inputs match this integration. The checkpoint directory must contain its weights and processor/configuration files together.
+
+Secure the follower, clear its workspace, and prepare to stop servo power. Start with one short episode and a new evaluation directory. Policy evaluation can command motion; this command has not been bench-tested by this documentation update.
+
+```bash
+lerobot-record \
+  --robot.type=stararm102_fl \
+  --robot.id=stararm102_fl \
+  --robot.port=/dev/ttyUSB1 \
+  --robot.cameras="{first_person: {type: opencv, index_or_path: 0, width: 640, height: 480, fps: 30}, third_person: {type: opencv, index_or_path: 2, width: 640, height: 480, fps: 30}}" \
+  --policy.path=./outputs/train_stararm102_block_demo/checkpoints/last/pretrained_model \
+  --dataset.repo_id=customer/eval_stararm102_block_demo_run1 \
+  --dataset.root=./outputs/eval_stararm102_block_demo_run1 \
+  --dataset.single_task="Place the block in the center" \
+  --dataset.num_episodes=1 \
+  --dataset.episode_time_s=10 \
+  --dataset.reset_time_s=8 \
+  --dataset.push_to_hub=false \
+  --display_data=true
+```
+
+Use a different output directory and dataset ID for each trial. Keep existing recordings. A completed episode is not proof of task success; review motion, camera observations, and actual placement before collecting further results.
+
 ## reBot follower
 
 See [reBot setup and compatibility](../../integrations/seeed-rebot/README.md). Upstream B601 device names and dependencies differ from older fork examples; use the upstream guide for the matching revision.
