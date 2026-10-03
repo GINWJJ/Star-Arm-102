@@ -1,0 +1,1736 @@
+[
+  {
+    "source": "star arm 102 3mf文件/Star arm102 FL _20260807.3mf",
+    "bytes": 8372119,
+    "sha256": "9bb112351d4268526669043eefb8b7bb3b6fafd0a27a900dc04b32896c77e62e",
+    "extension": ".3mf",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/printing/3mf/star-arm-102-fl-handoff-label-20260807.3mf"
+    ]
+  },
+  {
+    "source": "star arm 102 3mf文件/Star arm102 HD_20260807.3mf",
+    "bytes": 12949471,
+    "sha256": "2c5ee0cf405e6a1cbaf6ed725fa76785adad4af3e4b4815a042f50da65c62715",
+    "extension": ".3mf",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-hd/printing/3mf/star-arm-102-hd-handoff-label-20260807.3mf"
+    ]
+  },
+  {
+    "source": "star arm 102 3mf文件/Star arm102 LD_20260807.3mf",
+    "bytes": 12420545,
+    "sha256": "41f7ce5c48003d41d5967670ac1357e366cc3df954412171efb9fefd2e704c6c",
+    "extension": ".3mf",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/printing/3mf/star-arm-102-ld-handoff-label-20260807.3mf"
+    ]
+  },
+  {
+    "source": "star arm 102 3mf文件/handle-rest.3mf",
+    "bytes": 567387,
+    "sha256": "1a9196dc114212dde8b24043d46227d1466a54a38403cde55319160bd76505a0",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102 3mf文件/link3_V2(test).3mf",
+    "bytes": 4546009,
+    "sha256": "0a068bd53cc04ef6127b2bb56ebc299be37a2b1824625c39c9bba70766a06ec2",
+    "extension": ".3mf",
+    "disposition": "held-version-or-variant-ambiguity"
+  },
+  {
+    "source": "star arm 102 3mf文件/柔性夹爪指尖.3mf",
+    "bytes": 75024,
+    "sha256": "8cdf89a753d4d0ca9c2cedba9bffa3e5d77590b38e3e659654d3e1a117e47060",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102 3mf文件/柔性夹爪连杆+指尖+主体.3mf",
+    "bytes": 809765,
+    "sha256": "535b06c486184a7082219d388b05a8015982f0d5bb65f00bc1f6e51923dc0568",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102 3mf文件/相机套装.3mf",
+    "bytes": 324844,
+    "sha256": "3ccc0564b4f64b060a1e923de2d34076c8f812fbc6e5017427bab1f9b41ecf52",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102 urdf文件/fl.SLDPRT",
+    "bytes": 9203917,
+    "sha256": "259cb06dfc391c4b05dd6fb2ecb7a39f15c8cb03a739327e8c3d5e058e4ce713",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102 urdf文件/ld.SLDASM",
+    "bytes": 6093019,
+    "sha256": "1c619d88a59aceec1fa9cc9e93de322f03249b14b4b3aa61e3af06e95ae4156f",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102 urdf文件/satr arm102_description-LD.zip",
+    "bytes": 1488856,
+    "sha256": "6a6c0ff9059cc15c3fce2e86aa7088c947fb5ef815fc0249c3ecec0517801d24",
+    "extension": ".zip",
+    "disposition": "held-urdf-incompatibilities"
+  },
+  {
+    "source": "star arm 102 urdf文件/stararm102_description.zip",
+    "bytes": 1412309,
+    "sha256": "dc15c55595184c76693eb6ac78ea9cdadee80c565c5060dc5e847efc881f57f0",
+    "extension": ".zip",
+    "disposition": "held-urdf-incompatibilities"
+  },
+  {
+    "source": "star arm 102BOM表/Star Arm 102-FL(8.24) .xlsx",
+    "bytes": 2404414,
+    "sha256": "74cc8d75fad700938247c48049e598245c2d60b116626bd4ece68b226a487454",
+    "extension": ".xlsx",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/bom/bom-102-fl-handoff-08-24.xlsx"
+    ]
+  },
+  {
+    "source": "star arm 102BOM表/Star Arm 102-HD - BOM(9.10) .xlsx",
+    "bytes": 6493156,
+    "sha256": "53d3e1d454c46635bc9c48019c4ca4d98b0c19d4ed2579d8432c4b8ff5e8ab97",
+    "extension": ".xlsx",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-hd/bom/bom-102-hd-handoff-09-10.xlsx"
+    ]
+  },
+  {
+    "source": "star arm 102BOM表/Star Arm 102-LD(9.10) - BOM.xlsx",
+    "bytes": 6321124,
+    "sha256": "673d1c1c33e949f1ed36844c9eca70d0ffb88fabe444b676d4ac6a9f8bb41d8a",
+    "extension": ".xlsx",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/bom/bom-102-ld-handoff-09-10.xlsx"
+    ]
+  },
+  {
+    "source": "star arm 102BOM表/Star Arm 102-LD散件(9.10) - BOM.xlsx",
+    "bytes": 5684991,
+    "sha256": "83a180938497827a372979635ce9b332ce13d3f31c9dabc24407e27226e16f38",
+    "extension": ".xlsx",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/bom/bom-102-ld-kit-handoff-09-10.xlsx"
+    ]
+  },
+  {
+    "source": "star arm 102BOM表/~$Star Arm 102-LD(9.10) - BOM.xlsx",
+    "bytes": 165,
+    "sha256": "1e15f1a54245863e0c8e3287158496fd8b4ebafadbfa7ce991cf86053d75d6df",
+    "extension": ".xlsx",
+    "disposition": "excluded-temporary-or-log"
+  },
+  {
+    "source": "star arm 102BOM表/~$【套装C1】末端视角+世界视角 200W像素摄像头支架套件.xlsx",
+    "bytes": 165,
+    "sha256": "1e15f1a54245863e0c8e3287158496fd8b4ebafadbfa7ce991cf86053d75d6df",
+    "extension": ".xlsx",
+    "disposition": "excluded-temporary-or-log"
+  },
+  {
+    "source": "star arm 102BOM表/【套装C1】末端视角+世界视角 200W像素摄像头支架套件.xlsx",
+    "bytes": 13282,
+    "sha256": "55fd69333bdaed68b60ed8e93685018ae8a2bc3233973c213966d7cba00375cb",
+    "extension": ".xlsx",
+    "disposition": "held-accessory-bom-or-internal-notes"
+  },
+  {
+    "source": "star arm 102BOM表/柔性夹爪BOM(7.1).xlsx",
+    "bytes": 560039,
+    "sha256": "08a4bfe86521173117260e6ec46a611d675da903017faace0c3a47d10a2e695f",
+    "extension": ".xlsx",
+    "disposition": "held-accessory-bom-or-internal-notes"
+  },
+  {
+    "source": "star arm 102step/link3_rebot_V2(3mm).STEP",
+    "bytes": 2539888,
+    "sha256": "916bb86e9a2c62d1af900404e54fbb2b86fe61cd1a677fe6b9f6bd29817c6355",
+    "extension": ".step",
+    "disposition": "held-version-or-variant-ambiguity"
+  },
+  {
+    "source": "star arm 102step/link3_rebot_V2(4mm).STEP",
+    "bytes": 2547242,
+    "sha256": "16cf474a0fb17d41be0f40020926a3f49039567b54fcf7709ab3fbee209183d4",
+    "extension": ".step",
+    "disposition": "held-version-or-variant-ambiguity"
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102_link1.STEP",
+    "bytes": 758626,
+    "sha256": "cf8772775010cac6044a111db7c5a2b43c131cbe127f4d857759a7fe31bbe824",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-link1.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102_link2.STEP",
+    "bytes": 731299,
+    "sha256": "eddb7b9570712201ba4a86386e915c44cb3981167c9b255d800f5648a52f6572",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-link2.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102_link3.STEP",
+    "bytes": 2501757,
+    "sha256": "ff9973407eb69b293f0101f82831da26033214401ba5ee07465936683014f03d",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-link3.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102_link4.STEP",
+    "bytes": 476442,
+    "sha256": "4adaafb0372a9ea2e785c908356a5aab833706fe1b43e6651faef9ca829186c6",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-link4.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102_link5.STEP",
+    "bytes": 286233,
+    "sha256": "029b05d1c07261d06673a5d9f7597e24528bf151b77126686e3a7307baa85f13",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-link5.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102_link6夹爪.STEP",
+    "bytes": 623064,
+    "sha256": "5e84535e90177131dfa27b09606d2d3f0a9e210513ff9ff79a107ab867c85957",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-link6-gripper.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102_夹爪主体.STEP",
+    "bytes": 612793,
+    "sha256": "09c82dc273a90095bb5924fd1c5357d9896dd4c76187c6f0b6fc21c0e1e46c8a",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-gripper-body.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102_指尖右.STEP",
+    "bytes": 463682,
+    "sha256": "32848f7049d0618bc964face31839e8f37fd1e2181a70113e224d772e57c6295",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-fingertip-right.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102_指尖左.STEP",
+    "bytes": 573836,
+    "sha256": "c029a16f57485d618c00f91616d6c65d27c5a1e82b733f3001992eb0117ce638",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-fingertip-left.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102底座上.STEP",
+    "bytes": 454883,
+    "sha256": "c95153be7fcae8262bf4e5c7ce04d2be35ccc3c8cc094a00d8623e8963170fdc",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-base-top.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/star102底座下.STEP",
+    "bytes": 529346,
+    "sha256": "eaee11e4f4b5e52182ab8968e7daaf5dd7ff57a7309b341b7cab45a50f835f1c",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/parts/star-arm-102-base-bottom.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/夹爪装配_rebot.STEP.SLDASM",
+    "bytes": 2871099,
+    "sha256": "cf31f812ee6f75de3975f1755cf10021044fc9d1cb79d6ab0dc82d9071c01320",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/柔性夹爪/双轴柔性夹爪主体.STEP",
+    "bytes": 233360,
+    "sha256": "a58395f88144513ea639402f820db87cb2a9d7a0b91607c0ea43d3dcd3c35eac",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/柔性夹爪/双轴舵机柔性夹爪.STEP",
+    "bytes": 3423911,
+    "sha256": "5bdacc931f801bb6e256b4da8ef97fceecdb3dc01cc9b408030018c57dfa0776",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/柔性夹爪/柔性夹爪1.STEP",
+    "bytes": 265751,
+    "sha256": "f47cbfb440093c6359dd9ccae3017adc28510331b81a67c4ecfb733c392ef420",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/柔性夹爪/柔性夹爪2.STEP",
+    "bytes": 209022,
+    "sha256": "f4bf010a33bea7d228682955c30b38d5628baeb65dde90a69f93b34954d3455f",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/柔性夹爪/柔性夹爪指尖.STEP",
+    "bytes": 363858,
+    "sha256": "f12fa0eda5605b3b088f6ed1872f37381e01b82bd20df304391934ade24f4b18",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/柔性夹爪/柔性夹爪指尖2.STEP",
+    "bytes": 362659,
+    "sha256": "a1400c96d3a16996ad478776a012f848648f110febc2891c52d1eb5a1c4b1ef8",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102  follower/柔性夹爪/连杆.STEP",
+    "bytes": 29483,
+    "sha256": "c6be795c3f63296e3da3da9e7defae6951f6836b574d96efb552c086cd5f4e2a",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102  follower.zip",
+    "bytes": 5430916,
+    "sha256": "f114e8ad968c208a4dcb500e1dbdb6faf3028545b20b55a4d42fb81a8ae0a5a6",
+    "extension": ".zip",
+    "disposition": "duplicate-archive-extracted-files-reviewed"
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/102-LD.STEP",
+    "bytes": 10642961,
+    "sha256": "ef1f12b21090af412e6441856066ee257de1ae7c328cd6511c3d0ff8bfe02d19",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/step/assembly/star-arm-102-ld-export-2026-07-21.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/handle-rest.STEP",
+    "bytes": 256581,
+    "sha256": "af75b68a0d10dadb1878ecc1e8852a4026e9ddccbf0b05e363bd3ec115e8677d",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102_link1.STEP",
+    "bytes": 758626,
+    "sha256": "cf8772775010cac6044a111db7c5a2b43c131cbe127f4d857759a7fe31bbe824",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/step/parts/star-arm-102-link1.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102_link2.STEP",
+    "bytes": 731313,
+    "sha256": "664a79a5aeb5a2ae95c7c0ff710d8a6a46001e08a64bd245b33d285d9887dbf3",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/step/parts/star-arm-102-link2.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102_link3.STEP",
+    "bytes": 2501757,
+    "sha256": "ff9973407eb69b293f0101f82831da26033214401ba5ee07465936683014f03d",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/step/parts/star-arm-102-link3.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102_link4.STEP",
+    "bytes": 476442,
+    "sha256": "4adaafb0372a9ea2e785c908356a5aab833706fe1b43e6651faef9ca829186c6",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/step/parts/star-arm-102-link4.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102_link5.STEP",
+    "bytes": 286233,
+    "sha256": "029b05d1c07261d06673a5d9f7597e24528bf151b77126686e3a7307baa85f13",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/step/parts/star-arm-102-link5.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102_link6手柄.STEP",
+    "bytes": 623050,
+    "sha256": "90e39c679bee7d568bc41230a59df5dc78c9894b17063bf35094e25b544e1e97",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/step/parts/star-arm-102-link6-handle.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102_手柄.STEP",
+    "bytes": 691975,
+    "sha256": "322a1d041bf8fc2ac6924481d622d8d664e71c3973ce0b1c474d1bdebb47dd6d",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102_指环右.STEP",
+    "bytes": 365891,
+    "sha256": "b910cdc1da3dd14e4ca2c05658f665ca69c062930549f794eca432790eff1fca",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102_指环左.STEP",
+    "bytes": 337785,
+    "sha256": "54cd2f5e19c535b2f97ef1e8fd7ecdffc2896ac3f41f526a210800f9dc65a9ee",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102底座上.STEP",
+    "bytes": 454883,
+    "sha256": "c95153be7fcae8262bf4e5c7ce04d2be35ccc3c8cc094a00d8623e8963170fdc",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/star102底座下.STEP",
+    "bytes": 529346,
+    "sha256": "eaee11e4f4b5e52182ab8968e7daaf5dd7ff57a7309b341b7cab45a50f835f1c",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/按钮底座.STEP",
+    "bytes": 152426,
+    "sha256": "61ed09e90a9aef22b0c891fc9e35e7fbb889e3813df7b614b7fdce1d11c260cc",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-hd/step/parts/hd-button-base.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/star arm102 Leader/按钮盖子.STEP",
+    "bytes": 115629,
+    "sha256": "afe2a8662c53b89bb4362d36b85ff362902ca88e1120df8e204b9dfa344edef1",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-hd/step/parts/hd-button-cover.step"
+    ]
+  },
+  {
+    "source": "star arm 102step/相机套装/第1视角摄像头底座卡扣版.STEP",
+    "bytes": 150558,
+    "sha256": "b91d7e4fbfd6b0640c9f6bbf09c790eea2860dd5fd6d8b6ca859fabef626e1ef",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/相机套装/第1视角摄像头盖子卡扣版.STEP",
+    "bytes": 113835,
+    "sha256": "31f8c9c3aa47351eb777541db62cd5fedbea838bff5c4987014c7c5a1da12385",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102step/相机套装/第3视角摄像头.STEP",
+    "bytes": 86885,
+    "sha256": "a710e67f552a4dd95582e908d2b27da2b336a399f097812f33350991c112388f",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102图纸/Star Arm 102-FL .DWG",
+    "bytes": 525832,
+    "sha256": "1d3f3d201b1ec48988af849a937a49baac39fe261be7fab7208bafe76dbbf20d",
+    "extension": ".dwg",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/drawings/cad/star-arm-102-fl-drawing-2026-07-13.dwg"
+    ]
+  },
+  {
+    "source": "star arm 102图纸/Star Arm 102-FL .pdf",
+    "bytes": 115508,
+    "sha256": "a56fdd8b7fd5c9bce22cf59ccfebd39412c2d625af9b815ef4014b4927336e5e",
+    "extension": ".pdf",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/drawings/pdf/star-arm-102-fl-drawing-2026-07-13.pdf"
+    ]
+  },
+  {
+    "source": "star arm 102图纸/Star Arm 102-LD .pdf",
+    "bytes": 116828,
+    "sha256": "8d42f6123cbf3bfee81e7b291a844fffc48d30add775a2f80b0dc8013201ef20",
+    "extension": ".pdf",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/drawings/pdf/star-arm-102-ld-drawing-2026-07-13.pdf"
+    ]
+  },
+  {
+    "source": "star arm 102图纸/Star Arm 102-LD.DWG",
+    "bytes": 536300,
+    "sha256": "b9dfde8905d2c194bb889b51579b75dca5ee6e318ff08cae9398017c52586b57",
+    "extension": ".dwg",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-ld/drawings/cad/star-arm-102-ld-drawing-2026-07-13.dwg"
+    ]
+  },
+  {
+    "source": "star arm 102图纸.zip",
+    "bytes": 927430,
+    "sha256": "57eb3996af4ce6988af504c7e3463a4762428a68696586cec01ed1599ec4a38b",
+    "extension": ".zip",
+    "disposition": "duplicate-archive-extracted-files-reviewed"
+  },
+  {
+    "source": "star arm 102模型文件/#3舵机臂1.3mf",
+    "bytes": 8217732,
+    "sha256": "f4b215ea96f32d96a06058e840ca8828ba79d6d271a924661e298846335c2515",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/#3舵机臂1.SLDPRT",
+    "bytes": 436177,
+    "sha256": "8cead258a4e11863a710232d48db6602e9366d38a39ca10cc0b0c676b8fb73d8",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/#3舵机臂1.STEP",
+    "bytes": 476442,
+    "sha256": "4adaafb0372a9ea2e785c908356a5aab833706fe1b43e6651faef9ca829186c6",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/#4舵机固定架.SLDPRT",
+    "bytes": 327885,
+    "sha256": "42a354d8463666bf84466ed9e85aabc274c435d15177e3de2a2b80843a1d2b29",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/#4舵机固定架.STEP",
+    "bytes": 298158,
+    "sha256": "87622f42e910581f73737f0b411e83b01df58b4071bf7b5a11b5215efd517e18",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/#4舵机固定架camera.SLDPRT",
+    "bytes": 303663,
+    "sha256": "e3bfe787234d529657b2e5270ba2aa1af17f6042888a1131ba020f236e45b4c0",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/#4舵机固定架camera.STEP",
+    "bytes": 286233,
+    "sha256": "029b05d1c07261d06673a5d9f7597e24528bf151b77126686e3a7307baa85f13",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/#5舵机固定架 .SLDPRT",
+    "bytes": 608786,
+    "sha256": "bd00eb97a23fee843afe62d007535799241872ae323553f4c13ddc916e00b777",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/#5舵机固定架 .STEP",
+    "bytes": 623050,
+    "sha256": "90e39c679bee7d568bc41230a59df5dc78c9894b17063bf35094e25b544e1e97",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/#5舵机固定架.3mf",
+    "bytes": 2969937,
+    "sha256": "32c58de5c951af86ce861b844efcd0a73b23dfeb126002eab837ea3b9723bd08",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/#5舵机固定架.SLDPRT",
+    "bytes": 496639,
+    "sha256": "f11bed9786bd44211d6f833b588edc137f92c4bfd0f4655f85165e0e9b9f8bf6",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/#5舵机固定架.STEP",
+    "bytes": 553963,
+    "sha256": "20cc3814a8a3bf7f9c8b9bc12acc873a4dbba002fe2b7b47d90d894cec8801c8",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/#5舵机固定架夹爪.3mf",
+    "bytes": 6096308,
+    "sha256": "06e0212ce19f89e7596d6c19638b6c6d1f442eb9e14f4c1d4d9fcf1bcfc3a0b4",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/#5舵机固定架夹爪.SLDPRT",
+    "bytes": 544036,
+    "sha256": "5cccc7ea2a4876ef21d2f06ecf9a32b319c9e052bcad67a43c22b3c2712c5984",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/#5舵机固定架夹爪.STEP",
+    "bytes": 623064,
+    "sha256": "5e84535e90177131dfa27b09606d2d3f0a9e210513ff9ff79a107ab867c85957",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/#5舵机固定架挡片.SLDPRT",
+    "bytes": 156397,
+    "sha256": "05e09b411fa80e240b5f0b9931284ad155015b680dbf4e70dfb3ca997f74342e",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/102-FL.SLDASM",
+    "bytes": 3765312,
+    "sha256": "ba7377b83b57aa70cc1e50162d11c927ac83f99f0781e60b1a68b339cee08cc8",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/102-FL.STEP",
+    "bytes": 13161652,
+    "sha256": "eb59284236a1a3d8b0ca19a45530a4323804dcb77231abe968a16cb2a454773c",
+    "extension": ".step",
+    "disposition": "copied-reference",
+    "destinations": [
+      "102-fl/step/assembly/star-arm-102-fl-export-2026-07-03.step"
+    ]
+  },
+  {
+    "source": "star arm 102模型文件/102-LD.SLDASM",
+    "bytes": 3476155,
+    "sha256": "80a38e7dd778c32b10fc9da64d68bae7e213222b28ff91b0e047f70be8a18612",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/102HD底座.SLDPRT",
+    "bytes": 3407614,
+    "sha256": "1809405c9f341b104f80f8d3f2ab8914d8279d673c8651821076a4abaac6cf83",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/102HD底座.STEP",
+    "bytes": 491672,
+    "sha256": "06f33f83f9c0fcf7d8f99a16c8183028d46ede0a2bd624371ac7886d8680e51c",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/12121.SLDASM",
+    "bytes": 744290,
+    "sha256": "fadbd497df4be7453e3d9b48798c79bed68f588ff9a1d62c2a9947128cd55047",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/85A材质.3mf",
+    "bytes": 75718,
+    "sha256": "146a5a0bd417b82bd4475a31b919776df01a89de0660f1b779b78b4a3c407db6",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/FL治具.SLDPRT",
+    "bytes": 9406101,
+    "sha256": "0f379163b850ad65a83b9d8ff4fca2ccb17c01f5d568f0b7ef34f0d98ff89900",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FL治具.STEP",
+    "bytes": 250689,
+    "sha256": "4dffcd0a972c130d265496eef76f49546e10942a880d123101446797d7a32c2e",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/4mm内径法兰挡边轴承.SLDPRT",
+    "bytes": 91633,
+    "sha256": "7390f54b4991b014db40c36fda96fefd534c15b9247e8ac84336bedcd4537b7b",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/FM03-02-003 - 副本.SLDASM",
+    "bytes": 561425,
+    "sha256": "90e8874f0320b3df121f816d0bce2c4fc085751252a07187fe8a7c07c4025d10",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/FM03-02-003 - 副本.SLDPRT",
+    "bytes": 4726401,
+    "sha256": "33fae9b05a712602d5208d78c6979e8f418cc84582fdb3545f23ba55b5ea0bb4",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/FM03-02-003 - 副本.STEP",
+    "bytes": 2498077,
+    "sha256": "4b8c294a65c15c9d2aac874c5e837f98fe7f644d4a01f204b13aed6799b4cb65",
+    "extension": ".step",
+    "disposition": "held-version-or-variant-ambiguity"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/FM03-02-003.SLDASM",
+    "bytes": 562569,
+    "sha256": "de8e0c45f7a30ac4c2486038dc5c122cf32bee80ce8d2b830be8b1f5693af4de",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/FM03-02-00301.SLDPRT",
+    "bytes": 568270,
+    "sha256": "0649d8d469b247253066d765852211db7a7d2fa87cd5072589cc29247830703f",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/FM03-02-00302.SLDPRT",
+    "bytes": 120356,
+    "sha256": "cb87524a018a210b665465f3b551b0ae08e83e9d4de2f13c5d8471c5417f68fb",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/FM03-02-00303.SLDPRT",
+    "bytes": 111214,
+    "sha256": "6836ad33e12dab6919b930ced07892f96bc613d22448cbdd270280924b9a4835",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/FM03-02-00304.SLDPRT.SLDASM",
+    "bytes": 513154,
+    "sha256": "0ccc69c61684de8e0b0d05aa68d9f7c8ad3dacd9d819542f5a01b058a802384a",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/FM03-02-00305 - 副本.SLDPRT",
+    "bytes": 210417,
+    "sha256": "1377815e90f978d2f6e81939525192638102d2fd2d602c50ea38f95dea973bad",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/FM03-02-00305.SLDPRT",
+    "bytes": 199081,
+    "sha256": "ce31d01a609557938f3c199d1afbaf37980f3320f4b2ee76f2155d245fd7f689",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/L型夹爪末端.SLDPRT",
+    "bytes": 193542,
+    "sha256": "9a380fc20c7e6646018279d1c953009931417129a0039815ab07a99ad2e4767c",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/console.log",
+    "bytes": 13086,
+    "sha256": "d7fa789e23d3cc73de5eed29461c78c966fddb217711f193ff09a55ffc8c4077",
+    "extension": ".log",
+    "disposition": "excluded-temporary-or-log"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/华馨京 25-50kg双轴舵机平后盖-零件.SLDPRT",
+    "bytes": 828245,
+    "sha256": "524404a8fce8809231a22b4423e96e5c13e2675ee7d678ec7fa2abd5897b3a0c",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/塞打螺钉.SLDPRT",
+    "bytes": 81670,
+    "sha256": "9e7489edcaf1de739dc7a1c6b5308febf0277a518d6b500e5509fabcdf56f98d",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/夹爪末端.SLDPRT",
+    "bytes": 208903,
+    "sha256": "e4c5b2f55f33464db0cc44d7e28ce976d3e5b60dbc39c306b7a0836f54782b6c",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/夹爪末端.smg",
+    "bytes": 7077,
+    "sha256": "a667e0dbab103d63a4f2e945aa81e15fc96fd899fa61bf0658c8427c83f1cfdf",
+    "extension": ".smg",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/整体.SLDPRT",
+    "bytes": 1162553,
+    "sha256": "266f275cc392f225ccc1cf9e4f1a6927105d8d54c4cdef9370218ca399aa52d4",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/直线导轨夹爪分件.SLDPRT",
+    "bytes": 173598,
+    "sha256": "272a0c7ff6b54aec52fea37bb95b1814b80e790549448ddc1460c5d67dd6993b",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-003/色块.SLDPRT",
+    "bytes": 625199,
+    "sha256": "c5c75f8c083b0db24d98113dc82e5c03c571256f8b35ef8bdab159dc0ca0728a",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/FM03-02-00302.SLDPRT",
+    "bytes": 117475,
+    "sha256": "5e1cd11cc0750bc89a36eb65a096d89b5d8be4ccdeabee735efeb60f1555b775",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/HD底座.SLDPRT",
+    "bytes": 3160478,
+    "sha256": "334a1fc31065311a6360971d30152ae57ce92811e18c037a66565b1c4e68b9b7",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/HD底座.STEP",
+    "bytes": 454883,
+    "sha256": "c95153be7fcae8262bf4e5c7ce04d2be35ccc3c8cc094a00d8623e8963170fdc",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/Star Arm102_LD.STEP",
+    "bytes": 14644869,
+    "sha256": "ea97d2199b1ec9c30b87061433dfda5874af87f7b6c801c5b009885f29933f60",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/UC01盖子.SLDPRT",
+    "bytes": 697291,
+    "sha256": "fb71de78765c6be66e6382a9395e9ea51bcb2238be352948fbb3ff0938d80089",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/UC01盖子.STEP",
+    "bytes": 820621,
+    "sha256": "9eb927d6f816fd773ac5fe893ca6d976b1fdc583865c8af3a388a7717cf76740",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/camera.SLDPRT",
+    "bytes": 159438,
+    "sha256": "f0d65384f922acf46434023b00a541ef96c88695fd72f220fc61f21f2d6a811b",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/camera.STEP",
+    "bytes": 86885,
+    "sha256": "a710e67f552a4dd95582e908d2b27da2b336a399f097812f33350991c112388f",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/console.log",
+    "bytes": 821450,
+    "sha256": "64567713647055e3add96a87f2f0520cd7454af2b849ea0d83153148eda2f106",
+    "extension": ".log",
+    "disposition": "excluded-temporary-or-log"
+  },
+  {
+    "source": "star arm 102模型文件/link1.SLDPRT",
+    "bytes": 928352,
+    "sha256": "e7f3a8b4977692b58e19131acf8f8bb96d11e4b776812f39cb772b52c1d4ca91",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/link1.STEP",
+    "bytes": 546057,
+    "sha256": "f8810544f163975f3e7f5588a47a1d66feb5f015863a06c462ab6f5969a9d630",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/link1旧.STEP",
+    "bytes": 546071,
+    "sha256": "4fd198a436b3660411cdc3ae10f649a39ef25b71b90bbbabc61635740e3e5e50",
+    "extension": ".step",
+    "disposition": "held-version-or-variant-ambiguity"
+  },
+  {
+    "source": "star arm 102模型文件/link2.SLDPRT",
+    "bytes": 916703,
+    "sha256": "5be8f27e5ff4d4631683eee98154514e8a0febb9b98c60dc66cda27279a0a513",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/link2_rebot.SLDPRT",
+    "bytes": 653767,
+    "sha256": "52462d8de0af874bdb43bbd848d6057bb3221747d93bb9c8d454fb87eec76e14",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/link2_rebot.STEP",
+    "bytes": 731330,
+    "sha256": "1d8d4d53a5bbf5969ccb1fc695207c58f9b0e6352b24e66fb7ce3b944f96448f",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/link3.SLDPRT",
+    "bytes": 1307699,
+    "sha256": "5efc80b1fd5cdd477270d6f56716cedc1a8d181c6932c4c1c81034448de1963f",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/link3_rebot.SLDPRT",
+    "bytes": 1173053,
+    "sha256": "c32a3fff621bdca9a09dcb8cc7b6ae1accb41dc47b54c91ff05d2a086f091700",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/link3_rebot_V2.SLDPRT",
+    "bytes": 1220832,
+    "sha256": "cc315eb9197d2c709e265fbaaeb910775207c8414d774d82242394d3a98510ea",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/star 102_link3.3mf",
+    "bytes": 2075087,
+    "sha256": "07405bfdd3b9a31c0572ed5ce77fbb9e7e40d8b89bce8444398d504e8f90614d",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/star 102_link3.STEP",
+    "bytes": 2501757,
+    "sha256": "ff9973407eb69b293f0101f82831da26033214401ba5ee07465936683014f03d",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/star 102_底托.SLDPRT",
+    "bytes": 3088851,
+    "sha256": "06e14a26a342f0465b819dea044b2967c9f281eff7e964fd31a021795bc5475f",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/star 102_底托.STEP",
+    "bytes": 256581,
+    "sha256": "af75b68a0d10dadb1878ecc1e8852a4026e9ddccbf0b05e363bd3ec115e8677d",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/star102_link1原版.STEP",
+    "bytes": 746693,
+    "sha256": "e67a20a29a930d78d11972a4306ea41d201dd65059f26b1090bd1724d1f6b167",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/uc01底座.STEP",
+    "bytes": 164955,
+    "sha256": "cef92c25fcc13b1ca53f3b64baab16f308bf23a7ac400cf317c62714065df320",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/华馨京 25-50kg单轴舵机 3D.SLDASM",
+    "bytes": 992827,
+    "sha256": "e5aaabbb513f8a2f3c4da3c495690a3892899f892badd309e93c732abab1802f",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/华馨京 25-50kg双轴舵机-3D.STEP",
+    "bytes": 1423533,
+    "sha256": "52df8d2ee4f161ceae823097f35a483b734cb2aedd31e22d4dd3be6abb279a63",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/华馨京 25-50kg双轴舵机-3D.STEP.SLDPRT",
+    "bytes": 773217,
+    "sha256": "ea955520224dd397991ce3a3a7a42855139a668e365361c5ba1bd624a15215d5",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/华馨京 25-50kg双轴舵机-带舵盘.SLDPRT",
+    "bytes": 1094166,
+    "sha256": "0c195912eb11ab1c77d4930b7279b017e11d6e3f3a4577e9ac1c330e25028815",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/华馨京 25-50kg舵机系列主舵盘-3D.SLDPRT",
+    "bytes": 247713,
+    "sha256": "72b55ae0457a42175a26764151634a81d8f621f08605462b92d0f38986bdaa21",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/华馨京 25-50kg舵机系列主舵盘-3D.STEP",
+    "bytes": 368719,
+    "sha256": "00a0d463cee4844ebf274a3128b61f0eaca867d81a558d13031a08126714635b",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/华馨京 25-50kg舵机系列副舵盘-3D.STEP",
+    "bytes": 72019,
+    "sha256": "4802d7efc65fe1d7e7c47d0651a2b23f2de023f8c0df56fc6fa5dbe02c6c48ae",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/华馨京 25-50kg舵机系列副舵盘-3D.step.SLDPRT",
+    "bytes": 125639,
+    "sha256": "6bc51ec7476487cf9e216e829217ebff254283e3cd3b512672b9f79e9351750c",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/华馨京 RX8-U29H-M 3D.STEP.SLDPRT",
+    "bytes": 404868,
+    "sha256": "8bb6b28ff768317d2979dab4e07e9a1c137f822551765b138cea7ce309f4e35d",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/卡扣版底座装配.SLDASM",
+    "bytes": 585134,
+    "sha256": "16705f5eba5505188ca046af0de335ab8fbc37b61770aefc414be70164b2a8c6",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/双轴柔性夹爪主体.SLDPRT",
+    "bytes": 400885,
+    "sha256": "a6370d85de9ea485f3a67d85a7be67d1dfb049fb049b6ea6aaf8dab90d19b95c",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/双轴柔性夹爪主体.STEP",
+    "bytes": 233348,
+    "sha256": "ea829aa08b30eb070f6749937268ad3049782da896d6e384422631daa6520624",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/双轴柔性夹爪主体2.STEP",
+    "bytes": 233393,
+    "sha256": "0a9a9f06b9af1060ae7808d3d4807b2ed3a3b53924c32c9e8e82aa1ac7a660b2",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/双轴舵机柔性夹爪.SLDASM",
+    "bytes": 819468,
+    "sha256": "7b1f11decdf3337958f820f833bb57f00c6c84880ee90b8c188ff36eb1ce52ba",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪.SLDPRT",
+    "bytes": 4399881,
+    "sha256": "33d0b2104babe208381ded0f491843dec84cac188e3f8d5e5ef64f9a876dc94c",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪.STEP",
+    "bytes": 612787,
+    "sha256": "24bb1b77e78e3e9c2c713860014bed8f088a7b32cde667bfa45ddc1d639b3ab1",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪2.3mf",
+    "bytes": 881125,
+    "sha256": "43a33fc5a04d63a2cd98c862c9d190d043fdac104d8ec42cee6d6bd77770f01f",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪2.SLDPRT",
+    "bytes": 389567,
+    "sha256": "c64122ae81c4371fbd0714b3952fe3ca87cc6cb7b698a2ae26ec38cd804b6a51",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪2.STEP",
+    "bytes": 268213,
+    "sha256": "3bb8e4c4a3acfcef22a0d2cadef9eb591d486741af44158489d3725e8ddd0980",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪link1.STEP",
+    "bytes": 769127,
+    "sha256": "0027c4430008c7fd044b8d037bcc839a3a93c0f8ae016cfa9b0dc8cd30f82203",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪主体.STEP",
+    "bytes": 612793,
+    "sha256": "09c82dc273a90095bb5924fd1c5357d9896dd4c76187c6f0b6fc21c0e1e46c8a",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪底座.3mf",
+    "bytes": 2335336,
+    "sha256": "8a5c0fdb733a64d63c6312b715a3cd8095830566f9d341619b9e5302712f5dc0",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪底座.STEP",
+    "bytes": 491647,
+    "sha256": "7a40b2a235e4bca8dac776c943b750b1443bc31fed76ea94db92443045ecde87",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪底座上.STEP",
+    "bytes": 454891,
+    "sha256": "beeb09c3c0a60bf58c56dc007fa6b530ffd99d4db5b381ccda6fc814be561824",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪底座下.STEP",
+    "bytes": 529346,
+    "sha256": "eaee11e4f4b5e52182ab8968e7daaf5dd7ff57a7309b341b7cab45a50f835f1c",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪指尖 22.SLDPRT",
+    "bytes": 408307,
+    "sha256": "6a993e740508db1602469ea41dd73a5d921a414945677cd52df4c3e3cc4cfe92",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪指尖.SLDPRT",
+    "bytes": 393305,
+    "sha256": "9c68030bf1996833e3181ab59484c3f164616f86c84a9f4ba014e19712987c90",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪指尖.STEP",
+    "bytes": 345722,
+    "sha256": "c4748a550d33e5ebbbf1920c6dac78e69ef87c5a61be2b12c68bff5e31a0199b",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪指尖2.SLDPRT",
+    "bytes": 440958,
+    "sha256": "d356d34bbfc5f207e2a553a30c9cc40b30791c3ae20680dac89b489f56fe6125",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪指尖2.STEP",
+    "bytes": 365891,
+    "sha256": "b910cdc1da3dd14e4ca2c05658f665ca69c062930549f794eca432790eff1fca",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪装配.SLDASM",
+    "bytes": 3080137,
+    "sha256": "d54509a5fdcae6f399ce106418e48f6b7b16163caef944d427babcabf0fd1a0d",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/夹爪装配_rebot.STEP",
+    "bytes": 12806202,
+    "sha256": "e23b4f7dab72ee1a5a27c7f43aa2671fea1c9b9737f41ecc7fe6d87fce10859f",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/字体.STEP",
+    "bytes": 902009,
+    "sha256": "0e1ce6039765ee920c6c6a1959ccc6a9ce9f59aa43d41f7a44a559918d18e073",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/定制底座.SLDPRT",
+    "bytes": 2912012,
+    "sha256": "1694674a2d5ebb4a64205a44e417e207e28680694ae4940bba61f2a40e850ed8",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/定制底座.STEP",
+    "bytes": 471200,
+    "sha256": "beb2d1abe94e68d694bac9e1380ea92d0dc610d712f21296a07a0350d7a38053",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/底座.SLDPRT",
+    "bytes": 2827642,
+    "sha256": "d9e9183e817050bbb7c8087a2fa547c81db978126eb03637c9b9c5c2e9db136c",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/底座.STEP",
+    "bytes": 955726,
+    "sha256": "65ca71fc70e3053e16f4ab5ebb1331633ae035692b3ea64c121100b4154be793",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/底座加筋.SLDPRT",
+    "bytes": 3441419,
+    "sha256": "28abdd11062f7a1cc7031621ba221c5aae95d505e3a059fe9456fb500ad53314",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/底座定制.SLDPRT",
+    "bytes": 2962083,
+    "sha256": "e0700f3b6a020896f2274c233bdecaa87993459f7834ed85a93e9ce488226ab2",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/底座旧.STEP",
+    "bytes": 955738,
+    "sha256": "ed1f0b8836ba72d9b356d1bcfaf7e8f29006a567bfe3889346eb09d0f0dccf60",
+    "extension": ".step",
+    "disposition": "held-version-or-variant-ambiguity"
+  },
+  {
+    "source": "star arm 102模型文件/手柄 - 副本.SLDPRT",
+    "bytes": 3123596,
+    "sha256": "a5ca3e1c96a2d800697238e3c3f1ffffb2bbe3984e40336a00a1cb0acd435ce1",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/手柄 - 副本.STEP",
+    "bytes": 504187,
+    "sha256": "518e53eb216d2baa0f51ad90fe9cce29551884d72de20ead3ad9b02fa0036918",
+    "extension": ".step",
+    "disposition": "held-version-or-variant-ambiguity"
+  },
+  {
+    "source": "star arm 102模型文件/手柄.SLDPRT",
+    "bytes": 2874812,
+    "sha256": "056788517ac5dd02c2247a68a613ae37f352065628a0b81122208bfaba45d015",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/手柄.STEP",
+    "bytes": 691975,
+    "sha256": "322a1d041bf8fc2ac6924481d622d8d664e71c3973ce0b1c474d1bdebb47dd6d",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/手柄装配.SLDASM",
+    "bytes": 3339278,
+    "sha256": "a0f2d34418ede3bb106259508dcff61569791d772f461592f830fde42cff6e16",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/手柄装配_rebot.STEP",
+    "bytes": 10642961,
+    "sha256": "ef1f12b21090af412e6441856066ee257de1ae7c328cd6511c3d0ff8bfe02d19",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/手柄装配_rebot_旧底座.SLDASM",
+    "bytes": 2929189,
+    "sha256": "9b27b87b3ffd775dcb2f72faa3f67d556f0765f569c071cb8b3d7655bd5ef5d7",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/指尖.SLDPRT",
+    "bytes": 734397,
+    "sha256": "914452b8d71dd24e6c2ebdfd9e168731366e5a58ac12647a06acf0a87767cd24",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/指尖.STEP",
+    "bytes": 573836,
+    "sha256": "c029a16f57485d618c00f91616d6c65d27c5a1e82b733f3001992eb0117ce638",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/指尖2.SLDPRT",
+    "bytes": 505871,
+    "sha256": "2fcf64ab173aefb6a0e7ef8592452c65c01759ccb19099edfc65e23d111ed680",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/指尖2.STEP",
+    "bytes": 463682,
+    "sha256": "32848f7049d0618bc964face31839e8f37fd1e2181a70113e224d772e57c6295",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/按钮.STEP",
+    "bytes": 160348,
+    "sha256": "6f1428d9e2cefed34494186e84999d19ac4d432fe9e5f55d9cc4536b9d900676",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/按钮底座.SLDPRT",
+    "bytes": 3488244,
+    "sha256": "5847e97f3eb3d140b7f89a09fa379130fb33bd156445fd1e1c950f5535ce7496",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/按钮底座.STEP",
+    "bytes": 128178,
+    "sha256": "bc533fe8795323c5fc222f1ca4c8cd1aba2ba68c1a56de8e64d8e41d48ae31c2",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/按钮底座卡扣版.SLDPRT",
+    "bytes": 2976440,
+    "sha256": "cecc0cdd6f688026ec7e52d878d01baa1567f8dfd835837617e697c2d1e18b61",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/按钮底座卡扣版.STEP",
+    "bytes": 152420,
+    "sha256": "2320eeb9d1c58663398dbd0b9b58ba1b0e5449c3bb014d7acc799bf694117bc4",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/按钮模型.SLDPRT",
+    "bytes": 208579,
+    "sha256": "206c5c4e949b97dff855ac768b92ee79c067480dd76b817495e9a7a4f5343c69",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/按钮模型卡扣版.SLDPRT",
+    "bytes": 208646,
+    "sha256": "cc660f0a8ed5742c609afe4a777b5c6e40d74ee8f366dc70c343245929bd2cc7",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/按钮盖子.STEP",
+    "bytes": 107913,
+    "sha256": "3622501dfdf1e55022db4efefed1cf6e5b049ae35ee1c6cc60ecc392b3791e2f",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/按钮盖子卡扣版.STEP",
+    "bytes": 115640,
+    "sha256": "5ce40273355691d48577375f817aaad0504a0e558b37907e50c3168a5a0114b6",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/摄像头底座.SLDPRT",
+    "bytes": 256549,
+    "sha256": "0f3ff57d76545ea46a7f904e18b4748e1a4879ee1086509d78fea9f9fe0c2e45",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/摄像头底座卡扣版.SLDPRT",
+    "bytes": 296827,
+    "sha256": "f0da01d2b917a3dfffff4b22eab35db3d14f2625c5e1e81d8fda7775cadda340",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/支架.SLDPRT",
+    "bytes": 95015,
+    "sha256": "f11efbf3c403d6a0c16e6857884c8e4ba232a58d11ebd7563adbdffbe4fcfa26",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/支架.STEP",
+    "bytes": 53341,
+    "sha256": "7bb4deb1df59adc3e8c7ce4afe182e03385950a195cb395131b21160c0d71a71",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新link1.SLDPRT",
+    "bytes": 412911,
+    "sha256": "bb05cfeb8d93992bd0801e4d93ed10bd0f39d4cdfdbca4de90e6fc66f5104918",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/新link1.STEP",
+    "bytes": 525574,
+    "sha256": "23e7b5b90862fe451a82f56e03aba6088cc6078d271990aaeb12a29c35d7ff8c",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新link1有限位版.3mf",
+    "bytes": 15117422,
+    "sha256": "6f3c02d7f595f66137fd56e203fd71f008c93ea6e0c469a174327bf1f545a415",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新link1有限位版.SLDPRT",
+    "bytes": 618727,
+    "sha256": "7a513faa7e2de475ca5e395e4ee445e62cf64253a009bd24943a59377c01feef",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/新link1有限位版.STEP",
+    "bytes": 758626,
+    "sha256": "cf8772775010cac6044a111db7c5a2b43c131cbe127f4d857759a7fe31bbe824",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新link2 .3mf",
+    "bytes": 12167382,
+    "sha256": "471cae77a67f19ffd14fcd4a83a2f91ac3329032635792c1b1cff931e7abfb3e",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新link2 .SLDPRT",
+    "bytes": 931496,
+    "sha256": "89bcd275c96bab44d1c23b9ee1673e73e1a33dbfe2e224893a78f457f22e227d",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/新link2 .STEP",
+    "bytes": 1210868,
+    "sha256": "e44564a48ff18f5d3177e8c0a4ebd6c09df0fa5ccdd1352f79909852972350d6",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新link3 .3mf",
+    "bytes": 11591284,
+    "sha256": "60e9df033deb5588a4e5b9b59f0484b8ad2a1f07afadd8db0230a097dd19a69d",
+    "extension": ".3mf",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新link3 .SLDPRT",
+    "bytes": 1276687,
+    "sha256": "0077ff86cc137542b29ec94e026f47af5df7db03619465e5390d836c7127649a",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/新link3 .STEP",
+    "bytes": 2781014,
+    "sha256": "0cd419c963f4a2c18da361bf763dac9d7234f9fc7273762ef9367ae93cc31300",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新底座.SLDPRT",
+    "bytes": 3704876,
+    "sha256": "689ba74b6254530354aff60d9e3c06370a673c9ebde381b5233630a31860dfe2",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/新底座.STEP",
+    "bytes": 256520,
+    "sha256": "004a9f6e82dd3dd91b498243589aaf730e90ac9cf6d279c9388ba8690cb3e771",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新底座1.STEP",
+    "bytes": 495136,
+    "sha256": "5a030b12b2e31f62143170bf01cdfe2f74b96f2ac30b3102e4ae33a4d924f036",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新底座上.STEP",
+    "bytes": 425963,
+    "sha256": "748f19ba31765a525b0b2e8c2eed1309812674aaa37834a6ccda519e6fa7d1c6",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/新底座下.STEP",
+    "bytes": 539622,
+    "sha256": "7ea381d42a75fccc16060127390f064e7d46c8ed51f16c92c70d8b2eda9629e8",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/柔性夹爪1.SLDPRT",
+    "bytes": 342768,
+    "sha256": "2e4d4570b504606863a92f0601c57bc0cefcfbd60ccee7feb49256660dc88373",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/柔性夹爪2.SLDPRT",
+    "bytes": 321645,
+    "sha256": "74dbcb6999939d2f15042fbdedb110f52afc9ee38a5b0613adecdd5b9fb7741a",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/柔性夹爪指尖.SLDPRT",
+    "bytes": 326771,
+    "sha256": "e651fcbee3633896466688565bfb0a1f66316c2777c169c7462d1c5455deb897",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/柔性夹爪指尖2.SLDPRT",
+    "bytes": 432528,
+    "sha256": "bf9798251d6638fe11450e5621fffb931593c36a153dc423517896f1848086e8",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/渲染夹爪.SLDPRT",
+    "bytes": 8402827,
+    "sha256": "75bcf20968c54070db853336425043c9b10f7d3a0f6a1395229d3b22cc10be9d",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/渲染手柄.SLDPRT",
+    "bytes": 9721566,
+    "sha256": "26dd3e4ab92f33852aa79d729a09795956f152bfcd322d8095e0f338077dcbfb",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/滚针轴承.SLDPRT",
+    "bytes": 76840,
+    "sha256": "c130d7b27ba9a78904518bad9aa89383823a6765484943944bd60d7d3f1a0d09",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/短连杆.STEP",
+    "bytes": 29484,
+    "sha256": "703b6af13c0176ff0f962acc213b7e14be786846d56ff4f0e40130bc4fd6ff8a",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/装配.SLDASM",
+    "bytes": 3067291,
+    "sha256": "dfcc13d4394a79cd5490f9032c97f1bb9ce74dcd8733eb6557851c1b27a82aa3",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/装配.STEP",
+    "bytes": 14892786,
+    "sha256": "1ddcbb3cbf6c37c52d5265b8f476a4b669df549db9ad82c424c6de0f232433f3",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/装配体1.SLDASM",
+    "bytes": 1110008,
+    "sha256": "71473927c6747f3ef857ab2b9bb6432bf1187a0ccd27a231fc4eabe519e6755a",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/装配体3.SLDASM",
+    "bytes": 1428607,
+    "sha256": "58e27449eb70138fd158e2ccd4b18e3f5d26617f4bc746f3713b5d1d35bfcfd2",
+    "extension": ".sldasm",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/连杆.SLDPRT",
+    "bytes": 86388,
+    "sha256": "3a7e0bc79362cb313e9d5935566f03337489891cc81cd59fbd0d026d95405b42",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102模型文件/连杆.STEP",
+    "bytes": 29469,
+    "sha256": "a703911dbbed8a2f2b4190d85461b16a06e9009c28e50f376bacbe7e2826b4fa",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/连杆右.STEP",
+    "bytes": 208985,
+    "sha256": "ea83f4778227c66aca9f79a8e2089be00577412bcf2e0299a3dd7b8c04ec0672",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102模型文件/连杆左.STEP",
+    "bytes": 265702,
+    "sha256": "b8eb75c14bbf60bb30aff770977cb15d90b6a1b33d82ffe0a5a76fc2510e8bb3",
+    "extension": ".step",
+    "disposition": "not-imported-duplicate-or-unconfirmed-variant-see-review"
+  },
+  {
+    "source": "star arm 102治具/FL治具.SLDPRT",
+    "bytes": 9406101,
+    "sha256": "0f379163b850ad65a83b9d8ff4fca2ccb17c01f5d568f0b7ef34f0d98ff89900",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102治具/LD治具.SLDPRT",
+    "bytes": 9611546,
+    "sha256": "89cfa669a9537e6db668431ee12f4ae8a3321c814e784726dea87fd212245e9b",
+    "extension": ".sldprt",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102渲染文件/102.bip",
+    "bytes": 87840378,
+    "sha256": "239e53347bb346e472501328309ef751ad8ce7dc94764773c1060172d5b10938",
+    "extension": ".bip",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  },
+  {
+    "source": "star arm 102渲染文件/夹爪渲染.bip",
+    "bytes": 44814618,
+    "sha256": "3083c0be34afbec780779c99498bc41046b2e17b23410da05aeaf97c39d0c220",
+    "extension": ".bip",
+    "disposition": "retained-in-source-native-cad-fixture-or-rendering-not-imported"
+  }
+]

@@ -1,6 +1,6 @@
 # Hardware setup
 
-[Get started](getting-started.md) · [Hardware files](../Hardware/README.md)
+[Get started](getting-started.md) · [Hardware files](../hardware/README.md)
 
 ## Power and contents
 
@@ -46,7 +46,7 @@ Connect one arm at a time and run:
 python3 -m serial.tools.list_ports -v
 ```
 
-This command requires `pyserial`, installed by the [Python setup](../Python_SDK/README.md). On Ubuntu you can also inspect:
+This command requires `pyserial`, installed by the [Python setup](../python-sdk/README.md). On Ubuntu you can also inspect:
 
 ```bash
 ls -l /dev/serial/by-id/
@@ -63,7 +63,7 @@ sudo usermod -aG dialout "$USER"
 
 Log out and back in, then check `id -nG`. For a temporary session, grant access only to the identified device, for example `sudo chmod a+rw /dev/ttyUSB0`. Do not change permissions on every USB device.
 
-**Success:** both ports are visible and accessible. Continue with the [communication check](../Python_SDK/README.md#check-communication-without-commanding-motion).
+**Success:** both ports are visible and accessible. Continue with the [communication check](../python-sdk/README.md#check-communication-without-commanding-motion).
 
 ## Reference pose and stopping
 

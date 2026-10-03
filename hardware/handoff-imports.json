@@ -1,0 +1,308 @@
+{
+  "review_date": "2026-10-03",
+  "source_folder_label": "李昕交接文件 2 / Star Arm 102",
+  "imports": [
+    {
+      "source": "star arm 102step/star arm102 Leader/star102_link1.STEP",
+      "destination": "102-ld/step/parts/star-arm-102-link1.step",
+      "sha256": "cf8772775010cac6044a111db7c5a2b43c131cbe127f4d857759a7fe31bbe824",
+      "kind": "step",
+      "note": "Curated leader export; common-body applicability confirmed by owner. Production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102 Leader/star102_link2.STEP",
+      "destination": "102-ld/step/parts/star-arm-102-link2.step",
+      "sha256": "664a79a5aeb5a2ae95c7c0ff710d8a6a46001e08a64bd245b33d285d9887dbf3",
+      "kind": "step",
+      "note": "Curated leader export; common-body applicability confirmed by owner. Production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102 Leader/star102_link3.STEP",
+      "destination": "102-ld/step/parts/star-arm-102-link3.step",
+      "sha256": "ff9973407eb69b293f0101f82831da26033214401ba5ee07465936683014f03d",
+      "kind": "step",
+      "note": "Curated leader export; common-body applicability confirmed by owner. Production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102 Leader/star102_link4.STEP",
+      "destination": "102-ld/step/parts/star-arm-102-link4.step",
+      "sha256": "4adaafb0372a9ea2e785c908356a5aab833706fe1b43e6651faef9ca829186c6",
+      "kind": "step",
+      "note": "Curated leader export; common-body applicability confirmed by owner. Production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102 Leader/star102_link5.STEP",
+      "destination": "102-ld/step/parts/star-arm-102-link5.step",
+      "sha256": "029b05d1c07261d06673a5d9f7597e24528bf151b77126686e3a7307baa85f13",
+      "kind": "step",
+      "note": "Curated leader export; common-body applicability confirmed by owner. Production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102 Leader/star102_link6手柄.STEP",
+      "destination": "102-ld/step/parts/star-arm-102-link6-handle.step",
+      "sha256": "90e39c679bee7d568bc41230a59df5dc78c9894b17063bf35094e25b544e1e97",
+      "kind": "step",
+      "note": "Curated leader export; common-body applicability confirmed by owner. Production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102 Leader/按钮底座.STEP",
+      "destination": "102-hd/step/parts/hd-button-base.step",
+      "sha256": "61ed09e90a9aef22b0c891fc9e35e7fbb889e3813df7b614b7fdce1d11c260cc",
+      "kind": "step",
+      "note": "HD-only accessory, confirmed by owner."
+    },
+    {
+      "source": "star arm 102step/star arm102 Leader/按钮盖子.STEP",
+      "destination": "102-hd/step/parts/hd-button-cover.step",
+      "sha256": "afe2a8662c53b89bb4362d36b85ff362902ca88e1120df8e204b9dfa344edef1",
+      "kind": "step",
+      "note": "HD-only accessory, confirmed by owner."
+    },
+    {
+      "source": "star arm 102step/star arm102 Leader/102-LD.STEP",
+      "destination": "102-ld/step/assembly/star-arm-102-ld-export-2026-07-21.step",
+      "sha256": "ef1f12b21090af412e6441856066ee257de1ae7c328cd6511c3d0ff8bfe02d19",
+      "kind": "step",
+      "note": "LD-labelled assembly; not an HD full assembly. Export date is not a hardware revision."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102_link1.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-link1.step",
+      "sha256": "cf8772775010cac6044a111db7c5a2b43c131cbe127f4d857759a7fe31bbe824",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102_link2.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-link2.step",
+      "sha256": "eddb7b9570712201ba4a86386e915c44cb3981167c9b255d800f5648a52f6572",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102_link3.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-link3.step",
+      "sha256": "ff9973407eb69b293f0101f82831da26033214401ba5ee07465936683014f03d",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102_link4.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-link4.step",
+      "sha256": "4adaafb0372a9ea2e785c908356a5aab833706fe1b43e6651faef9ca829186c6",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102_link5.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-link5.step",
+      "sha256": "029b05d1c07261d06673a5d9f7597e24528bf151b77126686e3a7307baa85f13",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102_link6夹爪.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-link6-gripper.step",
+      "sha256": "5e84535e90177131dfa27b09606d2d3f0a9e210513ff9ff79a107ab867c85957",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102底座下.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-base-bottom.step",
+      "sha256": "eaee11e4f4b5e52182ab8968e7daaf5dd7ff57a7309b341b7cab45a50f835f1c",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102底座上.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-base-top.step",
+      "sha256": "c95153be7fcae8262bf4e5c7ce04d2be35ccc3c8cc094a00d8623e8963170fdc",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102_夹爪主体.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-gripper-body.step",
+      "sha256": "09c82dc273a90095bb5924fd1c5357d9896dd4c76187c6f0b6fc21c0e1e46c8a",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102_指尖左.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-fingertip-left.step",
+      "sha256": "c029a16f57485d618c00f91616d6c65d27c5a1e82b733f3001992eb0117ce638",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102step/star arm102  follower/star102_指尖右.STEP",
+      "destination": "102-fl/step/parts/star-arm-102-fingertip-right.step",
+      "sha256": "32848f7049d0618bc964face31839e8f37fd1e2181a70113e224d772e57c6295",
+      "kind": "step",
+      "note": "Curated follower export; production revision not established."
+    },
+    {
+      "source": "star arm 102模型文件/102-FL.STEP",
+      "destination": "102-fl/step/assembly/star-arm-102-fl-export-2026-07-03.step",
+      "sha256": "eb59284236a1a3d8b0ca19a45530a4323804dcb77231abe968a16cb2a454773c",
+      "kind": "step",
+      "note": "FL-labelled assembly reference; older export than July 13 drawing. Do not claim a matched manufacturing release."
+    },
+    {
+      "source": "star arm 102图纸/Star Arm 102-LD .pdf",
+      "destination": "102-ld/drawings/pdf/star-arm-102-ld-drawing-2026-07-13.pdf",
+      "sha256": "8d42f6123cbf3bfee81e7b291a844fffc48d30add775a2f80b0dc8013201ef20",
+      "kind": "drawing",
+      "note": "PDF title block dated 2026/7/13. DWG is its handoff-named companion; CAD geometry not independently compared to PDF."
+    },
+    {
+      "source": "star arm 102图纸/Star Arm 102-LD.DWG",
+      "destination": "102-ld/drawings/cad/star-arm-102-ld-drawing-2026-07-13.dwg",
+      "sha256": "b9dfde8905d2c194bb889b51579b75dca5ee6e318ff08cae9398017c52586b57",
+      "kind": "drawing",
+      "note": "PDF title block dated 2026/7/13. DWG is its handoff-named companion; CAD geometry not independently compared to PDF."
+    },
+    {
+      "source": "star arm 102图纸/Star Arm 102-FL .pdf",
+      "destination": "102-fl/drawings/pdf/star-arm-102-fl-drawing-2026-07-13.pdf",
+      "sha256": "a56fdd8b7fd5c9bce22cf59ccfebd39412c2d625af9b815ef4014b4927336e5e",
+      "kind": "drawing",
+      "note": "PDF title block dated 2026/7/13. DWG is its handoff-named companion; CAD geometry not independently compared to PDF."
+    },
+    {
+      "source": "star arm 102图纸/Star Arm 102-FL .DWG",
+      "destination": "102-fl/drawings/cad/star-arm-102-fl-drawing-2026-07-13.dwg",
+      "sha256": "1d3f3d201b1ec48988af849a937a49baac39fe261be7fab7208bafe76dbbf20d",
+      "kind": "drawing",
+      "note": "PDF title block dated 2026/7/13. DWG is its handoff-named companion; CAD geometry not independently compared to PDF."
+    },
+    {
+      "source": "star arm 102BOM表/Star Arm 102-LD(9.10) - BOM.xlsx",
+      "destination": "102-ld/bom/bom-102-ld-handoff-09-10.xlsx",
+      "sha256": "673d1c1c33e949f1ed36844c9eca70d0ffb88fabe444b676d4ac6a9f8bb41d8a",
+      "kind": "bom-reference",
+      "note": "Unmodified Chinese handoff workbook. Image errors/internal production notes and version applicability require review; not an approved English customer BOM."
+    },
+    {
+      "source": "star arm 102BOM表/Star Arm 102-LD散件(9.10) - BOM.xlsx",
+      "destination": "102-ld/bom/bom-102-ld-kit-handoff-09-10.xlsx",
+      "sha256": "83a180938497827a372979635ce9b332ce13d3f31c9dabc24407e27226e16f38",
+      "kind": "bom-reference",
+      "note": "Unmodified Chinese handoff workbook. Image errors/internal production notes and version applicability require review; not an approved English customer BOM."
+    },
+    {
+      "source": "star arm 102BOM表/Star Arm 102-HD - BOM(9.10) .xlsx",
+      "destination": "102-hd/bom/bom-102-hd-handoff-09-10.xlsx",
+      "sha256": "53d3e1d454c46635bc9c48019c4ca4d98b0c19d4ed2579d8432c4b8ff5e8ab97",
+      "kind": "bom-reference",
+      "note": "Unmodified Chinese handoff workbook. Image errors/internal production notes and version applicability require review; not an approved English customer BOM."
+    },
+    {
+      "source": "star arm 102BOM表/Star Arm 102-FL(8.24) .xlsx",
+      "destination": "102-fl/bom/bom-102-fl-handoff-08-24.xlsx",
+      "sha256": "74cc8d75fad700938247c48049e598245c2d60b116626bd4ece68b226a487454",
+      "kind": "bom-reference",
+      "note": "Unmodified Chinese handoff workbook. Image errors/internal production notes and version applicability require review; not an approved English customer BOM."
+    },
+    {
+      "source": "star arm 102 3mf文件/Star arm102 LD_20260807.3mf",
+      "destination": "102-ld/printing/3mf/star-arm-102-ld-handoff-label-20260807.3mf",
+      "sha256": "41f7ce5c48003d41d5967670ac1357e366cc3df954412171efb9fefd2e704c6c",
+      "kind": "printing-reference",
+      "note": "Source filename date retained as a label, not a release date. Review needed; FL link1 conflicts with BOM. No physical printing validation."
+    },
+    {
+      "source": "star arm 102 3mf文件/Star arm102 HD_20260807.3mf",
+      "destination": "102-hd/printing/3mf/star-arm-102-hd-handoff-label-20260807.3mf",
+      "sha256": "2c5ee0cf405e6a1cbaf6ed725fa76785adad4af3e4b4815a042f50da65c62715",
+      "kind": "printing-reference",
+      "note": "Source filename date retained as a label, not a release date. Review needed; FL link1 conflicts with BOM. No physical printing validation."
+    },
+    {
+      "source": "star arm 102 3mf文件/Star arm102 FL _20260807.3mf",
+      "destination": "102-fl/printing/3mf/star-arm-102-fl-handoff-label-20260807.3mf",
+      "sha256": "9bb112351d4268526669043eefb8b7bb3b6fafd0a27a900dc04b32896c77e62e",
+      "kind": "printing-reference",
+      "note": "Source filename date retained as a label, not a release date. Review needed; FL link1 conflicts with BOM. No physical printing validation."
+    }
+  ],
+  "note": "Imported references are not an approved matched manufacturing release. Common LD body files were also copied into HD per owner confirmation.",
+  "shared_body_copies": [
+    {
+      "from": "102-ld/step/parts/star-arm-102-link6-handle.step",
+      "to": "102-hd/step/parts/star-arm-102-link6-handle.step",
+      "sha256": "90e39c679bee7d568bc41230a59df5dc78c9894b17063bf35094e25b544e1e97"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-handle.step",
+      "to": "102-hd/step/parts/star-arm-102-handle.step",
+      "sha256": "80a78cc90ab5d229c053c2f40c1ef1cf160033099f650f5229bc02e929c204a1"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-link1.step",
+      "to": "102-hd/step/parts/star-arm-102-link1.step",
+      "sha256": "cf8772775010cac6044a111db7c5a2b43c131cbe127f4d857759a7fe31bbe824"
+    },
+    {
+      "from": "102-ld/step/parts/first-person-camera-mount-base.step",
+      "to": "102-hd/step/parts/first-person-camera-mount-base.step",
+      "sha256": "e8d06089d5d7eb85b95d4b2efa342c3f849ac794010cb8c44c24151573303907"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-finger-ring-left.step",
+      "to": "102-hd/step/parts/star-arm-102-finger-ring-left.step",
+      "sha256": "cbaf6f595ecb525ebdca8e802a115b06f7c27443b501380475463fec8065cbdf"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-link4.step",
+      "to": "102-hd/step/parts/star-arm-102-link4.step",
+      "sha256": "4adaafb0372a9ea2e785c908356a5aab833706fe1b43e6651faef9ca829186c6"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-link5.step",
+      "to": "102-hd/step/parts/star-arm-102-link5.step",
+      "sha256": "029b05d1c07261d06673a5d9f7597e24528bf151b77126686e3a7307baa85f13"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-base-support.step",
+      "to": "102-hd/step/parts/star-arm-102-base-support.step",
+      "sha256": "760dd9a9f97308ee911429dea25ff039b9a0a01be48410fafb8ee80a4fc1afcf"
+    },
+    {
+      "from": "102-ld/step/parts/first-person-camera-mount-top-cover.step",
+      "to": "102-hd/step/parts/first-person-camera-mount-top-cover.step",
+      "sha256": "dd519cabf932284d78d81e87debf8c2030264f1bf020be07bd07d48ff5c74d43"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-link2.step",
+      "to": "102-hd/step/parts/star-arm-102-link2.step",
+      "sha256": "664a79a5aeb5a2ae95c7c0ff710d8a6a46001e08a64bd245b33d285d9887dbf3"
+    },
+    {
+      "from": "102-ld/step/parts/camera.step",
+      "to": "102-hd/step/parts/camera.step",
+      "sha256": "63b1a80aeb4527134a3f16421fed15cff52d6d1c2172566b0c0538d5715abde5"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-base-bottom.step",
+      "to": "102-hd/step/parts/star-arm-102-base-bottom.step",
+      "sha256": "94c02fba20d4cc2c9953c0993b31fd67b007ee91613167a227192c270a47e4e1"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-base-top.step",
+      "to": "102-hd/step/parts/star-arm-102-base-top.step",
+      "sha256": "fcbf6dbf5e0f72fa35c1495012c726c639d4368a9c8d9c4eadc84694c768e33b"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-finger-ring-right.step",
+      "to": "102-hd/step/parts/star-arm-102-finger-ring-right.step",
+      "sha256": "1847f0cabe685224cf7556ec02922f53b4b106f0224546e5025e878274122581"
+    },
+    {
+      "from": "102-ld/step/parts/star-arm-102-link3.step",
+      "to": "102-hd/step/parts/star-arm-102-link3.step",
+      "sha256": "ff9973407eb69b293f0101f82831da26033214401ba5ee07465936683014f03d"
+    }
+  ]
+}

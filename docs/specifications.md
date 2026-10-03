@@ -6,9 +6,9 @@ Star Arm 102 provides six arm joints and a gripper/handle channel. LD and HD are
 
 | Model | Role | Next step |
 | --- | --- | --- |
-| 102-LD | Leader for teleoperation | [Python](../Python_SDK/README.md) or [release-compatible LeRobot](../Lerobot/README.md) |
-| 102-HD | Leader with button-board support | [Python](../Python_SDK/README.md) or [refactored LeRobot](../Lerobot/lerobot-stararm102/README.md) |
-| 102-FL | Follower for teleoperation and policy execution | [ACT model](../Lerobot/examples/act_pick/README.md) or [ROS 2](../ROS2_HUMBLE/README.md) |
+| 102-LD | Leader for teleoperation | [Python](../python-sdk/README.md) or [release-compatible LeRobot](../lerobot/README.md) |
+| 102-HD | Leader with button-board support | [Python](../python-sdk/README.md) or [refactored LeRobot](../lerobot/lerobot-stararm102/README.md) |
+| 102-FL | Follower for teleoperation and policy execution | [ACT model](../lerobot/examples/act_pick/README.md) or [ROS 2](../ros2-humble/README.md) |
 
 ## Joint IDs and names
 
@@ -25,4 +25,4 @@ Star Arm 102 provides six arm joints and a gripper/handle channel. LD and HD are
 
 Matching IDs do not mean matching units, signs, scaling, or calibration. See [plugin compatibility](compatibility.md). Do not transfer joint values between these interfaces without the appropriate conversion.
 
-For product dimensions, payload, and the exact supplied configuration, use the official [LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/), [HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/), and [FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/) specifications. The [LD engineering drawings](../Hardware/cad/README.md) provide mechanical reference files. Motion limits in a URDF or configuration describe that software model and are not a substitute for the limits of your hardware revision.
+For product dimensions, payload, and the exact supplied configuration, use the official [LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/), [HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/), and [FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/) specifications. The [LD engineering drawings](../hardware/102-ld/drawings/README.md) provide mechanical reference files. Motion limits in a URDF or configuration describe that software model and are not a substitute for the limits of your hardware revision.

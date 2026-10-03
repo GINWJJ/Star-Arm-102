@@ -2,6 +2,10 @@
 
 ## Unreleased — English-first customer entry
 
+- Add cross-brand pairing navigation for Galaxea A1, Lumos Touch, YAM, and Seeed reBot; separate documented upstream paths from pending setup and validation records. Move the reBot guide into `integrations/` while preserving its old documentation link.
+
+- Add a Wiki-linked robot and servo tool directory with a web interface preview; move repository documentation checks to `scripts/` and update workflow commands.
+
 - Add an English homepage with setup selection, a prominent ACT model entry, demo, and official product links.
 - Add first-use, wiring, compatibility, troubleshooting, and joint-mapping guides.
 - Provide English Python, LeRobot, ACT inference, ROS 2, and hardware navigation; preserve Chinese supplementary material.
@@ -10,4 +14,6 @@
 - Correct HD button examples, plugin import names, conflicting dataset paths, and unsafe stopping descriptions. Use regular plugin installation so LeRobot 0.4.1 can discover device types.
 - Add issue templates and automated documentation/CLI checks. Record physical verification separately.
 
-Existing software paths, package names, model assets, and release URLs are retained. License scope still requires maintainer clarification for resources without a complete license declaration.
+- Standardize top-level resource and workspace paths as `hardware/`, `media/`, `lerobot/`, `python-sdk/`, and `ros2-humble/`; update documentation, tests, and workflow commands to match.
+
+Python module names, ROS package identifiers, model assets, and release URLs are retained. Existing external links to renamed directories need updating. License scope still requires maintainer clarification for resources without a complete license declaration.

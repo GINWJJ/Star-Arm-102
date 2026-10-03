@@ -13,6 +13,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - run: python -m pip install -r tools/requirements-docs.txt -r Python_SDK/requirements.txt
-      - run: python tools/check_docs.py
+      - run: python -m pip install -r scripts/requirements-docs.txt -r python-sdk/requirements.txt
+      - run: python scripts/check_docs.py
       - run: python -m unittest discover -s tests -v

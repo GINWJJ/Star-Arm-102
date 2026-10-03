@@ -12,9 +12,11 @@ Check the product/order label before selecting software. The arms look similar; 
 | 102-HD | Leader with a lock-button integration | Confirm the supplied button board/firmware, then use the HD instructions |
 | 102-FL | Powered follower | Check communication and calibration before sending motion commands |
 
-![Star Arm 102 overview](../Media/images/11.png)
+![Star Arm 102 overview](../media/images/11.png)
 
-For ordering and product identification, see the [official series page](https://fashionstar.com.hk/robot-arm/star-arm-102/). A parts kit first needs assembly; [available DIY resources](../Hardware/README.md) are currently centered on LD.
+For ordering and product identification, see the [official series page](https://fashionstar.com.hk/robot-arm/star-arm-102/). A parts kit first needs assembly; [available DIY resources](../hardware/README.md) are organized by LD, HD, and FL with per-model availability status.
+
+For a third-party follower, use the [cross-brand pairing directory](../integrations/README.md) and its hardware-specific preparation. The FL steps below are for Star Arm followers.
 
 ## 2. Prepare and connect
 
@@ -26,14 +28,15 @@ Follow [hardware setup](hardware-setup.md). You need the correct power adapter f
 
 | Your setup / goal | Follow this guide |
 | --- | --- |
-| LD + FL: first movement | [Python direct teleoperation](../Python_SDK/README.md) |
-| HD + FL: first movement | [Python direct teleoperation](../Python_SDK/README.md), including HD button configuration |
-| FL only: confirm the connection | [Communication check](../Python_SDK/README.md#check-communication-without-commanding-motion) |
-| FL + two cameras: run the provided model | [Pretrained ACT model](../Lerobot/examples/act_pick/inference.md) |
-| LD + FL: record demonstrations | [LeRobot release-compatible setup](../Lerobot/README.md#release-compatible-environment) |
-| HD + FL: LeRobot with button integration | [Refactored HD/FL setup](../Lerobot/lerobot-stararm102/README.md) |
-| Leader + reBot B601 | [reBot guide](rebot.md) |
-| ROS 2 development | [ROS 2 Humble](../ROS2_HUMBLE/README.md) |
+| LD + FL: first movement | [Python direct teleoperation](../python-sdk/README.md) |
+| HD + FL: first movement | [Python direct teleoperation](../python-sdk/README.md), including HD button configuration |
+| FL only: confirm the connection | [Communication check](../python-sdk/README.md#check-communication-without-commanding-motion) |
+| FL + two cameras: run the provided model | [Pretrained ACT model](../lerobot/examples/act_pick/inference.md) |
+| LD + FL: record demonstrations | [LeRobot release-compatible setup](../lerobot/README.md#release-compatible-environment) |
+| HD + FL: LeRobot with button integration | [Refactored HD/FL setup](../lerobot/lerobot-stararm102/README.md) |
+| Leader + Galaxea A1 / Lumos Touch / YAM | [Choose your follower pairing](../integrations/README.md) |
+| Leader + reBot B601 | [reBot guide](../integrations/seeed-rebot/README.md) |
+| ROS 2 development | [ROS 2 Humble](../ros2-humble/README.md) |
 
 Do not install all paths into one environment. The [compatibility table](compatibility.md) explains which combinations have release evidence and which still require hardware validation.
 
@@ -45,6 +48,6 @@ Use the Python communication check to identify servos before direct teleoperatio
 
 ## 5. Continue to the ACT demo
 
-After basic checks, set up the two cameras and reproduce the [ACT workspace](../Lerobot/examples/act_pick/inference.md#prepare-the-follower-and-cameras). Start with one trial. You do not need to train this supplied policy yourself.
+After basic checks, set up the two cameras and reproduce the [ACT workspace](../lerobot/examples/act_pick/inference.md#prepare-the-follower-and-cameras). Start with one trial. You do not need to train this supplied policy yourself.
 
 If a step fails, stop there and use [troubleshooting](troubleshooting.md). Include the model, environment, command, and full error when [reporting an issue](https://github.com/servodevelop/Star-Arm-102/issues/new/choose).
