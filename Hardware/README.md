@@ -10,6 +10,7 @@ The BOM and drawings here are for **102-LD** unless stated otherwise. Do not ass
 
 ## Directory Overview
 
+- [102-FL/](./102-FL/README.md): FL resource index and directory framework; model files and BOM are pending
 - [parts/](./parts/): STEP files for parts and BOM
 - [cad/](./cad/README.md): CAD engineering drawings
 - [assembly/](./assembly/README.md): Assembly instructions and reference materials
@@ -94,5 +95,4 @@ If you want to view the overall structure or check dimensions, go to [cad/README
 ### 4. Assembly Instructions
 
 Assembly instructions are still being prepared. In the future, users will be able to purchase a parts kit and assemble their own robotic arm.
-
 
