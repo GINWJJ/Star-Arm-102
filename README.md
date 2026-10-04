@@ -42,19 +42,19 @@
 
 ## 📑 Contents
 
-- [Introduction](#introduction)
-- [Where to Buy](#where-to-buy)
-- [Explore the Web Controller](#web-controller)
-- [Run Your First AI Task](#run-your-first-ai-task)
-- [Cross-Brand Follower Compatibility](#cross-brand-pairings)
-- [Hardware Resources](hardware/README.md)
-- [LeRobot](lerobot/README.md)
-- [Natural Language Control](integrations/butterfly/README.md)
-- [ROS 2 Humble](ros2-humble/README.md)
-- [Python SDK](python-sdk/README.md)
-- [Control & Configuration Tools](tools/README.md)
+- [📖 Introduction](#introduction)
+- [🛒 Where to Buy](#where-to-buy)
+- [🌐 Cross-Brand Follower Compatibility](#cross-brand-pairings)
+- [🎛️ Explore the Web Controller](#web-controller)
+- [🤖 Run Your First AI Task](#run-your-first-ai-task)
+- [⚙️ Specifications & Hardware Resources](hardware/README.md#product-specifications)
+- [🤗 LeRobot](lerobot/README.md)
+- [💬 Natural Language Control](integrations/butterfly/README.md)
+- [🦾 ROS 2 Humble](ros2-humble/README.md)
+- [🐍 Python SDK](python-sdk/README.md)
+- [🧰 Control & Configuration Tools](tools/README.md)
 
-[Development Paths & Repository Structure](#development-paths) · [Related Projects](#related-projects)
+[🛠️ Development Paths & Repository Structure](#development-paths) · [🔗 Related Projects](#related-projects)
 
 ---
 
@@ -62,14 +62,15 @@
 
 ## 📖 Introduction
 
-Star Arm 102 is developed by **[Fashion Star](https://fashionstar.com.hk/)**. Connect your arms, explore Python and LeRobot, or try the released ACT block-placement policy. This repository brings together the code, hardware resources, and guides for your first setup and subsequent development.
+Star Arm 102 is a robot arm platform developed by **[Fashion Star](https://fashionstar.com.hk/)** for teleoperation, demonstration collection, and LeRobot learning workflows.
 
-| 🦾 6+1 DOF | 🎮 Learn by demonstration | 🤖 Try a pretrained policy |
-| :---: | :---: | :---: |
-| Six arm joints and a gripper control | Teleoperate with an LD or HD leader | Start with the supplied ACT block-placement model |
-| [Explore the hardware](docs/specifications.md) | [Set up teleoperation](python-sdk/README.md) | [Open the model guide](lerobot/examples/act_pick/README.md) |
+- **6+1 DoF** — Six arm joints plus a gripper channel on the FL follower, with a corresponding handle channel on LD / HD leaders.
+- **420 mm reach** — Across the LD, HD, and FL models for tabletop manipulation setups.
+- **500g working payload** — The 102-FL follower features two high-torque brushless bus servo joints for task execution.
+- **Two leader options** — Choose the lightweight 102-LD for free hand-guided teaching, or the pose-holding 102-HD with high-torque coreless bus servos for stable demonstrations.
+- **Pretrained ACT task** — Run the supplied block-placement policy on 102-FL without retraining, after completing the specified environment, calibration, and two-camera setup.
 
-LD and HD are leader arms for demonstrations; FL is the follower that executes tasks. A leader alone cannot run the autonomous ACT task.
+[Explore the specifications](docs/specifications.md) · [Set up teleoperation](python-sdk/README.md) · [Open the ACT guide](lerobot/examples/act_pick/README.md)
 
 <a id="where-to-buy"></a>
 
@@ -86,6 +87,23 @@ Compare the [Star Arm 102 series](https://fashionstar.com.hk/store/collections/r
 | **[Shop&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **Follower arm** for teleoperation and policy execution; two high-torque brushless bus servo joints, with a specified 500g working payload |
 
 **Chinese purchase channel:** [Taobao](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433). Select the required model and kit option on the listing.
+
+<a id="cross-brand-pairings"></a>
+
+## 🌐 One Leader, Multiple Robot Platforms
+
+Have a third-party follower? Explore Star Arm 102-LD / HD pairing resources by follower model, then choose the matching Python or LeRobot path.
+
+| Follower | Pairing resources | Current status |
+| --- | --- | --- |
+| **Seeed reBot B601** | [Open reBot pairing guide](integrations/seeed-rebot/README.md) | Upstream LeRobot guide available for B601-DM |
+| **YAM** | [Explore YAM pairing](integrations/yam/README.md) | Exact model and setup guide pending |
+| **Galaxea A1** | [Explore A1 pairing](integrations/galaxea-a1/README.md) | Setup guide and validation records pending |
+| **Lumos Touch** | [Explore Touch pairing](integrations/lumos-touch/README.md) | Setup guide and validation records pending |
+
+**[Find your pairing →](integrations/README.md)** · **[Check capabilities and evidence →](integrations/compatibility.md)**
+
+Support depends on the exact follower, leader revision, and software path. LD compatibility, HD button behavior, teleoperation, and learning workflows are tracked separately. Pending documentation is not a tested compatibility claim.
 
 <a id="control-and-configuration-tools"></a>
 <a id="web-controller"></a>
@@ -128,23 +146,6 @@ Watch the ACT block-placement demo below, then follow the guide to run the pretr
 - [Run the pretrained model](lerobot/examples/act_pick/inference.md): download, camera setup, calibration, and one trial.
 - [Model release and original video](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0).
 - [Training your own task](lerobot/examples/act_pick/training.md): next steps and current documentation status.
-
-<a id="cross-brand-pairings"></a>
-
-## 🌐 One Leader, Multiple Robot Platforms
-
-Have a third-party follower? Explore Star Arm 102-LD / HD pairing resources by follower model, then choose the matching Python or LeRobot path.
-
-| Follower | Pairing resources | Current status |
-| --- | --- | --- |
-| **Seeed reBot B601** | [Open reBot pairing guide](integrations/seeed-rebot/README.md) | Upstream LeRobot guide available for B601-DM |
-| **YAM** | [Explore YAM pairing](integrations/yam/README.md) | Exact model and setup guide pending |
-| **Galaxea A1** | [Explore A1 pairing](integrations/galaxea-a1/README.md) | Setup guide and validation records pending |
-| **Lumos Touch** | [Explore Touch pairing](integrations/lumos-touch/README.md) | Setup guide and validation records pending |
-
-**[Find your pairing →](integrations/README.md)** · **[Check capabilities and evidence →](integrations/compatibility.md)**
-
-Support depends on the exact follower, leader revision, and software path. LD compatibility, HD button behavior, teleoperation, and learning workflows are tracked separately. Pending documentation is not a tested compatibility claim.
 
 <a id="hardware-resources"></a>
 <a id="hardware-resource-status"></a>

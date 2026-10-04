@@ -42,19 +42,19 @@
 
 ## 📑 目录
 
-- [产品介绍](#introduction)
-- [购买入口](#where-to-buy)
-- [探索网页控制器](#web-controller)
-- [运行第一个 AI 任务](#run-your-first-ai-task)
-- [跨品牌从臂兼容性](#cross-brand-pairings)
-- [硬件资料](hardware/README.zh.md)
-- [LeRobot](lerobot/README.md)
-- [自然语言控制](integrations/butterfly/README.zh-CN.md)
-- [ROS 2 Humble](ros2-humble/README.zh.md)
-- [Python SDK](python-sdk/README.md)
-- [控制与配置工具](tools/README.md)
+- [📖 产品介绍](#introduction)
+- [🛒 购买入口](#where-to-buy)
+- [🌐 跨品牌从臂兼容性](#cross-brand-pairings)
+- [🎛️ 探索网页控制器](#web-controller)
+- [🤖 运行第一个 AI 任务](#run-your-first-ai-task)
+- [⚙️ 产品规格与硬件资料](hardware/README.zh.md#product-specifications)
+- [🤗 LeRobot](lerobot/README.md)
+- [💬 自然语言控制](integrations/butterfly/README.zh-CN.md)
+- [🦾 ROS 2 Humble](ros2-humble/README.zh.md)
+- [🐍 Python SDK](python-sdk/README.md)
+- [🧰 控制与配置工具](tools/README.md)
 
-[开发路径与目录结构](#development-paths) · [相关项目](#related-projects)
+[🛠️ 开发路径与目录结构](#development-paths) · [🔗 相关项目](#related-projects)
 
 ---
 
@@ -62,14 +62,15 @@
 
 ## 📖 产品介绍
 
-Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接机械臂，使用 Python 和 LeRobot，或体验已发布的 ACT 积木放置策略。本仓库汇集首次安装及后续开发所需的代码、硬件资源与指南。
+Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的机械臂平台，用于遥操作、示范数据采集和 LeRobot 学习流程。
 
-| 🦾 6+1 自由度 | 🎮 通过示范学习 | 🤖 体验预训练策略 |
-| :---: | :---: | :---: |
-| 六个机械臂关节及一个夹爪控制通道 | 使用 LD 或 HD 主臂遥操作 | 从提供的 ACT 积木放置模型开始 |
-| [了解硬件](docs/specifications.md) | [配置遥操作](python-sdk/README.md) | [打开模型指南](lerobot/examples/act_pick/README.zh.md) |
+- **6+1 自由度** — FL 从臂采用六个机械臂关节及一个夹爪通道，LD／HD 主臂配有对应的手柄控制通道。
+- **420 mm 臂展** — LD、HD、FL 三款均采用该臂展，适用于桌面操作场景。
+- **500g 工作负载** — 102-FL 从臂配备两个高扭矩无刷总线舵机关节，用于任务执行。
+- **两种示教主臂** — 轻量型 102-LD 适合自由手动引导；姿态保持型 102-HD 采用高扭矩空心杯总线舵机，适合稳定示范。
+- **ACT 预训练任务** — 完成指定环境、校准和双相机配置后，即可在 102-FL 上运行提供的积木放置策略，无需重新训练。
 
-LD 和 HD 是示教主臂，FL 是执行任务的从臂；仅有主臂不能运行自主 ACT 任务。
+[查看规格](docs/specifications.md) · [配置遥操作](python-sdk/README.md) · [打开 ACT 指南](lerobot/examples/act_pick/README.zh.md)
 
 <a id="where-to-buy"></a>
 
@@ -86,6 +87,23 @@ LD 和 HD 是示教主臂，FL 是执行任务的从臂；仅有主臂不能运�
 | **[购买&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **任务执行从臂**：配备两个高扭矩无刷总线舵机关节，用于遥操作和策略执行，标称工作负载 500g |
 
 **中文购买入口：** [淘宝购买](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433)。请在商品页面选择所需型号及整机／套件选项。
+
+<a id="cross-brand-pairings"></a>
+
+## 🌐 一个主臂，多种机器人平台
+
+已有其他品牌的从臂？按从臂型号查看 Star Arm 102-LD／HD 的搭配资料，再选择对应的 Python 或 LeRobot 路径。
+
+| 从臂 | 搭配资料 | 当前状态 |
+| --- | --- | --- |
+| **Seeed reBot B601** | [打开 reBot 搭配指南](integrations/seeed-rebot/README.md) | 已有 B601-DM 上游 LeRobot 指南 |
+| **YAM** | [查看 YAM 搭配](integrations/yam/README.md) | 具体型号和安装指南待确认 |
+| **Galaxea A1** | [查看 A1 搭配](integrations/galaxea-a1/README.md) | 安装指南和验证记录待补充 |
+| **Lumos Touch** | [查看 Touch 搭配](integrations/lumos-touch/README.md) | 安装指南和验证记录待补充 |
+
+**[查找搭配方案 →](integrations/README.md)** · **[核对能力与验证依据 →](integrations/compatibility.md)**
+
+支持范围取决于具体从臂、主臂版本及软件路径。LD 兼容性、HD 按键行为、遥操作和学习流程分别记录。待完善的文档不代表已验证的兼容性。
 
 <a id="control-and-configuration-tools"></a>
 <a id="web-controller"></a>
@@ -128,23 +146,6 @@ LD 和 HD 是示教主臂，FL 是执行任务的从臂；仅有主臂不能运�
 - [运行预训练模型](lerobot/examples/act_pick/inference.md)：下载、相机配置、校准及首次运行。
 - [模型发布版本与原始视频](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0)。
 - [训练自己的任务](lerobot/examples/act_pick/training.md)：后续步骤及当前文档状态。
-
-<a id="cross-brand-pairings"></a>
-
-## 🌐 一个主臂，多种机器人平台
-
-已有其他品牌的从臂？按从臂型号查看 Star Arm 102-LD／HD 的搭配资料，再选择对应的 Python 或 LeRobot 路径。
-
-| 从臂 | 搭配资料 | 当前状态 |
-| --- | --- | --- |
-| **Seeed reBot B601** | [打开 reBot 搭配指南](integrations/seeed-rebot/README.md) | 已有 B601-DM 上游 LeRobot 指南 |
-| **YAM** | [查看 YAM 搭配](integrations/yam/README.md) | 具体型号和安装指南待确认 |
-| **Galaxea A1** | [查看 A1 搭配](integrations/galaxea-a1/README.md) | 安装指南和验证记录待补充 |
-| **Lumos Touch** | [查看 Touch 搭配](integrations/lumos-touch/README.md) | 安装指南和验证记录待补充 |
-
-**[查找搭配方案 →](integrations/README.md)** · **[核对能力与验证依据 →](integrations/compatibility.md)**
-
-支持范围取决于具体从臂、主臂版本及软件路径。LD 兼容性、HD 按键行为、遥操作和学习流程分别记录。待完善的文档不代表已验证的兼容性。
 
 <a id="hardware-resources"></a>
 <a id="hardware-resource-status"></a>

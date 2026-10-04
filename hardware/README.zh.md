@@ -8,6 +8,20 @@
 
 LD 和 HD 共用主体机械结构。HD 另外有按钮底座、按钮盖和 UK-01 按键板，舵机、线材及紧固件选型也不同。各型号提供独立下载入口，客户无需自行合并共用 BOM 和差异清单。
 
+<a id="product-specifications"></a>
+
+## 产品规格书
+
+三款产品的规格入口集中列在下方。目前仓库尚未收录可识别的独立产品规格书 PDF；现有机械图纸不作为产品规格书。文件补齐前，可查看对应官方产品页面的规格信息。
+
+| 资料 | 102-LD | 102-HD | 102-FL |
+| --- | --- | --- | --- |
+| 产品定位 | 轻量示教主臂 | 姿态保持示教主臂 | 任务执行从臂 |
+| 官方产品规格 | [查看 LD 规格](https://fashionstar.com.hk/store/product/star-arm-102-ld/) | [查看 HD 规格](https://fashionstar.com.hk/store/product/star-arm-102-hd/) | [查看 FL 规格](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
+| 独立规格书 PDF | 待补充 | 待补充 | 待补充 |
+
+[系列规格与关节映射](../docs/specifications.md) · [机械资料状态](#resource-status)
+
 ## 目录结构
 
 下方展开 LD 的目录。HD 和 FL 采用相同的资源分类；LD 额外列出的 drawings/images 目录存放已有图纸预览。省略具体下载文件及历史资料。

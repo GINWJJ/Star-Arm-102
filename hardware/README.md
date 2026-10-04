@@ -9,6 +9,20 @@ Choose your exact model: **[102-LD](102-ld/README.md)** · **[102-HD](102-hd/REA
 
 LD and HD share their main mechanical body. HD additionally has a button base, button cover and UK-01 board, and different servo, cable and fastener selections. Each model has its own downloads so customers do not need to combine a common BOM with a difference list.
 
+<a id="product-specifications"></a>
+
+## Product specifications & datasheets
+
+Compare the three models using the entries below. No standalone product datasheet PDFs have been identified in this repository yet; mechanical drawings are separate resources. Until the datasheets are added, consult the specifications on each official product page.
+
+| Resource | 102-LD | 102-HD | 102-FL |
+| --- | --- | --- | --- |
+| Product role | Lightweight leader | Pose-holding leader | Follower for task execution |
+| Official product specifications | [View LD specifications](https://fashionstar.com.hk/store/product/star-arm-102-ld/) | [View HD specifications](https://fashionstar.com.hk/store/product/star-arm-102-hd/) | [View FL specifications](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
+| Standalone datasheet PDF | Pending | Pending | Pending |
+
+[Series specifications and joint mapping](../docs/specifications.md) · [Mechanical resource status](#resource-status)
+
 ## Directory structure
 
 The LD layout is expanded below. HD and FL use the same resource categories; the additional drawings/images directory shown under LD contains its existing drawing preview. Individual downloads and historical files are omitted.
