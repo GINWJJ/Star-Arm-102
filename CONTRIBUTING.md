@@ -6,7 +6,7 @@ Use [GitHub Issues](https://github.com/servodevelop/Star-Arm-102/issues/new/choo
 
 English remains the default entry. Where a Chinese README exists, both languages are full, synchronized versions: preserve section order, images, tables, navigation, commands, compatibility limits, and validation status. Update both in the same change whenever fixing or extending either language. Use `README.md` and `README.zh.md`; keep the existing Butterfly `README.zh-CN.md` path for link compatibility. Do not add duplicate underscore-named entry pages.
 
-Current README pairs must not become short summaries of one another. Historical material is explicitly archived and linked from both versions; archives are not current instructions. Detailed documents without a translation may remain English-only. Check translation meaning manually; automated structural checks cannot establish semantic equivalence.
+Current README pairs must not become short summaries of one another. Organize resources around customer tasks and avoid duplicate content or internal handoff/cost records. Retain older resources only when useful for a supported version, with the applicable version clearly labeled; do not publish files solely for archival purposes. Git history preserves removed content. Detailed documents without a translation may remain English-only. Check translation meaning manually; automated structural checks cannot establish semantic equivalence.
 
 Preserve existing package names, source directory paths, and model release links unless a migration is explicitly documented. Do not put model weights, local datasets, calibration files, or virtual environments into Git.
 

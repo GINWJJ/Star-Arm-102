@@ -2,20 +2,53 @@
 
 [English](README.md) · [简体中文](README.zh.md)
 
-[Hardware index and status](../README.md) · [Handoff review](../handoff-review.md)
+[← Hardware Resources](../README.md) · [Bill of Materials](#bill-of-materials)
 
-Lightweight, hand-guided leader for teaching, teleoperation, and demonstration collection. Torque-disabled joints move freely. Shares its main body with HD, but uses the LD servo and accessory selection.
+| Directory | Description | Status |
+| --- | --- | --- |
+| [assembly-guide/](assembly-guide/README.md) | Main arm assembly video | ✅ Video available<br>🟡 Revision and wiring coverage under review |
+| [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
+| [printing/](printing/) | Printing project in 3mf/; standalone print files in stl/ | ✅ Combined 3MF available; — STL not supplied<br>🟡 Print validation pending |
+| [drawings/](drawings/README.md) | PDF / DWG drawings | ✅ Reference files available<br>🟡 Revision under review |
+| [robot-description/](robot-description/README.md) | Model-specific URDF and meshes | — To be added |
 
-| Resource | Current status |
-| --- | --- |
-| [Part STEP](step/parts/README.md) | 11/11 main printed parts present; production revision unconfirmed |
-| [Assembly STEP](step/assembly/README.md) | Shared LD/HD assembly available (July 21 export); file-set alignment under review |
-| [Printing](printing/README.md) | 3MF reference available; standalone STL missing; print validation pending |
-| [Excel BOM](bom/README.md) | Original handoff workbook available for review |
-| [Drawings](drawings/README.md) | PDF/DWG reference available; version reconciliation pending |
-| [Robot description](robot-description/README.md) | Directory prepared; model-specific URDF and meshes not approved |
-| [Assembly guide](assembly-guide/README.md) | Main arm assembly video available; hardware revision and wiring coverage pending review |
+<a id="bill-of-materials"></a>
 
-File coverage does not establish fit, strength, kinematic accuracy or a matched hardware release. See individual download notes before using files.
+## Bill of Materials
 
-[Historical Chinese material (not the current operating guide)](legacy-guide.zh.md)
+The table below lists **28 assembly items** for 102-LD. Missing images are marked pending.
+
+Printed-part names match the STEP filenames; future individual STL / 3MF files will use the same names. Print settings in Notes are references pending physical print validation.
+
+| No. | Name | Image | Description | Quantity | Notes |
+| :---: | --- | :---: | --- | :---: | --- |
+| 1 | [star-arm-102-base-bottom](step/parts/star-arm-102-base-bottom.step) | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 2 | [star-arm-102-base-top](step/parts/star-arm-102-base-top.step) | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D printed part (ivory) | 1 | Settings vary by region; see 3MF |
+| 3 | [star-arm-102-link1](step/parts/star-arm-102-link1.step) | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 50% infill |
+| 4 | [star-arm-102-link2](step/parts/star-arm-102-link2.step) | <img src="images/star-arm-102-link2.png" alt="star-arm-102-link2" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 10% infill |
+| 5 | [star-arm-102-link3](step/parts/star-arm-102-link3.step) | <img src="images/star-arm-102-link3.png" alt="star-arm-102-link3" width="90"> | PLA 3D printed part (ivory + black) | 1 | Settings vary by region; see 3MF |
+| 6 | [star-arm-102-link4](step/parts/star-arm-102-link4.step) | <img src="images/star-arm-102-link4.png" alt="star-arm-102-link4" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 7 | [star-arm-102-link5](step/parts/star-arm-102-link5.step) | <img src="images/star-arm-102-link5.png" alt="star-arm-102-link5" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 8 | [star-arm-102-link6-handle](step/parts/star-arm-102-link6-handle.step) | <img src="images/star-arm-102-link6-handle.png" alt="star-arm-102-link6-handle" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 15% infill |
+| 9 | [star-arm-102-handle](step/parts/star-arm-102-handle.step) | <img src="images/star-arm-102-handle.png" alt="star-arm-102-handle" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 10 | [star-arm-102-finger-ring-left](step/parts/star-arm-102-finger-ring-left.step) | <img src="images/star-arm-102-finger-ring-left.png" alt="star-arm-102-finger-ring-left" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 11 | [star-arm-102-finger-ring-right](step/parts/star-arm-102-finger-ring-right.step) | <img src="images/star-arm-102-finger-ring-right.png" alt="star-arm-102-finger-ring-right" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 12 | Thrust needle roller bearing | Pending | AXK2035 + 2AS | 1 | Installed part |
+| 13 | UC-01 board | Pending | DC power lead: 0.75 mm², 5.5 × 2.1 mm female, 0.15 m | 1 | Installed part |
+| 14 | 120 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 5 | Installed part |
+| 15 | 200 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 2 | Installed part |
+| 16 | M3 × 10 socket-head screw | Pending | HSCS, grade 12.9 | 1 | Installed part |
+| 17 | M3 × 22 socket-head screw | Pending | Black finish | 4 | Installed part |
+| 18 | M3 × 10 Phillips screw | Pending | Hardened, black finish | 1 | Installed part |
+| 19 | PB2.0 × 5 self-tapping screw | Pending | Phillips countersunk, hardened, black finish | 39 | Installed part |
+| 20 | M2 × 4.5 Phillips screw | Pending | Countersunk, black finish, pre-applied threadlocker | 35 | Installed part |
+| 21 | M2 × 8 socket-head screw | Pending | Black finish | 16 | Installed part |
+| 22 | M2 × 10 socket-head screw | Pending | Black finish | 8 | Installed part |
+| 23 | M3 × 12 self-tapping screw | Pending | Phillips head | 2 | Installed part |
+| 24 | M3 locknut | Pending | Black finish | 5 | Installed part |
+| 25 | M3 washer | Pending | Stainless steel | 1 | Installed part |
+| 26 | RA8-U01H-M | Pending | Light lubrication; firmware V225 | 4 | Installed part |
+| 27 | RA8-U03H-M | Pending | Light lubrication; single-shaft rear cover; firmware V225 | 2 | Installed part |
+| 28 | RA8-U02H-M | Pending | Light lubrication; D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
+
+Found an error in these resources or need help? Contact our [Support Hub](https://fashionstar.com.hk/support/) with your model and the relevant file or item.

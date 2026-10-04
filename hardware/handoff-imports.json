@@ -178,20 +178,6 @@
       "note": "PDF title block dated 2026/7/13. DWG is its handoff-named companion; CAD geometry not independently compared to PDF."
     },
     {
-      "source": "star arm 102BOM表/Star Arm 102-LD(9.10) - BOM.xlsx",
-      "destination": "102-ld/bom/bom-102-ld-handoff-09-10.xlsx",
-      "sha256": "673d1c1c33e949f1ed36844c9eca70d0ffb88fabe444b676d4ac6a9f8bb41d8a",
-      "kind": "bom-reference",
-      "note": "Unmodified Chinese handoff workbook. Image errors/internal production notes and version applicability require review; not an approved English customer BOM."
-    },
-    {
-      "source": "star arm 102BOM表/Star Arm 102-LD散件(9.10) - BOM.xlsx",
-      "destination": "102-ld/bom/bom-102-ld-kit-handoff-09-10.xlsx",
-      "sha256": "83a180938497827a372979635ce9b332ce13d3f31c9dabc24407e27226e16f38",
-      "kind": "bom-reference",
-      "note": "Unmodified Chinese handoff workbook. Image errors/internal production notes and version applicability require review; not an approved English customer BOM."
-    },
-    {
       "source": "star arm 102BOM表/Star Arm 102-HD - BOM(9.10) .xlsx",
       "destination": "102-hd/bom/bom-102-hd-handoff-09-10.xlsx",
       "sha256": "53d3e1d454c46635bc9c48019c4ca4d98b0c19d4ed2579d8432c4b8ff5e8ab97",

@@ -117,20 +117,16 @@
     "bytes": 6321124,
     "sha256": "673d1c1c33e949f1ed36844c9eca70d0ffb88fabe444b676d4ac6a9f8bb41d8a",
     "extension": ".xlsx",
-    "disposition": "copied-reference",
-    "destinations": [
-      "102-ld/bom/bom-102-ld-handoff-09-10.xlsx"
-    ]
+    "disposition": "excluded-internal-bom",
+    "note": "Removed from customer resources; assembly items are presented in 102-ld/README.md."
   },
   {
     "source": "star arm 102BOM表/Star Arm 102-LD散件(9.10) - BOM.xlsx",
     "bytes": 5684991,
     "sha256": "83a180938497827a372979635ce9b332ce13d3f31c9dabc24407e27226e16f38",
     "extension": ".xlsx",
-    "disposition": "copied-reference",
-    "destinations": [
-      "102-ld/bom/bom-102-ld-kit-handoff-09-10.xlsx"
-    ]
+    "disposition": "excluded-internal-bom",
+    "note": "Removed from customer resources; assembly items are presented in 102-ld/README.md."
   },
   {
     "source": "star arm 102BOM表/~$Star Arm 102-LD(9.10) - BOM.xlsx",

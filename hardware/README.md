@@ -30,7 +30,7 @@ Explore your model: **[102-LD](102-ld/README.md)** · **[102-HD](102-hd/README.m
 
 ## Directory structure
 
-The LD layout is expanded below. HD and FL use the same resource categories; the additional drawings/images directory shown under LD contains its existing drawing preview. Individual downloads and historical files are omitted.
+The LD layout is expanded below. HD and FL retain their existing layouts, including separate BOM directories; the additional drawings/images directory shown under LD contains its existing drawing preview. Individual downloads and historical files are omitted.
 
 ```text
 hardware/
@@ -50,7 +50,7 @@ hardware/
 │   │   ├── pdf/
 │   │   ├── cad/
 │   │   └── images/
-│   ├── bom/
+│   ├── images/
 │   ├── assembly-guide/
 │   │   └── images/
 │   └── robot-description/
@@ -84,7 +84,7 @@ As of 2026-10-04. **Available** means the named file set is present. **Partial**
 | Whole-arm STEP | Shared LD/HD export 2026-07-21; file-set alignment under review | Shared LD/HD export 2026-07-21; file-set alignment under review | Review: FL export 2026-09-27; July 3 reference retained |
 | Standalone printing STL | Missing | Missing | Missing |
 | 3MF printing project | Review: date/version confirmation | Review: date/version confirmation | Conflict: link1 settings versus BOM |
-| Excel BOM | Review: assembled and kit references | Review: handoff reference | Review: overseas-shipment reference |
+| BOM | [LD table](102-ld/README.md#bill-of-materials); 28 assembly items | Review: handoff reference | Review: overseas-shipment reference |
 | PDF / DWG drawings | Review: July 13 reference and older files | Partial: shared LD geometry reference only | Review: July 13 reference |
 | Model-specific URDF and meshes | Missing: candidate held for review | Missing | Missing: unlabelled candidate held for review |
 | Assembly guide / videos | Partial: [main arm assembly video](102-ld/assembly-guide/README.md) available; revision and wiring coverage under review | Partial: [LD video with HD servo substitution](102-hd/assembly-guide/README.md); HD button instructions pending | Partial: [assembly video](102-fl/assembly-guide/README.md) available; revision and wiring coverage under review |
