@@ -79,7 +79,7 @@ As of 2026-10-04. **Available** means the named file set is present. **Partial**
 | Main printed-part STEP coverage | Available: 11/11 named parts | Available: 13/13, including 2 HD button parts | Available: 11/11 named parts |
 | Whole-arm STEP | Shared LD/HD export 2026-07-21; file-set alignment under review | Shared LD/HD export 2026-07-21; file-set alignment under review | Review: FL export 2026-09-27; July 3 reference retained |
 | Standalone printing STL | Missing | Missing | Missing |
-| 3MF printing project | Review: date/version confirmation | Review: date/version confirmation | Conflict: link1 settings versus BOM |
+| 3MF printing project | 11 individual parts and combined project available; slicing checked, physical print validation pending | Review: date/version confirmation | Conflict: link1 settings versus BOM |
 | BOM | [LD table](102-ld/README.md#bill-of-materials); 28 assembly items | Review: handoff reference | Review: overseas-shipment reference |
 | PDF / DWG drawings | Review: July 13 reference | Partial: shared LD geometry reference only | Review: July 13 reference |
 | Model-specific URDF and meshes | Shared LD/HD ZIP (ROS 1); RViz configuration incomplete; limits and runtime validation pending | Shared LD/HD ZIP (ROS 1); RViz configuration incomplete; limits and runtime validation pending | Missing: unlabelled candidate held for review |

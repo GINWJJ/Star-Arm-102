@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | [assembly-guide/](assembly-guide/README.zh.md) | 主体机械臂装配视频 | ✅ 视频已提供<br>🟡 版本及接线覆盖待核对 |
 | [step/](step/) | parts/ 零件模型；assembly/ 共用装配模型 | ✅ 文件已提供<br>🟡 配套版本待核对 |
-| [printing/](printing/) | 3mf/ 打印项目；stl/ 独立打印文件 | ✅ 整套 3MF 已提供；— STL 未提供<br>🟡 打印待验证 |
+| [printing/](printing/) | 3mf/ 打印项目；stl/ 独立打印文件 | ✅ 11 个独立零件 3MF 及整套项目已提供；— STL 未提供<br>🟡 打印待验证 |
 | [drawings/](drawings/) | PDF／DWG 图纸 | ✅ 参考文件已提供<br>🟡 版本待核对 |
 | [robot-description/](robot-description/) | LD/HD 通用 URDF 模型 ZIP，含网格（ROS 1） | ✅ 压缩包已提供<br>🟡 RViz 配置待补；关节限位及运行待验证 |
 
@@ -18,7 +18,7 @@
 
 下表列出 102-LD 的 **28 项装机物料**；无图片的条目标为待补。
 
-打印件名称与 STEP 文件名一致；后续独立 STL／3MF 文件使用同一名称。备注中的打印参数仅供参考，尚未完成实物打印验证。
+打印件名称与 STEP 及独立 3MF 文件名一致；后续 STL 文件使用同一名称。备注中的打印参数仅供参考，尚未完成实物打印验证。
 
 | 序号 | 名称 | 图片 | 描述 | 数量 | 备注 |
 | :---: | --- | :---: | --- | :---: | --- |

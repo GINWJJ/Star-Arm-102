@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | [assembly-guide/](assembly-guide/README.md) | Main arm assembly video | ✅ Video available<br>🟡 Revision and wiring coverage under review |
 | [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
-| [printing/](printing/) | Printing project in 3mf/; standalone print files in stl/ | ✅ Combined 3MF available; — STL not supplied<br>🟡 Print validation pending |
+| [printing/](printing/) | Printing project in 3mf/; standalone print files in stl/ | ✅ 11 individual 3MF files and combined project available; — STL not supplied<br>🟡 Print validation pending |
 | [drawings/](drawings/) | PDF / DWG drawings | ✅ Reference files available<br>🟡 Revision under review |
 | [robot-description/](robot-description/) | Shared LD/HD URDF model ZIP, including meshes (ROS 1) | ✅ Package available<br>🟡 RViz configuration incomplete; joint limits and runtime validation pending |
 
@@ -18,7 +18,7 @@
 
 The table below lists **28 assembly items** for 102-LD. Missing images are marked pending.
 
-Printed-part names match the STEP filenames; future individual STL / 3MF files will use the same names. Print settings in Notes are references pending physical print validation.
+Printed-part names match the STEP and individual 3MF filenames; future STL files will use the same names. Print settings in Notes are references pending physical print validation.
 
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |
