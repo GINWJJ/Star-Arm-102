@@ -30,7 +30,7 @@
 
 ## 目录结构
 
-下方展开 LD 的目录。HD 和 FL 暂时保留原有布局，包括独立 BOM 目录；LD 额外列出的 drawings/images 目录存放已有图纸预览。省略具体下载文件及历史资料。
+下方展开 LD 的目录。HD 和 FL 暂时保留原有布局，包括独立 BOM 目录。省略具体下载文件及历史资料。
 
 ```text
 hardware/
@@ -47,15 +47,11 @@ hardware/
 │   │   ├── stl/
 │   │   └── 3mf/
 │   ├── drawings/
-│   │   ├── pdf/
-│   │   ├── cad/
-│   │   └── images/
 │   ├── images/
 │   ├── assembly-guide/
 │   │   └── images/
 │   └── robot-description/
-│       ├── urdf/
-│       └── meshes/
+│       └── star-arm-102-ld-hd-urdf.zip
 ├── 102-hd/
 ├── 102-fl/
 ├── robot-description/
@@ -70,7 +66,7 @@ hardware/
 └── handoff-step-validation.json
 ```
 
-`step/assembly/` 存放 CAD 装配模型；`assembly-guide/` 用于客户装配说明。各型号的 `robot-description/` 记录待补资源，共用的 `hardware/robot-description/` 则存放现有 ROS 模型。部分目录目前只有 README，请在下载或制造前核对资源状态表。
+`step/assembly/` 存放 CAD 装配模型；`assembly-guide/` 用于客户装配说明。LD 和 HD 的 `robot-description/` 提供通用 URDF 模型 ZIP；FL 资料待补，共用的 `hardware/robot-description/` 则存放现有 ROS 模型。部分目录目前只有 README，请在下载或制造前核对资源状态表。
 
 <a id="resource-status"></a>
 
@@ -85,8 +81,8 @@ hardware/
 | 独立打印 STL | 缺失 | 缺失 | 缺失 |
 | 3MF 打印项目 | 待核对：日期／版本 | 待核对：日期／版本 | 冲突：link1 参数与 BOM 不同 |
 | 物料清单 | [LD 表格](102-ld/README.zh.md#bill-of-materials)；28 项装机物料 | 待核对：交接参考清单 | 待核对：海外出货参考清单 |
-| PDF／DWG 图纸 | 待核对：7 月 13 日参考图及旧文件 | 部分提供：仅共用 LD 几何参考 | 待核对：7 月 13 日参考图 |
-| 型号专用 URDF 和网格 | 缺失：候选文件暂缓采用，待核对 | 缺失 | 缺失：无型号标识的候选文件待核对 |
+| PDF／DWG 图纸 | 待核对：7 月 13 日参考图 | 部分提供：仅共用 LD 几何参考 | 待核对：7 月 13 日参考图 |
+| 型号专用 URDF 和网格 | LD/HD 通用 ZIP（ROS 1）；RViz 配置待补；限位及运行待验证 | LD/HD 通用 ZIP（ROS 1）；RViz 配置待补；限位及运行待验证 | 缺失：无型号标识的候选文件待核对 |
 | 装配指南／视频 | 部分提供：[主体机械臂装配视频](102-ld/assembly-guide/README.zh.md)已提供；版本及接线覆盖范围待核对 | 部分提供：[参考 LD 视频并替换 HD 舵机](102-hd/assembly-guide/README.zh.md)；HD 按钮安装说明待补充 | 部分提供：[装配视频](102-fl/assembly-guide/README.zh.md)已提供；版本及接线覆盖范围待核对 |
 | 已确认生产版本／实物验证 | 待完成 | 待完成 | 待完成 |
 

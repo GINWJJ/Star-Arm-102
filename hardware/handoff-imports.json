@@ -151,14 +151,14 @@
     },
     {
       "source": "star arm 102图纸/Star Arm 102-LD .pdf",
-      "destination": "102-ld/drawings/pdf/star-arm-102-ld-drawing-2026-07-13.pdf",
+      "destination": "102-ld/drawings/star-arm-102-ld-drawing-2026-07-13.pdf",
       "sha256": "8d42f6123cbf3bfee81e7b291a844fffc48d30add775a2f80b0dc8013201ef20",
       "kind": "drawing",
       "note": "PDF title block dated 2026/7/13. DWG is its handoff-named companion; CAD geometry not independently compared to PDF."
     },
     {
       "source": "star arm 102图纸/Star Arm 102-LD.DWG",
-      "destination": "102-ld/drawings/cad/star-arm-102-ld-drawing-2026-07-13.dwg",
+      "destination": "102-ld/drawings/star-arm-102-ld-drawing-2026-07-13.dwg",
       "sha256": "b9dfde8905d2c194bb889b51579b75dca5ee6e318ff08cae9398017c52586b57",
       "kind": "drawing",
       "note": "PDF title block dated 2026/7/13. DWG is its handoff-named companion; CAD geometry not independently compared to PDF."

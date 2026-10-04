@@ -196,7 +196,7 @@ The ACT release and the refactored HD/FL integration use different joint represe
 
 ### Repository structure
 
-The `102-ld/` layout is expanded to show where hardware resources belong; `102-hd/` and `102-fl/` retain their existing layouts, including separate BOM directories. LD additionally includes `drawings/images/` for existing drawing previews. Individual files, historical guides, and local caches are omitted.
+The `102-ld/` layout is expanded to show where hardware resources belong; `102-hd/` and `102-fl/` retain their existing layouts, including separate BOM directories. Individual files, historical guides, and local caches are omitted.
 
 ```text
 Star-Arm-102/
@@ -211,14 +211,10 @@ Star-Arm-102/
 │   │   │   ├── stl/
 │   │   │   └── 3mf/
 │   │   ├── drawings/
-│   │   │   ├── pdf/
-│   │   │   ├── cad/
-│   │   │   └── images/
 │   │   ├── images/
 │   │   ├── assembly-guide/
 │   │   └── robot-description/
-│   │       ├── urdf/
-│   │       └── meshes/
+│   │       └── star-arm-102-ld-hd-urdf.zip
 │   ├── 102-hd/
 │   ├── 102-fl/
 │   └── robot-description/

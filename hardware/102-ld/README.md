@@ -9,8 +9,8 @@
 | [assembly-guide/](assembly-guide/README.md) | Main arm assembly video | ✅ Video available<br>🟡 Revision and wiring coverage under review |
 | [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
 | [printing/](printing/) | Printing project in 3mf/; standalone print files in stl/ | ✅ Combined 3MF available; — STL not supplied<br>🟡 Print validation pending |
-| [drawings/](drawings/README.md) | PDF / DWG drawings | ✅ Reference files available<br>🟡 Revision under review |
-| [robot-description/](robot-description/README.md) | Model-specific URDF and meshes | — To be added |
+| [drawings/](drawings/) | PDF / DWG drawings | ✅ Reference files available<br>🟡 Revision under review |
+| [robot-description/](robot-description/) | Shared LD/HD URDF model ZIP, including meshes (ROS 1) | ✅ Package available<br>🟡 RViz configuration incomplete; joint limits and runtime validation pending |
 
 <a id="bill-of-materials"></a>
 
@@ -22,17 +22,17 @@ Printed-part names match the STEP filenames; future individual STL / 3MF files w
 
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |
-| 1 | [star-arm-102-base-bottom](step/parts/star-arm-102-base-bottom.step) | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
-| 2 | [star-arm-102-base-top](step/parts/star-arm-102-base-top.step) | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D printed part (ivory) | 1 | Settings vary by region; see 3MF |
-| 3 | [star-arm-102-link1](step/parts/star-arm-102-link1.step) | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 50% infill |
-| 4 | [star-arm-102-link2](step/parts/star-arm-102-link2.step) | <img src="images/star-arm-102-link2.png" alt="star-arm-102-link2" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 10% infill |
-| 5 | [star-arm-102-link3](step/parts/star-arm-102-link3.step) | <img src="images/star-arm-102-link3.png" alt="star-arm-102-link3" width="90"> | PLA 3D printed part (ivory + black) | 1 | Settings vary by region; see 3MF |
-| 6 | [star-arm-102-link4](step/parts/star-arm-102-link4.step) | <img src="images/star-arm-102-link4.png" alt="star-arm-102-link4" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
-| 7 | [star-arm-102-link5](step/parts/star-arm-102-link5.step) | <img src="images/star-arm-102-link5.png" alt="star-arm-102-link5" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
-| 8 | [star-arm-102-link6-handle](step/parts/star-arm-102-link6-handle.step) | <img src="images/star-arm-102-link6-handle.png" alt="star-arm-102-link6-handle" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 15% infill |
-| 9 | [star-arm-102-handle](step/parts/star-arm-102-handle.step) | <img src="images/star-arm-102-handle.png" alt="star-arm-102-handle" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
-| 10 | [star-arm-102-finger-ring-left](step/parts/star-arm-102-finger-ring-left.step) | <img src="images/star-arm-102-finger-ring-left.png" alt="star-arm-102-finger-ring-left" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
-| 11 | [star-arm-102-finger-ring-right](step/parts/star-arm-102-finger-ring-right.step) | <img src="images/star-arm-102-finger-ring-right.png" alt="star-arm-102-finger-ring-right" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 1 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 2 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D printed part (ivory) | 1 | Settings vary by region; see 3MF |
+| 3 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 50% infill |
+| 4 | star-arm-102-link2 | <img src="images/star-arm-102-link2.png" alt="star-arm-102-link2" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 10% infill |
+| 5 | star-arm-102-link3 | <img src="images/star-arm-102-link3.png" alt="star-arm-102-link3" width="90"> | PLA 3D printed part (ivory + black) | 1 | Settings vary by region; see 3MF |
+| 6 | star-arm-102-link4 | <img src="images/star-arm-102-link4.png" alt="star-arm-102-link4" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 7 | star-arm-102-link5 | <img src="images/star-arm-102-link5.png" alt="star-arm-102-link5" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 8 | star-arm-102-link6-handle | <img src="images/star-arm-102-link6-handle.png" alt="star-arm-102-link6-handle" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 15% infill |
+| 9 | star-arm-102-handle | <img src="images/star-arm-102-handle.png" alt="star-arm-102-handle" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 10 | star-arm-102-finger-ring-left | <img src="images/star-arm-102-finger-ring-left.png" alt="star-arm-102-finger-ring-left" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 11 | star-arm-102-finger-ring-right | <img src="images/star-arm-102-finger-ring-right.png" alt="star-arm-102-finger-ring-right" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 12 | Thrust needle roller bearing | Pending | AXK2035 + 2AS | 1 | Installed part |
 | 13 | UC-01 board | Pending | DC power lead: 0.75 mm², 5.5 × 2.1 mm female, 0.15 m | 1 | Installed part |
 | 14 | 120 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 5 | Installed part |

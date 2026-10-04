@@ -9,8 +9,8 @@
 | [assembly-guide/](assembly-guide/README.zh.md) | 主体机械臂装配视频 | ✅ 视频已提供<br>🟡 版本及接线覆盖待核对 |
 | [step/](step/) | parts/ 零件模型；assembly/ 共用装配模型 | ✅ 文件已提供<br>🟡 配套版本待核对 |
 | [printing/](printing/) | 3mf/ 打印项目；stl/ 独立打印文件 | ✅ 整套 3MF 已提供；— STL 未提供<br>🟡 打印待验证 |
-| [drawings/](drawings/README.zh.md) | PDF／DWG 图纸 | ✅ 参考文件已提供<br>🟡 版本待核对 |
-| [robot-description/](robot-description/README.md) | 型号专用 URDF 和网格 | — 待提供 |
+| [drawings/](drawings/) | PDF／DWG 图纸 | ✅ 参考文件已提供<br>🟡 版本待核对 |
+| [robot-description/](robot-description/) | LD/HD 通用 URDF 模型 ZIP，含网格（ROS 1） | ✅ 压缩包已提供<br>🟡 RViz 配置待补；关节限位及运行待验证 |
 
 <a id="bill-of-materials"></a>
 
@@ -22,17 +22,17 @@
 
 | 序号 | 名称 | 图片 | 描述 | 数量 | 备注 |
 | :---: | --- | :---: | --- | :---: | --- |
-| 1 | [star-arm-102-base-bottom](step/parts/star-arm-102-base-bottom.step) | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
-| 2 | [star-arm-102-base-top](step/parts/star-arm-102-base-top.step) | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D 打印件（象牙白） | 1 | 分区域参数，详见 3MF |
-| 3 | [star-arm-102-link1](step/parts/star-arm-102-link1.step) | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 5；填充 50% |
-| 4 | [star-arm-102-link2](step/parts/star-arm-102-link2.step) | <img src="images/star-arm-102-link2.png" alt="star-arm-102-link2" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 10% |
-| 5 | [star-arm-102-link3](step/parts/star-arm-102-link3.step) | <img src="images/star-arm-102-link3.png" alt="star-arm-102-link3" width="90"> | PLA 3D 打印件（象牙白＋黑色） | 1 | 分区域参数，详见 3MF |
-| 6 | [star-arm-102-link4](step/parts/star-arm-102-link4.step) | <img src="images/star-arm-102-link4.png" alt="star-arm-102-link4" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
-| 7 | [star-arm-102-link5](step/parts/star-arm-102-link5.step) | <img src="images/star-arm-102-link5.png" alt="star-arm-102-link5" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
-| 8 | [star-arm-102-link6-handle](step/parts/star-arm-102-link6-handle.step) | <img src="images/star-arm-102-link6-handle.png" alt="star-arm-102-link6-handle" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 5；填充 15% |
-| 9 | [star-arm-102-handle](step/parts/star-arm-102-handle.step) | <img src="images/star-arm-102-handle.png" alt="star-arm-102-handle" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
-| 10 | [star-arm-102-finger-ring-left](step/parts/star-arm-102-finger-ring-left.step) | <img src="images/star-arm-102-finger-ring-left.png" alt="star-arm-102-finger-ring-left" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
-| 11 | [star-arm-102-finger-ring-right](step/parts/star-arm-102-finger-ring-right.step) | <img src="images/star-arm-102-finger-ring-right.png" alt="star-arm-102-finger-ring-right" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
+| 1 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
+| 2 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D 打印件（象牙白） | 1 | 分区域参数，详见 3MF |
+| 3 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 5；填充 50% |
+| 4 | star-arm-102-link2 | <img src="images/star-arm-102-link2.png" alt="star-arm-102-link2" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 10% |
+| 5 | star-arm-102-link3 | <img src="images/star-arm-102-link3.png" alt="star-arm-102-link3" width="90"> | PLA 3D 打印件（象牙白＋黑色） | 1 | 分区域参数，详见 3MF |
+| 6 | star-arm-102-link4 | <img src="images/star-arm-102-link4.png" alt="star-arm-102-link4" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
+| 7 | star-arm-102-link5 | <img src="images/star-arm-102-link5.png" alt="star-arm-102-link5" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
+| 8 | star-arm-102-link6-handle | <img src="images/star-arm-102-link6-handle.png" alt="star-arm-102-link6-handle" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 5；填充 15% |
+| 9 | star-arm-102-handle | <img src="images/star-arm-102-handle.png" alt="star-arm-102-handle" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
+| 10 | star-arm-102-finger-ring-left | <img src="images/star-arm-102-finger-ring-left.png" alt="star-arm-102-finger-ring-left" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
+| 11 | star-arm-102-finger-ring-right | <img src="images/star-arm-102-finger-ring-right.png" alt="star-arm-102-finger-ring-right" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 12 | 滚针轴承 | 待补 | AXK2035+2AS | 1 | 装机件 |
 | 13 | PCBA | 待补 | UC-01，接DC圆头电源线，0.75平方5.5x2.1母头,0.15米 | 1 | 装机件 |
 | 14 | 线材 | 待补 | PH-3Y 双头反向60芯 0.08 黑色硅胶排线L=120 mm  黑色编织线 | 5 | 装机件 |

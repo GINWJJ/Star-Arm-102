@@ -117,7 +117,7 @@ Star Arm 102-HD 是 Star Arm 102 系列即将推出的新主臂型号
 
 - [Parts List](./hardware/README.md): 查看完整零件清单、数量和配件
 
-- [Engineering Drawings](./hardware/102-ld/drawings/README.md): 查看总装图、和制造图纸
+- [Engineering Drawings](./hardware/102-ld/drawings/): 查看总装图、和制造图纸
 
 - [Assembly Guide](./hardware/102-ld/assembly-guide/README.md): 查看装配顺序、注意事项和配图说明(等待完善中)
 

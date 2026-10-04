@@ -30,7 +30,7 @@ Explore your model: **[102-LD](102-ld/README.md)** · **[102-HD](102-hd/README.m
 
 ## Directory structure
 
-The LD layout is expanded below. HD and FL retain their existing layouts, including separate BOM directories; the additional drawings/images directory shown under LD contains its existing drawing preview. Individual downloads and historical files are omitted.
+The LD layout is expanded below. HD and FL retain their existing layouts, including separate BOM directories. Individual downloads and historical files are omitted.
 
 ```text
 hardware/
@@ -47,15 +47,11 @@ hardware/
 │   │   ├── stl/
 │   │   └── 3mf/
 │   ├── drawings/
-│   │   ├── pdf/
-│   │   ├── cad/
-│   │   └── images/
 │   ├── images/
 │   ├── assembly-guide/
 │   │   └── images/
 │   └── robot-description/
-│       ├── urdf/
-│       └── meshes/
+│       └── star-arm-102-ld-hd-urdf.zip
 ├── 102-hd/
 ├── 102-fl/
 ├── robot-description/
@@ -70,7 +66,7 @@ hardware/
 └── handoff-step-validation.json
 ```
 
-`step/assembly/` contains CAD assemblies; `assembly-guide/` is for customer assembly instructions. Model-specific `robot-description/` directories track pending resources, while the shared `hardware/robot-description/` contains the existing ROS model. A directory may currently contain only a README: consult the resource status table before downloading or manufacturing.
+`step/assembly/` contains CAD assemblies; `assembly-guide/` is for customer assembly instructions. LD and HD `robot-description/` directories provide the shared URDF model ZIP; FL resources remain pending, while the shared `hardware/robot-description/` contains the existing ROS model. A directory may currently contain only a README: consult the resource status table before downloading or manufacturing.
 
 <a id="resource-status"></a>
 
@@ -85,8 +81,8 @@ As of 2026-10-04. **Available** means the named file set is present. **Partial**
 | Standalone printing STL | Missing | Missing | Missing |
 | 3MF printing project | Review: date/version confirmation | Review: date/version confirmation | Conflict: link1 settings versus BOM |
 | BOM | [LD table](102-ld/README.md#bill-of-materials); 28 assembly items | Review: handoff reference | Review: overseas-shipment reference |
-| PDF / DWG drawings | Review: July 13 reference and older files | Partial: shared LD geometry reference only | Review: July 13 reference |
-| Model-specific URDF and meshes | Missing: candidate held for review | Missing | Missing: unlabelled candidate held for review |
+| PDF / DWG drawings | Review: July 13 reference | Partial: shared LD geometry reference only | Review: July 13 reference |
+| Model-specific URDF and meshes | Shared LD/HD ZIP (ROS 1); RViz configuration incomplete; limits and runtime validation pending | Shared LD/HD ZIP (ROS 1); RViz configuration incomplete; limits and runtime validation pending | Missing: unlabelled candidate held for review |
 | Assembly guide / videos | Partial: [main arm assembly video](102-ld/assembly-guide/README.md) available; revision and wiring coverage under review | Partial: [LD video with HD servo substitution](102-hd/assembly-guide/README.md); HD button instructions pending | Partial: [assembly video](102-fl/assembly-guide/README.md) available; revision and wiring coverage under review |
 | Confirmed production revision / physical validation | Pending | Pending | Pending |
 
