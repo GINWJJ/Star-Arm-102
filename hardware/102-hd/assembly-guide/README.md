@@ -1,6 +1,6 @@
 # Assembling Star Arm 102-HD
 
-[English](README.md) · [简体中文](README.zh.md) · [HD hardware resources](../README.md)
+[← 102-HD Hardware Resources](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
 
 Use Fashion Star’s 102-LD main arm assembly video to assemble your Star Arm 102-HD. Click the preview below to watch on YouTube.
 

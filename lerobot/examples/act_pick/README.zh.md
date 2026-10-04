@@ -1,16 +1,24 @@
 # 体验 ACT 积木放置预训练模型
 
+[← examples](../)　|　🌐 [English](README.md) / **简体中文**
+
+**本页导航：** [观看演示](#page-section-1) · [所需条件](#page-section-2) · [模型信息](#page-section-3) · [复现工作场景](#page-section-4)
+
 **先运行已有策略，再训练自己的任务。** 本示例使用 Star Arm 102-FL 和两台相机，将积木放到预先布置的工作区中心。
 
-**[运行模型](inference.md) · [下载发布版本](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0) · [后续训练](training.md) · [English](README.md)**
+**[运行模型](inference.md) · [下载发布版本](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0) · [后续训练](training.md)**
 
 <a id="watch-the-demo"></a>
+
+<a id="page-section-1"></a>
 
 ## 观看演示
 
 [![ACT 演示工作区](docs/images/setup-front.jpg)](https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7)
 
 [播放原始演示](https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7)。[发布页面](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0) 也提供视频文件 `stararm102_act_trained_demo.mp4` 下载。
+
+<a id="page-section-2"></a>
 
 ## 所需条件
 
@@ -21,6 +29,8 @@
 - 自主推理无需主臂；主臂可在单独校准后用于手动示范或复位。
 
 运动前必须完成安装和校准。本示例针对特定任务；积木、相机位置、光照或校准变化都可能影响效果。此版本未公布测得的成功率。
+
+<a id="page-section-3"></a>
 
 ## 模型信息
 
@@ -36,6 +46,8 @@
 | 训练配置 | 包含 `train_config.json`；未提供训练数据集及完整环境锁定文件。参见 [训练范围](training.md) |
 
 权重、配置和处理器文件应保持在一起。重构后的 `stararm102_fl` 插件**不能直接替换**此模型对应的插件。
+
+<a id="page-section-4"></a>
 
 ## 复现工作场景
 

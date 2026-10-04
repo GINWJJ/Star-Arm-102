@@ -1,6 +1,6 @@
 # Star Arm 102 机器人描述
 
-[English](README.md)
+[← src](../)　|　🌐 [English](README.md) / **简体中文**
 
 本包从 `hardware/robot-description/` 安装作为统一来源的 [URDF 和网格](../../../hardware/robot-description/README.md)，同时安装 launch 和 RViz 资源。请在完整仓库中构建；单独复制此 ROS 包会缺少模型源文件。安装和启动请先阅读 [ROS 2 Humble 指南](../../README.zh.md)。
 

@@ -1,10 +1,12 @@
 # Star Arm 102 Specifications & Hardware Resources
 
-[Home](../README.md) · [中文](README.zh.md) · [Changes](CHANGELOG.md)
+[← Home](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
+
+[Changes](CHANGELOG.md)
 
 Compare LD, HD, and FL specifications, then find STEP models, printing files, BOMs, drawings, and assembly videos for your model.
 
-[🔧 Specifications](#product-specifications) · [📂 Directory Structure](#directory-structure) · [📋 Resource Status](#resource-status)
+**On this page:** [🔧 Specifications](#product-specifications) · [📂 Directory Structure](#directory-structure) · [📋 Resource Status](#resource-status)
 
 Explore your model: **[102-LD](102-ld/README.md)** · **[102-HD](102-hd/README.md)** · **[102-FL](102-fl/README.md)**.
 
@@ -30,7 +32,7 @@ Explore your model: **[102-LD](102-ld/README.md)** · **[102-HD](102-hd/README.m
 
 ## Directory structure
 
-The LD layout is expanded below. HD and FL retain their existing layouts, including separate BOM directories. Individual downloads and historical files are omitted.
+The LD layout is expanded below. HD and FL use the same resource categories, with model-specific files and inline BOMs. Individual downloads and historical files are omitted.
 
 ```text
 hardware/
@@ -79,8 +81,8 @@ As of 2026-10-04. **Available** means the named file set is present. **Partial**
 | Main printed-part STEP coverage | Available: 11/11 named parts | Available: 13/13, including 2 HD button parts | Available: 11/11 named parts |
 | Whole-arm STEP | Shared LD/HD export 2026-07-21; file-set alignment under review | Shared LD/HD export 2026-07-21; file-set alignment under review | Review: FL export 2026-09-27; July 3 reference retained |
 | Standalone printing STL | Missing | Missing | Missing |
-| 3MF printing project | 11 individual parts and combined project available; slicing checked, physical print validation pending | Review: date/version confirmation | Conflict: link1 settings versus BOM |
-| BOM | [LD table](102-ld/README.md#bill-of-materials); 28 assembly items | Review: handoff reference | Review: overseas-shipment reference |
+| 3MF printing project | 11 individual parts and combined project available; slicing checked, physical print validation pending | 13 individual parts and original combined project; physical print validation pending | 11 individual parts and combined project; link1 settings conflict with BOM |
+| BOM | [LD table](102-ld/README.md#bill-of-materials); 28 assembly items | [HD table](102-hd/README.md#bill-of-materials); 31 assembly items | [FL table](102-fl/README.md#bill-of-materials); 29 assembly items |
 | PDF / DWG drawings | Review: July 13 reference | Partial: shared LD geometry reference only | Review: July 13 reference |
 | Model-specific URDF and meshes | Shared LD/HD ZIP (ROS 1); RViz configuration incomplete; limits and runtime validation pending | Shared LD/HD ZIP (ROS 1); RViz configuration incomplete; limits and runtime validation pending | Missing: unlabelled candidate held for review |
 | Assembly guide / videos | Partial: [main arm assembly video](102-ld/assembly-guide/README.md) available; revision and wiring coverage under review | Partial: [LD video with HD servo substitution](102-hd/assembly-guide/README.md); HD button instructions pending | Partial: [assembly video](102-fl/assembly-guide/README.md) available; revision and wiring coverage under review |

@@ -1,6 +1,8 @@
 # Star Arm 102 robot description
 
-[Hardware index](../README.md) · [ROS description package](../../ros2-humble/src/stararm102_description/README.md)
+[← Hardware Resources](../README.md)
+
+[ROS description package](../../ros2-humble/src/stararm102_description/README.md)
 
 This is the authoritative copy of the existing robot model, moved from the ROS package. Its exact LD/HD/FL applicability and production revision have not been confirmed. Do not treat it as a validated model for all variants.
 

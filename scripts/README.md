@@ -1,5 +1,7 @@
 # Repository Maintenance Scripts
 
+[← Home](../README.md)
+
 These scripts are for repository contributors. For customer-facing robot and servo tools, see the [tool directory](../tools/README.md).
 
 - `check_docs.py`: check local file and image links in Markdown. Remote URLs and heading fragments are not checked.

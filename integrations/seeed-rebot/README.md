@@ -1,6 +1,8 @@
 # Star Arm 102 Leaders + Seeed reBot B601
 
-[All pairings](../README.md) · [Capability status](../compatibility.md) · [Common preparation](../common-setup.md)
+[← Integrations](../README.md)
+
+[Capability status](../compatibility.md) · [Common preparation](../common-setup.md)
 
 **Status: upstream LeRobot instructions available for B601-DM and B601-RS; no new local bench validation.**
 

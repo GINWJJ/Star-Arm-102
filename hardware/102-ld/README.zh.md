@@ -1,8 +1,12 @@
 # Star Arm 102-LD 硬件
 
-[English](README.md) · [简体中文](README.zh.md)
+[← 硬件资源](../README.zh.md)　|　🌐 [English](README.md) / **简体中文**
 
-[← 硬件资源](../README.zh.md) · [物料清单](#bill-of-materials)
+**本页导航：** [📂 资源目录](#resources) · [📋 物料清单](#bill-of-materials)
+
+<a id="resources"></a>
+
+## 资源目录
 
 | 目录 | 内容 | 状态 |
 | --- | --- | --- |

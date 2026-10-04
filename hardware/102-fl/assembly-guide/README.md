@@ -1,6 +1,6 @@
 # Assembling Star Arm 102-FL
 
-[English](README.md) · [简体中文](README.zh.md) · [FL hardware resources](../README.md)
+[← 102-FL Hardware Resources](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
 
 Follow Fashion Star’s assembly video to build your Star Arm 102-FL. Click the preview below to watch on YouTube.
 

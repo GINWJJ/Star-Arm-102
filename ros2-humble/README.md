@@ -1,8 +1,14 @@
 # Star Arm 102 with ROS 2 Humble
 
-[Get started](../docs/getting-started.md) · [Troubleshooting](../docs/troubleshooting.md) · [简体中文](README.zh.md)
+[← Home](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
+
+**On this page:** [Install and build](#page-section-1) · [Try the virtual arm first](#page-section-2) · [Connect a real FL](#page-section-3) · [Other examples](#page-section-4) · [Gazebo](#page-section-5) · [Workspace map](#page-section-6)
+
+[Get started](../docs/getting-started.md) · [Troubleshooting](../docs/troubleshooting.md)
 
 This workspace contains the FL driver, URDF, MoveIt configuration, Gazebo simulation, and teaching examples. Python teleoperation and the ACT demo do not require ROS.
+
+<a id="page-section-1"></a>
 
 ## Install and build
 
@@ -28,6 +34,8 @@ source install/setup.bash
 
 In each new terminal, source `/opt/ros/humble/setup.bash` and this workspace's `install/setup.bash`. This documentation update has not been built on a ROS host; see [validation status](../docs/validation.md).
 
+<a id="page-section-2"></a>
+
 ## Try the virtual arm first
 
 ```bash
@@ -37,6 +45,8 @@ ros2 launch stararm102_moveit_config demo.launch.py
 In RViz, use the Motion Planning panel to select a planning group, move the interactive marker, and choose **Plan**, then **Execute**. This launch is the virtual-arm path; do not start the hardware driver for this check.
 
 **Success:** the model appears and a planned trajectory executes in the virtual scene.
+
+<a id="page-section-3"></a>
 
 ## Connect a real FL
 
@@ -60,6 +70,8 @@ ros2 launch stararm102_moveit_config actual_robot_demo.launch.py
 
 Start with small, reviewed plans. Confirm joint feedback and direction before executing a larger trajectory. Do not run the driver and a Python/LeRobot controller on the same serial port at the same time.
 
+<a id="page-section-4"></a>
+
 ## Other examples
 
 These examples can command motion when a real driver is running. Review targets before launching them.
@@ -73,6 +85,8 @@ These examples can command motion when a real driver is running. Review targets 
 | Replay a saved trajectory | `ros2 bag play ./star/record-test` |
 
 Support the arm when unlocking. For recording, press Enter to start and again to finish. Choose a new dataset path for each recording. To replay on hardware, stop the teaching driver and start the normal driver only after preparing the arm; playing a bag can execute the recorded motion.
+
+<a id="page-section-5"></a>
 
 ## Gazebo
 
@@ -88,6 +102,8 @@ In another sourced terminal:
 ```bash
 ros2 launch stararm102_moveit_config gazebo_demo.launch.py
 ```
+
+<a id="page-section-6"></a>
 
 ## Workspace map
 

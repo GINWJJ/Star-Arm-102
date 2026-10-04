@@ -1,13 +1,19 @@
 # Star Arm 102 HD/FL — refactored LeRobot integration
 
+[← LeRobot](../README.md)
+
+**On this page:** [Install](#page-section-1) · [Quick Start](#page-section-4) · [Teleoperate](#page-section-5) · [Calibrate](#page-section-6) · [Examples](#page-section-7) · [Public API](#page-section-11)
+
 This package contains a refactored StarArm102 / reBot Arm 102 integration with:
 
 - a leader teleoperator: `stararm102_hd`
 - a follower robot: `stararm102_fl`
 
-[LeRobot entry](../README.md) · [Compatibility](../../docs/compatibility.md)
+[Compatibility](../../docs/compatibility.md)
 
 Use this integration for named-joint HD/FL development. **The supplied ACT release uses the other plugin generation**; follow its [inference guide](../examples/act_pick/inference.md) instead to try that model.
+
+<a id="page-section-1"></a>
 
 ## Install
 
@@ -37,6 +43,8 @@ Complete [hardware preparation](../../docs/hardware-setup.md) and [communication
 
 - `stararm102_fl`
 
+<a id="page-section-4"></a>
+
 ## Quick Start
 
 Typical workflow:
@@ -46,6 +54,8 @@ Typical workflow:
 3. Test the leader example if needed
 4. Start leader -> follower teleoperation
 5. Optionally record leader logs and replay them into the follower for debugging
+
+<a id="page-section-5"></a>
 
 ## Teleoperate
 
@@ -94,6 +104,8 @@ With button mode enabled:
 - `locked=False`: leader motion is sent normally
 - `locked=True`: the output action is frozen at the last unlocked action if `freeze_action_on_lock=true`
 
+<a id="page-section-6"></a>
+
 ## Calibrate
 
 Calibrate the leader arm:
@@ -129,6 +141,8 @@ This will:
 - save the follower calibration file
 
 If you want to rerun calibration from scratch, just execute the command again and follow the terminal prompts.
+
+<a id="page-section-7"></a>
 
 ## Examples
 
@@ -226,6 +240,8 @@ The follower does not include any button configuration. Its role is to receive a
 - Calibration is used to persist the arm-specific zero/range data, but it has not fully replaced config-level joint definitions.
 - If no calibration file is found for the follower, the implementation falls back to the configured `joint_ranges`.
 - During `lerobot-teleoperate`, if no valid calibration file is found, the device may prompt you to calibrate before teleoperation starts.
+
+<a id="page-section-11"></a>
 
 ## Public API
 

@@ -1,6 +1,8 @@
 # Star Arm 102-HD 装配指南
 
-[English](README.md) · [简体中文](README.zh.md) · [HD 硬件资料](../README.md)
+[← 102-HD 硬件资源](../README.zh.md)　|　🌐 [English](README.md) / **简体中文**
+
+[HD 硬件资料](../README.md)
 
 参考 Fashion Star 的 102-LD 主体机械臂装配视频，完成 Star Arm 102-HD 的组装。点击下方封面，在 YouTube 观看。
 

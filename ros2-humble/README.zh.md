@@ -1,8 +1,14 @@
 # Star Arm 102 与 ROS 2 Humble
 
-[开始使用](../docs/getting-started.md) · [排错](../docs/troubleshooting.md) · [English](README.md)
+[← 首页](../README.zh.md)　|　🌐 [English](README.md) / **简体中文**
+
+**本页导航：** [安装与构建](#page-section-1) · [先体验虚拟机械臂](#page-section-2) · [连接真实 FL](#page-section-3) · [其他示例](#page-section-4) · [Gazebo](#page-section-5) · [工作区结构](#page-section-6)
+
+[开始使用](../docs/getting-started.md) · [排错](../docs/troubleshooting.md)
 
 本工作区包含 FL 驱动、URDF、MoveIt 配置、Gazebo 仿真和示教示例。Python 遥操作和 ACT 演示无需 ROS。
+
+<a id="page-section-1"></a>
 
 ## 安装与构建
 
@@ -28,6 +34,8 @@ source install/setup.bash
 
 每个新终端都需加载 `/opt/ros/humble/setup.bash` 和本工作区的 `install/setup.bash`。本次文档更新尚未在 ROS 主机上构建验证，见 [验证状态](../docs/validation.md)。
 
+<a id="page-section-2"></a>
+
 ## 先体验虚拟机械臂
 
 ```bash
@@ -37,6 +45,8 @@ ros2 launch stararm102_moveit_config demo.launch.py
 在 RViz 的 Motion Planning 面板中选择规划组，移动交互标记，先点击 **Plan**，再点击 **Execute**。这是虚拟机械臂启动路径；此项检查无需启动实物驱动。
 
 **成功标志：**模型正常显示，规划轨迹能在虚拟场景中执行。
+
+<a id="page-section-3"></a>
 
 ## 连接真实 FL
 
@@ -60,6 +70,8 @@ ros2 launch stararm102_moveit_config actual_robot_demo.launch.py
 
 从经过检查的小范围轨迹开始。执行较大轨迹前确认关节反馈与方向。不要让驱动和 Python／LeRobot 控制程序同时占用同一个串口。
 
+<a id="page-section-4"></a>
+
 ## 其他示例
 
 真实驱动运行时，这些示例可能下发运动指令。启动前请检查目标。
@@ -73,6 +85,8 @@ ros2 launch stararm102_moveit_config actual_robot_demo.launch.py
 | 回放已保存轨迹 | `ros2 bag play ./star/record-test` |
 
 解锁时请托住机械臂。录制时按 Enter 开始，再按一次结束。每次录制使用新的数据集路径。真机回放前停止示教驱动，准备好机械臂后再启动正常驱动；播放 bag 可能执行已记录的动作。
+
+<a id="page-section-5"></a>
 
 ## Gazebo
 
@@ -88,6 +102,8 @@ ros2 launch stararm102_gazebo stararm102_gazebo.launch.py
 ```bash
 ros2 launch stararm102_moveit_config gazebo_demo.launch.py
 ```
+
+<a id="page-section-6"></a>
 
 ## 工作区结构
 

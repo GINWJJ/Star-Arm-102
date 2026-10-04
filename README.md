@@ -196,7 +196,7 @@ The ACT release and the refactored HD/FL integration use different joint represe
 
 ### Repository structure
 
-The `102-ld/` layout is expanded to show where hardware resources belong; `102-hd/` and `102-fl/` retain their existing layouts, including separate BOM directories. Individual files, historical guides, and local caches are omitted.
+The `102-ld/` layout is expanded to show where hardware resources belong; HD and FL use the same resource categories, with model-specific files and inline BOMs. Individual files, historical guides, and local caches are omitted.
 
 ```text
 Star-Arm-102/

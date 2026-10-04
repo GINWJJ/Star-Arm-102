@@ -6,7 +6,7 @@
     "extension": ".3mf",
     "disposition": "copied-reference",
     "destinations": [
-      "102-fl/printing/3mf/star-arm-102-fl-handoff-label-20260807.3mf"
+      "102-fl/printing/3mf/star-arm-102-fl-complete-print-project.3mf"
     ]
   },
   {
@@ -16,7 +16,7 @@
     "extension": ".3mf",
     "disposition": "copied-reference",
     "destinations": [
-      "102-hd/printing/3mf/star-arm-102-hd-handoff-label-20260807.3mf"
+      "102-hd/printing/3mf/star-arm-102-hd-complete-print-project.3mf"
     ]
   },
   {
@@ -26,7 +26,7 @@
     "extension": ".3mf",
     "disposition": "copied-reference",
     "destinations": [
-      "102-ld/printing/3mf/star-arm-102-ld-handoff-label-20260807.3mf"
+      "102-ld/printing/3mf/star-arm-102-ld-complete-print-project.3mf"
     ]
   },
   {
@@ -97,20 +97,16 @@
     "bytes": 2404414,
     "sha256": "74cc8d75fad700938247c48049e598245c2d60b116626bd4ece68b226a487454",
     "extension": ".xlsx",
-    "disposition": "copied-reference",
-    "destinations": [
-      "102-fl/bom/bom-102-fl-handoff-08-24.xlsx"
-    ]
+    "disposition": "excluded-internal-bom",
+    "note": "Customer assembly items and images are published in model READMEs; original workbook retained in Git history."
   },
   {
     "source": "star arm 102BOM表/Star Arm 102-HD - BOM(9.10) .xlsx",
     "bytes": 6493156,
     "sha256": "53d3e1d454c46635bc9c48019c4ca4d98b0c19d4ed2579d8432c4b8ff5e8ab97",
     "extension": ".xlsx",
-    "disposition": "copied-reference",
-    "destinations": [
-      "102-hd/bom/bom-102-hd-handoff-09-10.xlsx"
-    ]
+    "disposition": "excluded-internal-bom",
+    "note": "Customer assembly items and images are published in model READMEs; original workbook retained in Git history."
   },
   {
     "source": "star arm 102BOM表/Star Arm 102-LD(9.10) - BOM.xlsx",
@@ -503,7 +499,7 @@
     "extension": ".dwg",
     "disposition": "copied-reference",
     "destinations": [
-      "102-fl/drawings/cad/star-arm-102-fl-drawing-2026-07-13.dwg"
+      "102-fl/drawings/star-arm-102-fl-drawing-2026-07-13.dwg"
     ]
   },
   {
@@ -513,7 +509,7 @@
     "extension": ".pdf",
     "disposition": "copied-reference",
     "destinations": [
-      "102-fl/drawings/pdf/star-arm-102-fl-drawing-2026-07-13.pdf"
+      "102-fl/drawings/star-arm-102-fl-drawing-2026-07-13.pdf"
     ]
   },
   {

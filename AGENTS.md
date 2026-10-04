@@ -8,3 +8,5 @@
 - Run `python scripts/check_docs.py` and `python scripts/check_readme_sync.py` after documentation changes.
 - Use lowercase and hyphens for resource directory names; preserve language and framework identifiers.
 - Browser operations default to the Codex in-app browser. Use Chrome only when explicitly requested by the user.
+
+- For directory README navigation, keep the title first, then put the direct-parent link first in a navigation row below the title (`← Parent`), followed by a separator and language switch (`🌐 **English** / [简体中文](README.zh.md)` or its Chinese counterpart). Show the current language in bold without a self-link. For longer pages, add localized “On this page” links on a separate row below the parent/language navigation using explicit section anchors; omit this navigation on short pages. Do not create README files solely for navigation in data-only directories.

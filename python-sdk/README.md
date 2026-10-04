@@ -1,8 +1,14 @@
 # Python control: first connection and teleoperation
 
+[← Home](../README.md)
+
+**On this page:** [Install](#page-section-1) · [Check communication without commanding motion](#page-section-2) · [Start teleoperation](#page-section-3) · [Help](#page-section-4)
+
 [Get started](../docs/getting-started.md) · [Detailed behavior](PYTHON_SDK_GUIDE.md) · [中文补充](PYTHON_SDK_GUIDE.zh.md)
 
 Use this path for direct **102-LD or 102-HD → 102-FL** teleoperation, without ROS or LeRobot. A single FL can run the communication check. For Galaxea A1, Lumos Touch, YAM, or Seeed reBot, start with the [cross-brand pairing directory](../integrations/README.md). These examples are FL-specific; a third-party follower needs its own driver and mapping.
+
+<a id="page-section-1"></a>
 
 ## Install
 
@@ -21,6 +27,8 @@ If you already cloned the repository, enter that checkout instead. Commands belo
 
 Read [power, wiring, and serial-port identification](../docs/hardware-setup.md) before continuing. Replace the example ports with your actual devices.
 
+<a id="page-section-2"></a>
+
 ## Check communication without commanding motion
 
 ```bash
@@ -35,6 +43,8 @@ For an HD button board at ID 7:
 ```bash
 python python-sdk/check_connection.py --port /dev/ttyUSB0 --ids 7
 ```
+
+<a id="page-section-3"></a>
 
 ## Start teleoperation
 
@@ -65,6 +75,8 @@ Move one leader joint slowly through a small range. Check that the corresponding
 Press `Ctrl+C` to exit. This is not a hardware emergency stop and does not guarantee the arm releases torque or cancels motion. Use the hardware power-off procedure for unexpected movement.
 
 **Success:** all IDs respond and the FL follows small leader movements correctly. Continue to [LeRobot](../lerobot/README.md) or [the pretrained ACT example](../lerobot/examples/act_pick/README.md).
+
+<a id="page-section-4"></a>
 
 ## Help
 

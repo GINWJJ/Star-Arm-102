@@ -1,6 +1,12 @@
 # Integrations: Follower Pairings & Partner Applications
 
+[← Home](../README.md)
+
+**On this page:** [Cross-brand follower pairings](#page-section-1) · [Choose a workflow](#page-section-2) · [Partner applications](#page-section-3) · [How these resources are maintained](#page-section-4)
+
 Find [cross-brand follower pairings](#cross-brand-follower-pairings) or [partner applications](#partner-applications).
+
+<a id="page-section-1"></a>
 
 ## Cross-brand follower pairings
 
@@ -15,6 +21,8 @@ Use this directory to explore Star Arm 102-LD / HD leader pairings with third-pa
 
 These entries identify customer pairing needs. Listing a model does not establish tested support for both LD and HD, or for every software workflow. See the [capability and evidence matrix](compatibility.md) before choosing hardware or installing software.
 
+<a id="page-section-2"></a>
+
 ## Choose a workflow
 
 - **Python:** direct teleoperation requires a driver and mapping for the specific follower. The current [Python SDK examples](../python-sdk/README.md) target Star Arm 102-FL.
@@ -23,6 +31,8 @@ These entries identify customer pairing needs. Listing a model does not establis
 
 Start with [common preparation](common-setup.md), then your model guide. For an all-Star Arm setup, use [getting started](../docs/getting-started.md).
 
+<a id="page-section-3"></a>
+
 ## Partner applications
 
 | Application | Purpose | Guide and validation status |
@@ -30,6 +40,8 @@ Start with [common preparation](common-setup.md), then your model guide. For an 
 | Butterfly Community Robot Arm | Natural-language task control and partner-maintained robot application | [Overview](butterfly/README.md) · [Compatibility](butterfly/compatibility.md) · [Setup](butterfly/setup.md) · [Troubleshooting](butterfly/troubleshooting.md) |
 
 Partner applications are a separate category from leader–follower pairings. Check each application's model and environment requirements before use. See the [Chinese Butterfly guide](butterfly/README.zh-CN.md) for the complete Chinese version.
+
+<a id="page-section-4"></a>
 
 ## How these resources are maintained
 

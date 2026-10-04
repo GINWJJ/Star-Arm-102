@@ -1,5 +1,7 @@
 # Hardware handoff review
 
+Current customer layout: LD, HD, and FL now publish 28, 31, and 29 assembly items respectively in their bilingual model READMEs; internal BOM workbooks are retained in Git history. Complete 3MF projects use descriptive filenames, with source-date evidence retained below. Individual 3MF files preserve source settings and have passed Bambu Studio slicing; physical print validation remains pending.
+
 Reviewed 2026-10-03. [Hardware status](README.md) · [中文核对报告](handoff-review.zh.md)
 
 ## What was imported

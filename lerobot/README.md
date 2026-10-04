@@ -1,5 +1,9 @@
 # LeRobot on Star Arm 102
 
+[← Home](../README.md)
+
+**On this page:** [Release-compatible environment](#page-section-1) · [Calibrate the LD leader and FL follower](#page-section-2) · [First teleoperation](#page-section-3) · [Next steps](#page-section-4)
+
 [Get started](../docs/getting-started.md) · [Compatibility](../docs/compatibility.md) · [Pretrained ACT model](examples/act_pick/README.md)
 
 For Galaxea A1, Lumos Touch, YAM, or Seeed reBot, first check the [pairing guide and capability status](../integrations/README.md). The FL plugins below do not establish support for third-party followers.
@@ -15,11 +19,15 @@ Choose one integration before installing. Both generations use the same leader p
 
 The old plugin pair does not expose the refactored HD button configuration. A pretrained policy is tied to its joint names, calibration representation, and cameras; switching plugins is not a transparent upgrade.
 
+<a id="page-section-1"></a>
+
 ## Release-compatible environment
 
 Use Ubuntu 22.04, Python 3.10, and the versioned [ACT environment instructions](examples/act_pick/inference.md#install-the-environment), even if you only need teleoperation. For source development, the corresponding packages remain in [lerobot-robot-stararm102](lerobot-robot-stararm102/README.md) and [lerobot-teleoperator-stararm102](lerobot-teleoperator-stararm102/README.md).
 
 Confirm communication first with the [Python communication check](../python-sdk/README.md#check-communication-without-commanding-motion). Close it before opening the ports in LeRobot.
+
+<a id="page-section-2"></a>
 
 ## Calibrate the LD leader and FL follower
 
@@ -41,6 +49,8 @@ Follow the terminal prompts to record each joint's available range, including th
 
 **Success:** each command reports that calibration was saved, and all seven joints have meaningful recorded ranges. A connected arm alone does not prove calibration is correct.
 
+<a id="page-section-3"></a>
+
 ## First teleoperation
 
 ```bash
@@ -54,6 +64,8 @@ lerobot-teleoperate \
 ```
 
 Move one joint slowly through a small range, then check the gripper. Stop if direction or alignment is wrong. `Ctrl+C` exits the process; it is not a hardware emergency stop. See [stopping guidance](../docs/hardware-setup.md#reference-pose-and-stopping).
+
+<a id="page-section-4"></a>
 
 ## Next steps
 

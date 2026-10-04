@@ -1,5 +1,7 @@
 # Control & Configuration Tools
 
+[← Home](../README.md)
+
 For third-party follower setups, see [cross-brand pairing resources](../integrations/README.md).
 
 

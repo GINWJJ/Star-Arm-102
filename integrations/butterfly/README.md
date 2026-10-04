@@ -1,14 +1,20 @@
 # Control Star Arm 102 with Natural Language
 
+[← Integrations](../README.md)　|　🌐 **English** / [简体中文](README.zh-CN.md)
+
+**On this page:** [What this integration offers](#page-section-1) · [Before you start](#page-section-2) · [Reference version and validation](#page-section-3) · [Ownership and source code](#page-section-4)
+
 **Community / Partner Integration — Butterfly Community Robot Arm**
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [All integrations](../README.md) · [Star Arm 102 home](../../README.md)
+[Star Arm 102 home](../../README.md)
 
 Describe a pick-and-place task in a browser and let an AI service coordinate perception, grasp planning, and robot execution. The partner application also provides page-based control, camera calibration, and joint feedback.
 
 **[See the partner's interface and task demonstration →](https://github.com/butterfly-community/robot-arm)**
 
 **[Check compatibility →](compatibility.md)** · **[Setup and first task →](setup.md)** · **[Troubleshooting →](troubleshooting.md)**
+
+<a id="page-section-1"></a>
 
 ## What this integration offers
 
@@ -19,11 +25,15 @@ Describe a pick-and-place task in a browser and let an AI service coordinate per
 
 The architecture uses AI tool calls and dedicated perception and planning services. This guide does not present it as an end-to-end VLA policy or a replacement for the ACT model.
 
+<a id="page-section-2"></a>
+
 ## Before you start
 
 The partner reports physical pick-and-place on StarArm-102 with a RealSense D415 and identifies RA8-U35H-M servos in its device documentation. Confirm the actual arm, servos, camera, and model configuration before using the hardware path. Compatibility across 102-LD, 102-HD, and 102-FL is not established by the project name alone.
 
 The application has its own Docker-based stack. Natural-language tasks additionally need a compatible model service; basic page control and local perception have different dependencies. See [compatibility](compatibility.md).
+
+<a id="page-section-3"></a>
 
 ## Reference version and validation
 
@@ -36,6 +46,8 @@ The application has its own Docker-based stack. Natural-language tasks additiona
 | Still pending here | Installation, software-only run, exact model compatibility, calibration, and physical pick-and-place validation |
 
 This is a documentation reference, **not a tested release recommendation**. Upstream main may change; use the referenced documentation together with the matching source revision when evaluating this guide.
+
+<a id="page-section-4"></a>
 
 ## Ownership and source code
 

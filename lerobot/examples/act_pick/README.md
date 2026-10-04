@@ -1,14 +1,22 @@
 # Try the pretrained ACT block-placement model
 
+[← examples](../)　|　🌐 **English** / [简体中文](README.zh.md)
+
+**On this page:** [Watch the demo](#page-section-1) · [What you need](#page-section-2) · [Model card](#page-section-3) · [Match the scene](#page-section-4)
+
 **Run a supplied policy before training your own.** This example uses a Star Arm 102-FL and two cameras to place a block in the center of a prepared workspace.
 
-**[Run the model](inference.md) · [Download the release](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0) · [Training next steps](training.md) · [简体中文](README.zh.md)**
+**[Run the model](inference.md) · [Download the release](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0) · [Training next steps](training.md)**
+
+<a id="page-section-1"></a>
 
 ## Watch the demo
 
 [![ACT demonstration workspace](docs/images/setup-front.jpg)](https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7)
 
 [Play the original demonstration](https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7). The [release](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0) also contains the downloadable video `stararm102_act_trained_demo.mp4`.
+
+<a id="page-section-2"></a>
 
 ## What you need
 
@@ -19,6 +27,8 @@
 - A leader is optional for autonomous inference; it is useful for manual demonstrations or resets after separate calibration.
 
 Setup and calibration are required before motion. This is a task-specific demo, and a different block, camera position, lighting, or calibration can change the result. No measured success rate is published in this release.
+
+<a id="page-section-3"></a>
 
 ## Model card
 
@@ -34,6 +44,8 @@ Setup and calibration are required before motion. This is a task-specific demo, 
 | Training configuration | Included as `train_config.json`; training dataset and full environment lock are not supplied. See [training scope](training.md) |
 
 Keep the weights, configuration, and processor files together. The refactored `stararm102_fl` plugin is **not** a drop-in replacement for this model.
+
+<a id="page-section-4"></a>
 
 ## Match the scene
 
