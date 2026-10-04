@@ -87,20 +87,17 @@ Choose your [Star Arm 102](https://fashionstar.com.hk/store/collections/robot-ar
 
 Have a third-party follower? Explore Star Arm 102-LD / HD pairing resources by follower model, then choose the matching Python or LeRobot path.
 
+<!-- reBot image: transparent image extracted with empty alpha margins trimmed from page 1 of Seeed Studio’s product sheet, hosted at https://akizukidenshi.com/goodsaffix/reBot_Arm_B601_DM_Physical_AI_Robotics_Arm.pdf -->
 <table>
   <tr>
-    <td align="center" width="50%"><a href="integrations/seeed-rebot/README.md"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/i/m/img_v3_0210p_67d75fe6-a1fe-40a9-b025-ac92efb1bbbg_1.jpg" width="240" alt="Seeed reBot B601-DM" height="180"></a></td>
-    <td align="center" width="50%"><a href="integrations/yam/README.md"><img src="https://i2rt.com/cdn/shop/files/st0_768396f1-edfb-4839-96c1-f7b5dffa214a.png?v=1788854436&amp;width=600" width="135" alt="I2RT YAM" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/seeed-rebot/README.md"><img src="media/images/rebot-b601-dm.png" width="273" alt="Seeed reBot B601-DM" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/yam/README.md"><img src="https://i2rt.com/cdn/shop/files/st0_768396f1-edfb-4839-96c1-f7b5dffa214a.png?v=1788854436&amp;width=600&amp;height=600&amp;crop=center" width="180" alt="I2RT YAM" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/galaxea-a1/README.md"><img src="https://galaxea-dynamics.com/cdn/shop/files/Frame_183.png?v=1776231329&amp;width=1200" width="180" alt="Galaxea A1" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/lumos-touch/README.md"><img src="https://www.lumosbot.tech/images/products/touch/front.webp" width="111" alt="Lumos Touch R1" height="180"></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="integrations/seeed-rebot/README.md"><strong>Seeed reBot B601-DM &amp; B601-RS →</strong></a></td>
+    <td align="center"><a href="integrations/seeed-rebot/README.md"><strong>Seeed reBot<br>B601-DM &amp; B601-RS →</strong></a></td>
     <td align="center"><a href="integrations/yam/README.md"><strong>YAM →</strong></a></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="integrations/galaxea-a1/README.md"><img src="https://galaxea-dynamics.com/cdn/shop/files/Frame_183.png?v=1776231329&amp;width=1200" width="180" alt="Galaxea A1" height="180"></a></td>
-    <td align="center" width="50%"><a href="integrations/lumos-touch/README.md"><img src="https://www.lumosbot.tech/images/products/touch/front.webp" width="111" alt="Lumos Touch R1" height="180"></a></td>
-  </tr>
-  <tr>
     <td align="center"><a href="integrations/galaxea-a1/README.md"><strong>Galaxea A1 →</strong></a></td>
     <td align="center"><a href="integrations/lumos-touch/README.md"><strong>Lumos Touch →</strong></a></td>
   </tr>
@@ -120,7 +117,7 @@ Start with your Star Arm 102 leader and a virtual follower in the web controller
 
 [![Star Arm 102 web control interface preview](media/images/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
 
-**[Connect Your Leader →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)** · **[All robot and servo tools →](tools/README.md)**
+**[Connect Your Leader →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)**
 
 *Interface preview with no hardware connected. Tool versions, downloads, and detailed instructions are maintained in the Wiki.*
 
@@ -129,18 +126,7 @@ Start with your Star Arm 102 leader and a virtual follower in the web controller
 
 ## 🤖 Run Your First AI Task
 
-Watch the ACT block-placement demo below, then follow the guide to run the pretrained model on your own arm. You can also explore a partner application for natural-language control.
-
-| 🤖 Try a Pretrained ACT Task | 💬 Control Star Arm 102 with Natural Language |
-| --- | --- |
-| Run the supplied block-placement policy. | Describe a pick-and-place task in Butterfly Community's browser interface. |
-| **Fashion Star example** · 102-FL with the specified two-camera setup. | **Community / Partner Integration** · upstream reports StarArm-102 + RealSense D415; exact 102 variant compatibility is pending confirmation. |
-| Prepare the documented environment, calibration, and matching scene. | Prepare the upstream application, depth camera, calibration, and a compatible AI model service. Our end-to-end validation is pending. |
-| **[Open the ACT guide →](lerobot/examples/act_pick/README.md)** | **[Explore the partner integration →](integrations/butterfly/README.md)** |
-
-### ACT block placement: watch, then try
-
-**No training required for the supplied ACT demo.** Run the released block-placement policy on a Star Arm 102-FL after setting up its environment, calibration, and two cameras. A matching scene matters: this is a policy for a specific task, not a general-purpose grasping model.
+Watch Star Arm 102-FL pick up and place a block using our pretrained ACT model. Then try the same task on your own 102-FL—**no retraining required**.
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7">
@@ -149,9 +135,9 @@ Watch the ACT block-placement demo below, then follow the guide to run the pretr
   <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7"><strong>▶ Watch the ACT block-placement demo</strong></a>
 </p>
 
-- [Run the pretrained model](lerobot/examples/act_pick/inference.md): download, camera setup, calibration, and one trial.
-- [Model release and original video](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0).
-- [Training your own task](lerobot/examples/act_pick/training.md): next steps and current documentation status.
+**[Run the Demo on Your Arm →](lerobot/examples/act_pick/README.md)**
+
+The guide walks you through the required hardware, two-camera setup, calibration, and workspace preparation.
 
 <a id="teaching-and-force-feedback"></a>
 
@@ -181,7 +167,7 @@ New to your arm? Start with [Get Started](docs/getting-started.md) to choose you
 | Cross-brand pairings | Follower-specific requirements, software paths, and validation status | [Pairing directory](integrations/README.md) |
 | Python examples | Communication checks and direct LD/HD → FL teleoperation | [Python SDK examples](python-sdk/README.md) |
 | LeRobot | Calibration, demonstrations, policies, and the released ACT model | [Choose an integration](lerobot/README.md) |
-| ROS 2 Humble | RViz, MoveIt, Gazebo, and robot-system development | [ROS 2 guide](ros2-humble/README.md) |
+| ROS 2 Humble | Hand-guided teaching, force feedback on 102-HD, and robot-system development with RViz, MoveIt, and Gazebo | [ROS 2 guide](ros2-humble/README.md) |
 | Hardware | Model-specific STEP, BOM, drawings, printing references, and status | [Hardware resources](hardware/README.md) |
 | Partner applications | Natural-language task control and partner-maintained robot applications | [Partner integrations](integrations/README.md) |
 | Control & Configuration Tools | Robot arm web control, servo debugging, and parameter configuration | [Tool directory](tools/README.md) |

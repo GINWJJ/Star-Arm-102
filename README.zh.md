@@ -87,20 +87,17 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 
 已有其他品牌的从臂？按从臂型号查看 Star Arm 102-LD／HD 的搭配资料，再选择对应的 Python 或 LeRobot 路径。
 
+<!-- reBot image: transparent image extracted with empty alpha margins trimmed from page 1 of Seeed Studio’s product sheet, hosted at https://akizukidenshi.com/goodsaffix/reBot_Arm_B601_DM_Physical_AI_Robotics_Arm.pdf -->
 <table>
   <tr>
-    <td align="center" width="50%"><a href="integrations/seeed-rebot/README.md"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/i/m/img_v3_0210p_67d75fe6-a1fe-40a9-b025-ac92efb1bbbg_1.jpg" width="240" alt="Seeed reBot B601-DM" height="180"></a></td>
-    <td align="center" width="50%"><a href="integrations/yam/README.md"><img src="https://i2rt.com/cdn/shop/files/st0_768396f1-edfb-4839-96c1-f7b5dffa214a.png?v=1788854436&amp;width=600" width="135" alt="I2RT YAM" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/seeed-rebot/README.md"><img src="media/images/rebot-b601-dm.png" width="273" alt="Seeed reBot B601-DM" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/yam/README.md"><img src="https://i2rt.com/cdn/shop/files/st0_768396f1-edfb-4839-96c1-f7b5dffa214a.png?v=1788854436&amp;width=600&amp;height=600&amp;crop=center" width="180" alt="I2RT YAM" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/galaxea-a1/README.md"><img src="https://galaxea-dynamics.com/cdn/shop/files/Frame_183.png?v=1776231329&amp;width=1200" width="180" alt="Galaxea A1" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/lumos-touch/README.md"><img src="https://www.lumosbot.tech/images/products/touch/front.webp" width="111" alt="Lumos Touch R1" height="180"></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="integrations/seeed-rebot/README.md"><strong>Seeed reBot B601-DM &amp; B601-RS →</strong></a></td>
+    <td align="center"><a href="integrations/seeed-rebot/README.md"><strong>Seeed reBot<br>B601-DM &amp; B601-RS →</strong></a></td>
     <td align="center"><a href="integrations/yam/README.md"><strong>YAM →</strong></a></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="integrations/galaxea-a1/README.md"><img src="https://galaxea-dynamics.com/cdn/shop/files/Frame_183.png?v=1776231329&amp;width=1200" width="180" alt="Galaxea A1" height="180"></a></td>
-    <td align="center" width="50%"><a href="integrations/lumos-touch/README.md"><img src="https://www.lumosbot.tech/images/products/touch/front.webp" width="111" alt="Lumos Touch R1" height="180"></a></td>
-  </tr>
-  <tr>
     <td align="center"><a href="integrations/galaxea-a1/README.md"><strong>Galaxea A1 →</strong></a></td>
     <td align="center"><a href="integrations/lumos-touch/README.md"><strong>Lumos Touch →</strong></a></td>
   </tr>
@@ -120,7 +117,7 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 
 [![Star Arm 102 网页控制界面预览](media/images/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
 
-**[连接你的主臂 →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)** · **[全部机械臂与舵机工具 →](tools/README.md)**
+**[连接你的主臂 →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)**
 
 *截图时未连接硬件。工具版本、下载和详细操作说明由 Wiki 统一维护。*
 
@@ -129,18 +126,7 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 
 ## 🤖 运行第一个 AI 任务
 
-先观看下方 ACT 积木放置演示，再按照指南在自己的机械臂上运行预训练模型。你也可以了解支持自然语言控制的伙伴应用。
-
-| 🤖 体验 ACT 预训练任务 | 💬 用自然语言控制 Star Arm 102 |
-| --- | --- |
-| 运行提供的积木放置策略。 | 在 Butterfly Community 的网页界面中描述抓放任务。 |
-| **Fashion Star 示例** · 使用 102-FL 及指定双相机配置。 | **社区／伙伴集成** · 上游报告使用 StarArm-102 + RealSense D415；具体 102 型号兼容性待确认。 |
-| 准备文档指定的环境、校准和匹配场景。 | 准备上游应用、深度相机、校准及兼容的 AI 模型服务。我们的端到端验证待完成。 |
-| **[打开 ACT 指南 →](lerobot/examples/act_pick/README.zh.md)** | **[了解伙伴集成 →](integrations/butterfly/README.zh-CN.md)** |
-
-### ACT 积木放置：先看演示，再动手体验
-
-**提供的 ACT 演示无需重新训练。** 完成环境、校准和双相机配置后，可在 Star Arm 102-FL 上运行已发布的积木放置策略。场景匹配很重要：这是针对特定任务的策略，不是通用抓取模型。
+看看 Star Arm 102-FL 如何使用我们的 ACT 预训练模型完成积木抓取与放置，再在你自己的 102-FL 上体验同一个任务，**无需重新训练**。
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7">
@@ -149,9 +135,9 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
   <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7"><strong>▶ 观看 ACT 积木放置演示</strong></a>
 </p>
 
-- [运行预训练模型](lerobot/examples/act_pick/inference.md)：下载、相机配置、校准及首次运行。
-- [模型发布版本与原始视频](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0)。
-- [训练自己的任务](lerobot/examples/act_pick/training.md)：后续步骤及当前文档状态。
+**[在你的机械臂上运行演示 →](lerobot/examples/act_pick/README.zh.md)**
+
+指南将带你完成所需硬件、双相机配置、校准和任务场景的准备。
 
 <a id="teaching-and-force-feedback"></a>
 
@@ -181,7 +167,7 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 | 跨品牌搭配 | 从臂专用要求、软件路径和验证状态 | [搭配导航](integrations/README.md) |
 | Python 示例 | 通信检查及 LD/HD → FL 直接遥操作 | [Python SDK 示例](python-sdk/README.md) |
 | LeRobot | 校准、示范采集、策略及已发布 ACT 模型 | [选择集成方案](lerobot/README.md) |
-| ROS 2 Humble | RViz、MoveIt、Gazebo 和机器人系统开发 | [ROS 2 指南](ros2-humble/README.zh.md) |
+| ROS 2 Humble | 拖动示教、102-HD 力反馈，以及基于 RViz、MoveIt、Gazebo 的机器人系统开发 | [ROS 2 指南](ros2-humble/README.zh.md) |
 | 硬件 | 各型号 STEP、BOM、图纸、打印参考及状态 | [硬件资源](hardware/README.zh.md) |
 | 伙伴应用 | 自然语言任务控制及伙伴维护的机器人应用 | [伙伴集成](integrations/README.md) |
 | 控制与配置工具 | 机械臂网页控制、舵机调试和参数配置 | [工具导航](tools/README.md) |
