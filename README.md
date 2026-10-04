@@ -21,16 +21,15 @@
 <p align="center">
   <a href="docs/getting-started.md"><strong>🚀 Get Started</strong></a> ·
   <a href="integrations/README.md"><strong>🌐 Cross-Brand Pairings</strong></a> ·
-  <a href="lerobot/examples/act_pick/README.md"><strong>🤖 Try the ACT Model</strong></a> ·
-  <a href="integrations/butterfly/README.md"><strong>💬 Natural-Language Control</strong></a> ·
-  <a href="lerobot/examples/act_pick/README.md#watch-the-demo"><strong>▶ Watch the Demo</strong></a>
+  <a href="#try-your-first-ai-task"><strong>🤖 Try Your First AI Task</strong></a> ·
+  <a href="integrations/butterfly/README.md"><strong>💬 Natural-Language Control</strong></a>
 </p>
 
 <p align="center">
   <a href="https://fashionstar.com.hk/">🌐 Official Website</a> ·
-  <a href="https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/">🦾 Series Overview</a> ·
+  <a href="https://fashionstar.com.hk/robot-arm/star-arm-102">🦾 Series Overview</a> ·
   <a href="#where-to-buy">🛒 Where to Buy</a> ·
-  <a href="#documentation-and-support">💬 Support</a>
+  <a href="https://fashionstar.com.hk/support/">💬 Support</a>
 </p>
 
 <p align="center">
@@ -48,7 +47,7 @@ Star Arm 102 is developed by **[Fashion Star](https://fashionstar.com.hk/)**. Co
 | Six arm joints and a gripper control | Teleoperate with an LD or HD leader | Start with the supplied ACT block-placement model |
 | [Explore the hardware](docs/specifications.md) | [Set up teleoperation](python-sdk/README.md) | [Open the model guide](lerobot/examples/act_pick/README.md) |
 
-📑 **Explore:** [Shop](#where-to-buy) · [AI Tasks](#try-your-first-ai-task) · [Choose Your Setup](#choose-your-setup) · [Tools](#control-and-configuration-tools) · [Cross-Brand Pairings](#cross-brand-pairings) · [Partner Projects](integrations/README.md#partner-applications) · [Development](#development-paths) · [Docs & Support](#documentation-and-support)
+📑 **Explore:** [Shop](#where-to-buy) · [AI Tasks](#try-your-first-ai-task) · [Choose Your Setup](#choose-your-setup) · [Tools](#control-and-configuration-tools) · [Cross-Brand Pairings](#cross-brand-pairings) · [Partner Projects](integrations/README.md#partner-applications) · [Development](#development-paths) · [Documentation](#documentation-index)
 
 ---
 
@@ -89,7 +88,7 @@ Support depends on the exact follower, leader revision, and software path. LD co
 
 ## 🤖 Try your first AI task
 
-Choose a pretrained task or explore a partner application for natural-language control.
+Watch the ACT block-placement demo below, then follow the guide to run the pretrained model on your own arm. You can also explore a partner application for natural-language control.
 
 | 🤖 Try a Pretrained ACT Task | 💬 Control Star Arm 102 with Natural Language |
 | --- | --- |
@@ -98,7 +97,7 @@ Choose a pretrained task or explore a partner application for natural-language c
 | Prepare the documented environment, calibration, and matching scene. | Prepare the upstream application, depth camera, calibration, and a compatible AI model service. Our end-to-end validation is pending. |
 | **[Open the ACT guide →](lerobot/examples/act_pick/README.md)** | **[Explore the partner integration →](integrations/butterfly/README.md)** |
 
-### Pretrained ACT demo
+### ACT block placement: watch, then try
 
 **No training required for the supplied ACT demo.** Run the released block-placement policy on a Star Arm 102-FL after setting up its environment, calibration, and two cameras. A matching scene matters: this is a policy for a specific task, not a general-purpose grasping model.
 
@@ -106,7 +105,7 @@ Choose a pretrained task or explore a partner application for natural-language c
   <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7">
     <img src="lerobot/examples/act_pick/docs/images/setup-side.jpg" alt="Side view of the Star Arm 102 ACT workspace — watch the block-placement demo" width="640">
   </a><br>
-  <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7"><strong>▶ Watch Star Arm 102 in action</strong></a>
+  <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7"><strong>▶ Watch the ACT block-placement demo</strong></a>
 </p>
 
 - [Run the pretrained model](lerobot/examples/act_pick/inference.md): download, camera setup, calibration, and one trial.
@@ -161,7 +160,24 @@ Explore the Star Arm 102 web interface for connection, teleoperation, and 3D pos
 
 The ACT release and the refactored HD/FL integration use different joint representations. Keep them in separate environments. See [versions and validation status](docs/compatibility.md).
 
-## Repository structure
+<a id="documentation-and-support"></a>
+<a id="documentation-index"></a>
+<a id="repository-structure"></a>
+
+## 📚 Documentation index
+
+Find guides in the index below, or use the directory tree to locate files.
+
+| Documentation | Entry points |
+| --- | --- |
+| Getting started and setup | [Getting started](docs/getting-started.md) · [Hardware setup](docs/hardware-setup.md) · [Compatibility](docs/compatibility.md) |
+| Product reference | [Specifications and joint mapping](docs/specifications.md) · [Hardware resources](hardware/README.md) |
+| Programming and learning | [Python SDK](python-sdk/README.md) · [LeRobot](lerobot/README.md) · [ACT example](lerobot/examples/act_pick/README.md) · [ROS 2](ros2-humble/README.md) |
+| Pairings and tools | [Cross-brand pairings and partner applications](integrations/README.md) · [Control and configuration tools](tools/README.md) |
+| Troubleshooting and validation | [Troubleshooting](docs/troubleshooting.md) · [Validation records](docs/validation.md) |
+| Repository information | [Changes](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [License scope](LICENSE.md) |
+
+### Repository structure
 
 Main entry points are shown below; individual assets, historical guides, and local caches are omitted.
 
@@ -201,15 +217,6 @@ Star-Arm-102/
 ```
 
 `hardware/` holds mechanical resources; `integrations/` organizes follower pairings and partner applications. Implementations live in `python-sdk/`, `lerobot/`, and `ros2-humble/`. `tools/` links to Wiki-hosted customer tools; `scripts/` and `tests/` support repository maintenance.
-
-<a id="documentation-and-support"></a>
-
-## 📚 Documentation and support
-
-- 🚀 [Start here](docs/getting-started.md) · 🔎 [Troubleshooting](docs/troubleshooting.md)
-- ⚙️ [Specifications and joint mapping](docs/specifications.md)
-- 💬 [Report a problem](https://github.com/servodevelop/Star-Arm-102/issues/new/choose)
-- 📝 [Changes](CHANGELOG.md) · 🤝 [Contributing](CONTRIBUTING.md) · 📄 [License scope](LICENSE.md)
 
 <a id="related-projects"></a>
 

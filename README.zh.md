@@ -21,16 +21,15 @@
 <p align="center">
   <a href="docs/getting-started.md"><strong>🚀 开始使用</strong></a> ·
   <a href="integrations/README.md"><strong>🌐 跨品牌搭配</strong></a> ·
-  <a href="lerobot/examples/act_pick/README.zh.md"><strong>🤖 体验 ACT 模型</strong></a> ·
-  <a href="integrations/butterfly/README.zh-CN.md"><strong>💬 自然语言控制</strong></a> ·
-  <a href="lerobot/examples/act_pick/README.zh.md#watch-the-demo"><strong>▶ 观看演示</strong></a>
+  <a href="#try-your-first-ai-task"><strong>🤖 体验第一个 AI 任务</strong></a> ·
+  <a href="integrations/butterfly/README.zh-CN.md"><strong>💬 自然语言控制</strong></a>
 </p>
 
 <p align="center">
   <a href="https://fashionstar.com.hk/">🌐 官方网站</a> ·
-  <a href="https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/">🦾 系列介绍</a> ·
+  <a href="https://fashionstar.com.hk/robot-arm/star-arm-102">🦾 系列介绍</a> ·
   <a href="#where-to-buy">🛒 购买入口</a> ·
-  <a href="#documentation-and-support">💬 支持</a>
+  <a href="https://fashionstar.com.hk/support/">💬 支持</a>
 </p>
 
 <p align="center">
@@ -48,7 +47,7 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
 | 六个机械臂关节及一个夹爪控制通道 | 使用 LD 或 HD 主臂遥操作 | 从提供的 ACT 积木放置模型开始 |
 | [了解硬件](docs/specifications.md) | [配置遥操作](python-sdk/README.md) | [打开模型指南](lerobot/examples/act_pick/README.zh.md) |
 
-📑 **导航：** [购买](#where-to-buy) · [AI 任务](#try-your-first-ai-task) · [选择配置](#choose-your-setup) · [工具](#control-and-configuration-tools) · [跨品牌搭配](#cross-brand-pairings) · [伙伴项目](integrations/README.md#partner-applications) · [开发](#development-paths) · [文档与支持](#documentation-and-support)
+📑 **导航：** [购买](#where-to-buy) · [AI 任务](#try-your-first-ai-task) · [选择配置](#choose-your-setup) · [工具](#control-and-configuration-tools) · [跨品牌搭配](#cross-brand-pairings) · [伙伴项目](integrations/README.md#partner-applications) · [开发](#development-paths) · [文档索引](#documentation-index)
 
 ---
 
@@ -89,7 +88,7 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
 
 ## 🤖 体验第一个 AI 任务
 
-选择预训练任务，或了解支持自然语言控制的伙伴应用。
+先观看下方 ACT 积木放置演示，再按照指南在自己的机械臂上运行预训练模型。你也可以了解支持自然语言控制的伙伴应用。
 
 | 🤖 体验 ACT 预训练任务 | 💬 用自然语言控制 Star Arm 102 |
 | --- | --- |
@@ -98,7 +97,7 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
 | 准备文档指定的环境、校准和匹配场景。 | 准备上游应用、深度相机、校准及兼容的 AI 模型服务。我们的端到端验证待完成。 |
 | **[打开 ACT 指南 →](lerobot/examples/act_pick/README.zh.md)** | **[了解伙伴集成 →](integrations/butterfly/README.zh-CN.md)** |
 
-### ACT 预训练演示
+### ACT 积木放置：先看演示，再动手体验
 
 **提供的 ACT 演示无需重新训练。** 完成环境、校准和双相机配置后，可在 Star Arm 102-FL 上运行已发布的积木放置策略。场景匹配很重要：这是针对特定任务的策略，不是通用抓取模型。
 
@@ -106,7 +105,7 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
   <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7">
     <img src="lerobot/examples/act_pick/docs/images/setup-side.jpg" alt="Star Arm 102 ACT 工作区侧视图，点击观看积木放置演示" width="640">
   </a><br>
-  <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7"><strong>▶ 观看 Star Arm 102 实际运行</strong></a>
+  <a href="https://github.com/user-attachments/assets/6774384d-f437-4aa9-a364-cd66eba965f7"><strong>▶ 观看 ACT 积木放置演示</strong></a>
 </p>
 
 - [运行预训练模型](lerobot/examples/act_pick/inference.md)：下载、相机配置、校准及首次运行。
@@ -161,7 +160,24 @@ LD 和 HD 是主臂，FL 是执行任务的从臂。仅有主臂不能运行提�
 
 ACT 发布版本和重构后的 HD/FL 集成使用不同的关节表示，请保持独立环境。参见 [版本及验证状态](docs/compatibility.md)。
 
-## 仓库目录结构
+<a id="documentation-and-support"></a>
+<a id="documentation-index"></a>
+<a id="repository-structure"></a>
+
+## 📚 文档索引
+
+按下方索引查找指南，或通过目录树了解文件位置。
+
+| 文档类别 | 入口 |
+| --- | --- |
+| 入门与配置 | [开始使用](docs/getting-started.md) · [硬件配置](docs/hardware-setup.md) · [兼容性](docs/compatibility.md) |
+| 产品参考 | [规格及关节映射](docs/specifications.md) · [硬件资料](hardware/README.zh.md) |
+| 编程与学习 | [Python SDK](python-sdk/README.md) · [LeRobot](lerobot/README.md) · [ACT 示例](lerobot/examples/act_pick/README.zh.md) · [ROS 2](ros2-humble/README.zh.md) |
+| 搭配与工具 | [跨品牌搭配及伙伴应用](integrations/README.md) · [控制与配置工具](tools/README.md) |
+| 排错与验证 | [排错指南](docs/troubleshooting.md) · [验证记录](docs/validation.md) |
+| 仓库说明 | [更新记录](CHANGELOG.md) · [贡献指南](CONTRIBUTING.md) · [许可范围](LICENSE.md) |
+
+### 仓库目录结构
 
 下方展示主要入口，省略单个资源文件、历史教程和本地缓存。
 
@@ -201,15 +217,6 @@ Star-Arm-102/
 ```
 
 `hardware/` 存放机械资料；`integrations/` 按从臂搭配及伙伴应用组织入口。实现代码位于 `python-sdk/`、`lerobot/` 和 `ros2-humble/`。`tools/` 链接 Wiki 中的客户工具；`scripts/` 和 `tests/` 用于仓库维护。
-
-<a id="documentation-and-support"></a>
-
-## 📚 文档与支持
-
-- 🚀 [开始使用](docs/getting-started.md) · 🔎 [排错](docs/troubleshooting.md)
-- ⚙️ [规格及关节映射](docs/specifications.md)
-- 💬 [报告问题](https://github.com/servodevelop/Star-Arm-102/issues/new/choose)
-- 📝 [更新记录](CHANGELOG.md) · 🤝 [贡献指南](CONTRIBUTING.md) · 📄 [许可范围](LICENSE.md)
 
 <a id="related-projects"></a>
 
