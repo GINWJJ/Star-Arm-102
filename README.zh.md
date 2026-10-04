@@ -59,11 +59,11 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
 
 **国际商城：**
 
-| 型号／购买 | 产品简介 |
+| 购买 | 产品简介 |
 | --- | --- |
-| **[102&#8209;LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 |
-| **[102&#8209;HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **姿态保持主臂（Pose-holding）**：采用高扭矩空心杯总线舵机，用于稳定示范和长时间数据采集 |
-| **[102&#8209;FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **任务执行从臂**：配备两个高扭矩无刷总线舵机关节，用于遥操作和策略执行，标称工作负载 500g |
+| **[购买&nbsp;102&#8209;LD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 |
+| **[购买&nbsp;102&#8209;HD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **姿态保持主臂（Pose-holding）**：采用高扭矩空心杯总线舵机，用于稳定示范和长时间数据采集 |
+| **[购买&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **任务执行从臂**：配备两个高扭矩无刷总线舵机关节，用于遥操作和策略执行，标称工作负载 500g |
 
 **中文购买入口：** [淘宝购买](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433)。请在商品页面选择所需型号及整机／套件选项。
 
@@ -75,10 +75,10 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
 
 | 从臂 | 搭配资料 | 当前状态 |
 | --- | --- | --- |
+| **Seeed reBot B601** | [打开 reBot 搭配指南](integrations/seeed-rebot/README.md) | 已有 B601-DM 上游 LeRobot 指南 |
+| **YAM** | [查看 YAM 搭配](integrations/yam/README.md) | 具体型号和安装指南待确认 |
 | **Galaxea A1** | [查看 A1 搭配](integrations/galaxea-a1/README.md) | 安装指南和验证记录待补充 |
 | **Lumos Touch** | [查看 Touch 搭配](integrations/lumos-touch/README.md) | 安装指南和验证记录待补充 |
-| **YAM** | [查看 YAM 搭配](integrations/yam/README.md) | 具体型号和安装指南待确认 |
-| **Seeed reBot B601** | [打开 reBot 搭配指南](integrations/seeed-rebot/README.md) | 已有 B601-DM 上游 LeRobot 指南 |
 
 **[查找搭配方案 →](integrations/README.md)** · **[核对能力与验证依据 →](integrations/compatibility.md)**
 

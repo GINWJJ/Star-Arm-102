@@ -59,11 +59,11 @@ Compare the [Star Arm 102 series](https://fashionstar.com.hk/store/collections/r
 
 **International store:**
 
-| Model / Shop | Product overview |
+| Shop | Product overview |
 | --- | --- |
-| **[102&#8209;LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **Lightweight leader arm** for hand-guided teaching, teleoperation, and demonstration collection; torque-disabled joints move freely |
-| **[102&#8209;HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **Pose-holding leader arm** with high-torque coreless bus servos, for stable demonstrations and extended data collection |
-| **[102&#8209;FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **Follower arm** for teleoperation and policy execution; two high-torque brushless bus servo joints, with a specified 500g working payload |
+| **[Shop&nbsp;102&#8209;LD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **Lightweight leader arm** for hand-guided teaching, teleoperation, and demonstration collection; torque-disabled joints move freely |
+| **[Shop&nbsp;102&#8209;HD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **Pose-holding leader arm** with high-torque coreless bus servos, for stable demonstrations and extended data collection |
+| **[Shop&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **Follower arm** for teleoperation and policy execution; two high-torque brushless bus servo joints, with a specified 500g working payload |
 
 **Chinese purchase channel:** [Taobao](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433). Select the required model and kit option on the listing.
 
@@ -75,10 +75,10 @@ Have a third-party follower? Explore Star Arm 102-LD / HD pairing resources by f
 
 | Follower | Pairing resources | Current status |
 | --- | --- | --- |
+| **Seeed reBot B601** | [Open reBot pairing guide](integrations/seeed-rebot/README.md) | Upstream LeRobot guide available for B601-DM |
+| **YAM** | [Explore YAM pairing](integrations/yam/README.md) | Exact model and setup guide pending |
 | **Galaxea A1** | [Explore A1 pairing](integrations/galaxea-a1/README.md) | Setup guide and validation records pending |
 | **Lumos Touch** | [Explore Touch pairing](integrations/lumos-touch/README.md) | Setup guide and validation records pending |
-| **YAM** | [Explore YAM pairing](integrations/yam/README.md) | Exact model and setup guide pending |
-| **Seeed reBot B601** | [Open reBot pairing guide](integrations/seeed-rebot/README.md) | Upstream LeRobot guide available for B601-DM |
 
 **[Find your pairing →](integrations/README.md)** · **[Check capabilities and evidence →](integrations/compatibility.md)**
 
