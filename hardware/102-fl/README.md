@@ -2,7 +2,10 @@
 
 [← Hardware Resources](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
 
-**On this page:** [📂 Resources](#resources) · [📋 Bill of Materials](#bill-of-materials)
+**On this page:**
+
+- [📂 Resources](#resources)
+- [📋 Bill of Materials](#bill-of-materials)
 
 <a id="resources"></a>
 

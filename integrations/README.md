@@ -2,7 +2,12 @@
 
 [← Home](../README.md)
 
-**On this page:** [Cross-brand follower pairings](#page-section-1) · [Choose a workflow](#page-section-2) · [Partner applications](#page-section-3) · [How these resources are maintained](#page-section-4)
+**On this page:**
+
+- [🌐 Cross-brand follower pairings](#page-section-1)
+- [🧭 Choose a workflow](#page-section-2)
+- [🤝 Partner applications](#page-section-3)
+- [🛠️ How these resources are maintained](#page-section-4)
 
 Find [cross-brand follower pairings](#cross-brand-follower-pairings) or [partner applications](#partner-applications).
 

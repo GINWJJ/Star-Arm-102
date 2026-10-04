@@ -2,7 +2,10 @@
 
 [← 首页](../README.zh.md)　|　🌐 [English](README.md) / **简体中文**
 
-**本页导航：** [🔧 规格](#product-specifications) · [📂 目录结构](#directory-structure)
+**本页导航：**
+
+- [🔧 规格](#product-specifications)
+- [📂 目录结构](#directory-structure)
 
 按型号查看详情：**[102-LD](102-ld/)** · **[102-HD](102-hd/)** · **[102-FL](102-fl/)**。
 

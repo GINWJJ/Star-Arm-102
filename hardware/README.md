@@ -2,7 +2,10 @@
 
 [← Home](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
 
-**On this page:** [🔧 Specifications](#product-specifications) · [📂 Directory Structure](#directory-structure)
+**On this page:**
+
+- [🔧 Specifications](#product-specifications)
+- [📂 Directory Structure](#directory-structure)
 
 Explore your model: **[102-LD](102-ld/)** · **[102-HD](102-hd/)** · **[102-FL](102-fl/)**.
 

@@ -2,7 +2,12 @@
 
 [← Home](../README.md)
 
-**On this page:** [Install](#page-section-1) · [Check communication without commanding motion](#page-section-2) · [Start teleoperation](#page-section-3) · [Help](#page-section-4)
+**On this page:**
+
+- [🛠️ Install](#page-section-1)
+- [🔌 Check communication without commanding motion](#page-section-2)
+- [🎮 Start teleoperation](#page-section-3)
+- [❓ Help](#page-section-4)
 
 [Get started](../docs/getting-started.md) · [Detailed behavior](PYTHON_SDK_GUIDE.md) · [中文补充](PYTHON_SDK_GUIDE.zh.md)
 

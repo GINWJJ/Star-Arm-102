@@ -2,7 +2,12 @@
 
 [← Integrations](../README.md)　|　🌐 **English** / [简体中文](README.zh-CN.md)
 
-**On this page:** [What this integration offers](#page-section-1) · [Before you start](#page-section-2) · [Reference version and validation](#page-section-3) · [Ownership and source code](#page-section-4)
+**On this page:**
+
+- [💬 What this integration offers](#page-section-1)
+- [📋 Before you start](#page-section-2)
+- [✅ Reference version and validation](#page-section-3)
+- [📦 Ownership and source code](#page-section-4)
 
 **Community / Partner Integration — Butterfly Community Robot Arm**
 

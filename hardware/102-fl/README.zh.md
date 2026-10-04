@@ -2,7 +2,10 @@
 
 [← 硬件资源](../README.zh.md)　|　🌐 [English](README.md) / **简体中文**
 
-**本页导航：** [📂 资源目录](#resources) · [📋 物料清单](#bill-of-materials)
+**本页导航：**
+
+- [📂 资源目录](#resources)
+- [📋 物料清单](#bill-of-materials)
 
 <a id="resources"></a>
 

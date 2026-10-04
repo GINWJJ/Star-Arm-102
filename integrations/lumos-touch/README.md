@@ -2,7 +2,12 @@
 
 [← Integrations](../README.md)
 
-**On this page:** [Hardware and supported functions](#page-section-1) · [Python path](#page-section-2) · [LeRobot path](#page-section-3) · [Resources to complete this guide](#page-section-4)
+**On this page:**
+
+- [⚙️ Hardware and supported functions](#page-section-1)
+- [🐍 Python path](#page-section-2)
+- [🤗 LeRobot path](#page-section-3)
+- [📚 Resources to complete this guide](#page-section-4)
 
 [Capability status](../compatibility.md) · [Common preparation](../common-setup.md)
 

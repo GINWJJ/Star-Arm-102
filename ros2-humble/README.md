@@ -2,7 +2,14 @@
 
 [← Home](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
 
-**On this page:** [Install and build](#page-section-1) · [Try the virtual arm first](#page-section-2) · [Connect a real FL](#page-section-3) · [Other examples](#page-section-4) · [Gazebo](#page-section-5) · [Workspace map](#page-section-6)
+**On this page:**
+
+- [🛠️ Install and build](#page-section-1)
+- [🎮 Try the virtual arm first](#page-section-2)
+- [🔌 Connect a real FL](#page-section-3)
+- [💡 Other examples](#page-section-4)
+- [🌐 Gazebo](#page-section-5)
+- [📂 Workspace map](#page-section-6)
 
 [Get started](../docs/getting-started.md) · [Troubleshooting](../docs/troubleshooting.md)
 

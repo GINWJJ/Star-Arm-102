@@ -2,7 +2,12 @@
 
 [← examples](../)　|　🌐 **English** / [简体中文](README.zh.md)
 
-**On this page:** [Watch the demo](#page-section-1) · [What you need](#page-section-2) · [Model card](#page-section-3) · [Match the scene](#page-section-4)
+**On this page:**
+
+- [🎬 Watch the demo](#page-section-1)
+- [📋 What you need](#page-section-2)
+- [🤖 Model card](#page-section-3)
+- [🧩 Match the scene](#page-section-4)
 
 **Run a supplied policy before training your own.** This example uses a Star Arm 102-FL and two cameras to place a block in the center of a prepared workspace.
 

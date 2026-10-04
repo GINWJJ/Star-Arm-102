@@ -2,7 +2,14 @@
 
 [← LeRobot](../README.md)
 
-**On this page:** [Install](#page-section-1) · [Quick Start](#page-section-4) · [Teleoperate](#page-section-5) · [Calibrate](#page-section-6) · [Examples](#page-section-7) · [Public API](#page-section-11)
+**On this page:**
+
+- [🛠️ Install](#page-section-1)
+- [🚀 Quick Start](#page-section-4)
+- [🎮 Teleoperate](#page-section-5)
+- [🎯 Calibrate](#page-section-6)
+- [💡 Examples](#page-section-7)
+- [📖 Public API](#page-section-11)
 
 This package contains a refactored StarArm102 / reBot Arm 102 integration with:
 

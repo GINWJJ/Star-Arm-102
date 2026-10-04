@@ -2,7 +2,14 @@
 
 [← 首页](../README.zh.md)　|　🌐 [English](README.md) / **简体中文**
 
-**本页导航：** [安装与构建](#page-section-1) · [先体验虚拟机械臂](#page-section-2) · [连接真实 FL](#page-section-3) · [其他示例](#page-section-4) · [Gazebo](#page-section-5) · [工作区结构](#page-section-6)
+**本页导航：**
+
+- [🛠️ 安装与构建](#page-section-1)
+- [🎮 先体验虚拟机械臂](#page-section-2)
+- [🔌 连接真实 FL](#page-section-3)
+- [💡 其他示例](#page-section-4)
+- [🌐 Gazebo](#page-section-5)
+- [📂 工作区结构](#page-section-6)
 
 [开始使用](../docs/getting-started.md) · [排错](../docs/troubleshooting.md)
 

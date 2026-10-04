@@ -2,7 +2,12 @@
 
 [← Home](../README.md)
 
-**On this page:** [Release-compatible environment](#page-section-1) · [Calibrate the LD leader and FL follower](#page-section-2) · [First teleoperation](#page-section-3) · [Next steps](#page-section-4)
+**On this page:**
+
+- [📦 Release-compatible environment](#page-section-1)
+- [🎯 Calibrate the LD leader and FL follower](#page-section-2)
+- [🎮 First teleoperation](#page-section-3)
+- [🚀 Next steps](#page-section-4)
 
 [Get started](../docs/getting-started.md) · [Compatibility](../docs/compatibility.md) · [Pretrained ACT model](examples/act_pick/README.md)
 

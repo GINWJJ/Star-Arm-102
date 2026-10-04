@@ -2,7 +2,12 @@
 
 [← 集成目录](../README.md)　|　🌐 [English](README.md) / **简体中文**
 
-**本页导航：** [此集成提供什么](#page-section-1) · [开始前](#page-section-2) · [参考版本与验证](#page-section-3) · [维护方与源代码](#page-section-4)
+**本页导航：**
+
+- [💬 此集成提供什么](#page-section-1)
+- [📋 开始前](#page-section-2)
+- [✅ 参考版本与验证](#page-section-3)
+- [📦 维护方与源代码](#page-section-4)
 
 **社区／伙伴集成 — Butterfly Community Robot Arm**
 

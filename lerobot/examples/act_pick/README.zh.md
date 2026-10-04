@@ -2,7 +2,12 @@
 
 [← examples](../)　|　🌐 [English](README.md) / **简体中文**
 
-**本页导航：** [观看演示](#page-section-1) · [所需条件](#page-section-2) · [模型信息](#page-section-3) · [复现工作场景](#page-section-4)
+**本页导航：**
+
+- [🎬 观看演示](#page-section-1)
+- [📋 所需条件](#page-section-2)
+- [🤖 模型信息](#page-section-3)
+- [🧩 复现工作场景](#page-section-4)
 
 **先运行已有策略，再训练自己的任务。** 本示例使用 Star Arm 102-FL 和两台相机，将积木放到预先布置的工作区中心。
 
