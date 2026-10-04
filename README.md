@@ -96,7 +96,7 @@ Get familiar with the Star Arm 102 web controller interface and workflow before 
 
 [![Star Arm 102 web control interface preview](media/images/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
 
-**[Open Web Controller →](https://fashionstar.com.hk/wiki/software/robot-arm/data/102-web-controller/Browser_SDK/)** · **[Robot arm web control guide →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)** · **[All robot and servo tools →](tools/README.md)**
+**[Open Web Controller Guide →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)** · **[All robot and servo tools →](tools/README.md)**
 
 *Interface preview with no hardware connected. Tool versions, downloads, and detailed instructions are maintained in the Wiki.*
 

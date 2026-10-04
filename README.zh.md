@@ -96,7 +96,7 @@ LD 和 HD 是示教主臂，FL 是执行任务的从臂；仅有主臂不能运�
 
 [![Star Arm 102 网页控制界面预览](media/images/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
 
-**[打开网页控制器 →](https://fashionstar.com.hk/wiki/software/robot-arm/data/102-web-controller/Browser_SDK/)** · **[机械臂网页控制指南 →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)** · **[全部机械臂与舵机工具 →](tools/README.md)**
+**[打开网页控制器指南 →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)** · **[全部机械臂与舵机工具 →](tools/README.md)**
 
 *截图时未连接硬件。工具版本、下载和详细操作说明由 Wiki 统一维护。*
 
