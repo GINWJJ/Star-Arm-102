@@ -21,7 +21,7 @@
 <p align="center">
   <a href="docs/getting-started.md"><strong>🚀 开始使用</strong></a> ·
   <a href="integrations/README.md"><strong>🌐 跨品牌搭配</strong></a> ·
-  <a href="#try-your-first-ai-task"><strong>🤖 体验第一个 AI 任务</strong></a> ·
+  <a href="#run-your-first-ai-task"><strong>🤖 运行第一个 AI 任务</strong></a> ·
   <a href="integrations/butterfly/README.zh-CN.md"><strong>💬 自然语言控制</strong></a>
 </p>
 
@@ -40,6 +40,28 @@
 
 <p align="center"><strong>六个机械臂关节 + 一个夹爪 · LD／HD 主臂 + FL 从臂 · 遥操作与模仿学习</strong></p>
 
+## 📑 目录
+
+- [产品介绍](#introduction)
+- [购买入口](#where-to-buy)
+- [探索网页控制器](#web-controller)
+- [运行第一个 AI 任务](#run-your-first-ai-task)
+- [跨品牌从臂兼容性](#cross-brand-pairings)
+- [硬件资料](hardware/README.zh.md)
+- [LeRobot](lerobot/README.md)
+- [自然语言控制](integrations/butterfly/README.zh-CN.md)
+- [ROS 2 Humble](ros2-humble/README.zh.md)
+- [Python SDK](python-sdk/README.md)
+- [控制与配置工具](tools/README.md)
+
+[开发路径与目录结构](#development-paths) · [相关项目](#related-projects)
+
+---
+
+<a id="introduction"></a>
+
+## 📖 产品介绍
+
 Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接机械臂，使用 Python 和 LeRobot，或体验已发布的 ACT 积木放置策略。本仓库汇集首次安装及后续开发所需的代码、硬件资源与指南。
 
 | 🦾 6+1 自由度 | 🎮 通过示范学习 | 🤖 体验预训练策略 |
@@ -47,9 +69,7 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
 | 六个机械臂关节及一个夹爪控制通道 | 使用 LD 或 HD 主臂遥操作 | 从提供的 ACT 积木放置模型开始 |
 | [了解硬件](docs/specifications.md) | [配置遥操作](python-sdk/README.md) | [打开模型指南](lerobot/examples/act_pick/README.zh.md) |
 
-📑 **导航：** [购买](#where-to-buy) · [AI 任务](#try-your-first-ai-task) · [选择配置](#choose-your-setup) · [工具](#control-and-configuration-tools) · [跨品牌搭配](#cross-brand-pairings) · [伙伴项目](integrations/README.md#partner-applications) · [开发](#development-paths) · [文档索引](#documentation-index)
-
----
+LD 和 HD 是示教主臂，FL 是执行任务的从臂；仅有主臂不能运行自主 ACT 任务。
 
 <a id="where-to-buy"></a>
 
@@ -67,26 +87,23 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
 
 **中文购买入口：** [淘宝购买](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433)。请在商品页面选择所需型号及整机／套件选项。
 
-<a id="cross-brand-pairings"></a>
+<a id="control-and-configuration-tools"></a>
+<a id="web-controller"></a>
 
-## 🌐 一个主臂，多种机器人平台
+## 🎛️ 探索网页控制器
 
-已有其他品牌的从臂？按从臂型号查看 Star Arm 102-LD／HD 的搭配资料，再选择对应的 Python 或 LeRobot 路径。
+在连接机械臂前，先了解 Star Arm 102 网页控制器的界面和操作流程。连接、遥操作和实物状态读取需要兼容硬件；各型号功能和配置要求请参阅 Wiki。
 
-| 从臂 | 搭配资料 | 当前状态 |
-| --- | --- | --- |
-| **Seeed reBot B601** | [打开 reBot 搭配指南](integrations/seeed-rebot/README.md) | 已有 B601-DM 上游 LeRobot 指南 |
-| **YAM** | [查看 YAM 搭配](integrations/yam/README.md) | 具体型号和安装指南待确认 |
-| **Galaxea A1** | [查看 A1 搭配](integrations/galaxea-a1/README.md) | 安装指南和验证记录待补充 |
-| **Lumos Touch** | [查看 Touch 搭配](integrations/lumos-touch/README.md) | 安装指南和验证记录待补充 |
+[![Star Arm 102 网页控制界面预览](media/images/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
 
-**[查找搭配方案 →](integrations/README.md)** · **[核对能力与验证依据 →](integrations/compatibility.md)**
+**[打开网页控制器 →](https://fashionstar.com.hk/wiki/software/robot-arm/data/102-web-controller/Browser_SDK/)** · **[机械臂网页控制指南 →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)** · **[全部机械臂与舵机工具 →](tools/README.md)**
 
-支持范围取决于具体从臂、主臂版本及软件路径。LD 兼容性、HD 按键行为、遥操作和学习流程分别记录。待完善的文档不代表已验证的兼容性。
+*截图时未连接硬件。工具版本、下载和详细操作说明由 Wiki 统一维护。*
 
 <a id="try-your-first-ai-task"></a>
+<a id="run-your-first-ai-task"></a>
 
-## 🤖 体验第一个 AI 任务
+## 🤖 运行第一个 AI 任务
 
 先观看下方 ACT 积木放置演示，再按照指南在自己的机械臂上运行预训练模型。你也可以了解支持自然语言控制的伙伴应用。
 
@@ -112,42 +129,47 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
 - [模型发布版本与原始视频](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0)。
 - [训练自己的任务](lerobot/examples/act_pick/training.md)：后续步骤及当前文档状态。
 
-<a id="choose-your-setup"></a>
+<a id="cross-brand-pairings"></a>
 
-## 🧭 选择你的配置
+## 🌐 一个主臂，多种机器人平台
 
-| 你拥有的设备 | 从哪里开始 |
-| --- | --- |
-| **102-LD + 102-FL** | [首次 Python 遥操作](python-sdk/README.md)，再进入 [LeRobot](lerobot/README.md) 学习流程 |
-| **102-HD + 102-FL** | [Python 配置及 HD 按键要求](python-sdk/README.md)；重构集成使用独立的 [HD/FL LeRobot 指南](lerobot/lerobot-stararm102/README.md) |
-| **仅 102-FL** | [检查通信](python-sdk/README.md#check-communication-without-commanding-motion)，再体验 [ACT 演示](lerobot/examples/act_pick/inference.md) 或 [ROS 2](ros2-humble/README.zh.md) |
-| **102 主臂 + Galaxea A1／Lumos Touch／YAM** | [跨品牌搭配导航](integrations/README.md)：选择型号并核对当前配置状态 |
-| **102 主臂 + Seeed reBot** | [reBot 兼容性及上游配置](integrations/seeed-rebot/README.md)；Python FL 示例不是 reBot 驱动 |
-| **零件／DIY 装配** | [硬件索引](hardware/README.zh.md)；完整装配教程仍在准备中 |
+已有其他品牌的从臂？按从臂型号查看 Star Arm 102-LD／HD 的搭配资料，再选择对应的 Python 或 LeRobot 路径。
 
-LD 和 HD 是主臂，FL 是执行任务的从臂。仅有主臂不能运行提供的自主 ACT 任务。“6+1”表示 FL 的六个机械臂关节和一个夹爪控制通道；主臂有相应的手柄控制。
+| 从臂 | 搭配资料 | 当前状态 |
+| --- | --- | --- |
+| **Seeed reBot B601** | [打开 reBot 搭配指南](integrations/seeed-rebot/README.md) | 已有 B601-DM 上游 LeRobot 指南 |
+| **YAM** | [查看 YAM 搭配](integrations/yam/README.md) | 具体型号和安装指南待确认 |
+| **Galaxea A1** | [查看 A1 搭配](integrations/galaxea-a1/README.md) | 安装指南和验证记录待补充 |
+| **Lumos Touch** | [查看 Touch 搭配](integrations/lumos-touch/README.md) | 安装指南和验证记录待补充 |
 
-<a id="before-connecting"></a>
+**[查找搭配方案 →](integrations/README.md)** · **[核对能力与验证依据 →](integrations/compatibility.md)**
 
-## 🔌 连接前准备
+支持范围取决于具体从臂、主臂版本及软件路径。LD 兼容性、HD 按键行为、遥操作和学习流程分别记录。待完善的文档不代表已验证的兼容性。
 
-阅读 [硬件配置](docs/hardware-setup.md)，确认供电、接线和端口。通过 [兼容性表](docs/compatibility.md) 选择一个环境。Python 遥操作和 ACT 演示无需 ROS。
+<a id="hardware-resources"></a>
+<a id="hardware-resource-status"></a>
 
-<a id="control-and-configuration-tools"></a>
+## ⚙️ 硬件资料
 
-## 🎛️ 控制与配置工具
+| 型号 | 已提供的参考文件 | 尚不完整或待核对 |
+| --- | --- | --- |
+| [102-LD](hardware/102-ld/README.zh.md) | 主要零件 STEP、LD 装配导出、图纸、BOM 和 3MF 参考 | 版本一致性、已确认打印参数、独立 STL、型号专用 URDF、装配指南 |
+| [102-HD](hardware/102-hd/README.md) | 共用主体 STEP 及 HD 按钮零件、BOM 和 3MF 参考 | HD 装配／图纸、版本一致性、独立 STL、型号专用 URDF、装配指南 |
+| [102-FL](hardware/102-fl/README.md) | 主要零件 STEP、FL 装配导出、图纸、BOM 和 3MF 参考 | FL link1 打印参数冲突、版本一致性、独立 STL、型号专用 URDF、装配指南 |
 
-使用 Star Arm 102 网页界面进行连接、遥操作和三维姿态显示。Wiki 提供工具入口、各型号功能和配置说明。
+参见 [详细硬件状态](hardware/README.zh.md#resource-status) 和 [交接发现](hardware/handoff-review.zh.md)。文件已提供不代表已经形成完整、经过实物验证的制造发布版本。
 
-[![Star Arm 102 网页控制界面预览](media/images/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
-
-**[机械臂网页控制指南 →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)** · **[全部机械臂与舵机工具 →](tools/README.md)**
-
-*截图时未连接硬件。工具版本、下载和详细操作说明由 Wiki 统一维护。*
+**[浏览硬件资料 →](hardware/README.zh.md)**
 
 <a id="development-paths"></a>
+<a id="documentation-and-support"></a>
+<a id="documentation-index"></a>
+<a id="choose-your-setup"></a>
+<a id="before-connecting"></a>
 
-## 🛠️ 开发路径
+## 🛠️ 开发路径与目录结构
+
+首次使用？先阅读 [入门指南](docs/getting-started.md)，确认设备组合、[硬件配置](docs/hardware-setup.md)和软件路径。另见 [规格及关节映射](docs/specifications.md)、[排错](docs/troubleshooting.md)及[验证记录](docs/validation.md)。
 
 | 路径 | 用途 | 指南 |
 | --- | --- | --- |
@@ -157,25 +179,11 @@ LD 和 HD 是主臂，FL 是执行任务的从臂。仅有主臂不能运行提�
 | ROS 2 Humble | RViz、MoveIt、Gazebo 和机器人系统开发 | [ROS 2 指南](ros2-humble/README.zh.md) |
 | 硬件 | 各型号 STEP、BOM、图纸、打印参考及状态 | [硬件资源](hardware/README.zh.md) |
 | 伙伴应用 | 自然语言任务控制及伙伴维护的机器人应用 | [伙伴集成](integrations/README.md) |
+| 控制与配置工具 | 机械臂网页控制、舵机调试和参数配置 | [工具导航](tools/README.md) |
 
 ACT 发布版本和重构后的 HD/FL 集成使用不同的关节表示，请保持独立环境。参见 [版本及验证状态](docs/compatibility.md)。
 
-<a id="documentation-and-support"></a>
-<a id="documentation-index"></a>
 <a id="repository-structure"></a>
-
-## 📚 文档索引
-
-按下方索引查找指南，或通过目录树了解文件位置。
-
-| 文档类别 | 入口 |
-| --- | --- |
-| 入门与配置 | [开始使用](docs/getting-started.md) · [硬件配置](docs/hardware-setup.md) · [兼容性](docs/compatibility.md) |
-| 产品参考 | [规格及关节映射](docs/specifications.md) · [硬件资料](hardware/README.zh.md) |
-| 编程与学习 | [Python SDK](python-sdk/README.md) · [LeRobot](lerobot/README.md) · [ACT 示例](lerobot/examples/act_pick/README.zh.md) · [ROS 2](ros2-humble/README.zh.md) |
-| 搭配与工具 | [跨品牌搭配及伙伴应用](integrations/README.md) · [控制与配置工具](tools/README.md) |
-| 排错与验证 | [排错指南](docs/troubleshooting.md) · [验证记录](docs/validation.md) |
-| 仓库说明 | [更新记录](CHANGELOG.md) · [贡献指南](CONTRIBUTING.md) · [许可范围](LICENSE.md) |
 
 ### 仓库目录结构
 
@@ -229,12 +237,4 @@ Star-Arm-102/
 
 软件目录和模型发布链接保持有效。英文为默认入口；已有中英文 README 同步维护板块、图片、命令及状态。仅有英文的详细文档仍可从对应链接访问。[历史中文首页](README.legacy.zh.md) 仅供追溯，不作为当前操作指南。
 
-## 硬件资源状态
-
-| 型号 | 已提供的参考文件 | 尚不完整或待核对 |
-| --- | --- | --- |
-| [102-LD](hardware/102-ld/README.zh.md) | 主要零件 STEP、LD 装配导出、图纸、BOM 和 3MF 参考 | 版本一致性、已确认打印参数、独立 STL、型号专用 URDF、装配指南 |
-| [102-HD](hardware/102-hd/README.md) | 共用主体 STEP 及 HD 按钮零件、BOM 和 3MF 参考 | HD 装配／图纸、版本一致性、独立 STL、型号专用 URDF、装配指南 |
-| [102-FL](hardware/102-fl/README.md) | 主要零件 STEP、FL 装配导出、图纸、BOM 和 3MF 参考 | FL link1 打印参数冲突、版本一致性、独立 STL、型号专用 URDF、装配指南 |
-
-参见 [详细硬件状态](hardware/README.zh.md#resource-status) 和 [交接发现](hardware/handoff-review.zh.md)。文件已提供不代表已经形成完整、经过实物验证的制造发布版本。
+[更新记录](CHANGELOG.md) · [贡献指南](CONTRIBUTING.md) · [许可范围](LICENSE.md)
