@@ -59,11 +59,11 @@ Compare the [Star Arm 102 series](https://fashionstar.com.hk/store/collections/r
 
 **International store:**
 
-| Model | Product overview | International store |
-| --- | --- | --- |
-| Star Arm 102-LD | **Lightweight leader arm** for hand-guided teaching, teleoperation, and demonstration collection; torque-disabled joints move freely | [Shop 102-LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/) |
-| Star Arm 102-HD | **Pose-holding leader arm** with high-torque RP8 coreless servos, for stable demonstrations and extended data collection | [Shop 102-HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/) |
-| Star Arm 102-FL | **Follower arm** for teleoperation and policy execution; RA8 and brushless servo joints, with a specified 500 g working payload | [Shop 102-FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
+| Model / Shop | Product overview |
+| --- | --- |
+| **[102&#8209;LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **Lightweight leader arm** for hand-guided teaching, teleoperation, and demonstration collection; torque-disabled joints move freely |
+| **[102&#8209;HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **Pose-holding leader arm** with high-torque coreless bus servos, for stable demonstrations and extended data collection |
+| **[102&#8209;FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **Follower arm** for teleoperation and policy execution; two high-torque brushless bus servo joints, with a specified 500g working payload |
 
 **Chinese purchase channel:** [Taobao](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433). Select the required model and kit option on the listing.
 

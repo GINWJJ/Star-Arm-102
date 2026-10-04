@@ -59,11 +59,11 @@ Star Arm 102 由 **[Fashion Star](https://fashionstar.com.hk/)** 开发。连接
 
 **国际商城：**
 
-| 型号 | 产品简介 | 国际商城 |
-| --- | --- | --- |
-| Star Arm 102-LD | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 | [购买 102-LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/) |
-| Star Arm 102-HD | **姿态保持主臂（Pose-holding）**：采用高扭矩 RP8 空心杯舵机，用于稳定示范和长时间数据采集 | [购买 102-HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/) |
-| Star Arm 102-FL | **任务执行从臂**：采用 RA8 与无刷舵机关节，标称工作负载 500 g，用于遥操作和策略执行 | [购买 102-FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
+| 型号／购买 | 产品简介 |
+| --- | --- |
+| **[102&#8209;LD](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 |
+| **[102&#8209;HD](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **姿态保持主臂（Pose-holding）**：采用高扭矩空心杯总线舵机，用于稳定示范和长时间数据采集 |
+| **[102&#8209;FL](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **任务执行从臂**：配备两个高扭矩无刷总线舵机关节，用于遥操作和策略执行，标称工作负载 500g |
 
 **中文购买入口：** [淘宝购买](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433)。请在商品页面选择所需型号及整机／套件选项。
 
