@@ -1,13 +1,11 @@
 # Assembling Star Arm 102-FL
 
-[Model resources](../README.md) · [BOM](../bom/README.md) · [Images](images/README.md)
+[English](README.md) · [简体中文](README.zh.md) · [FL hardware resources](../README.md)
 
-**Missing:** no complete assembly tutorial or videos were supplied in this handoff. Assembly STEP and dimension drawings do not substitute for an assembly sequence.
+Follow Fashion Star’s assembly video to build your Star Arm 102-FL. Click the preview below to watch on YouTube.
 
-The guide needs part/fastener references, servo placement, orientation, cable routing and revision-specific checks.
+[![Star Arm 102-FL assembly video](https://i.ytimg.com/vi/9-ufaI8dwys/hqdefault.jpg)](https://www.youtube.com/watch?v=9-ufaI8dwys)
 
-## Video and Wiki tutorials
+**[▶ Watch the 102-FL Assembly Guide →](https://www.youtube.com/watch?v=9-ufaI8dwys)**
 
-Model-specific video and Wiki links are pending. List videos by assembly step when available.
-
-For an assembled product, see [power and wiring](../../../docs/hardware-setup.md).
+This video is for **102-FL**. Its applicable hardware revision and coverage of wiring and pre-power checks still need review.

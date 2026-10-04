@@ -1,13 +1,13 @@
 # Assembling Star Arm 102-HD
 
-[Model resources](../README.md) · [BOM](../bom/README.md) · [Images](images/README.md)
+[English](README.md) · [简体中文](README.zh.md) · [HD hardware resources](../README.md)
 
-**Missing:** no complete assembly tutorial or videos were supplied in this handoff. Assembly STEP and dimension drawings do not substitute for an assembly sequence.
+Use Fashion Star’s 102-LD main arm assembly video to assemble your Star Arm 102-HD. Click the preview below to watch on YouTube.
 
-The guide needs part/fastener references, servo placement, orientation, cable routing and revision-specific checks. HD-specific button housing and UK-01 installation must be included.
+> **For 102-HD: replace the servos shown in the LD video with the corresponding purple coreless bus servos supplied for HD. The remaining main arm assembly steps are the same as for 102-LD.**
 
-## Video and Wiki tutorials
+[![Star Arm 102-LD main arm assembly video — reference for 102-HD with the servo substitution above](https://i.ytimg.com/vi/flTCgBx3K0M/hqdefault.jpg)](https://www.youtube.com/watch?v=flTCgBx3K0M)
 
-Model-specific video and Wiki links are pending. List videos by assembly step when available.
+**[▶ Watch the Shared Main Arm Assembly Guide →](https://www.youtube.com/watch?v=flTCgBx3K0M)**
 
-For an assembled product, see [power and wiring](../../../docs/hardware-setup.md).
+The video shows **102-LD**, not HD. HD-specific button housing and UK-01 installation instructions remain to be added; hardware revision, wiring, and pre-power check coverage still need review.

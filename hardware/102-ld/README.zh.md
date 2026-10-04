@@ -7,12 +7,12 @@
 | 资源 | 当前状态 |
 | --- | --- |
 | [零件 STEP](step/parts/README.md) | 11/11 个主要打印零件已提供；生产版本未确认 |
-| [装配 STEP](step/assembly/README.md) | 标为 LD 的 7 月 21 日导出文件；需工程核对 |
+| [装配 STEP](step/assembly/README.md) | 已提供 LD/HD 共用装配模型（7 月 21 日导出）；配套文件一致性待核对 |
 | [打印文件](printing/README.md) | 已有 3MF 参考；独立 STL 缺失；打印验证待完成 |
 | [Excel BOM](bom/README.md) | 已提供原始交接清单供核对 |
 | [图纸](drawings/README.zh.md) | 已有 PDF／DWG 参考；版本一致性待确认 |
 | [机器人描述](robot-description/README.md) | 目录已准备；型号专用 URDF 和网格尚未批准采用 |
-| [装配指南](assembly-guide/README.md) | 完整说明、照片和视频链接待补充 |
+| [装配指南](assembly-guide/README.zh.md) | 主体机械臂装配视频已提供；硬件版本及接线覆盖范围待核对 |
 
 文件齐全不代表配合尺寸、强度、运动学精度或硬件版本已经验证。使用前请阅读各下载入口的说明。
 

@@ -1,13 +1,11 @@
 # Assembling Star Arm 102-LD
 
-[Model resources](../README.md) · [BOM](../bom/README.md) · [Images](images/README.md)
+[English](README.md) · [简体中文](README.zh.md) · [LD hardware resources](../README.md)
 
-**Missing:** no complete assembly tutorial or videos were supplied in this handoff. Assembly STEP and dimension drawings do not substitute for an assembly sequence.
+Follow Fashion Star’s video to assemble the main arm of your Star Arm 102-LD. Click the preview below to watch on YouTube.
 
-The guide needs part/fastener references, servo placement, orientation, cable routing and revision-specific checks.
+[![Star Arm 102-LD main arm assembly video](https://i.ytimg.com/vi/flTCgBx3K0M/hqdefault.jpg)](https://www.youtube.com/watch?v=flTCgBx3K0M)
 
-## Video and Wiki tutorials
+**[▶ Watch the 102-LD Main Arm Assembly Guide →](https://www.youtube.com/watch?v=flTCgBx3K0M)**
 
-Model-specific video and Wiki links are pending. List videos by assembly step when available.
-
-For an assembled product, see [power and wiring](../../../docs/hardware-setup.md).
+This video is for **102-LD main arm assembly**. Its applicable hardware revision and coverage of wiring and pre-power checks still need review.

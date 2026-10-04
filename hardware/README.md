@@ -69,18 +69,18 @@ hardware/
 
 ## Resource status
 
-As of 2026-10-03. **Available** means the named file set is present. **Partial** means only some resources exist. **Review / Conflict** means reference files are present but cannot yet be treated as a matched production release. **Missing** means no usable model-specific file has been supplied. STEP counts cover the main printed parts named in the handoff BOM; they exclude purchased servos, electronics, accessories and native CAD sources. File availability is not manufacturing or print validation.
+As of 2026-10-04. **Available** means the named file set is present. **Partial** means only some resources exist. **Review / Conflict** means reference files are present but cannot yet be treated as a matched production release. **Missing** means no usable model-specific file has been supplied. STEP counts cover the main printed parts named in the handoff BOM; they exclude purchased servos, electronics, accessories and native CAD sources. File availability is not manufacturing or print validation.
 
 | Resource | 102-LD | 102-HD | 102-FL |
 | --- | --- | --- | --- |
 | Main printed-part STEP coverage | Available: 11/11 named parts | Available: 13/13, including 2 HD button parts | Available: 11/11 named parts |
-| Whole-arm STEP | Review: LD export 2026-07-21 | Missing: no HD-labelled assembly | Review: FL export 2026-07-03 |
+| Whole-arm STEP | Shared LD/HD export 2026-07-21; file-set alignment under review | Shared LD/HD export 2026-07-21; file-set alignment under review | Review: FL export 2026-09-27; July 3 reference retained |
 | Standalone printing STL | Missing | Missing | Missing |
 | 3MF printing project | Review: date/version confirmation | Review: date/version confirmation | Conflict: link1 settings versus BOM |
 | Excel BOM | Review: assembled and kit references | Review: handoff reference | Review: overseas-shipment reference |
 | PDF / DWG drawings | Review: July 13 reference and older files | Partial: shared LD geometry reference only | Review: July 13 reference |
 | Model-specific URDF and meshes | Missing: candidate held for review | Missing | Missing: unlabelled candidate held for review |
-| Assembly guide / videos | Missing | Missing | Missing |
+| Assembly guide / videos | Partial: [main arm assembly video](102-ld/assembly-guide/README.md) available; revision and wiring coverage under review | Partial: [LD video with HD servo substitution](102-hd/assembly-guide/README.md); HD button instructions pending | Partial: [assembly video](102-fl/assembly-guide/README.md) available; revision and wiring coverage under review |
 | Confirmed production revision / physical validation | Pending | Pending | Pending |
 
 ## Download by purpose
