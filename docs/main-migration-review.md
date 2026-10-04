@@ -27,7 +27,7 @@ The previous main contained 201 tracked files. Before the final repairs, 174 had
 
 ## Remaining work
 
-See [hardware status](../hardware/README.md#resource-status), [handoff review](../hardware/handoff-review.md), [cross-brand capabilities](../integrations/compatibility.md), and [runtime validation](validation.md).
+See [hardware resources](../hardware/README.md), [cross-brand capabilities](../integrations/compatibility.md), and [runtime validation](validation.md).
 
 Outstanding items include standalone printing STL, approved model-specific URDFs, complete assembly instructions/video, production-version reconciliation, BOM/print-setting conflicts, cross-brand setup packages and physical validation, and partner application end-to-end validation. Their status must remain visible until evidence is supplied.
 
