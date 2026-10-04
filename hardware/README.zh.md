@@ -1,26 +1,32 @@
-# Star Arm 102 硬件资源
+# Star Arm 102 规格与硬件资源
 
-第三方从臂搭配请查看 [跨品牌搭配资料](../integrations/README.md)。
+[首页](../README.zh.md) · [English](README.md) · [更新记录](CHANGELOG.md)
 
-[首页](../README.zh.md) · [English](README.md) · [交接审阅](handoff-review.zh.md) · [更新记录](CHANGELOG.md)
+对比 LD、HD、FL 的产品规格，按型号获取 STEP 模型、打印文件、BOM、图纸和装配视频。
 
-请选择准确型号：**[102-LD](102-ld/README.zh.md)** · **[102-HD](102-hd/README.md)** · **[102-FL](102-fl/README.md)**。
+[🔧 规格](#product-specifications) · [📂 目录结构](#directory-structure) · [📋 资源状态](#resource-status)
 
-LD 和 HD 共用主体机械结构。HD 另外有按钮底座、按钮盖和 UK-01 按键板，舵机、线材及紧固件选型也不同。各型号提供独立下载入口，客户无需自行合并共用 BOM 和差异清单。
+按型号查看详情：**[102-LD](102-ld/README.zh.md)** · **[102-HD](102-hd/README.md)** · **[102-FL](102-fl/README.md)**。
 
 <a id="product-specifications"></a>
 
-## 产品规格书
+## 规格
 
-三款产品的规格入口集中列在下方。目前仓库尚未收录可识别的独立产品规格书 PDF；现有机械图纸不作为产品规格书。文件补齐前，可查看对应官方产品页面的规格信息。
-
-| 资料 | 102-LD | 102-HD | 102-FL |
+| 规格 | Star Arm 102-LD | Star Arm 102-HD | Star Arm 102-FL |
 | --- | --- | --- | --- |
-| 产品定位 | 轻量示教主臂 | 姿态保持示教主臂 | 任务执行从臂 |
-| 官方产品规格 | [查看 LD 规格](https://fashionstar.com.hk/store/product/star-arm-102-ld/) | [查看 HD 规格](https://fashionstar.com.hk/store/product/star-arm-102-hd/) | [查看 FL 规格](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
-| 独立规格书 PDF | 待补充 | 待补充 | 待补充 |
+| 产品类型 | 示教主臂（Leader Arm） | 姿态保持主臂（Leader Arm） | 执行从臂（Follower Arm） |
+| 电源规格 | 12V@3A | 12V@5A | 12V@8A |
+| 臂展 | 420mm | 420mm | 420mm |
+| 自由度 | 6+1 | 6+1 | 6+1 |
+| 负载 | — | — | 500g（建议在 70% 臂展处使用） |
+| 重复定位精度／编码器 | 12-bit 磁编码器 | 12-bit 磁编码器 | 2mm |
+| 关节运动范围 | 关节 1: ±110°<br>关节 2: 0°–180°<br>关节 3: 0°–270°<br>关节 4: ±90°<br>关节 5: ±65°<br>关节 6: ±150°<br>手柄: 0°–90° | 关节 1: ±110°<br>关节 2: 0°–180°<br>关节 3: 0°–270°<br>关节 4: ±90°<br>关节 5: ±65°<br>关节 6: ±150°<br>手柄: 0°–90° | 关节 1: ±110°<br>关节 2: 0°–180°<br>关节 3: 0°–270°<br>关节 4: ±90°<br>关节 5: ±65°<br>关节 6: ±150°<br>夹爪: 0°–90° |
+| 舵机配置 | RA8-U01H-M × 4<br>RA8-U02H-M × 1<br>RA8-U03H-M × 2 | RP8-U45H-M × 4<br>RP8-U45H-M-C029 × 1<br>RP8-U45H-M-C028 × 2 | RA8-U35H-M × 3<br>RX8-U50H-M × 2<br>RA8-U27H-M-C005 × 1<br>RA8-U35H-M-C047 × 1 |
+| 本机重量 | 721g | 883g | 791g |
+| 通信方式 | UART / UC-01 | UART / UC-01 | UART / UC-01 |
+| 工作温度 | 0–40°C | 0–40°C | 0–40°C |
 
-[系列规格与关节映射](../docs/specifications.md) · [机械资料状态](#resource-status)
+<a id="directory-structure"></a>
 
 ## 目录结构
 
@@ -83,15 +89,6 @@ hardware/
 | 型号专用 URDF 和网格 | 缺失：候选文件暂缓采用，待核对 | 缺失 | 缺失：无型号标识的候选文件待核对 |
 | 装配指南／视频 | 部分提供：[主体机械臂装配视频](102-ld/assembly-guide/README.zh.md)已提供；版本及接线覆盖范围待核对 | 部分提供：[参考 LD 视频并替换 HD 舵机](102-hd/assembly-guide/README.zh.md)；HD 按钮安装说明待补充 | 部分提供：[装配视频](102-fl/assembly-guide/README.zh.md)已提供；版本及接线覆盖范围待核对 |
 | 已确认生产版本／实物验证 | 待完成 | 待完成 | 待完成 |
-
-## 按用途下载
-
-- 修改几何结构：各型号的 `step/parts/` 和 `step/assembly/`。
-- 打印零件：`printing/stl/` 和 `printing/3mf/`。现有 3MF 是待核对的交接参考文件。
-- 核对材料及数量：`bom/` 提供 Excel 清单，并说明来源及版本状态。
-- 核对尺寸：`drawings/pdf/` 和 `drawings/cad/`。
-- 装配：`assembly-guide/` 将提供步骤、照片、视频链接及 Wiki 教程。
-- 使用机器人模型：各型号的 `robot-description/` 记录适用性与状态。[现有 ROS 模型](robot-description/README.md) 单独保留，未被未经验证的交接导出文件替换。
 
 ## 版本与许可
 

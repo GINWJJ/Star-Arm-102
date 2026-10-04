@@ -39,7 +39,7 @@
 - [🌐 跨品牌从臂兼容性](#cross-brand-pairings)
 - [🎮 连接主臂，体验虚拟从臂](#web-controller)
 - [🤖 运行第一个 AI 任务](#run-your-first-ai-task)
-- [⚙️ 产品规格与硬件资料](hardware/README.zh.md#product-specifications)
+- [⚙️ 硬件资源](hardware/README.zh.md)
 - [🤗 LeRobot](lerobot/README.md)
 - [💬 自然语言控制](integrations/butterfly/README.zh-CN.md)
 - [🦾 ROS 2 Humble 应用](ros2-humble/README.zh.md)
@@ -65,6 +65,24 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 - **手动示教，感知负载** — 通过 ROS 2 进行拖动示教，并在 102-HD 主臂上感受受支持从臂负载变化带来的不同手感。
 - **ACT 预训练任务** — 完成指定环境、校准和双相机配置后，即可在 102-FL 上运行提供的积木放置策略，无需重新训练。
 
+<a id="arm-specifications"></a>
+
+## 🔧 规格
+
+| 规格 | Star Arm 102-LD | Star Arm 102-HD | Star Arm 102-FL |
+| --- | --- | --- | --- |
+| 产品类型 | 示教主臂（Leader Arm） | 姿态保持主臂（Leader Arm） | 执行从臂（Follower Arm） |
+| 电源规格 | 12V@3A | 12V@5A | 12V@8A |
+| 臂展 | 420mm | 420mm | 420mm |
+| 自由度 | 6+1 | 6+1 | 6+1 |
+| 负载 | — | — | 500g（建议在 70% 臂展处使用） |
+| 重复定位精度／编码器 | 12-bit 磁编码器 | 12-bit 磁编码器 | 2mm |
+| 关节运动范围 | 关节 1: ±110°<br>关节 2: 0°–180°<br>关节 3: 0°–270°<br>关节 4: ±90°<br>关节 5: ±65°<br>关节 6: ±150°<br>手柄: 0°–90° | 关节 1: ±110°<br>关节 2: 0°–180°<br>关节 3: 0°–270°<br>关节 4: ±90°<br>关节 5: ±65°<br>关节 6: ±150°<br>手柄: 0°–90° | 关节 1: ±110°<br>关节 2: 0°–180°<br>关节 3: 0°–270°<br>关节 4: ±90°<br>关节 5: ±65°<br>关节 6: ±150°<br>夹爪: 0°–90° |
+| 舵机配置 | RA8-U01H-M × 4<br>RA8-U02H-M × 1<br>RA8-U03H-M × 2 | RP8-U45H-M × 4<br>RP8-U45H-M-C029 × 1<br>RP8-U45H-M-C028 × 2 | RA8-U35H-M × 3<br>RX8-U50H-M × 2<br>RA8-U27H-M-C005 × 1<br>RA8-U35H-M-C047 × 1 |
+| 本机重量 | 721g | 883g | 791g |
+| 通信方式 | UART / UC-01 | UART / UC-01 | UART / UC-01 |
+| 工作温度 | 0–40°C | 0–40°C | 0–40°C |
+
 <a id="where-to-buy"></a>
 
 ## 🛒 购买入口
@@ -73,11 +91,11 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 
 **国际商城：**
 
-| 购买 | 产品简介 |
-| --- | --- |
-| **[购买&nbsp;102&#8209;LD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 |
-| **[购买&nbsp;102&#8209;HD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **姿态保持主臂（Pose-holding）**：采用高扭矩空心杯总线舵机，用于稳定示范和长时间数据采集 |
-| **[购买&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **任务执行从臂**：配备两个高扭矩无刷总线舵机关节，用于遥操作和策略执行，标称工作负载 500g |
+| 产品图片 | 购买 | 产品简介 |
+| :---: | --- | --- |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-ld/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-01-430x430.webp" alt="Star Arm 102-LD" width="120"></a> | **[购买&nbsp;102&#8209;LD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-hd/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-01-2-430x430.webp" alt="Star Arm 102-HD" width="120"></a> | **[购买&nbsp;102&#8209;HD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **姿态保持主臂（Pose-holding）**：采用高扭矩空心杯总线舵机，用于稳定示范和长时间数据采集 |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-fl/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-main-image-01-430x430.webp" alt="Star Arm 102-FL" width="120"></a> | **[购买&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **任务执行从臂**：配备两个高扭矩无刷总线舵机关节，用于遥操作和策略执行，标称工作负载 500g |
 
 **中文购买入口：** [淘宝购买](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433)。请在商品页面选择所需型号及整机／套件选项。
 

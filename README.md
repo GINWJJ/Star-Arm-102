@@ -39,7 +39,7 @@
 - [🌐 Cross-Brand Follower Compatibility](#cross-brand-pairings)
 - [🎮 Connect Your Leader to a Virtual Follower](#web-controller)
 - [🤖 Run Your First AI Task](#run-your-first-ai-task)
-- [⚙️ Specifications & Hardware Resources](hardware/README.md#product-specifications)
+- [⚙️ Hardware Resources](hardware/README.md)
 - [🤗 LeRobot](lerobot/README.md)
 - [💬 Natural Language Control](integrations/butterfly/README.md)
 - [🦾 ROS 2 Humble Applications](ros2-humble/README.md)
@@ -65,6 +65,24 @@ Star Arm 102 is an open-source robot arm platform developed by **[Fashion Star](
 - **Teach by hand. Feel the load.** — Use ROS 2 for hand-guided teaching and feel changes in a supported follower's load through the 102-HD leader.
 - **Pretrained ACT task** — Run the supplied block-placement policy on 102-FL without retraining, after completing the specified environment, calibration, and two-camera setup.
 
+<a id="arm-specifications"></a>
+
+## 🔧 Specifications
+
+| Specification | Star Arm 102-LD | Star Arm 102-HD | Star Arm 102-FL |
+| --- | --- | --- | --- |
+| Arm type | Leader Arm | Pose-holding Leader Arm | Follower Arm |
+| Power | 12V@3A | 12V@5A | 12V@8A |
+| Reach | 420mm | 420mm | 420mm |
+| DoF | 6+1 | 6+1 | 6+1 |
+| Payload | — | — | 500g (70% reach recommended) |
+| Repeatability / Encoder | 12-bit magnetic encoder | 12-bit magnetic encoder | 2mm |
+| Joint Motion Range | Joint 1: ±110°<br>Joint 2: 0°–180°<br>Joint 3: 0°–270°<br>Joint 4: ±90°<br>Joint 5: ±65°<br>Joint 6: ±150°<br>Handle: 0°–90° | Joint 1: ±110°<br>Joint 2: 0°–180°<br>Joint 3: 0°–270°<br>Joint 4: ±90°<br>Joint 5: ±65°<br>Joint 6: ±150°<br>Handle: 0°–90° | Joint 1: ±110°<br>Joint 2: 0°–180°<br>Joint 3: 0°–270°<br>Joint 4: ±90°<br>Joint 5: ±65°<br>Joint 6: ±150°<br>Gripper: 0°–90° |
+| Servos | RA8-U01H-M × 4<br>RA8-U02H-M × 1<br>RA8-U03H-M × 2 | RP8-U45H-M × 4<br>RP8-U45H-M-C029 × 1<br>RP8-U45H-M-C028 × 2 | RA8-U35H-M × 3<br>RX8-U50H-M × 2<br>RA8-U27H-M-C005 × 1<br>RA8-U35H-M-C047 × 1 |
+| Arm weight | 721g | 883g | 791g |
+| Communication | UART / UC-01 | UART / UC-01 | UART / UC-01 |
+| Operating Temperature | 0–40°C | 0–40°C | 0–40°C |
+
 <a id="where-to-buy"></a>
 
 ## 🛒 Where to Buy
@@ -73,11 +91,11 @@ Choose your [Star Arm 102](https://fashionstar.com.hk/store/collections/robot-ar
 
 **International store:**
 
-| Shop | Product overview |
-| --- | --- |
-| **[Shop&nbsp;102&#8209;LD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **Lightweight leader arm** for hand-guided teaching, teleoperation, and demonstration collection; torque-disabled joints move freely |
-| **[Shop&nbsp;102&#8209;HD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **Pose-holding leader arm** with high-torque coreless bus servos, for stable demonstrations and extended data collection |
-| **[Shop&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **Follower arm** for teleoperation and policy execution; two high-torque brushless bus servo joints, with a specified 500g working payload |
+| Product | Shop | Product overview |
+| :---: | --- | --- |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-ld/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-01-430x430.webp" alt="Star Arm 102-LD" width="120"></a> | **[Shop&nbsp;102&#8209;LD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **Lightweight leader arm** for hand-guided teaching, teleoperation, and demonstration collection; torque-disabled joints move freely |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-hd/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-01-2-430x430.webp" alt="Star Arm 102-HD" width="120"></a> | **[Shop&nbsp;102&#8209;HD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **Pose-holding leader arm** with high-torque coreless bus servos, for stable demonstrations and extended data collection |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-fl/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-main-image-01-430x430.webp" alt="Star Arm 102-FL" width="120"></a> | **[Shop&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **Follower arm** for teleoperation and policy execution; two high-torque brushless bus servo joints, with a specified 500g working payload |
 
 **Chinese purchase channel:** [Taobao](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433). Select the required model and kit option on the listing.
 

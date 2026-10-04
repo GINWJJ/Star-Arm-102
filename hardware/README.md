@@ -1,27 +1,32 @@
-# Star Arm 102 hardware resources
+# Star Arm 102 Specifications & Hardware Resources
 
-For third-party follower setups, see [cross-brand pairing resources](../integrations/README.md).
+[Home](../README.md) · [中文](README.zh.md) · [Changes](CHANGELOG.md)
 
+Compare LD, HD, and FL specifications, then find STEP models, printing files, BOMs, drawings, and assembly videos for your model.
 
-[Home](../README.md) · [中文](README.zh.md) · [Handoff review](handoff-review.md) · [Changes](CHANGELOG.md)
+[🔧 Specifications](#product-specifications) · [📂 Directory Structure](#directory-structure) · [📋 Resource Status](#resource-status)
 
-Choose your exact model: **[102-LD](102-ld/README.md)** · **[102-HD](102-hd/README.md)** · **[102-FL](102-fl/README.md)**.
-
-LD and HD share their main mechanical body. HD additionally has a button base, button cover and UK-01 board, and different servo, cable and fastener selections. Each model has its own downloads so customers do not need to combine a common BOM with a difference list.
+Explore your model: **[102-LD](102-ld/README.md)** · **[102-HD](102-hd/README.md)** · **[102-FL](102-fl/README.md)**.
 
 <a id="product-specifications"></a>
 
-## Product specifications & datasheets
+## Specifications
 
-Compare the three models using the entries below. No standalone product datasheet PDFs have been identified in this repository yet; mechanical drawings are separate resources. Until the datasheets are added, consult the specifications on each official product page.
-
-| Resource | 102-LD | 102-HD | 102-FL |
+| Specification | Star Arm 102-LD | Star Arm 102-HD | Star Arm 102-FL |
 | --- | --- | --- | --- |
-| Product role | Lightweight leader | Pose-holding leader | Follower for task execution |
-| Official product specifications | [View LD specifications](https://fashionstar.com.hk/store/product/star-arm-102-ld/) | [View HD specifications](https://fashionstar.com.hk/store/product/star-arm-102-hd/) | [View FL specifications](https://fashionstar.com.hk/store/product/star-arm-102-fl/) |
-| Standalone datasheet PDF | Pending | Pending | Pending |
+| Arm type | Leader Arm | Pose-holding Leader Arm | Follower Arm |
+| Power | 12V@3A | 12V@5A | 12V@8A |
+| Reach | 420mm | 420mm | 420mm |
+| DoF | 6+1 | 6+1 | 6+1 |
+| Payload | — | — | 500g (70% reach recommended) |
+| Repeatability / Encoder | 12-bit magnetic encoder | 12-bit magnetic encoder | 2mm |
+| Joint Motion Range | Joint 1: ±110°<br>Joint 2: 0°–180°<br>Joint 3: 0°–270°<br>Joint 4: ±90°<br>Joint 5: ±65°<br>Joint 6: ±150°<br>Handle: 0°–90° | Joint 1: ±110°<br>Joint 2: 0°–180°<br>Joint 3: 0°–270°<br>Joint 4: ±90°<br>Joint 5: ±65°<br>Joint 6: ±150°<br>Handle: 0°–90° | Joint 1: ±110°<br>Joint 2: 0°–180°<br>Joint 3: 0°–270°<br>Joint 4: ±90°<br>Joint 5: ±65°<br>Joint 6: ±150°<br>Gripper: 0°–90° |
+| Servos | RA8-U01H-M × 4<br>RA8-U02H-M × 1<br>RA8-U03H-M × 2 | RP8-U45H-M × 4<br>RP8-U45H-M-C029 × 1<br>RP8-U45H-M-C028 × 2 | RA8-U35H-M × 3<br>RX8-U50H-M × 2<br>RA8-U27H-M-C005 × 1<br>RA8-U35H-M-C047 × 1 |
+| Arm weight | 721g | 883g | 791g |
+| Communication | UART / UC-01 | UART / UC-01 | UART / UC-01 |
+| Operating Temperature | 0–40°C | 0–40°C | 0–40°C |
 
-[Series specifications and joint mapping](../docs/specifications.md) · [Mechanical resource status](#resource-status)
+<a id="directory-structure"></a>
 
 ## Directory structure
 
@@ -67,6 +72,8 @@ hardware/
 
 `step/assembly/` contains CAD assemblies; `assembly-guide/` is for customer assembly instructions. Model-specific `robot-description/` directories track pending resources, while the shared `hardware/robot-description/` contains the existing ROS model. A directory may currently contain only a README: consult the resource status table before downloading or manufacturing.
 
+<a id="resource-status"></a>
+
 ## Resource status
 
 As of 2026-10-04. **Available** means the named file set is present. **Partial** means only some resources exist. **Review / Conflict** means reference files are present but cannot yet be treated as a matched production release. **Missing** means no usable model-specific file has been supplied. STEP counts cover the main printed parts named in the handoff BOM; they exclude purchased servos, electronics, accessories and native CAD sources. File availability is not manufacturing or print validation.
@@ -82,15 +89,6 @@ As of 2026-10-04. **Available** means the named file set is present. **Partial**
 | Model-specific URDF and meshes | Missing: candidate held for review | Missing | Missing: unlabelled candidate held for review |
 | Assembly guide / videos | Partial: [main arm assembly video](102-ld/assembly-guide/README.md) available; revision and wiring coverage under review | Partial: [LD video with HD servo substitution](102-hd/assembly-guide/README.md); HD button instructions pending | Partial: [assembly video](102-fl/assembly-guide/README.md) available; revision and wiring coverage under review |
 | Confirmed production revision / physical validation | Pending | Pending | Pending |
-
-## Download by purpose
-
-- Edit geometry: each model's `step/parts/` and `step/assembly/`.
-- Print parts: `printing/stl/` and `printing/3mf/`. Current 3MF files are handoff references requiring review.
-- Check materials and quantities: `bom/` provides Excel workbooks, with source/revision status.
-- Check dimensions: `drawings/pdf/` and `drawings/cad/`.
-- Assemble: `assembly-guide/` will provide steps, photos, video links and Wiki tutorials.
-- Use a robot model: each model's `robot-description/` records applicability and status. The [existing ROS model](robot-description/README.md) remains separate and has not been replaced by unverified handoff exports.
 
 ## Versions and licensing
 
