@@ -19,15 +19,8 @@
 </p>
 
 <p align="center">
-  <a href="docs/getting-started.md"><strong>🚀 Get Started</strong></a> ·
-  <a href="integrations/README.md"><strong>🌐 Cross-Brand Pairings</strong></a> ·
-  <a href="#run-your-first-ai-task"><strong>🤖 Run Your First AI Task</strong></a> ·
-  <a href="integrations/butterfly/README.md"><strong>💬 Natural-Language Control</strong></a>
-</p>
-
-<p align="center">
   <a href="https://fashionstar.com.hk/">🌐 Official Website</a> ·
-  <a href="https://fashionstar.com.hk/robot-arm/star-arm-102">🦾 Series Overview</a> ·
+  <a href="https://fashionstar.com.hk/robot-arm/star-arm-102">🔭 Series Overview</a> ·
   <a href="#where-to-buy">🛒 Where to Buy</a> ·
   <a href="https://fashionstar.com.hk/support/">💬 Support</a>
 </p>
@@ -38,19 +31,18 @@
   </a>
 </p>
 
-<p align="center"><strong>Six arm joints + one gripper · LD / HD leaders + FL follower · Teleoperation & imitation learning</strong></p>
-
 ## 📑 Contents
 
 - [📖 Introduction](#introduction)
 - [🛒 Where to Buy](#where-to-buy)
+- [🚀 Get Started](docs/getting-started.md)
 - [🌐 Cross-Brand Follower Compatibility](#cross-brand-pairings)
-- [🎛️ Explore the Web Controller](#web-controller)
+- [🎮 Connect Your Leader to a Virtual Follower](#web-controller)
 - [🤖 Run Your First AI Task](#run-your-first-ai-task)
 - [⚙️ Specifications & Hardware Resources](hardware/README.md#product-specifications)
 - [🤗 LeRobot](lerobot/README.md)
 - [💬 Natural Language Control](integrations/butterfly/README.md)
-- [🦾 ROS 2 Humble](ros2-humble/README.md)
+- [🦾 ROS 2 Humble Applications](ros2-humble/README.md)
 - [🐍 Python SDK](python-sdk/README.md)
 - [🧰 Control & Configuration Tools](tools/README.md)
 
@@ -62,21 +54,22 @@
 
 ## 📖 Introduction
 
-Star Arm 102 is a robot arm platform developed by **[Fashion Star](https://fashionstar.com.hk/)** for teleoperation, demonstration collection, and LeRobot learning workflows.
+Star Arm 102 is an open-source robot arm platform developed by **[Fashion Star](https://fashionstar.com.hk/)** for teleoperation, demonstration collection, and LeRobot learning workflows.
 
-- **6+1 DoF** — Six arm joints plus a gripper channel on the FL follower, with a corresponding handle channel on LD / HD leaders.
+- **6+1 DoF, more wrist flexibility** — Six arm joints plus gripper control give you flexible wrist movement and versatile end-effector orientations.
+- **Pieper-compliant kinematics** — Three consecutive parallel joint axes enable analytical inverse kinematics.
 - **420 mm reach** — Across the LD, HD, and FL models for tabletop manipulation setups.
 - **500g working payload** — The 102-FL follower features two high-torque brushless bus servo joints for task execution.
 - **Two leader options** — Choose the lightweight 102-LD for free hand-guided teaching, or the pose-holding 102-HD with high-torque coreless bus servos for stable demonstrations.
+- **Open-source resources** — STEP models, 3D-printing projects, BOMs, URDF robot descriptions, and control code for learning, building, and customization.
+- **Teach by hand. Feel the load.** — Use ROS 2 for hand-guided teaching and feel changes in a supported follower's load through the 102-HD leader.
 - **Pretrained ACT task** — Run the supplied block-placement policy on 102-FL without retraining, after completing the specified environment, calibration, and two-camera setup.
-
-[Explore the specifications](docs/specifications.md) · [Set up teleoperation](python-sdk/README.md) · [Open the ACT guide](lerobot/examples/act_pick/README.md)
 
 <a id="where-to-buy"></a>
 
 ## 🛒 Where to Buy
 
-Compare the [Star Arm 102 series](https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/). All three models offer 6+1 DoF and 420 mm reach; choose a leader for demonstrations or a follower for task execution. Assembled and DIY kit options are listed on the product pages.
+Choose your [Star Arm 102](https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/) as a **fully assembled arm** to get started sooner, or a **DIY kit** to build it yourself. **In-stock options, ready to ship.** Select your model and configuration on the product page for current availability.
 
 **International store:**
 
@@ -94,27 +87,40 @@ Compare the [Star Arm 102 series](https://fashionstar.com.hk/store/collections/r
 
 Have a third-party follower? Explore Star Arm 102-LD / HD pairing resources by follower model, then choose the matching Python or LeRobot path.
 
-| Follower | Pairing resources | Current status |
-| --- | --- | --- |
-| **Seeed reBot B601** | [Open reBot pairing guide](integrations/seeed-rebot/README.md) | Upstream LeRobot guide available for B601-DM |
-| **YAM** | [Explore YAM pairing](integrations/yam/README.md) | Exact model and setup guide pending |
-| **Galaxea A1** | [Explore A1 pairing](integrations/galaxea-a1/README.md) | Setup guide and validation records pending |
-| **Lumos Touch** | [Explore Touch pairing](integrations/lumos-touch/README.md) | Setup guide and validation records pending |
+<table>
+  <tr>
+    <td align="center" width="50%"><a href="integrations/seeed-rebot/README.md"><img src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/i/m/img_v3_0210p_67d75fe6-a1fe-40a9-b025-ac92efb1bbbg_1.jpg" width="240" alt="Seeed reBot B601-DM" height="180"></a></td>
+    <td align="center" width="50%"><a href="integrations/yam/README.md"><img src="https://i2rt.com/cdn/shop/files/st0_768396f1-edfb-4839-96c1-f7b5dffa214a.png?v=1788854436&amp;width=600" width="135" alt="I2RT YAM" height="180"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="integrations/seeed-rebot/README.md"><strong>Seeed reBot B601-DM &amp; B601-RS →</strong></a></td>
+    <td align="center"><a href="integrations/yam/README.md"><strong>YAM →</strong></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="integrations/galaxea-a1/README.md"><img src="https://galaxea-dynamics.com/cdn/shop/files/Frame_183.png?v=1776231329&amp;width=1200" width="180" alt="Galaxea A1" height="180"></a></td>
+    <td align="center" width="50%"><a href="integrations/lumos-touch/README.md"><img src="https://www.lumosbot.tech/images/products/touch/front.webp" width="111" alt="Lumos Touch R1" height="180"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="integrations/galaxea-a1/README.md"><strong>Galaxea A1 →</strong></a></td>
+    <td align="center"><a href="integrations/lumos-touch/README.md"><strong>Lumos Touch →</strong></a></td>
+  </tr>
+</table>
 
-**[Find your pairing →](integrations/README.md)** · **[Check capabilities and evidence →](integrations/compatibility.md)**
-
-Support depends on the exact follower, leader revision, and software path. LD compatibility, HD button behavior, teleoperation, and learning workflows are tracked separately. Pending documentation is not a tested compatibility claim.
+**[Cross-Brand Compatibility and Evidence →](integrations/compatibility.md)**
 
 <a id="control-and-configuration-tools"></a>
 <a id="web-controller"></a>
 
-## 🎛️ Explore the Web Controller
+## 🎮 Connect Your Leader to a Virtual Follower
 
-Get familiar with the Star Arm 102 web controller interface and workflow before connecting your arm. Device connection, teleoperation, and live hardware readback require compatible hardware; see the Wiki for model-specific capabilities and setup.
+Start with your Star Arm 102 leader and a virtual follower in the web controller—no physical follower needed for this first experience.
+
+- Get familiar with teleoperation and prepare your setup before connecting a physical follower.
+- Follow the Wiki guide for supported leader models, connection steps, and calibration instructions.
 
 [![Star Arm 102 web control interface preview](media/images/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
 
-**[Open Web Controller Guide →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)** · **[All robot and servo tools →](tools/README.md)**
+**[Connect Your Leader →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)** · **[All robot and servo tools →](tools/README.md)**
 
 *Interface preview with no hardware connected. Tool versions, downloads, and detailed instructions are maintained in the Wiki.*
 
@@ -147,20 +153,18 @@ Watch the ACT block-placement demo below, then follow the guide to run the pretr
 - [Model release and original video](https://github.com/servodevelop/Star-Arm-102/releases/tag/act-pick-v1.0.0).
 - [Training your own task](lerobot/examples/act_pick/training.md): next steps and current documentation status.
 
-<a id="hardware-resources"></a>
-<a id="hardware-resource-status"></a>
+<a id="teaching-and-force-feedback"></a>
 
-## ⚙️ Hardware Resources
+## 🎮 Teach by Hand. Feel the Load.
 
-| Model | Available reference files | Still incomplete or under review |
-| --- | --- | --- |
-| [102-LD](hardware/102-ld/README.md) | Main-part STEP set, LD assembly export, drawings, BOM and 3MF references | Version alignment, approved print settings, standalone STL, model-specific URDF, assembly guide |
-| [102-HD](hardware/102-hd/README.md) | Shared-body STEP set plus HD button parts, BOM and 3MF references | HD assembly/drawings, version alignment, standalone STL, model-specific URDF, assembly guide |
-| [102-FL](hardware/102-fl/README.md) | Main-part STEP set, FL assembly export, drawings, BOM and 3MF references | FL link1 print-setting conflict, version alignment, standalone STL, model-specific URDF, assembly guide |
+Explore two ways to interact with your arm through ROS 2:
 
-See the [detailed hardware status](hardware/README.md#resource-status) and [handoff findings](hardware/handoff-review.md). Files being available does not mean a complete, physically validated manufacturing release.
+- **Hand-Guided Teaching** — Guide the arm by hand to demonstrate motion through ROS 2.
+- **Force Feedback on 102-HD** — Feel changes in a supported follower's load as changes in resistance at the HD leader, bringing a sense of the remote arm's effort to your hand.
 
-**[Explore Hardware Resources →](hardware/README.md)**
+**[Explore ROS 2 Capabilities →](ros2-humble/README.md)**
+
+*Feature-specific setup guides, supported arm combinations, and validation records are being prepared.*
 
 <a id="development-paths"></a>
 <a id="documentation-and-support"></a>
@@ -188,7 +192,7 @@ The ACT release and the refactored HD/FL integration use different joint represe
 
 ### Repository structure
 
-Main entry points are shown below; individual assets, historical guides, and local caches are omitted.
+The `102-ld/` layout is expanded to show where hardware resources belong; `102-hd/` and `102-fl/` use the same main categories. LD additionally includes `drawings/images/` for existing drawing previews. Individual files, historical guides, and local caches are omitted.
 
 ```text
 Star-Arm-102/
@@ -196,14 +200,29 @@ Star-Arm-102/
 ├── README.zh.md
 ├── hardware/
 │   ├── 102-ld/
+│   │   ├── step/
+│   │   │   ├── assembly/
+│   │   │   └── parts/
+│   │   ├── printing/
+│   │   │   ├── stl/
+│   │   │   └── 3mf/
+│   │   ├── drawings/
+│   │   │   ├── pdf/
+│   │   │   ├── cad/
+│   │   │   └── images/
+│   │   ├── bom/
+│   │   ├── assembly-guide/
+│   │   └── robot-description/
+│   │       ├── urdf/
+│   │       └── meshes/
 │   ├── 102-hd/
 │   ├── 102-fl/
 │   └── robot-description/
 ├── integrations/
+│   ├── seeed-rebot/
+│   ├── yam/
 │   ├── galaxea-a1/
 │   ├── lumos-touch/
-│   ├── yam/
-│   ├── seeed-rebot/
 │   └── butterfly/
 ├── lerobot/
 │   ├── examples/act_pick/
@@ -225,7 +244,7 @@ Star-Arm-102/
 └── LICENSE.md
 ```
 
-`hardware/` holds mechanical resources; `integrations/` organizes follower pairings and partner applications. Implementations live in `python-sdk/`, `lerobot/`, and `ros2-humble/`. `tools/` links to Wiki-hosted customer tools; `scripts/` and `tests/` support repository maintenance.
+`hardware/robot-description/`: existing ROS model; applicable variant pending confirmation.
 
 <a id="related-projects"></a>
 

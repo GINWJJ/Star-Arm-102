@@ -2,11 +2,11 @@
 
 [All pairings](../README.md) · [Capability status](../compatibility.md) · [Common preparation](../common-setup.md)
 
-**Status: upstream LeRobot instructions available for B601-DM; no new local bench validation.**
+**Status: upstream LeRobot instructions available for B601-DM and B601-RS; no new local bench validation.**
 
 The B601 follower uses a different motor bus from Star Arm 102-FL. Do not run `python-sdk/stararm102_ro.py` against a B601, and do not connect the follower's supply to the 102 leader.
 
-For the upstream integration, follow the [LeRobot reBot guide](https://huggingface.co/docs/lerobot/rebot_b601), including its installation, wiring references, calibration and single/bimanual commands. Upstream uses `rebot_102_leader` and `rebot_b601_follower`; older Fashion Star fork examples may use other names. Keep the complete workflow within one documented version.
+For the upstream integration, follow the [LeRobot reBot guide](https://huggingface.co/docs/lerobot/main/rebot_b601), including its installation, wiring references, calibration and single/bimanual commands. Upstream uses `rebot_102_leader` and `rebot_b601_follower`; older Fashion Star fork examples may use other names. Keep the complete workflow within one documented version.
 
 The [Seeed reBot repository](https://github.com/Seeed-Projects/reBot-DevArm) lists Star Arm 102-LD compatibility. Check your exact follower variant (DM or RS) and adapter before installing. HD button/locking behavior is a separate capability: basic leader compatibility does not establish support for the HD board.
 
@@ -21,7 +21,7 @@ The [Seeed reBot repository](https://github.com/Seeed-Projects/reBot-DevArm) lis
 ## Software paths and remaining evidence
 
 - **Direct Python:** the [Star Arm Python examples](../../python-sdk/README.md) control FL, not B601. No dedicated direct-Python B601 example is provided here.
-- **LeRobot:** use the upstream guide linked above for B601-DM. Its data-recording section extends the teleoperation setup; a tested training and inference release for this pairing is not provided here.
+- **LeRobot:** use the upstream main-branch guide linked above for B601-DM and B601-RS. Select the correct `motor_family` (`dm` or `rs`); RS requires native CAN. Follow that guide’s source-install instructions. Its data-recording section extends the teleoperation setup; a tested training and inference release for this pairing is not provided here.
 - **Hardware variants:** verify the exact leader revision, B601 variant, adapters, firmware, and HD button behavior. Do not apply DM commands to another variant without its own instructions.
 - **Detailed resources:** [our leader hardware](../../hardware/README.md), and [existing LeRobot paths](../../lerobot/README.md).
 

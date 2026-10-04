@@ -9,9 +9,9 @@ Status reviewed: October 3, 2026. **Pending** means this repository does not yet
 | [Galaxea A1](galaxea-a1/README.md) | Pending | Pending / pending | Pending | Pending | Pending | Pending |
 | [Lumos Touch](lumos-touch/README.md) | Pending | Pending / pending | Pending | Pending | Pending | Pending |
 | [YAM, model pending](yam/README.md) | Pending | Pending / pending | Pending | Pending | Pending | Pending |
-| [Seeed reBot B601-DM](seeed-rebot/README.md) | Confirm exact 102 leader revision against upstream | Exact HD revision and buttons pending | No dedicated example here | Upstream documented | Upstream documented | No pairing-specific validated policy here |
+| [Seeed reBot B601-DM / B601-RS](seeed-rebot/README.md) | Confirm exact 102 leader revision against upstream | Exact HD revision and buttons pending | No dedicated example here | Upstream documented | Upstream documented | No pairing-specific validated policy here |
 
-The reBot rows refer to the [upstream LeRobot B601-DM guide](https://huggingface.co/docs/lerobot/rebot_b601), reviewed on October 3, 2026. Its leader is named StarArm102 / reBot Arm 102; this is not blanket confirmation for every LD or HD revision. Other B601 variants need their own evidence.
+The reBot row refers to the [upstream LeRobot main-branch guide for B601-DM and B601-RS](https://huggingface.co/docs/lerobot/main/rebot_b601), reviewed on October 4, 2026. Follow its source-install instructions and select the matching motor family and adapter. Its leader is named StarArm102 / reBot Arm 102; this is not blanket confirmation for every LD or HD revision. DM and RS configurations must be validated separately.
 
 ## Evidence needed for a validated entry
 

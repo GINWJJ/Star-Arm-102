@@ -11,7 +11,7 @@ Use this directory to explore Star Arm 102-LD / HD leader pairings with third-pa
 | Galaxea A1 | [A1 pairing](galaxea-a1/README.md) | Pairing-specific code, setup instructions, and test records pending |
 | Lumos Touch | [Touch pairing](lumos-touch/README.md) | Pairing-specific code, setup instructions, and test records pending |
 | YAM — exact model to be confirmed | [YAM pairing](yam/README.md) | Model identification and pairing guide pending |
-| Seeed reBot B601 | [B601 pairing](seeed-rebot/README.md) | Upstream LeRobot guide available for B601-DM; verify exact leader and variant |
+| Seeed reBot B601 | [B601 pairing](seeed-rebot/README.md) | Upstream LeRobot guide available for B601-DM and B601-RS; verify exact leader and variant |
 
 These entries identify customer pairing needs. Listing a model does not establish tested support for both LD and HD, or for every software workflow. See the [capability and evidence matrix](compatibility.md) before choosing hardware or installing software.
 
