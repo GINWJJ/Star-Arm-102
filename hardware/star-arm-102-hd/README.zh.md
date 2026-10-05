@@ -3,12 +3,12 @@
 [← 硬件资源](../README.zh.md)　|　🌐 [English](README.md) / **简体中文**
 
 <p align="center">
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 3" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-03-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-03-1-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 4" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 5" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 6" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 7" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 8" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-hd-diy-kit-main-image-01.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-hd-diy-kit-main-image-01.webp" alt="Star Arm 102-HD DIY 套件" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1.webp" alt="Star Arm 102-HD 产品图片 2" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1.webp" alt="Star Arm 102-HD 产品图片 3" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1.webp" alt="Star Arm 102-HD 产品图片 4" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06.webp" alt="Star Arm 102-HD 产品图片 5" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07.webp" alt="Star Arm 102-HD 产品图片 6" width="15%"></a>
 </p>
 
 **本页导航：**
@@ -25,7 +25,7 @@
 | [assembly-guide/](assembly-guide/README.zh.md) | 参考 LD 视频并替换 HD 舵机 | ✅ 视频已提供<br>🟡 HD 按钮说明待补；版本及接线覆盖待核对 |
 | [step/](step/) | parts/ 零件模型；assembly/ 共用装配模型 | ✅ 文件已提供<br>🟡 配套版本待核对 |
 | [printing/](printing/) | 3mf/ 打印项目；stl/ 独立打印文件 | ✅ 13 个独立零件 3MF 及整套项目已提供；— STL 未提供<br>🟡 打印待验证 |
-| [drawings/](../102-ld/drawings/) | LD 共用主体参考图（PDF／DWG） | 🟡 HD 专用图纸待提供 |
+| [drawings/](../star-arm-102-ld/drawings/) | LD 共用主体参考图（PDF／DWG） | 🟡 HD 专用图纸待提供 |
 | [robot-description/](robot-description/) | LD/HD 通用 URDF 模型 ZIP，含网格（ROS 1） | ✅ 压缩包已提供<br>🟡 RViz 配置待补；关节限位及运行待验证 |
 
 <a id="bill-of-materials"></a>

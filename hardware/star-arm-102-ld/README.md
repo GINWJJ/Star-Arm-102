@@ -2,6 +2,15 @@
 
 [← Hardware Resources](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
 
+<p align="center">
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-ld-diy-kit-main-image-01-2.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-ld-diy-kit-main-image-01-2.webp" alt="Star Arm 102-LD DIY kit" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-02.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-02.webp" alt="Star Arm 102-LD product view 2" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-03.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-03.webp" alt="Star Arm 102-LD product view 3" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-04.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-04.webp" alt="Star Arm 102-LD product view 4" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-05.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-05.webp" alt="Star Arm 102-LD product view 5" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-06.webp" alt="Star Arm 102-LD product view 6" width="15%"></a>
+</p>
+
 **On this page:**
 
 - [📂 Resources](#resources)

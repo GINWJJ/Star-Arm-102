@@ -16,7 +16,7 @@ Keep customer pairing guides in `integrations/`, Python implementations in `pyth
 
 ## Naming
 
-Use lowercase words separated by hyphens (`kebab-case`) for new repository names, resource directories, descriptive filenames, and branch names. Examples: `hardware/`, `102-ld/`, `camera-mount.step`, and `codex/phase-one-english`. Use lowercase file extensions for exported assets.
+Use lowercase words separated by hyphens (`kebab-case`) for new repository names, resource directories, descriptive filenames, and branch names. Examples: `hardware/`, `star-arm-102-ld/`, `camera-mount.step`, and `codex/phase-one-english`. Use lowercase file extensions for exported assets.
 
 Keep conventional filenames such as `README.md`, `README.zh.md`, `LICENSE`, and `CHANGELOG.md`. Follow language and tool requirements for Python modules, ROS packages, and other integration identifiers. Migrate existing paths deliberately and update their references; check exact letter case for Linux and GitHub compatibility. Do not rename the GitHub repository or existing branches as part of a resource-file cleanup.
 

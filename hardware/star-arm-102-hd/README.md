@@ -3,12 +3,12 @@
 [← Hardware Resources](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
 
 <p align="center">
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 3" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-03-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-03-1-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 4" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 5" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 6" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 7" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07-700x700.webp" alt="Star Arm 102-HD Leader Arm - Image 8" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-hd-diy-kit-main-image-01.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-hd-diy-kit-main-image-01.webp" alt="Star Arm 102-HD DIY kit" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1.webp" alt="Star Arm 102-HD product view 2" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1.webp" alt="Star Arm 102-HD product view 3" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1.webp" alt="Star Arm 102-HD product view 4" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06.webp" alt="Star Arm 102-HD product view 5" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07.webp" alt="Star Arm 102-HD product view 6" width="15%"></a>
 </p>
 
 **On this page:**
@@ -25,7 +25,7 @@
 | [assembly-guide/](assembly-guide/README.md) | LD assembly video with HD servo substitution | ✅ Video available<br>🟡 HD button instructions pending; revision and wiring coverage under review |
 | [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
 | [printing/](printing/) | Printing project in 3mf/; standalone print files in stl/ | ✅ 13 individual 3MF files and combined project available; — STL not supplied<br>🟡 Print validation pending |
-| [drawings/](../102-ld/drawings/) | Shared LD body reference (PDF / DWG) | 🟡 HD-specific drawings to be added |
+| [drawings/](../star-arm-102-ld/drawings/) | Shared LD body reference (PDF / DWG) | 🟡 HD-specific drawings to be added |
 | [robot-description/](robot-description/) | Shared LD/HD URDF model ZIP, including meshes (ROS 1) | ✅ Package available<br>🟡 RViz configuration incomplete; joint limits and runtime validation pending |
 
 <a id="bill-of-materials"></a>

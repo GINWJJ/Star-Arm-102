@@ -2,6 +2,15 @@
 
 [← 硬件资源](../README.zh.md)　|　🌐 [English](README.md) / **简体中文**
 
+<p align="center">
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-diy-kit-main-image-01.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-diy-kit-main-image-01.webp" alt="Star Arm 102-FL DIY 套件" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-02.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-02.webp" alt="Star Arm 102-FL 产品图片 2" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-03.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-03.webp" alt="Star Arm 102-FL 产品图片 3" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-04.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-04.webp" alt="Star Arm 102-FL 产品图片 4" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-05.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-05.webp" alt="Star Arm 102-FL 产品图片 5" width="15%"></a>
+  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-06.webp" alt="Star Arm 102-FL 产品图片 6" width="15%"></a>
+</p>
+
 **本页导航：**
 
 - [📂 资源目录](#resources)
