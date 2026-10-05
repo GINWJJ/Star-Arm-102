@@ -46,7 +46,7 @@
 - [🐍 Python SDK](python-sdk/README.md)
 - [🧰 控制与配置工具](tools/README.md)
 
-[🛠️ 开发路径与目录结构](#development-paths) · [🔗 相关项目](#related-projects)
+[🛠️ 仓库目录结构](#repository-structure) · [🔗 相关项目](#related-projects)
 
 ---
 
@@ -176,34 +176,16 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 <a id="choose-your-setup"></a>
 <a id="before-connecting"></a>
 
-## 🛠️ 开发路径与目录结构
-
-首次使用？先阅读 [入门指南](docs/getting-started.md)，确认设备组合、[硬件配置](docs/hardware-setup.md)和软件路径。另见 [规格及关节映射](docs/specifications.md)、[排错](docs/troubleshooting.md)及[验证记录](docs/validation.md)。
-
-| 路径 | 用途 | 指南 |
-| --- | --- | --- |
-| 跨品牌搭配 | 从臂专用要求、软件路径和验证状态 | [搭配导航](integrations/README.md) |
-| Python 示例 | 通信检查及 LD/HD → FL 直接遥操作 | [Python SDK 示例](python-sdk/README.md) |
-| LeRobot | 校准、示范采集、策略及已发布 ACT 模型 | [选择集成方案](lerobot/README.md) |
-| ROS 2 Humble | 拖动示教、102-HD 力反馈，以及基于 RViz、MoveIt、Gazebo 的机器人系统开发 | [ROS 2 指南](ros2-humble/README.zh.md) |
-| 硬件 | 各型号 STEP、BOM、图纸、打印参考及状态 | [硬件资源](hardware/README.zh.md) |
-| 伙伴应用 | 自然语言任务控制及伙伴维护的机器人应用 | [伙伴集成](integrations/README.md) |
-| 控制与配置工具 | 机械臂网页控制、舵机调试和参数配置 | [工具导航](tools/README.md) |
-
-ACT 发布版本和重构后的 HD/FL 集成使用不同的关节表示，请保持独立环境。参见 [版本及验证状态](docs/compatibility.md)。
-
 <a id="repository-structure"></a>
 
-### 仓库目录结构
-
-下方展开 `102-ld/`，方便查找各类硬件资料；HD 和 FL 使用相同资源分类，各自提供型号对应文件和页内 BOM。省略单个文件、历史教程和本地缓存。
+## 🛠️ 仓库目录结构
 
 ```text
 Star-Arm-102/
 ├── README.md
 ├── README.zh.md
 ├── hardware/
-│   ├── 102-ld/
+│   ├── 102-ld/  # 各型号 README 内含 BOM；下方以 LD 展开
 │   │   ├── step/
 │   │   │   ├── assembly/
 │   │   │   └── parts/
@@ -213,19 +195,19 @@ Star-Arm-102/
 │   │   ├── drawings/
 │   │   ├── images/
 │   │   ├── assembly-guide/
-│   │   └── robot-description/
-│   │       └── star-arm-102-ld-hd-urdf.zip
+│   │   └── robot-description/  # 现有 ROS 模型，适用型号待确认
+│   │       └── star-arm-102-ld-hd-urdf.zip  # LD/HD 共用模型
 │   ├── 102-hd/
 │   ├── 102-fl/
 │   ├── camera-module/
 │   ├── flexible-gripper/
-│   └── robot-description/
+│   └── robot-description/  # 现有 ROS 模型，适用型号待确认
 ├── integrations/
 │   ├── seeed-rebot/
 │   ├── yam/
 │   ├── galaxea-a1/
 │   ├── lumos-touch/
-│   └── butterfly/
+│   └── butterfly/  # 自然语言控制应用
 ├── lerobot/
 │   ├── examples/act_pick/
 │   ├── lerobot-robot-stararm102/
@@ -234,8 +216,8 @@ Star-Arm-102/
 ├── python-sdk/
 ├── ros2-humble/
 │   └── src/
-├── tools/
-├── docs/
+├── tools/  # 网页控制与舵机配置工具
+├── docs/  # 入门、接线与排错指南
 ├── media/
 ├── scripts/
 ├── tests/
@@ -245,8 +227,6 @@ Star-Arm-102/
 ├── CHANGELOG.md
 └── LICENSE.md
 ```
-
-`hardware/robot-description/`：现有 ROS 模型，适用型号待确认。
 
 <a id="related-projects"></a>
 

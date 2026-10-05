@@ -36,7 +36,11 @@ def signature(path):
             if token.type == 'heading_open':
                 headings.append(token.tag)
             elif token.type in ('fence', 'code_block'):
-                code.append(token.content)
+                content = token.content
+                # Directory-tree annotations are prose and may be translated.
+                if token.type == 'fence' and token.info.strip() == 'text':
+                    content = re.sub(r'(?m)^([^\n]*[├└]──[^\n]*?)  # [^\n]*$', r'\1', content)
+                code.append(content)
             elif token.type == 'image':
                 images.append(token.attrGet('src'))
             elif token.type == 'link_open':

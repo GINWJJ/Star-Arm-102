@@ -46,7 +46,7 @@
 - [🐍 Python SDK](python-sdk/README.md)
 - [🧰 Control & Configuration Tools](tools/README.md)
 
-[🛠️ Development Paths & Repository Structure](#development-paths) · [🔗 Related Projects](#related-projects)
+[🛠️ Repository structure](#repository-structure) · [🔗 Related Projects](#related-projects)
 
 ---
 
@@ -176,34 +176,16 @@ Explore two ways to interact with your arm through ROS 2:
 <a id="choose-your-setup"></a>
 <a id="before-connecting"></a>
 
-## 🛠️ Development Paths & Repository Structure
-
-New to your arm? Start with [Get Started](docs/getting-started.md) to choose your equipment setup, check [hardware connections](docs/hardware-setup.md), and select a software path. See also [specifications and joint mapping](docs/specifications.md), [troubleshooting](docs/troubleshooting.md), and [validation records](docs/validation.md).
-
-| Path | Use it for | Guide |
-| --- | --- | --- |
-| Cross-brand pairings | Follower-specific requirements, software paths, and validation status | [Pairing directory](integrations/README.md) |
-| Python examples | Communication checks and direct LD/HD → FL teleoperation | [Python SDK examples](python-sdk/README.md) |
-| LeRobot | Calibration, demonstrations, policies, and the released ACT model | [Choose an integration](lerobot/README.md) |
-| ROS 2 Humble | Hand-guided teaching, force feedback on 102-HD, and robot-system development with RViz, MoveIt, and Gazebo | [ROS 2 guide](ros2-humble/README.md) |
-| Hardware | Model-specific STEP, BOM, drawings, printing references, and status | [Hardware resources](hardware/README.md) |
-| Partner applications | Natural-language task control and partner-maintained robot applications | [Partner integrations](integrations/README.md) |
-| Control & Configuration Tools | Robot arm web control, servo debugging, and parameter configuration | [Tool directory](tools/README.md) |
-
-The ACT release and the refactored HD/FL integration use different joint representations. Keep them in separate environments. See [versions and validation status](docs/compatibility.md).
-
 <a id="repository-structure"></a>
 
-### Repository structure
-
-The `102-ld/` layout is expanded to show where hardware resources belong; HD and FL use the same resource categories, with model-specific files and inline BOMs. Individual files, historical guides, and local caches are omitted.
+## 🛠️ Repository structure
 
 ```text
 Star-Arm-102/
 ├── README.md
 ├── README.zh.md
 ├── hardware/
-│   ├── 102-ld/
+│   ├── 102-ld/  # BOM in each model README; LD layout expanded below
 │   │   ├── step/
 │   │   │   ├── assembly/
 │   │   │   └── parts/
@@ -213,19 +195,19 @@ Star-Arm-102/
 │   │   ├── drawings/
 │   │   ├── images/
 │   │   ├── assembly-guide/
-│   │   └── robot-description/
-│   │       └── star-arm-102-ld-hd-urdf.zip
+│   │   └── robot-description/  # Existing ROS model; applicable variant pending confirmation
+│   │       └── star-arm-102-ld-hd-urdf.zip  # Shared LD/HD model
 │   ├── 102-hd/
 │   ├── 102-fl/
 │   ├── camera-module/
 │   ├── flexible-gripper/
-│   └── robot-description/
+│   └── robot-description/  # Existing ROS model; applicable variant pending confirmation
 ├── integrations/
 │   ├── seeed-rebot/
 │   ├── yam/
 │   ├── galaxea-a1/
 │   ├── lumos-touch/
-│   └── butterfly/
+│   └── butterfly/  # Natural-language control application
 ├── lerobot/
 │   ├── examples/act_pick/
 │   ├── lerobot-robot-stararm102/
@@ -234,8 +216,8 @@ Star-Arm-102/
 ├── python-sdk/
 ├── ros2-humble/
 │   └── src/
-├── tools/
-├── docs/
+├── tools/  # Web control and servo configuration tools
+├── docs/  # Getting started, wiring, and troubleshooting
 ├── media/
 ├── scripts/
 ├── tests/
@@ -245,8 +227,6 @@ Star-Arm-102/
 ├── CHANGELOG.md
 └── LICENSE.md
 ```
-
-`hardware/robot-description/`: existing ROS model; applicable variant pending confirmation.
 
 <a id="related-projects"></a>
 
