@@ -1,6 +1,6 @@
 # Python control: first connection and teleoperation
 
-[← Home](../README.md)
+[← Home](../README.md)　|　🌐 **English**
 
 **On this page:**
 

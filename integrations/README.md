@@ -1,6 +1,6 @@
 # Integrations: Follower Pairings & Partner Applications
 
-[← Home](../README.md)
+[← Home](../README.md)　|　🌐 **English**
 
 **On this page:**
 
@@ -12,6 +12,8 @@
 Find [cross-brand follower pairings](#cross-brand-follower-pairings) or [partner applications](#partner-applications).
 
 <a id="page-section-1"></a>
+
+<a id="cross-brand-follower-pairings"></a>
 
 ## Cross-brand follower pairings
 
@@ -37,6 +39,8 @@ These entries identify customer pairing needs. Listing a model does not establis
 Start with [common preparation](common-setup.md), then your model guide. For an all-Star Arm setup, use [getting started](../docs/getting-started.md).
 
 <a id="page-section-3"></a>
+
+<a id="partner-applications"></a>
 
 ## Partner applications
 

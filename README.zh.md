@@ -232,10 +232,10 @@ Star-Arm-102/
 
 ## 🌐 相关项目
 
-- [PiPER-Mate](https://github.com/servodevelop/piper-mate) — Fashion Star 的 PiPER-Mate 项目与遥操作资源。
-- [Fashion Star CAN 总线 SDK](https://github.com/servodevelop/servo-canbus-sdk)
-- [Fashion Star UART/RS485 SDK](https://github.com/servodevelop/servo-uart-rs485-sdk)
-- [Fashion Star LeRobot 分支](https://github.com/servodevelop/lerobot) · [上游 LeRobot](https://github.com/huggingface/lerobot)
+- [Fashion Star UART/RS-485 总线舵机 SDK](https://github.com/servodevelop/servo-uart-rs485-sdk)
+- [Fashion Star CAN 总线舵机 SDK](https://github.com/servodevelop/servo-canbus-sdk)
+- [PiPER-Mate](https://github.com/servodevelop/piper-mate) — 采用 AgileX PiPER 关节布局的紧凑型主臂，用于 PiPER 从臂遥操作和训练数据采集。
+- [StarAI Arm](https://github.com/servodevelop/lerobot-starai) — ALOHA 风格的主从机械臂系列，Violin 主臂搭配 Viola 或 Cello 从臂，用于 LeRobot 模仿学习和数据采集。
 
 软件目录和模型发布链接保持有效。英文为默认入口；已有中英文 README 同步维护板块、图片、命令及状态。仅有英文的详细文档仍可从对应链接访问。[历史中文首页](README.legacy.zh.md) 仅供追溯，不作为当前操作指南。
 

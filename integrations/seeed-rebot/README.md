@@ -1,6 +1,15 @@
 # Star Arm 102 Leaders + Seeed reBot B601
 
-[← Integrations](../README.md)
+[← Integrations](../README.md)　|　🌐 **English**
+
+**On this page:**
+
+- [🔌 Pairing and first connection](#pairing-and-first-connection)
+- [🧩 Software paths and remaining evidence](#software-paths-and-remaining-evidence)
+
+<a id="pairing-and-first-connection"></a>
+
+## Pairing and first connection
 
 [Capability status](../compatibility.md) · [Common preparation](../common-setup.md)
 
@@ -19,6 +28,8 @@ The [Seeed reBot repository](https://github.com/Seeed-Projects/reBot-DevArm) lis
 5. Add cameras or dual-arm operation only after the basic pairing passes.
 
 **Success:** correct movement direction and gripper mapping, with no missing feedback. This documentation update has not performed a new bench test of the pairing. If your kit needs a supplier-specific fork or HD firmware, obtain its exact version before proceeding; do not mix commands from the refactored FL plugin with upstream B601 commands.
+
+<a id="software-paths-and-remaining-evidence"></a>
 
 ## Software paths and remaining evidence
 

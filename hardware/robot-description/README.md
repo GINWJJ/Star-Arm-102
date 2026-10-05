@@ -1,6 +1,6 @@
 # Star Arm 102 robot description
 
-[← Hardware Resources](../README.md)
+[← Hardware Resources](../README.md)　|　🌐 **English**
 
 [ROS description package](../../ros2-humble/src/stararm102_description/README.md)
 

@@ -232,10 +232,10 @@ Star-Arm-102/
 
 ## 🌐 Related projects
 
-- [PiPER-Mate](https://github.com/servodevelop/piper-mate) — Fashion Star's PiPER-Mate project and teleoperation resources.
-- [Fashion Star CAN bus SDK](https://github.com/servodevelop/servo-canbus-sdk)
-- [Fashion Star UART/RS485 SDK](https://github.com/servodevelop/servo-uart-rs485-sdk)
-- [Fashion Star LeRobot fork](https://github.com/servodevelop/lerobot) · [Upstream LeRobot](https://github.com/huggingface/lerobot)
+- [Fashion Star UART/RS-485 Bus Servo SDK](https://github.com/servodevelop/servo-uart-rs485-sdk)
+- [Fashion Star CAN Bus Servo SDK](https://github.com/servodevelop/servo-canbus-sdk)
+- [PiPER-Mate](https://github.com/servodevelop/piper-mate) — A compact leader arm with the AgileX PiPER joint layout, for teleoperating PiPER followers and collecting training data.
+- [StarAI Arm](https://github.com/servodevelop/lerobot-starai) — An ALOHA-style arm series pairing a Violin leader with Viola or Cello followers for LeRobot imitation learning and data collection.
 
 Software directories and model release URLs remain available. English is the default entry; existing English and Chinese READMEs maintain matching sections, images, commands, and status. English-only detailed documents remain accessible through their links. The [historical Chinese homepage](README.legacy.zh.md) is retained for reference, not as the current operating guide.
 
