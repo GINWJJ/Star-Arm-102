@@ -39,8 +39,8 @@
 | 序号 | 名称 | 图片 | 描述 | 数量 | 备注 |
 | :---: | --- | :---: | --- | :---: | --- |
 | 1 | RA8-U01H-M | 待补 | RA8-U01H-M，轻油，固件版本V225 | 4 | 装机件 |
-| 2 | RA8-U03H-M | 待补 | RA8-U03H-M，轻油，半成品， 换单轴后盖，固件版本V225 | 2 | 装机件 |
-| 3 | RA8-U02H-M | 待补 | RA8-U02H-M，轻油，半成品，D轴，换单轴后盖，固件版本V225 | 1 | 装机件 |
+| 2 | RA8-U02H-M | 待补 | RA8-U02H-M，轻油，半成品，D轴，换单轴后盖，固件版本V225 | 1 | 装机件 |
+| 3 | RA8-U03H-M | 待补 | RA8-U03H-M，轻油，半成品， 换单轴后盖，固件版本V225 | 2 | 装机件 |
 | 4 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 5 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D 打印件（象牙白） | 1 | 分区域参数，详见 3MF |
 | 6 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 5；填充 50% |

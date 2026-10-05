@@ -7,7 +7,7 @@
 - [🔧 Specifications](#product-specifications)
 - [📂 Directory Structure](#directory-structure)
 
-Explore your model: **[102-LD](star-arm-102-ld/)** · **[102-HD](star-arm-102-hd/)** · **[102-FL](star-arm-102-fl/)**.
+Explore your model: **[102-LD](102-ld/)** · **[102-HD](102-hd/)** · **[102-FL](102-fl/)**.
 
 Accessories: **[Camera Module](camera-module/)** · **[Flexible Gripper](flexible-gripper/)**.
 
@@ -39,7 +39,7 @@ The LD layout is expanded below. HD and FL use the same resource categories, wit
 hardware/
 ├── README.md
 ├── README.zh.md
-├── star-arm-102-ld/
+├── 102-ld/
 │   ├── README.md
 │   ├── README.zh.md
 │   ├── step/
@@ -54,8 +54,8 @@ hardware/
 │   │   └── images/
 │   └── robot-description/
 │       └── star-arm-102-ld-hd-urdf.zip
-├── star-arm-102-hd/
-├── star-arm-102-fl/
+├── 102-hd/
+├── 102-fl/
 ├── camera-module/
 ├── flexible-gripper/
 └── robot-description/

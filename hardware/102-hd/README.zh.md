@@ -25,7 +25,7 @@
 | [assembly-guide/](assembly-guide/README.zh.md) | 参考 LD 视频并替换 HD 舵机 | ✅ 视频已提供<br>🟡 HD 按钮说明待补；版本及接线覆盖待核对 |
 | [step/](step/) | parts/ 零件模型；assembly/ 共用装配模型 | ✅ 文件已提供<br>🟡 配套版本待核对 |
 | [printing/](printing/) | 3mf/ 打印项目；stl/ 独立打印文件 | ✅ 13 个独立零件 3MF 及整套项目已提供；— STL 未提供<br>🟡 打印待验证 |
-| [drawings/](../star-arm-102-ld/drawings/) | LD 共用主体参考图（PDF／DWG） | 🟡 HD 专用图纸待提供 |
+| [drawings/](../102-ld/drawings/) | LD 共用主体参考图（PDF／DWG） | 🟡 HD 专用图纸待提供 |
 | [robot-description/](robot-description/) | LD/HD 通用 URDF 模型 ZIP，含网格（ROS 1） | ✅ 压缩包已提供<br>🟡 RViz 配置待补；关节限位及运行待验证 |
 
 <a id="bill-of-materials"></a>
@@ -39,8 +39,8 @@
 | 序号 | 名称 | 图片 | 描述 | 数量 | 备注 |
 | :---: | --- | :---: | --- | :---: | --- |
 | 1 | RP8-U45H-M | 待补 | RP8-U45H-M，固件版本V225 | 4 | 装机件 |
-| 2 | RP8-U45H-M | 待补 | RP8-U45H-M，半成品， 换单轴后盖，固件版本V225 | 2 | 装机件 |
-| 3 | RP8-U45H-M | 待补 | RP8-U45H-M，半成品，D轴，换单轴后盖，固件版本V225 | 1 | 装机件 |
+| 2 | RP8-U45H-M-C028 | 待补 | RP8-U45H-M-C028，半成品， 换单轴后盖，固件版本V225 | 2 | 装机件 |
+| 3 | RP8-U45H-M-C029 | 待补 | RP8-U45H-M-C029，半成品，D轴，换单轴后盖，固件版本V225 | 1 | 装机件 |
 | 4 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 5 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D 打印件（象牙白） | 1 | 分区域参数，详见 3MF |
 | 6 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 5；填充 50% |

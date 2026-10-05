@@ -7,7 +7,7 @@
 - [🔧 规格](#product-specifications)
 - [📂 目录结构](#directory-structure)
 
-按型号查看详情：**[102-LD](star-arm-102-ld/)** · **[102-HD](star-arm-102-hd/)** · **[102-FL](star-arm-102-fl/)**。
+按型号查看详情：**[102-LD](102-ld/)** · **[102-HD](102-hd/)** · **[102-FL](102-fl/)**。
 
 配件：**[摄像头模组](camera-module/)** · **[柔性夹爪](flexible-gripper/)**。
 
@@ -39,7 +39,7 @@
 hardware/
 ├── README.md
 ├── README.zh.md
-├── star-arm-102-ld/
+├── 102-ld/
 │   ├── README.md
 │   ├── README.zh.md
 │   ├── step/
@@ -54,8 +54,8 @@ hardware/
 │   │   └── images/
 │   └── robot-description/
 │       └── star-arm-102-ld-hd-urdf.zip
-├── star-arm-102-hd/
-├── star-arm-102-fl/
+├── 102-hd/
+├── 102-fl/
 ├── camera-module/
 ├── flexible-gripper/
 └── robot-description/

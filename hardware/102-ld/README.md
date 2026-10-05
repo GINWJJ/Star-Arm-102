@@ -39,8 +39,8 @@ Printed-part names match the STEP and individual 3MF filenames; future STL files
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |
 | 1 | RA8-U01H-M | Pending | Light lubrication; firmware V225 | 4 | Installed part |
-| 2 | RA8-U03H-M | Pending | Light lubrication; single-shaft rear cover; firmware V225 | 2 | Installed part |
-| 3 | RA8-U02H-M | Pending | Light lubrication; D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
+| 2 | RA8-U02H-M | Pending | Light lubrication; D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
+| 3 | RA8-U03H-M | Pending | Light lubrication; single-shaft rear cover; firmware V225 | 2 | Installed part |
 | 4 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 5 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D printed part (ivory) | 1 | Settings vary by region; see 3MF |
 | 6 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 50% infill |

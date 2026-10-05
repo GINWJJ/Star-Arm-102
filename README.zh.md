@@ -196,14 +196,14 @@ ACT 发布版本和重构后的 HD/FL 集成使用不同的关节表示，请保
 
 ### 仓库目录结构
 
-下方展开 `star-arm-102-ld/`，方便查找各类硬件资料；HD 和 FL 使用相同资源分类，各自提供型号对应文件和页内 BOM。省略单个文件、历史教程和本地缓存。
+下方展开 `102-ld/`，方便查找各类硬件资料；HD 和 FL 使用相同资源分类，各自提供型号对应文件和页内 BOM。省略单个文件、历史教程和本地缓存。
 
 ```text
 Star-Arm-102/
 ├── README.md
 ├── README.zh.md
 ├── hardware/
-│   ├── star-arm-102-ld/
+│   ├── 102-ld/
 │   │   ├── step/
 │   │   │   ├── assembly/
 │   │   │   └── parts/
@@ -215,8 +215,8 @@ Star-Arm-102/
 │   │   ├── assembly-guide/
 │   │   └── robot-description/
 │   │       └── star-arm-102-ld-hd-urdf.zip
-│   ├── star-arm-102-hd/
-│   ├── star-arm-102-fl/
+│   ├── 102-hd/
+│   ├── 102-fl/
 │   ├── camera-module/
 │   ├── flexible-gripper/
 │   └── robot-description/

@@ -38,8 +38,8 @@ Printed-part names match the STEP and individual 3MF filenames. Print settings i
 
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |
-| 1 | RX8-U50H-M-V330P001 | Pending | Firmware V330 | 2 | Installed part |
-| 2 | RA8-U35H-M-V225P001 | Pending | Firmware V225 | 3 | Installed part |
+| 1 | RX8-U50H-M | Pending | Firmware V330 | 2 | Installed part |
+| 2 | RA8-U35H-M | Pending | Firmware V225 | 3 | Installed part |
 | 3 | RA8-U35H-M-C047 | Pending | Single-shaft rear cover; firmware V225 | 1 | Installed part |
 | 4 | RA8-U27H-M-C005 | Pending | D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
 | 5 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |

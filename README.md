@@ -196,14 +196,14 @@ The ACT release and the refactored HD/FL integration use different joint represe
 
 ### Repository structure
 
-The `star-arm-102-ld/` layout is expanded to show where hardware resources belong; HD and FL use the same resource categories, with model-specific files and inline BOMs. Individual files, historical guides, and local caches are omitted.
+The `102-ld/` layout is expanded to show where hardware resources belong; HD and FL use the same resource categories, with model-specific files and inline BOMs. Individual files, historical guides, and local caches are omitted.
 
 ```text
 Star-Arm-102/
 ├── README.md
 ├── README.zh.md
 ├── hardware/
-│   ├── star-arm-102-ld/
+│   ├── 102-ld/
 │   │   ├── step/
 │   │   │   ├── assembly/
 │   │   │   └── parts/
@@ -215,8 +215,8 @@ Star-Arm-102/
 │   │   ├── assembly-guide/
 │   │   └── robot-description/
 │   │       └── star-arm-102-ld-hd-urdf.zip
-│   ├── star-arm-102-hd/
-│   ├── star-arm-102-fl/
+│   ├── 102-hd/
+│   ├── 102-fl/
 │   ├── camera-module/
 │   ├── flexible-gripper/
 │   └── robot-description/

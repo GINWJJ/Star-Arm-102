@@ -25,7 +25,7 @@
 | [assembly-guide/](assembly-guide/README.md) | LD assembly video with HD servo substitution | ✅ Video available<br>🟡 HD button instructions pending; revision and wiring coverage under review |
 | [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
 | [printing/](printing/) | Printing project in 3mf/; standalone print files in stl/ | ✅ 13 individual 3MF files and combined project available; — STL not supplied<br>🟡 Print validation pending |
-| [drawings/](../star-arm-102-ld/drawings/) | Shared LD body reference (PDF / DWG) | 🟡 HD-specific drawings to be added |
+| [drawings/](../102-ld/drawings/) | Shared LD body reference (PDF / DWG) | 🟡 HD-specific drawings to be added |
 | [robot-description/](robot-description/) | Shared LD/HD URDF model ZIP, including meshes (ROS 1) | ✅ Package available<br>🟡 RViz configuration incomplete; joint limits and runtime validation pending |
 
 <a id="bill-of-materials"></a>
@@ -39,8 +39,8 @@ Printed-part names match the STEP and individual 3MF filenames. Print settings i
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |
 | 1 | RP8-U45H-M | Pending | Firmware V225 | 4 | Installed part |
-| 2 | RP8-U45H-M | Pending | Single-shaft rear cover; firmware V225 | 2 | Installed part |
-| 3 | RP8-U45H-M | Pending | D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
+| 2 | RP8-U45H-M-C028 | Pending | Single-shaft rear cover; firmware V225 | 2 | Installed part |
+| 3 | RP8-U45H-M-C029 | Pending | D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
 | 4 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 5 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D printed part (ivory) | 1 | Settings vary by region; see 3MF |
 | 6 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 50% infill |
