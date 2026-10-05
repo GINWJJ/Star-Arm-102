@@ -9,6 +9,8 @@
 
 Explore your model: **[102-LD](102-ld/)** · **[102-HD](102-hd/)** · **[102-FL](102-fl/)**.
 
+Accessories: **[Camera Module](camera-module/)** · **[Flexible Gripper](flexible-gripper/)**.
+
 <a id="product-specifications"></a>
 
 ## Specifications
@@ -54,6 +56,8 @@ hardware/
 │       └── star-arm-102-ld-hd-urdf.zip
 ├── 102-hd/
 ├── 102-fl/
+├── camera-module/
+├── flexible-gripper/
 └── robot-description/
     ├── README.md
     ├── urdf/

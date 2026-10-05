@@ -217,6 +217,8 @@ Star-Arm-102/
 │   │       └── star-arm-102-ld-hd-urdf.zip
 │   ├── 102-hd/
 │   ├── 102-fl/
+│   ├── camera-module/
+│   ├── flexible-gripper/
 │   └── robot-description/
 ├── integrations/
 │   ├── seeed-rebot/

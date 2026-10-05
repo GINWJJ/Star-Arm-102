@@ -9,6 +9,8 @@
 
 按型号查看详情：**[102-LD](102-ld/)** · **[102-HD](102-hd/)** · **[102-FL](102-fl/)**。
 
+配件：**[摄像头模组](camera-module/)** · **[柔性夹爪](flexible-gripper/)**。
+
 <a id="product-specifications"></a>
 
 ## 规格
@@ -54,6 +56,8 @@ hardware/
 │       └── star-arm-102-ld-hd-urdf.zip
 ├── 102-hd/
 ├── 102-fl/
+├── camera-module/
+├── flexible-gripper/
 └── robot-description/
     ├── README.md
     ├── urdf/

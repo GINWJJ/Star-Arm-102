@@ -29,34 +29,34 @@ Printed-part names match the STEP and individual 3MF filenames. Print settings i
 
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |
-| 1 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
-| 2 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D printed part (ivory) | 1 | Settings vary by region; see 3MF |
-| 3 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 50% infill |
-| 4 | star-arm-102-link2 | <img src="images/star-arm-102-link2.png" alt="star-arm-102-link2" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 10% infill |
-| 5 | star-arm-102-link3 | <img src="images/star-arm-102-link3.png" alt="star-arm-102-link3" width="90"> | PLA 3D printed part (ivory + black) | 1 | Settings vary by region; see 3MF |
-| 6 | star-arm-102-link4 | <img src="images/star-arm-102-link4.png" alt="star-arm-102-link4" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
-| 7 | star-arm-102-link5 | <img src="images/star-arm-102-link5.png" alt="star-arm-102-link5" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
-| 8 | star-arm-102-link6-gripper | <img src="images/star-arm-102-link6-gripper.png" alt="star-arm-102-link6-gripper" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
-| 9 | star-arm-102-gripper-body | <img src="images/star-arm-102-gripper-body.png" alt="star-arm-102-gripper-body" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
-| 10 | star-arm-102-fingertip-left | <img src="images/star-arm-102-fingertip-left.png" alt="star-arm-102-fingertip-left" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
-| 11 | star-arm-102-fingertip-right | <img src="images/star-arm-102-fingertip-right.png" alt="star-arm-102-fingertip-right" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
-| 12 | Thrust needle roller bearing | Pending | AXK2035 + 2AS | 1 | Installed part |
-| 13 | UC-01 board | Pending | XT30 connector | 1 | Installed part |
-| 14 | 120 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 4 | Installed part |
-| 15 | 200 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 3 | Installed part |
-| 16 | M3 × 10 socket-head screw | Pending | HSCS, grade 12.9 | 1 | Installed part |
-| 17 | M3 × 22 socket-head screw | Pending | Black finish | 4 | Installed part |
-| 18 | M3 × 10 Phillips screw | Pending | Hardened, black finish | 1 | Installed part |
-| 19 | PB2.0 × 5 self-tapping screw | Pending | Phillips countersunk, hardened, black finish | 30 | Installed part |
-| 20 | M2 × 4.5 Phillips screw | Pending | Countersunk, black finish, pre-applied threadlocker | 47 | Installed part |
-| 21 | M2 × 10 socket-head screw | Pending | Black finish | 8 | Installed part |
-| 22 | M2 × 8 socket-head screw | Pending | Black finish | 16 | Installed part |
-| 23 | M3 × 12 self-tapping screw | Pending | Phillips head | 2 | Installed part |
-| 24 | M3 locknut | Pending | Black finish | 6 | Installed part |
-| 25 | M3 washer | Pending | 3 × 6 × 0.5 mm | 2 | Installed part |
-| 26 | RX8-U50H-M-V330P001 | Pending | Firmware V330 | 2 | Installed part |
-| 27 | RA8-U35H-M-V225P001 | Pending | Firmware V225 | 3 | Installed part |
-| 28 | RA8-U35H-M-C047 | Pending | Single-shaft rear cover; firmware V225 | 1 | Installed part |
-| 29 | RA8-U27H-M-C005 | Pending | D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
+| 1 | RX8-U50H-M-V330P001 | Pending | Firmware V330 | 2 | Installed part |
+| 2 | RA8-U35H-M-V225P001 | Pending | Firmware V225 | 3 | Installed part |
+| 3 | RA8-U35H-M-C047 | Pending | Single-shaft rear cover; firmware V225 | 1 | Installed part |
+| 4 | RA8-U27H-M-C005 | Pending | D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
+| 5 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 6 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D printed part (ivory) | 1 | Settings vary by region; see 3MF |
+| 7 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 50% infill |
+| 8 | star-arm-102-link2 | <img src="images/star-arm-102-link2.png" alt="star-arm-102-link2" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 10% infill |
+| 9 | star-arm-102-link3 | <img src="images/star-arm-102-link3.png" alt="star-arm-102-link3" width="90"> | PLA 3D printed part (ivory + black) | 1 | Settings vary by region; see 3MF |
+| 10 | star-arm-102-link4 | <img src="images/star-arm-102-link4.png" alt="star-arm-102-link4" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 11 | star-arm-102-link5 | <img src="images/star-arm-102-link5.png" alt="star-arm-102-link5" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
+| 12 | star-arm-102-link6-gripper | <img src="images/star-arm-102-link6-gripper.png" alt="star-arm-102-link6-gripper" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
+| 13 | star-arm-102-gripper-body | <img src="images/star-arm-102-gripper-body.png" alt="star-arm-102-gripper-body" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
+| 14 | star-arm-102-fingertip-left | <img src="images/star-arm-102-fingertip-left.png" alt="star-arm-102-fingertip-left" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
+| 15 | star-arm-102-fingertip-right | <img src="images/star-arm-102-fingertip-right.png" alt="star-arm-102-fingertip-right" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
+| 16 | Thrust needle roller bearing | Pending | AXK2035 + 2AS | 1 | Installed part |
+| 17 | UC-01 board | Pending | XT30 connector | 1 | Installed part |
+| 18 | 120 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 4 | Installed part |
+| 19 | 200 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 3 | Installed part |
+| 20 | M3 × 10 socket-head screw | Pending | HSCS, grade 12.9 | 1 | Installed part |
+| 21 | M3 × 22 socket-head screw | Pending | Black finish | 4 | Installed part |
+| 22 | M3 × 10 Phillips screw | Pending | Hardened, black finish | 1 | Installed part |
+| 23 | PB2.0 × 5 self-tapping screw | Pending | Phillips countersunk, hardened, black finish | 30 | Installed part |
+| 24 | M2 × 4.5 Phillips screw | Pending | Countersunk, black finish, pre-applied threadlocker | 47 | Installed part |
+| 25 | M2 × 10 socket-head screw | Pending | Black finish | 8 | Installed part |
+| 26 | M2 × 8 socket-head screw | Pending | Black finish | 16 | Installed part |
+| 27 | M3 × 12 self-tapping screw | Pending | Phillips head | 2 | Installed part |
+| 28 | M3 locknut | Pending | Black finish | 6 | Installed part |
+| 29 | M3 washer | Pending | 3 × 6 × 0.5 mm | 2 | Installed part |
 
 Found an error in these resources or need help? Contact our [Support Hub](https://fashionstar.com.hk/support/) with your model and the relevant file or item.
