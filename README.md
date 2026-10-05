@@ -195,7 +195,7 @@ Star-Arm-102/
 │   │   ├── drawings/
 │   │   ├── images/
 │   │   ├── assembly-guide/
-│   │   └── robot-description/  # Existing ROS model; applicable variant pending confirmation
+│   │   └── robot-description/
 │   │       └── star-arm-102-ld-hd-urdf.zip  # Shared LD/HD model
 │   ├── 102-hd/
 │   ├── 102-fl/

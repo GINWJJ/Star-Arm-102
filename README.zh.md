@@ -195,7 +195,7 @@ Star-Arm-102/
 │   │   ├── drawings/
 │   │   ├── images/
 │   │   ├── assembly-guide/
-│   │   └── robot-description/  # 现有 ROS 模型，适用型号待确认
+│   │   └── robot-description/
 │   │       └── star-arm-102-ld-hd-urdf.zip  # LD/HD 共用模型
 │   ├── 102-hd/
 │   ├── 102-fl/
