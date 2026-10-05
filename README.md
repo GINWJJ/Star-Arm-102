@@ -27,7 +27,7 @@
 
 <p align="center">
   <a href="https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/">
-    <img src="media/images/11.png" alt="Fashion Star Star Arm 102 leader and follower arm family" width="880">
+    <img src="media/images/star-arm-102-hero.jpg" alt="Star Arm 102 robot arm" width="880">
   </a>
 </p>
 
@@ -39,7 +39,7 @@
 - [🌐 Cross-Brand Follower Compatibility](#cross-brand-pairings)
 - [🎮 Connect Your Leader to a Virtual Follower](#web-controller)
 - [🤖 Run Your First AI Task](#run-your-first-ai-task)
-- [⚙️ Hardware Resources](hardware/README.md)
+- [⚙️ Hardware Resources](hardware/)
 - [🤗 LeRobot](lerobot/README.md)
 - [💬 Natural Language Control](integrations/butterfly/README.md)
 - [🦾 ROS 2 Humble Applications](ros2-humble/README.md)
