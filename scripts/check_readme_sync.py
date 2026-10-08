@@ -39,7 +39,7 @@ def signature(path):
                 content = token.content
                 # Directory-tree annotations are prose and may be translated.
                 if token.type == 'fence' and token.info.strip() == 'text':
-                    content = re.sub(r'(?m)^([^\n]*[├└]──[^\n]*?)  # [^\n]*$', r'\1', content)
+                    content = re.sub(r'(?m)^([ │]*[├└]─+[ ]+\S+)[ ]{2,}[^\n]+$', r'\1', content)
                 code.append(content)
             elif token.type == 'image':
                 images.append(token.attrGet('src'))

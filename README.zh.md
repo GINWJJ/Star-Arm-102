@@ -79,7 +79,7 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 | 重复定位精度／编码器 | 12-bit 磁编码器 | 12-bit 磁编码器 | 2mm |
 | 关节运动范围 | 关节 1: ±110°<br>关节 2: 0°–180°<br>关节 3: 0°–270°<br>关节 4: ±90°<br>关节 5: ±65°<br>关节 6: ±150°<br>手柄: 0°–90° | 关节 1: ±110°<br>关节 2: 0°–180°<br>关节 3: 0°–270°<br>关节 4: ±90°<br>关节 5: ±65°<br>关节 6: ±150°<br>手柄: 0°–90° | 关节 1: ±110°<br>关节 2: 0°–180°<br>关节 3: 0°–270°<br>关节 4: ±90°<br>关节 5: ±65°<br>关节 6: ±150°<br>夹爪: 0°–90° |
 | 舵机配置 | RA8-U01H-M × 4<br>RA8-U02H-M × 1<br>RA8-U03H-M × 2 | RP8-U45H-M × 4<br>RP8-U45H-M-C029 × 1<br>RP8-U45H-M-C028 × 2 | RA8-U35H-M × 3<br>RX8-U50H-M × 2<br>RA8-U27H-M-C005 × 1<br>RA8-U35H-M-C047 × 1 |
-| 本机重量 | 721g | 883g | 791g |
+| 本机重量 | 764g | 934g | 865g |
 | 通信方式 | UART / UC-01 | UART / UC-01 | UART / UC-01 |
 | 工作温度 | 0–40°C | 0–40°C | 0–40°C |
 
@@ -185,7 +185,7 @@ Star-Arm-102/
 ├── README.md
 ├── README.zh.md
 ├── hardware/
-│   ├── 102-ld/  # 各型号 README 内含 BOM；下方以 LD 展开
+│   ├── 102-ld/                               各型号 README 内含 BOM；下方以 LD 展开
 │   │   ├── step/
 │   │   │   ├── assembly/
 │   │   │   └── parts/
@@ -196,18 +196,18 @@ Star-Arm-102/
 │   │   ├── images/
 │   │   ├── assembly-guide/
 │   │   └── robot-description/
-│   │       └── star-arm-102-ld-hd-urdf.zip  # LD/HD 共用模型
+│   │       └── star-arm-102-ld-hd-urdf.zip   LD/HD 共用模型
 │   ├── 102-hd/
 │   ├── 102-fl/
 │   ├── camera-module/
 │   ├── flexible-gripper/
-│   └── robot-description/  # 现有 ROS 模型，适用型号待确认
+│   └── robot-description/                    现有 ROS 模型，适用型号待确认
 ├── integrations/
 │   ├── seeed-rebot/
 │   ├── yam/
 │   ├── galaxea-a1/
 │   ├── lumos-touch/
-│   └── butterfly/  # 自然语言控制应用
+│   └── butterfly/                            自然语言控制应用
 ├── lerobot/
 │   ├── examples/act_pick/
 │   ├── lerobot-robot-stararm102/
@@ -216,8 +216,8 @@ Star-Arm-102/
 ├── python-sdk/
 ├── ros2-humble/
 │   └── src/
-├── tools/  # 网页控制与舵机配置工具
-├── docs/  # 入门、接线与排错指南
+├── tools/                                    网页控制与舵机配置工具
+├── docs/                                     入门、接线与排错指南
 ├── media/
 ├── scripts/
 ├── tests/
