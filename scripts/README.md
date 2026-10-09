@@ -17,3 +17,5 @@ python scripts/check_readme_sync.py
 ```
 
 The GitHub documentation workflow runs this check automatically. See [Contributing](../CONTRIBUTING.md) for the complete checks.
+
+- `package_urdf.py`: regenerate the LD/HD and FL URDF download ZIPs from their source directories. Run after editing either package.

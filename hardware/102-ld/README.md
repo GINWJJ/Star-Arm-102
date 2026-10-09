@@ -26,7 +26,7 @@
 | [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
 | [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/stl/star-arm-102-ld-stl.zip) | ✅ 11 individual 3MF files and combined project available; 11 STL files and ZIP available<br>🟡 Print validation pending |
 | [drawings/](drawings/) | PDF / DWG drawings | ✅ Reference files available<br>🟡 Revision under review |
-| [robot-description/](robot-description/) | Shared LD/HD URDF model ZIP, including meshes (ROS 1) | ✅ Package available<br>🟡 RViz configuration incomplete; joint limits and runtime validation pending |
+| [robot-description/ld-hd/](../robot-description/ld-hd/) | ROS 1 package: [Browse source](../robot-description/ld-hd/) · [Download ZIP](../robot-description/ld-hd/star-arm-102-ld-hd-urdf.zip) | ✅ Source and ZIP available<br>🟡 Fixed joint5 definition, HD dynamics and runtime pending validation |
 
 <a id="bill-of-materials"></a>
 

@@ -26,7 +26,7 @@
 | [step/](step/) | Part models in parts/; whole-arm assemblies in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
 | [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/stl/star-arm-102-fl-stl.zip) | ✅ 11 individual 3MF files and combined project available; 11 STL files and ZIP available<br>🟡 Link1 settings conflict with BOM; physical print validation pending |
 | [drawings/](drawings/) | PDF / DWG drawings | ✅ Reference files available<br>🟡 Revision under review |
-| [robot-description/](robot-description/) | Model-specific URDF and meshes | — To be added |
+| [robot-description/fl/](../robot-description/fl/) | ROS 1 package: [Browse source](../robot-description/fl/) · [Download ZIP](../robot-description/fl/star-arm-102-fl-urdf.zip) | ✅ Source and ZIP available<br>🟡 Joint parameters and runtime pending validation |
 
 <a id="bill-of-materials"></a>
 

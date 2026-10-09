@@ -194,14 +194,12 @@ Star-Arm-102/
 │   │   │   └── 3mf/
 │   │   ├── drawings/
 │   │   ├── images/
-│   │   ├── assembly-guide/
-│   │   └── robot-description/
-│   │       └── star-arm-102-ld-hd-urdf.zip   Shared LD/HD model
+│   │   └── assembly-guide/
 │   ├── 102-hd/
 │   ├── 102-fl/
 │   ├── camera-module/
 │   ├── flexible-gripper/
-│   └── robot-description/                    Existing ROS model; applicable variant pending confirmation
+│   └── robot-description/                    URDF source and ZIPs for LD/HD and FL
 ├── integrations/
 │   ├── seeed-rebot/
 │   ├── yam/
