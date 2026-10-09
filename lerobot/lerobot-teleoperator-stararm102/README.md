@@ -1,6 +1,6 @@
 # Star Arm 102 leader plugin — release-compatible generation
 
-[← LeRobot](../README.md)　|　**English**
+[← LeRobot](../README.md)　|　<sub>**English**</sub>
 
 This package registers `lerobot_teleoperator_stararm102` with `Motor_0.pos` through `Motor_5.pos` and `gripper.pos`. Use the [LeRobot guide](../README.md) to install, calibrate, and teleoperate an LD/FL pair.
 

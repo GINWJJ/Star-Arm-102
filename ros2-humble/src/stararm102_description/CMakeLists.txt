@@ -13,6 +13,6 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/launch")
 endif()
 
 # The package exports ament_python; keep this alternative install layout aligned.
-set(MODEL_RESOURCES "${CMAKE_CURRENT_SOURCE_DIR}/../../../hardware/robot-description")
+set(MODEL_RESOURCES "${CMAKE_CURRENT_SOURCE_DIR}")
 install(DIRECTORY "${MODEL_RESOURCES}/urdf" "${MODEL_RESOURCES}/meshes" rviz
   DESTINATION share/${PROJECT_NAME})

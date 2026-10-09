@@ -1,6 +1,6 @@
 # 柔性夹爪硬件资源
 
-[← 硬件资源](../README.zh.md)　|　[English](README.md) / **简体中文**
+[← 硬件资源](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
 **本页导航：**
 

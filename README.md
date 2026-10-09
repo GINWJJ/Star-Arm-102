@@ -199,8 +199,7 @@ Star-Arm-102/
 │   ├── 102-hd/
 │   ├── 102-fl/
 │   ├── camera-module/
-│   ├── flexible-gripper/
-│   └── robot-description/                    Existing ROS 2 resources
+│   └── flexible-gripper/
 ├── integrations/
 │   ├── seeed-rebot/
 │   ├── yam/

@@ -11,8 +11,8 @@
 ### 1. stararm102_description ✅
 机械臂描述包，包含 URDF 模型和 3D 网格文件。
 
-- [URDF 与模型资源](../../../hardware/robot-description/README.md) - 源文件已统一移至 hardware/robot-description，ROS 安装后的路径为 `urdf/star-arm-102.urdf`
-- `hardware/robot-description/meshes/` - 9 个共享显示／碰撞网格，构建时安装到 ROS 包内
+- [URDF 与模型资源](README.zh.md) - 源文件位于当前包内，ROS 安装后的路径为 `urdf/star-arm-102.urdf`
+- `meshes/` - 9 个共享显示／碰撞网格，构建时安装到 ROS 包内
 - `launch/` - 启动文件
   - `display_rviz.launch.py` - RViz 可视化
   - `rviz_demo.launch.py` - 交互式 RViz 演示

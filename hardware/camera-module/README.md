@@ -1,6 +1,6 @@
 # Camera Module hardware
 
-[← Hardware Resources](../README.md)　|　**English** / [简体中文](README.zh.md)
+[← Hardware Resources](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
 **On this page:**
 

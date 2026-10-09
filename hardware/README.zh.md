@@ -1,6 +1,6 @@
 # Star Arm 102 规格与硬件资源
 
-[← 首页](../README.zh.md)　|　[English](README.md) / **简体中文**
+[← 首页](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
 **本页导航：**
 
@@ -58,15 +58,10 @@ hardware/
 ├── 102-hd/
 ├── 102-fl/
 ├── camera-module/
-├── flexible-gripper/
-└── robot-description/
-    ├── README.md
-    ├── urdf/
-    │   └── star-arm-102.urdf
-    └── meshes/
+└── flexible-gripper/
 ```
 
-`step/assembly/` 存放 CAD 装配模型；`assembly-guide/` 用于客户装配说明。每个型号均在自身的 robot-description 目录提供 ROS 1 源码与完整 ZIP：[LD](102-ld/robot-description/)、[HD](102-hd/robot-description/)、[FL](102-fl/robot-description/)。LD 与 HD 包含相同模型。现有 ROS 2 模型仍位于 `hardware/robot-description/urdf/` 和 `meshes/`。
+`step/assembly/` 存放 CAD 装配模型；`assembly-guide/` 用于客户装配说明。每个型号均在自身的 robot-description 目录提供 ROS 1 源码与完整 ZIP：[LD](102-ld/robot-description/)、[HD](102-hd/robot-description/)、[FL](102-fl/robot-description/)。LD 与 HD 包含相同模型。
 
 ## 许可
 

@@ -1,6 +1,6 @@
 # LeRobot on Star Arm 102
 
-[← Home](../README.md)　|　**English**
+[← Home](../README.md)　|　<sub>**English**</sub>
 
 **On this page:**
 

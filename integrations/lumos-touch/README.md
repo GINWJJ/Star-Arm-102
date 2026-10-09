@@ -1,6 +1,6 @@
 # Star Arm 102 Leaders + Lumos Touch
 
-[← Integrations](../README.md)　|　**English**
+[← Integrations](../README.md)　|　<sub>**English**</sub>
 
 **On this page:**
 

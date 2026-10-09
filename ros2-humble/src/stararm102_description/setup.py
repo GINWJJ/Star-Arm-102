@@ -5,12 +5,12 @@ import os
 
 package_name = 'stararm102_description'
 package_dir = Path(__file__).resolve().parent
-resource_dir = package_dir.parents[2] / 'hardware' / 'robot-description'
+resource_dir = package_dir
 
 def model_files(folder):
     files = sorted((resource_dir / folder).glob('*'))
     if not files:
-        raise RuntimeError('Missing hardware/robot-description resources; build from the complete repository checkout.')
+        raise RuntimeError('Missing URDF or mesh resources in stararm102_description.')
     return [os.path.relpath(path, package_dir) for path in files if path.is_file() and path.suffix != '.md']
 
 

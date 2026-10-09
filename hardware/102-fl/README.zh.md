@@ -1,6 +1,6 @@
 # Star Arm 102-FL 硬件
 
-[← 硬件资源](../README.zh.md)　|　[English](README.md) / **简体中文**
+[← 硬件资源](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
 <p align="center">
   <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-diy-kit-main-image-01.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-diy-kit-main-image-01.webp" alt="Star Arm 102-FL DIY 套件" width="15%"></a>

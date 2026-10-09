@@ -1,6 +1,6 @@
 # Control Star Arm 102 with Natural Language
 
-[← Integrations](../README.md)　|　**English** / [简体中文](README.zh-CN.md)
+[← Integrations](../README.md)　|　<sub>**English** / [简体中文](README.zh-CN.md)</sub>
 
 **On this page:**
 

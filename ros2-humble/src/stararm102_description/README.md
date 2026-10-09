@@ -1,8 +1,8 @@
 # Star Arm 102 robot description
 
-[← src](../)　|　**English** / [简体中文](README.zh.md)
+[← src](../)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
-This package installs the authoritative [URDF and meshes](../../../hardware/robot-description/README.md) from `hardware/robot-description/`, alongside its launch and RViz resources. Build from the complete repository checkout; copying only this ROS package omits the model source files. Start with the [ROS 2 Humble guide](../../README.md) for installation and launches.
+This package contains the ROS 2 [URDF](urdf/) and [meshes](meshes/), alongside launch and RViz resources. Start with the [ROS 2 Humble guide](../../README.md) for installation and launches. This model retains the existing ROS 2 joint definitions and is maintained separately from the ROS 1 downloads in each hardware model directory.
 
 The model has six revolute arm joints and an actuated gripper finger with a mimicked second finger. Read the URDF limits and axes for the specific description used by your launch; do not substitute linear gripper units for its rotary joint values.
 

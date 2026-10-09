@@ -1,6 +1,6 @@
 # Star Arm 102 Specifications & Hardware Resources
 
-[← Home](../README.md)　|　**English** / [简体中文](README.zh.md)
+[← Home](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
 **On this page:**
 
@@ -58,15 +58,10 @@ hardware/
 ├── 102-hd/
 ├── 102-fl/
 ├── camera-module/
-├── flexible-gripper/
-└── robot-description/
-    ├── README.md
-    ├── urdf/
-    │   └── star-arm-102.urdf
-    └── meshes/
+└── flexible-gripper/
 ```
 
-`step/assembly/` contains CAD assemblies; `assembly-guide/` is for customer assembly instructions. Each model provides its ROS 1 source package and complete ZIP in its own robot-description directory: [LD](102-ld/robot-description/), [HD](102-hd/robot-description/), [FL](102-fl/robot-description/). LD and HD contain the same model. The existing ROS 2 model remains in `hardware/robot-description/urdf/` and `meshes/`.
+`step/assembly/` contains CAD assemblies; `assembly-guide/` is for customer assembly instructions. Each model provides its ROS 1 source package and complete ZIP in its own robot-description directory: [LD](102-ld/robot-description/), [HD](102-hd/robot-description/), [FL](102-fl/robot-description/). LD and HD contain the same model.
 
 ## Licensing
 
