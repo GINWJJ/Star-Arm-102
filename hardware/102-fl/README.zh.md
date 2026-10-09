@@ -38,10 +38,10 @@
 
 | 序号 | 名称 | 图片 | 描述 | 数量 | 备注 |
 | :---: | --- | :---: | --- | :---: | --- |
-| 1 | RX8-U50H-M | 待补 | RX8-U50H-M  半成品舵机，固件版本V330 | 2 | 装机件 |
-| 2 | RA8-U35H-M | 待补 | RA8-U35H-M  固件版本V225 | 3 | 装机件 |
-| 3 | RA8-U35H-M-C047 | 待补 | 半成品舵机，单轴后盖，固件版本V225 | 1 | 装机件 |
-| 4 | RA8-U27H-M-C005 | 待补 | 半成品舵机，单轴后盖，D轴，固件版本V225 | 1 | 装机件 |
+| 1 | RX8-U50H-M | <img src="images/rx8-u50h-m-primary.webp" alt="RX8-U50H-M" width="90"> | RX8-U50H-M  半成品舵机，固件版本V330 | 2 | 装机件 |
+| 2 | RA8-U35H-M | <img src="images/ra8-u35h-m.webp" alt="RA8-U35H-M" width="90"> | RA8-U35H-M  固件版本V225 | 3 | 装机件 |
+| 3 | RA8-U35H-M-C047 | <img src="images/ra8-u35h-m-c047.webp" alt="RA8-U35H-M-C047" width="90"> | 半成品舵机，单轴后盖，固件版本V225 | 1 | 装机件 |
+| 4 | RA8-U27H-M-C005 | <img src="images/ra8-u27h-m-c005.webp" alt="RA8-U27H-M-C005" width="90"> | 半成品舵机，单轴后盖，D轴，固件版本V225 | 1 | 装机件 |
 | 5 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 6 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D 打印件（象牙白） | 1 | 分区域参数，详见 3MF |
 | 7 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 5；填充 50% |
