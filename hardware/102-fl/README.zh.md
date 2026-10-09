@@ -24,7 +24,7 @@
 | --- | --- | --- |
 | [assembly-guide/](assembly-guide/README.zh.md) | 主体机械臂装配视频 | ✅ 视频已提供<br>🟡 版本及接线覆盖待核对 |
 | [step/](step/) | parts/ 零件模型；assembly/ 整机装配模型 | ✅ 文件已提供<br>🟡 配套版本待核对 |
-| [printing/](printing/) | 3mf/ 打印项目；stl/ 独立打印文件 | ✅ 11 个独立零件 3MF 及整套项目已提供；— STL 未提供<br>🟡 link1 参数与 BOM 冲突；实物打印待验证 |
+| [printing/](printing/) | 3MF 打印项目；STL：[查看零件](printing/stl/) · [下载整套 ZIP](printing/stl/star-arm-102-fl-stl.zip) | ✅ 11 个独立零件 3MF 及整套项目已提供；11 个 STL 及整套 ZIP 已提供<br>🟡 link1 参数与 BOM 冲突；实物打印待验证 |
 | [drawings/](drawings/) | PDF／DWG 图纸 | ✅ 参考文件已提供<br>🟡 版本待核对 |
 | [robot-description/](robot-description/) | 型号专用 URDF 和网格 | — 待提供 |
 
@@ -34,7 +34,7 @@
 
 下表列出 102-FL 的 **29 项装机物料**；无图片的条目标为待补。
 
-打印件名称与 STEP 及独立 3MF 文件名一致。备注中的打印参数仅供参考，尚未完成实物打印验证。link1 的 BOM 参数为壁数 5／填充 50%，而原 3MF 为壁数 2／填充 15%，打印前需确认。
+打印件名称与 STEP、STL 及独立 3MF 文件名一致。备注中的打印参数仅供参考，尚未完成实物打印验证。link1 的 BOM 参数为壁数 5／填充 50%，而原 3MF 为壁数 2／填充 15%，打印前需确认。
 
 | 序号 | 名称 | 图片 | 描述 | 数量 | 备注 |
 | :---: | --- | :---: | --- | :---: | --- |

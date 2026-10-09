@@ -24,7 +24,7 @@
 | --- | --- | --- |
 | [assembly-guide/](assembly-guide/README.zh.md) | 参考 LD 视频并替换 HD 舵机 | ✅ 视频已提供<br>🟡 HD 按钮说明待补；版本及接线覆盖待核对 |
 | [step/](step/) | parts/ 零件模型；assembly/ 共用装配模型 | ✅ 文件已提供<br>🟡 配套版本待核对 |
-| [printing/](printing/) | 3mf/ 打印项目；stl/ 独立打印文件 | ✅ 13 个独立零件 3MF 及整套项目已提供；— STL 未提供<br>🟡 打印待验证 |
+| [printing/](printing/) | 3MF 打印项目；STL：[查看零件](printing/stl/) · [下载整套 ZIP](printing/stl/star-arm-102-hd-stl.zip) | ✅ 13 个独立零件 3MF 及整套项目已提供；13 个 STL 及整套 ZIP 已提供<br>🟡 打印待验证 |
 | [drawings/](../102-ld/drawings/) | LD 共用主体参考图（PDF／DWG） | 🟡 HD 专用图纸待提供 |
 | [robot-description/](robot-description/) | LD/HD 通用 URDF 模型 ZIP，含网格（ROS 1） | ✅ 压缩包已提供<br>🟡 RViz 配置待补；关节限位及运行待验证 |
 
@@ -34,7 +34,7 @@
 
 下表列出 102-HD 的 **31 项装机物料**；无图片的条目标为待补。
 
-打印件名称与 STEP 及独立 3MF 文件名一致。备注中的打印参数仅供参考，尚未完成实物打印验证。
+打印件名称与 STEP、STL 及独立 3MF 文件名一致。备注中的打印参数仅供参考，尚未完成实物打印验证。
 
 | 序号 | 名称 | 图片 | 描述 | 数量 | 备注 |
 | :---: | --- | :---: | --- | :---: | --- |

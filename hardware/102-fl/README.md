@@ -24,7 +24,7 @@
 | --- | --- | --- |
 | [assembly-guide/](assembly-guide/README.md) | Main arm assembly video | ✅ Video available<br>🟡 Revision and wiring coverage under review |
 | [step/](step/) | Part models in parts/; whole-arm assemblies in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
-| [printing/](printing/) | Printing project in 3mf/; standalone print files in stl/ | ✅ 11 individual 3MF files and combined project available; — STL not supplied<br>🟡 Link1 settings conflict with BOM; physical print validation pending |
+| [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/stl/star-arm-102-fl-stl.zip) | ✅ 11 individual 3MF files and combined project available; 11 STL files and ZIP available<br>🟡 Link1 settings conflict with BOM; physical print validation pending |
 | [drawings/](drawings/) | PDF / DWG drawings | ✅ Reference files available<br>🟡 Revision under review |
 | [robot-description/](robot-description/) | Model-specific URDF and meshes | — To be added |
 
@@ -34,7 +34,7 @@
 
 The table below lists **29 assembly items** for 102-FL. Missing images are marked pending.
 
-Printed-part names match the STEP and individual 3MF filenames. Print settings in Notes are references pending physical print validation. The BOM specifies 5 wall loops / 50% infill for link1, while the supplied 3MF uses 2 / 15%; confirm before printing.
+Printed-part names match the STEP, STL, and individual 3MF filenames. Print settings in Notes are references pending physical print validation. The BOM specifies 5 wall loops / 50% infill for link1, while the supplied 3MF uses 2 / 15%; confirm before printing.
 
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |

@@ -24,7 +24,7 @@
 | --- | --- | --- |
 | [assembly-guide/](assembly-guide/README.md) | LD assembly video with HD servo substitution | ✅ Video available<br>🟡 HD button instructions pending; revision and wiring coverage under review |
 | [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
-| [printing/](printing/) | Printing project in 3mf/; standalone print files in stl/ | ✅ 13 individual 3MF files and combined project available; — STL not supplied<br>🟡 Print validation pending |
+| [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/stl/star-arm-102-hd-stl.zip) | ✅ 13 individual 3MF files and combined project available; 13 STL files and ZIP available<br>🟡 Print validation pending |
 | [drawings/](../102-ld/drawings/) | Shared LD body reference (PDF / DWG) | 🟡 HD-specific drawings to be added |
 | [robot-description/](robot-description/) | Shared LD/HD URDF model ZIP, including meshes (ROS 1) | ✅ Package available<br>🟡 RViz configuration incomplete; joint limits and runtime validation pending |
 
@@ -34,7 +34,7 @@
 
 The table below lists **31 assembly items** for 102-HD. Missing images are marked pending.
 
-Printed-part names match the STEP and individual 3MF filenames. Print settings in Notes are references pending physical print validation.
+Printed-part names match the STEP, STL, and individual 3MF filenames. Print settings in Notes are references pending physical print validation.
 
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |
