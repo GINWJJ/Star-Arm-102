@@ -27,7 +27,7 @@ Choose a tool below, then follow its Wiki guide to launch the web interface or d
 
 ## Interface preview
 
-[![Star Arm 102 web control interface with an LD model and no devices connected](../media/images/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
+[![Star Arm 102 web control interface with an LD model and no devices connected](../media/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
 
 English interface selected; 1920 × 1080 (16:9) desktop preview captured in Chrome on October 3, 2026 with no hardware connected. Interface details may change. Open the Wiki for current instructions and supported functions for your model.
 
