@@ -93,9 +93,9 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 
 | 产品图片 | 购买 | 产品简介 |
 | :---: | --- | --- |
-| <a href="https://fashionstar.com.hk/store/product/star-arm-102-ld/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-01-430x430.webp" alt="Star Arm 102-LD" width="120"></a> | **[购买&nbsp;102&#8209;LD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 |
-| <a href="https://fashionstar.com.hk/store/product/star-arm-102-hd/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-01-2-430x430.webp" alt="Star Arm 102-HD" width="120"></a> | **[购买&nbsp;102&#8209;HD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **姿态保持主臂（Pose-holding）**：采用高扭矩空心杯总线舵机，用于稳定示范和长时间数据采集 |
-| <a href="https://fashionstar.com.hk/store/product/star-arm-102-fl/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-main-image-01-430x430.webp" alt="Star Arm 102-FL" width="120"></a> | **[购买&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **任务执行从臂**：配备两个高扭矩无刷总线舵机关节，用于遥操作和策略执行，标称工作负载 500g |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-ld/"><img src="media/102-ld-main-image-01-430x430.webp" alt="Star Arm 102-LD" width="120"></a> | **[购买&nbsp;102&#8209;LD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-hd/"><img src="media/102-hd-main-image-01-2-430x430.webp" alt="Star Arm 102-HD" width="120"></a> | **[购买&nbsp;102&#8209;HD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **姿态保持主臂（Pose-holding）**：采用高扭矩空心杯总线舵机，用于稳定示范和长时间数据采集 |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-fl/"><img src="media/102-fl-main-image-01-430x430.webp" alt="Star Arm 102-FL" width="120"></a> | **[购买&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **任务执行从臂**：配备两个高扭矩无刷总线舵机关节，用于遥操作和策略执行，标称工作负载 500g |
 
 **中文购买入口：** [淘宝购买](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433)。请在商品页面选择所需型号及整机／套件选项。
 
@@ -109,9 +109,9 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 <table>
   <tr>
     <td align="center" width="25%"><a href="integrations/seeed-rebot/README.md"><img src="media/rebot-b601-dm.png" width="273" alt="Seeed reBot B601-DM" height="180"></a></td>
-    <td align="center" width="25%"><a href="integrations/yam/README.md"><img src="https://i2rt.com/cdn/shop/files/st0_768396f1-edfb-4839-96c1-f7b5dffa214a.png?v=1788854436&amp;width=600&amp;height=600&amp;crop=center" width="180" alt="I2RT YAM" height="180"></a></td>
-    <td align="center" width="25%"><a href="integrations/galaxea-a1/README.md"><img src="https://galaxea-dynamics.com/cdn/shop/files/Frame_183.png?v=1776231329&amp;width=1200" width="180" alt="Galaxea A1" height="180"></a></td>
-    <td align="center" width="25%"><a href="integrations/lumos-touch/README.md"><img src="https://www.lumosbot.tech/images/products/touch/front.webp" width="111" alt="Lumos Touch R1" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/yam/README.md"><img src="media/i2rt-yam.png" width="180" alt="I2RT YAM" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/galaxea-a1/README.md"><img src="media/galaxea-a1.png" width="180" alt="Galaxea A1" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/lumos-touch/README.md"><img src="media/lumos-touch-front.webp" width="111" alt="Lumos Touch R1" height="180"></a></td>
   </tr>
   <tr>
     <td align="center"><a href="integrations/seeed-rebot/README.md"><strong>Seeed reBot<br>B601-DM &amp; B601-RS →</strong></a></td>

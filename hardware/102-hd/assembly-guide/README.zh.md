@@ -15,7 +15,7 @@
 
 > **102-HD 用户请注意：视频中的 LD 舵机需替换为 HD 配套的对应紫色空心杯总线舵机（coreless bus servos）。其余主体机械臂的装配步骤与 102-LD 一致。**
 
-[![Star Arm 102-LD 主体机械臂装配视频——102-HD 请按上方说明替换舵机](https://i.ytimg.com/vi/flTCgBx3K0M/hqdefault.jpg)](https://www.youtube.com/watch?v=flTCgBx3K0M)
+[![Star Arm 102-LD 主体机械臂装配视频——102-HD 请按上方说明替换舵机](../../../media/star-arm-102-ld-hd-assembly-preview.jpg)](https://www.youtube.com/watch?v=flTCgBx3K0M)
 
 ✅ 主体机械臂装配指南已完成，请按上方说明替换 HD 舵机。
 

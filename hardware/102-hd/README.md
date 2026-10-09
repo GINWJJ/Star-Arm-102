@@ -3,12 +3,12 @@
 [← Hardware Resources](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
 <p align="center">
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-hd-diy-kit-main-image-01.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-hd-diy-kit-main-image-01.webp" alt="Star Arm 102-HD DIY kit" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1.webp" alt="Star Arm 102-HD product view 2" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1.webp" alt="Star Arm 102-HD product view 3" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1.webp" alt="Star Arm 102-HD product view 4" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06.webp" alt="Star Arm 102-HD product view 5" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07.webp" alt="Star Arm 102-HD product view 6" width="15%"></a>
+  <a href="images/102-hd-diy-kit-main-image-01.webp"><img src="images/102-hd-diy-kit-main-image-01.webp" alt="Star Arm 102-HD DIY kit" width="15%"></a>
+  <a href="images/102-hd-main-image-02-1.webp"><img src="images/102-hd-main-image-02-1.webp" alt="Star Arm 102-HD product view 2" width="15%"></a>
+  <a href="images/102-hd-main-image-04-1.webp"><img src="images/102-hd-main-image-04-1.webp" alt="Star Arm 102-HD product view 3" width="15%"></a>
+  <a href="images/102-hd-main-image-05-1.webp"><img src="images/102-hd-main-image-05-1.webp" alt="Star Arm 102-HD product view 4" width="15%"></a>
+  <a href="images/102-hd-main-image-06.webp"><img src="images/102-hd-main-image-06.webp" alt="Star Arm 102-HD product view 5" width="15%"></a>
+  <a href="images/102-hd-main-image-07.webp"><img src="images/102-hd-main-image-07.webp" alt="Star Arm 102-HD product view 6" width="15%"></a>
 </p>
 
 **On this page:**
@@ -54,7 +54,7 @@ Printed-part names match the STEP, STL, and individual 3MF filenames. Print sett
 | 14 | star-arm-102-finger-ring-right | <img src="images/star-arm-102-finger-ring-right.png" alt="star-arm-102-finger-ring-right" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 15 | hd-button-cover | <img src="images/hd-button-cover.png" alt="hd-button-cover" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 16 | hd-button-base | <img src="images/hd-button-base.png" alt="hd-button-base" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
-| 17 | UC-01 board | <img src="https://fashionstar.com.cn/wiki/snippets/shop-info/images/uc-01-primary.webp" alt="UC-01" width="90"> | XT30 connector | 1 | Installed part |
+| 17 | UC-01 board | <img src="../../media/uc-01-primary.webp" alt="UC-01" width="90"> | XT30 connector | 1 | Installed part |
 | 18 | UK-01 board | Pending | With socket | 1 | Installed part |
 | 19 | Thrust needle roller bearing | Pending | AXK2035 + 2AS | 1 | Installed part |
 | 20 | 120 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 6 | Installed part |

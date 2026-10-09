@@ -3,12 +3,12 @@
 [← Hardware Resources](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
 <p align="center">
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-ld-diy-kit-main-image-01-2.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-ld-diy-kit-main-image-01-2.webp" alt="Star Arm 102-LD DIY kit" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-02.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-02.webp" alt="Star Arm 102-LD product view 2" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-03.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-03.webp" alt="Star Arm 102-LD product view 3" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-04.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-04.webp" alt="Star Arm 102-LD product view 4" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-05.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-05.webp" alt="Star Arm 102-LD product view 5" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-06.webp" alt="Star Arm 102-LD product view 6" width="15%"></a>
+  <a href="images/102-ld-diy-kit-main-image-01-2.webp"><img src="images/102-ld-diy-kit-main-image-01-2.webp" alt="Star Arm 102-LD DIY kit" width="15%"></a>
+  <a href="images/102-ld-main-image-02.webp"><img src="images/102-ld-main-image-02.webp" alt="Star Arm 102-LD product view 2" width="15%"></a>
+  <a href="images/102-ld-main-image-03.webp"><img src="images/102-ld-main-image-03.webp" alt="Star Arm 102-LD product view 3" width="15%"></a>
+  <a href="images/102-ld-main-image-04.webp"><img src="images/102-ld-main-image-04.webp" alt="Star Arm 102-LD product view 4" width="15%"></a>
+  <a href="images/102-ld-main-image-05.webp"><img src="images/102-ld-main-image-05.webp" alt="Star Arm 102-LD product view 5" width="15%"></a>
+  <a href="images/102-ld-main-image-06.webp"><img src="images/102-ld-main-image-06.webp" alt="Star Arm 102-LD product view 6" width="15%"></a>
 </p>
 
 **On this page:**
@@ -53,7 +53,7 @@ Printed-part names match the STEP, STL, and individual 3MF filenames. Print sett
 | 13 | star-arm-102-finger-ring-left | <img src="images/star-arm-102-finger-ring-left.png" alt="star-arm-102-finger-ring-left" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 14 | star-arm-102-finger-ring-right | <img src="images/star-arm-102-finger-ring-right.png" alt="star-arm-102-finger-ring-right" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 15 | Thrust needle roller bearing | Pending | AXK2035 + 2AS | 1 | Installed part |
-| 16 | UC-01 board | <img src="https://fashionstar.com.cn/wiki/snippets/shop-info/images/uc-01-primary.webp" alt="UC-01" width="90"> | DC power lead: 0.75 mm², 5.5 × 2.1 mm female, 0.15 m | 1 | Installed part |
+| 16 | UC-01 board | <img src="../../media/uc-01-primary.webp" alt="UC-01" width="90"> | DC power lead: 0.75 mm², 5.5 × 2.1 mm female, 0.15 m | 1 | Installed part |
 | 17 | 120 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 5 | Installed part |
 | 18 | 200 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 2 | Installed part |
 | 19 | M3 × 10 socket-head screw | Pending | HSCS, grade 12.9 | 1 | Installed part |

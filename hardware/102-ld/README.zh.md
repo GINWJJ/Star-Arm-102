@@ -3,12 +3,12 @@
 [← 硬件资源](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
 <p align="center">
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-ld-diy-kit-main-image-01-2.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-ld-diy-kit-main-image-01-2.webp" alt="Star Arm 102-LD DIY 套件" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-02.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-02.webp" alt="Star Arm 102-LD 产品图片 2" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-03.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-03.webp" alt="Star Arm 102-LD 产品图片 3" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-04.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-04.webp" alt="Star Arm 102-LD 产品图片 4" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-05.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-05.webp" alt="Star Arm 102-LD 产品图片 5" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-06.webp" alt="Star Arm 102-LD 产品图片 6" width="15%"></a>
+  <a href="images/102-ld-diy-kit-main-image-01-2.webp"><img src="images/102-ld-diy-kit-main-image-01-2.webp" alt="Star Arm 102-LD DIY 套件" width="15%"></a>
+  <a href="images/102-ld-main-image-02.webp"><img src="images/102-ld-main-image-02.webp" alt="Star Arm 102-LD 产品图片 2" width="15%"></a>
+  <a href="images/102-ld-main-image-03.webp"><img src="images/102-ld-main-image-03.webp" alt="Star Arm 102-LD 产品图片 3" width="15%"></a>
+  <a href="images/102-ld-main-image-04.webp"><img src="images/102-ld-main-image-04.webp" alt="Star Arm 102-LD 产品图片 4" width="15%"></a>
+  <a href="images/102-ld-main-image-05.webp"><img src="images/102-ld-main-image-05.webp" alt="Star Arm 102-LD 产品图片 5" width="15%"></a>
+  <a href="images/102-ld-main-image-06.webp"><img src="images/102-ld-main-image-06.webp" alt="Star Arm 102-LD 产品图片 6" width="15%"></a>
 </p>
 
 **本页导航：**
@@ -53,7 +53,7 @@
 | 13 | star-arm-102-finger-ring-left | <img src="images/star-arm-102-finger-ring-left.png" alt="star-arm-102-finger-ring-left" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 14 | star-arm-102-finger-ring-right | <img src="images/star-arm-102-finger-ring-right.png" alt="star-arm-102-finger-ring-right" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 15 | 滚针轴承 | 待补 | AXK2035+2AS | 1 | 装机件 |
-| 16 | PCBA | <img src="https://fashionstar.com.cn/wiki/snippets/shop-info/images/uc-01-primary.webp" alt="UC-01" width="90"> | UC-01，接DC圆头电源线，0.75平方5.5x2.1母头,0.15米 | 1 | 装机件 |
+| 16 | PCBA | <img src="../../media/uc-01-primary.webp" alt="UC-01" width="90"> | UC-01，接DC圆头电源线，0.75平方5.5x2.1母头,0.15米 | 1 | 装机件 |
 | 17 | 线材 | 待补 | PH-3Y 双头反向60芯 0.08 黑色硅胶排线L=120 mm  黑色编织线 | 5 | 装机件 |
 | 18 | 线材 | 待补 | PH-3Y 双头反向60芯 0.08 黑色硅胶排线L=200 mm  黑色编织线 | 2 | 装机件 |
 | 19 | 螺丝 | 待补 | HSCS M3*10 12.9级内六角圆柱头螺钉 | 1 | 装机件 |

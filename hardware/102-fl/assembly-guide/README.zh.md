@@ -14,7 +14,7 @@
 
 点击下方封面，在 YouTube 观看 102-FL 装配视频。
 
-[![Star Arm 102-FL 装配视频](https://i.ytimg.com/vi/9-ufaI8dwys/hqdefault.jpg)](https://www.youtube.com/watch?v=9-ufaI8dwys)
+[![Star Arm 102-FL 装配视频](images/star-arm-102-fl-assembly-preview.jpg)](https://www.youtube.com/watch?v=9-ufaI8dwys)
 
 ✅ 主体机械臂装配指南已完成。
 
