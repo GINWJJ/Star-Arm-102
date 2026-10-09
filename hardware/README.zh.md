@@ -50,26 +50,23 @@ hardware/
 │   │   └── 3mf/
 │   ├── drawings/
 │   ├── images/
-│   └── assembly-guide/
-│       └── images/
+│   ├── assembly-guide/
+│   │   └── images/
+│   └── robot-description/
+│       ├── stararm102_ld_hd_description/
+│       └── star-arm-102-ld-hd-urdf.zip
 ├── 102-hd/
 ├── 102-fl/
 ├── camera-module/
 ├── flexible-gripper/
 └── robot-description/
     ├── README.md
-    ├── ld-hd/
-    │   ├── stararm102_ld_hd_description/
-    │   └── star-arm-102-ld-hd-urdf.zip
-    ├── fl/
-    │   ├── stararm102_fl_description/
-    │   └── star-arm-102-fl-urdf.zip
     ├── urdf/
     │   └── star-arm-102.urdf
     └── meshes/
 ```
 
-`step/assembly/` 存放 CAD 装配模型；`assembly-guide/` 用于客户装配说明。LD 和 HD 共用一份 [ROS 1 软件包](robot-description/ld-hd/)；FL 使用 [独立软件包](robot-description/fl/)。两者均提供源码目录和完整 ZIP。现有 ROS 2 模型仍位于 `hardware/robot-description/urdf/` 和 `meshes/`。
+`step/assembly/` 存放 CAD 装配模型；`assembly-guide/` 用于客户装配说明。每个型号均在自身的 robot-description 目录提供 ROS 1 源码与完整 ZIP：[LD](102-ld/robot-description/)、[HD](102-hd/robot-description/)、[FL](102-fl/robot-description/)。LD 与 HD 包含相同模型。现有 ROS 2 模型仍位于 `hardware/robot-description/urdf/` 和 `meshes/`。
 
 ## 许可
 

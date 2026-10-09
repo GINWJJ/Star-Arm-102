@@ -1,6 +1,6 @@
 # Star Arm 102 FL Robot Description
 
-[← Robot Description](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
+[← 102-FL Hardware Resources](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
 Follower gripper geometry for FL.
 

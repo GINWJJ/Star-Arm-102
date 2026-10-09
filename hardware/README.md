@@ -50,26 +50,23 @@ hardware/
 │   │   └── 3mf/
 │   ├── drawings/
 │   ├── images/
-│   └── assembly-guide/
-│       └── images/
+│   ├── assembly-guide/
+│   │   └── images/
+│   └── robot-description/
+│       ├── stararm102_ld_hd_description/
+│       └── star-arm-102-ld-hd-urdf.zip
 ├── 102-hd/
 ├── 102-fl/
 ├── camera-module/
 ├── flexible-gripper/
 └── robot-description/
     ├── README.md
-    ├── ld-hd/
-    │   ├── stararm102_ld_hd_description/
-    │   └── star-arm-102-ld-hd-urdf.zip
-    ├── fl/
-    │   ├── stararm102_fl_description/
-    │   └── star-arm-102-fl-urdf.zip
     ├── urdf/
     │   └── star-arm-102.urdf
     └── meshes/
 ```
 
-`step/assembly/` contains CAD assemblies; `assembly-guide/` is for customer assembly instructions. LD and HD share one [ROS 1 package](robot-description/ld-hd/); FL has a [separate package](robot-description/fl/). Each includes a source directory and a complete ZIP. The existing ROS 2 model remains in `hardware/robot-description/urdf/` and `meshes/`.
+`step/assembly/` contains CAD assemblies; `assembly-guide/` is for customer assembly instructions. Each model provides its ROS 1 source package and complete ZIP in its own robot-description directory: [LD](102-ld/robot-description/), [HD](102-hd/robot-description/), [FL](102-fl/robot-description/). LD and HD contain the same model. The existing ROS 2 model remains in `hardware/robot-description/urdf/` and `meshes/`.
 
 ## Licensing
 

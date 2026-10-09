@@ -26,7 +26,7 @@
 | [step/](step/) | parts/ 零件模型；assembly/ 共用装配模型 | ✅ 文件已提供<br>🟡 配套版本待核对 |
 | [printing/](printing/) | 3MF 打印项目；STL：[查看零件](printing/stl/) · [下载整套 ZIP](printing/stl/star-arm-102-hd-stl.zip) | ✅ 13 个独立零件 3MF 及整套项目已提供；13 个 STL 及整套 ZIP 已提供<br>🟡 打印待验证 |
 | [drawings/](../102-ld/drawings/) | LD 共用主体参考图（PDF／DWG） | 🟡 HD 专用图纸待提供 |
-| [robot-description/ld-hd/](../robot-description/ld-hd/) | ROS 1 软件包：[浏览源码](../robot-description/ld-hd/) · [下载 ZIP](../robot-description/ld-hd/star-arm-102-ld-hd-urdf.zip) | ✅ 源码与 ZIP 已提供<br>🟡 joint5 固定定义、HD 动力学参数及运行待验证 |
+| [robot-description/](robot-description/) | ROS 1 软件包：[浏览源码](robot-description/) · [下载 ZIP](robot-description/star-arm-102-ld-hd-urdf.zip) | ✅ 源码与 ZIP 已提供<br>🟡 joint5 固定定义、HD 动力学参数及运行待验证 |
 
 <a id="bill-of-materials"></a>
 

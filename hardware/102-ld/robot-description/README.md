@@ -1,6 +1,6 @@
 # Star Arm 102 LD/HD Robot Description
 
-[← Robot Description](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
+[← 102-LD Hardware Resources](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
 Leader handle and finger-ring geometry for LD/HD. Mass and inertia differences for HD servos have not been validated.
 

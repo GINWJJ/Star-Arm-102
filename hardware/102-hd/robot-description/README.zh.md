@@ -1,6 +1,6 @@
 # Star Arm 102 LD/HD 机器人描述
 
-[← 机器人描述](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
+[← 102-HD 硬件资源](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
 主臂手柄与指环结构，供 LD/HD 使用。HD 舵机差异对应的质量与惯量尚未验证。
 

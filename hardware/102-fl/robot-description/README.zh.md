@@ -1,6 +1,6 @@
 # Star Arm 102 FL 机器人描述
 
-[← 机器人描述](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
+[← 102-FL 硬件资源](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
 FL 从臂夹爪结构。
 

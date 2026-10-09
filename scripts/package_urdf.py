@@ -3,13 +3,15 @@
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
-ROOT = Path(__file__).resolve().parents[1] / 'hardware/robot-description'
+ROOT = Path(__file__).resolve().parents[1] / 'hardware'
 
 
 def main():
-    for variant in ('ld-hd', 'fl'):
-        source = ROOT / variant / ('stararm102_' + variant.replace('-', '_') + '_description')
-        output = ROOT / variant / ('star-arm-102-' + variant + '-urdf.zip')
+    for model in ('102-ld', '102-hd', '102-fl'):
+        variant = 'fl' if model == '102-fl' else 'ld-hd'
+        directory = ROOT / model / 'robot-description'
+        source = directory / ('stararm102_' + variant.replace('-', '_') + '_description')
+        output = directory / ('star-arm-102-' + variant + '-urdf.zip')
         with ZipFile(output, 'w', ZIP_DEFLATED) as archive:
             for path in sorted(source.rglob('*')):
                 if not path.is_file() or any(part.startswith('.') or part == '__pycache__' for part in path.relative_to(source).parts):

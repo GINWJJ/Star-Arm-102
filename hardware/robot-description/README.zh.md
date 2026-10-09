@@ -6,8 +6,9 @@
 
 | 型号 | 源码与说明 | 下载 |
 | --- | --- | --- |
-| 102-LD / 102-HD | [ld-hd/](ld-hd/) — 主臂手柄与指环 | [ZIP](ld-hd/star-arm-102-ld-hd-urdf.zip) |
-| 102-FL | [fl/](fl/) — 从臂夹爪 | [ZIP](fl/star-arm-102-fl-urdf.zip) |
+| 102-LD | [型号目录](../102-ld/robot-description/) — 主臂手柄与指环 | [ZIP](../102-ld/robot-description/star-arm-102-ld-hd-urdf.zip) |
+| 102-HD | [型号目录](../102-hd/robot-description/) — 主臂手柄与指环 | [ZIP](../102-hd/robot-description/star-arm-102-ld-hd-urdf.zip) |
+| 102-FL | [型号目录](../102-fl/robot-description/) — 从臂夹爪 | [ZIP](../102-fl/robot-description/star-arm-102-fl-urdf.zip) |
 
 LD/HD 源模型保留了固定的 `joint5`。HD 专用质量与惯量、关节限位及 ROS/Gazebo 运行仍待验证。使用前请阅读对应软件包的说明。
 

@@ -194,12 +194,13 @@ Star-Arm-102/
 │   │   │   └── 3mf/
 │   │   ├── drawings/
 │   │   ├── images/
-│   │   └── assembly-guide/
+│   │   ├── assembly-guide/
+│   │   └── robot-description/
 │   ├── 102-hd/
 │   ├── 102-fl/
 │   ├── camera-module/
 │   ├── flexible-gripper/
-│   └── robot-description/                    URDF source and ZIPs for LD/HD and FL
+│   └── robot-description/                    Existing ROS 2 resources
 ├── integrations/
 │   ├── seeed-rebot/
 │   ├── yam/

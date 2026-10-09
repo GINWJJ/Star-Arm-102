@@ -6,8 +6,9 @@ Choose the model for your arm. Each ROS 1 package includes URDF, visual/collisio
 
 | Model | Source and instructions | Download |
 | --- | --- | --- |
-| 102-LD / 102-HD | [ld-hd/](ld-hd/) — leader handle and finger rings | [ZIP](ld-hd/star-arm-102-ld-hd-urdf.zip) |
-| 102-FL | [fl/](fl/) — follower gripper | [ZIP](fl/star-arm-102-fl-urdf.zip) |
+| 102-LD | [Model directory](../102-ld/robot-description/) — leader handle and finger rings | [ZIP](../102-ld/robot-description/star-arm-102-ld-hd-urdf.zip) |
+| 102-HD | [Model directory](../102-hd/robot-description/) — leader handle and finger rings | [ZIP](../102-hd/robot-description/star-arm-102-ld-hd-urdf.zip) |
+| 102-FL | [Model directory](../102-fl/robot-description/) — follower gripper | [ZIP](../102-fl/robot-description/star-arm-102-fl-urdf.zip) |
 
 The LD/HD source retains a fixed `joint5`. HD-specific mass and inertia, joint limits and ROS/Gazebo runtime behavior still require validation. See each package's instructions before use.
 
