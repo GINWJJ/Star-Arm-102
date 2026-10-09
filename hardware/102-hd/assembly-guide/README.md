@@ -1,6 +1,15 @@
-# Assembling Star Arm 102-HD
+# Star Arm 102-HD Assembly Guide
 
 [← 102-HD Hardware Resources](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
+
+**On this page:**
+
+- [🦾 Arm Assembly](#arm-assembly)
+- [🔘 Button Installation & Wiring](#button-installation-wiring)
+
+<a id="arm-assembly"></a>
+
+## 🦾 Arm Assembly
 
 Use Fashion Star’s 102-LD main arm assembly video to assemble your Star Arm 102-HD. Click the preview below to watch on YouTube.
 
@@ -8,6 +17,10 @@ Use Fashion Star’s 102-LD main arm assembly video to assemble your Star Arm 10
 
 [![Star Arm 102-LD main arm assembly video — reference for 102-HD with the servo substitution above](https://i.ytimg.com/vi/flTCgBx3K0M/hqdefault.jpg)](https://www.youtube.com/watch?v=flTCgBx3K0M)
 
-**[▶ Watch the Shared Main Arm Assembly Guide →](https://www.youtube.com/watch?v=flTCgBx3K0M)**
+The video shows **102-LD**, not HD. Hardware revision, wiring, and pre-power check coverage still need review.
 
-The video shows **102-LD**, not HD. HD-specific button housing and UK-01 installation instructions remain to be added; hardware revision, wiring, and pre-power check coverage still need review.
+<a id="button-installation-wiring"></a>
+
+## 🔘 Button Installation & Wiring
+
+Video coming soon.
