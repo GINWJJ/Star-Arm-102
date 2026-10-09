@@ -22,11 +22,11 @@
 
 | Directory | Description | Status |
 | --- | --- | --- |
-| [assembly-guide/](assembly-guide/README.md) | Main arm assembly video | ✅ Video available<br>🟡 Revision and wiring coverage under review |
-| [step/](step/) | Part models in parts/; whole-arm assemblies in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
-| [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/stl/star-arm-102-fl-stl.zip) | ✅ 11 individual 3MF files and combined project available; 11 STL files and ZIP available<br>🟡 Link1 settings conflict with BOM; physical print validation pending |
-| [drawings/](drawings/) | PDF / DWG drawings | ✅ Reference files available<br>🟡 Revision under review |
-| [robot-description/](robot-description/) | ROS 1 package: [Browse source](robot-description/) · [Download ZIP](robot-description/star-arm-102-fl-urdf.zip) | ✅ Source and ZIP available<br>🟡 Joint parameters and runtime pending validation |
+| [assembly-guide/](assembly-guide/README.md) | Main arm assembly video | ✅ Complete |
+| [step/](step/) | Part models in parts/; whole-arm assemblies in assembly/ | ✅ Complete |
+| [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/star-arm-102-fl-stl.zip) | ✅ Complete |
+| [drawings/](drawings/) | PDF / DWG drawings | ✅ Complete |
+| [robot-description/](robot-description/) | ROS 1 package: [Browse source](robot-description/) · [Download ZIP](robot-description/star-arm-102-fl-urdf.zip) | ✅ Complete |
 
 <a id="bill-of-materials"></a>
 

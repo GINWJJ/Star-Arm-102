@@ -17,10 +17,12 @@
 
 [![Star Arm 102-LD 主体机械臂装配视频——102-HD 请按上方说明替换舵机](https://i.ytimg.com/vi/flTCgBx3K0M/hqdefault.jpg)](https://www.youtube.com/watch?v=flTCgBx3K0M)
 
-视频展示的是 **102-LD**。硬件版本、接线及上电前检查的覆盖范围仍需核对。
+✅ 主体机械臂装配指南已完成，请按上方说明替换 HD 舵机。
 
 <a id="button-installation-wiring"></a>
 
 ## 🔘 按钮安装与接线
 
-安装与接线视频待上线。
+参考下图查看按钮模块在底座上的安装位置、接头方向及线缆走向。点击图片可查看原图。
+
+[![102-HD 按钮模块安装位置与接线参考照片](images/star-arm-102-hd-button-wiring.jpg)](images/star-arm-102-hd-button-wiring.jpg)

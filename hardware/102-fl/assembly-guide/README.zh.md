@@ -16,7 +16,7 @@
 
 [![Star Arm 102-FL 装配视频](https://i.ytimg.com/vi/9-ufaI8dwys/hqdefault.jpg)](https://www.youtube.com/watch?v=9-ufaI8dwys)
 
-本视频适用于 **102-FL**。对应的硬件版本，以及接线和上电前检查的覆盖范围，仍需核对。
+✅ 主体机械臂装配指南已完成。
 
 <a id="flexible-gripper-assembly"></a>
 

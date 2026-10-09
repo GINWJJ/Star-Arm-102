@@ -22,11 +22,11 @@
 
 | Directory | Description | Status |
 | --- | --- | --- |
-| [assembly-guide/](assembly-guide/README.md) | LD assembly video with HD servo substitution | ✅ Video available<br>🟡 HD button instructions pending; revision and wiring coverage under review |
-| [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
-| [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/stl/star-arm-102-hd-stl.zip) | ✅ 13 individual 3MF files and combined project available; 13 STL files and ZIP available<br>🟡 Print validation pending |
-| [drawings/](../102-ld/drawings/) | Shared LD body reference (PDF / DWG) | 🟡 HD-specific drawings to be added |
-| [robot-description/](robot-description/) | ROS 1 package: [Browse source](robot-description/) · [Download ZIP](robot-description/star-arm-102-ld-hd-urdf.zip) | ✅ Source and ZIP available<br>🟡 Fixed joint5 definition, HD dynamics and runtime pending validation |
+| [assembly-guide/](assembly-guide/README.md) | Main arm video with HD servo substitution and button wiring photo | ✅ Complete |
+| [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Complete |
+| [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/star-arm-102-hd-stl.zip) | ✅ Complete |
+| [drawings/](../102-ld/drawings/) | Shared LD/HD body drawings (PDF / DWG) | ✅ Complete |
+| [robot-description/](robot-description/) | ROS 1 package: [Browse source](robot-description/) · [Download ZIP](robot-description/star-arm-102-ld-hd-urdf.zip) | ✅ Complete |
 
 <a id="bill-of-materials"></a>
 

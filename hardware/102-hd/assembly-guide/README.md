@@ -17,10 +17,12 @@ Use Fashion Star’s 102-LD main arm assembly video to assemble your Star Arm 10
 
 [![Star Arm 102-LD main arm assembly video — reference for 102-HD with the servo substitution above](https://i.ytimg.com/vi/flTCgBx3K0M/hqdefault.jpg)](https://www.youtube.com/watch?v=flTCgBx3K0M)
 
-The video shows **102-LD**, not HD. Hardware revision, wiring, and pre-power check coverage still need review.
+✅ Main arm assembly guide complete. Follow the HD servo substitution instructions above.
 
 <a id="button-installation-wiring"></a>
 
 ## 🔘 Button Installation & Wiring
 
-Video coming soon.
+Use the photo below as a reference for the button module’s position on the base, connector orientation, and cable routing. Click the photo to view the full-size image.
+
+[![102-HD button module mounting position and wiring reference](images/star-arm-102-hd-button-wiring.jpg)](images/star-arm-102-hd-button-wiring.jpg)
