@@ -26,7 +26,7 @@
 | [step/](step/) | parts/ 零件模型；assembly/ 共用装配模型 | ✅ 已完成 |
 | [printing/](printing/) | 3MF 打印项目；STL：[查看零件](printing/stl/) · [下载整套 ZIP](printing/star-arm-102-hd-stl.zip) | ✅ 已完成 |
 | [drawings/](../102-ld/drawings/) | LD/HD 共用主体图纸（PDF／DWG） | ✅ 已完成 |
-| [robot-description/](robot-description/) | ROS 1 软件包：[浏览源码](robot-description/) · [下载 ZIP](robot-description/star-arm-102-ld-hd-urdf.zip) | ✅ 已完成 |
+| [robot-description/](robot-description/) | URDF 模型：[浏览源码](robot-description/) · [下载 ZIP](robot-description/star-arm-102-ld-hd-urdf.zip) | ✅ 已完成 |
 
 <a id="bill-of-materials"></a>
 

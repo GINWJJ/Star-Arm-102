@@ -25,4 +25,4 @@
 
 参考下图查看按钮模块在底座上的安装位置、接头方向及线缆走向。点击图片可查看原图。
 
-[![102-HD 按钮模块安装位置与接线参考照片](images/star-arm-102-hd-button-wiring.jpg)](images/star-arm-102-hd-button-wiring.jpg)
+<a href="images/star-arm-102-hd-button-wiring.jpg"><img src="images/star-arm-102-hd-button-wiring.jpg" alt="102-HD 按钮模块安装位置与接线参考照片" width="50%"></a>

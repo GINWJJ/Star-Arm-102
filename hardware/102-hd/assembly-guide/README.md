@@ -25,4 +25,4 @@ Use Fashion Star’s 102-LD main arm assembly video to assemble your Star Arm 10
 
 Use the photo below as a reference for the button module’s position on the base, connector orientation, and cable routing. Click the photo to view the full-size image.
 
-[![102-HD button module mounting position and wiring reference](images/star-arm-102-hd-button-wiring.jpg)](images/star-arm-102-hd-button-wiring.jpg)
+<a href="images/star-arm-102-hd-button-wiring.jpg"><img src="images/star-arm-102-hd-button-wiring.jpg" alt="102-HD button module mounting position and wiring reference" width="50%"></a>
