@@ -1,6 +1,6 @@
 # Try the pretrained ACT block-placement model
 
-[← examples](../)　|　🌐 **English** / [简体中文](README.zh.md)
+[← examples](../)　|　**English** / [简体中文](README.zh.md)
 
 **On this page:**
 

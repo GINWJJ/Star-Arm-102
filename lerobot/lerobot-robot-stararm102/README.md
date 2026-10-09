@@ -1,6 +1,6 @@
 # Star Arm 102 follower plugin — release-compatible generation
 
-[← LeRobot](../README.md)　|　🌐 **English**
+[← LeRobot](../README.md)　|　**English**
 
 This package registers `lerobot_robot_stararm102` and supplies the FL follower used by the released ACT example. It exposes `Motor_0.pos` through `Motor_5.pos` and `gripper.pos`.
 

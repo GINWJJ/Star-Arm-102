@@ -1,6 +1,6 @@
 # Control & Configuration Tools
 
-[← Home](../README.md)　|　🌐 **English**
+[← Home](../README.md)　|　**English**
 
 **On this page:**
 

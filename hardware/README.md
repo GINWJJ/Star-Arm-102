@@ -1,6 +1,6 @@
 # Star Arm 102 Specifications & Hardware Resources
 
-[← Home](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
+[← Home](../README.md)　|　**English** / [简体中文](README.zh.md)
 
 **On this page:**
 

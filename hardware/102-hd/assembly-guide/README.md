@@ -1,6 +1,6 @@
 # Star Arm 102-HD Assembly Guide
 
-[← 102-HD Hardware Resources](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
+[← 102-HD Hardware Resources](../README.md)　|　**English** / [简体中文](README.zh.md)
 
 **On this page:**
 

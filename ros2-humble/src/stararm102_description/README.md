@@ -1,6 +1,6 @@
 # Star Arm 102 robot description
 
-[← src](../)　|　🌐 **English** / [简体中文](README.zh.md)
+[← src](../)　|　**English** / [简体中文](README.zh.md)
 
 This package installs the authoritative [URDF and meshes](../../../hardware/robot-description/README.md) from `hardware/robot-description/`, alongside its launch and RViz resources. Build from the complete repository checkout; copying only this ROS package omits the model source files. Start with the [ROS 2 Humble guide](../../README.md) for installation and launches.
 

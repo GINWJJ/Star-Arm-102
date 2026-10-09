@@ -1,6 +1,6 @@
 # 用自然语言控制 Star Arm 102
 
-[← 集成目录](../README.md)　|　🌐 [English](README.md) / **简体中文**
+[← 集成目录](../README.md)　|　[English](README.md) / **简体中文**
 
 **本页导航：**
 

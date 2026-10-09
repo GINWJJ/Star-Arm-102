@@ -1,6 +1,6 @@
 # Star Arm 102-FL hardware
 
-[← Hardware Resources](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
+[← Hardware Resources](../README.md)　|　**English** / [简体中文](README.zh.md)
 
 <p align="center">
   <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-diy-kit-main-image-01.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-diy-kit-main-image-01.webp" alt="Star Arm 102-FL DIY kit" width="15%"></a>
@@ -54,7 +54,7 @@ Printed-part names match the STEP, STL, and individual 3MF filenames. Print sett
 | 14 | star-arm-102-fingertip-left | <img src="images/star-arm-102-fingertip-left.png" alt="star-arm-102-fingertip-left" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
 | 15 | star-arm-102-fingertip-right | <img src="images/star-arm-102-fingertip-right.png" alt="star-arm-102-fingertip-right" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
 | 16 | Thrust needle roller bearing | Pending | AXK2035 + 2AS | 1 | Installed part |
-| 17 | UC-01 board | Pending | XT30 connector | 1 | Installed part |
+| 17 | UC-01 board | <img src="https://fashionstar.com.cn/wiki/snippets/shop-info/images/uc-01-primary.webp" alt="UC-01" width="90"> | XT30 connector | 1 | Installed part |
 | 18 | 120 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 4 | Installed part |
 | 19 | 200 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 3 | Installed part |
 | 20 | M3 × 10 socket-head screw | Pending | HSCS, grade 12.9 | 1 | Installed part |

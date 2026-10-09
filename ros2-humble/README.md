@@ -1,6 +1,6 @@
 # Star Arm 102 with ROS 2 Humble
 
-[← Home](../README.md)　|　🌐 **English** / [简体中文](README.zh.md)
+[← Home](../README.md)　|　**English** / [简体中文](README.zh.md)
 
 **On this page:**
 

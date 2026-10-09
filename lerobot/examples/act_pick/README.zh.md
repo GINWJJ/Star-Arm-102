@@ -1,6 +1,6 @@
 # 体验 ACT 积木放置预训练模型
 
-[← examples](../)　|　🌐 [English](README.md) / **简体中文**
+[← examples](../)　|　[English](README.md) / **简体中文**
 
 **本页导航：**
 

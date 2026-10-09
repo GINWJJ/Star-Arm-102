@@ -1,6 +1,6 @@
 # Star Arm 102 规格与硬件资源
 
-[← 首页](../README.zh.md)　|　🌐 [English](README.md) / **简体中文**
+[← 首页](../README.zh.md)　|　[English](README.md) / **简体中文**
 
 **本页导航：**
 

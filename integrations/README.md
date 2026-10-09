@@ -1,6 +1,6 @@
 # Integrations: Follower Pairings & Partner Applications
 
-[← Home](../README.md)　|　🌐 **English**
+[← Home](../README.md)　|　**English**
 
 **On this page:**
 

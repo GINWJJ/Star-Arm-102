@@ -1,6 +1,6 @@
 # Star Arm 102 HD/FL — refactored LeRobot integration
 
-[← LeRobot](../README.md)　|　🌐 **English**
+[← LeRobot](../README.md)　|　**English**
 
 **On this page:**
 

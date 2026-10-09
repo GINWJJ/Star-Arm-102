@@ -1,6 +1,6 @@
 # Repository Maintenance Scripts
 
-[← Home](../README.md)　|　🌐 **English**
+[← Home](../README.md)　|　**English**
 
 These scripts are for repository contributors. For customer-facing robot and servo tools, see the [tool directory](../tools/README.md).
 

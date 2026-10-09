@@ -1,6 +1,6 @@
 # Star Arm 102 Leaders + Galaxea A1
 
-[← Integrations](../README.md)　|　🌐 **English**
+[← Integrations](../README.md)　|　**English**
 
 **On this page:**
 

@@ -1,6 +1,6 @@
 # Star Arm 102 Leaders + Seeed reBot B601
 
-[← Integrations](../README.md)　|　🌐 **English**
+[← Integrations](../README.md)　|　**English**
 
 **On this page:**
 

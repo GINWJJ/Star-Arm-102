@@ -1,6 +1,6 @@
 # Star Arm 102-FL 装配指南
 
-[← 102-FL 硬件资源](../README.zh.md)　|　🌐 [English](README.md) / **简体中文**
+[← 102-FL 硬件资源](../README.zh.md)　|　[English](README.md) / **简体中文**
 
 **本页导航：**
 
