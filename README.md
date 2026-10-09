@@ -27,7 +27,7 @@
 
 <p align="center">
   <a href="https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/">
-    <img src="media/images/star-arm-102-hero.jpg" alt="Star Arm 102 robot arm" width="880">
+    <img src="media/star-arm-102-hero.jpg" alt="Star Arm 102 robot arm" width="880">
   </a>
 </p>
 
@@ -108,7 +108,7 @@ Have a third-party follower? Explore Star Arm 102-LD / HD pairing resources by f
 <!-- reBot image: transparent image extracted with empty alpha margins trimmed from page 1 of Seeed Studio’s product sheet, hosted at https://akizukidenshi.com/goodsaffix/reBot_Arm_B601_DM_Physical_AI_Robotics_Arm.pdf -->
 <table>
   <tr>
-    <td align="center" width="25%"><a href="integrations/seeed-rebot/README.md"><img src="media/images/rebot-b601-dm.png" width="273" alt="Seeed reBot B601-DM" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/seeed-rebot/README.md"><img src="media/rebot-b601-dm.png" width="273" alt="Seeed reBot B601-DM" height="180"></a></td>
     <td align="center" width="25%"><a href="integrations/yam/README.md"><img src="https://i2rt.com/cdn/shop/files/st0_768396f1-edfb-4839-96c1-f7b5dffa214a.png?v=1788854436&amp;width=600&amp;height=600&amp;crop=center" width="180" alt="I2RT YAM" height="180"></a></td>
     <td align="center" width="25%"><a href="integrations/galaxea-a1/README.md"><img src="https://galaxea-dynamics.com/cdn/shop/files/Frame_183.png?v=1776231329&amp;width=1200" width="180" alt="Galaxea A1" height="180"></a></td>
     <td align="center" width="25%"><a href="integrations/lumos-touch/README.md"><img src="https://www.lumosbot.tech/images/products/touch/front.webp" width="111" alt="Lumos Touch R1" height="180"></a></td>
@@ -133,7 +133,7 @@ Start with your Star Arm 102 leader and a virtual follower in the web controller
 - Get familiar with teleoperation and prepare your setup before connecting a physical follower.
 - Follow the Wiki guide for supported leader models, connection steps, and calibration instructions.
 
-[![Star Arm 102 web control interface preview](media/images/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
+[![Star Arm 102 web control interface preview](media/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
 
 **[Connect Your Leader →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)**
 
@@ -193,7 +193,6 @@ Star-Arm-102/
 │   │   │   ├── stl/
 │   │   │   └── 3mf/
 │   │   ├── drawings/
-│   │   ├── images/
 │   │   ├── assembly-guide/
 │   │   └── robot-description/
 │   ├── 102-hd/

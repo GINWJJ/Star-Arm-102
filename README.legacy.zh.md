@@ -111,7 +111,7 @@ Star Arm 102-HD 是 Star Arm 102 系列即将推出的新主臂型号
 ## 🔧硬件资料
 
 <p align="center">
-  <img src="./media/images/10.png" alt="Star-Arm-102 assembly overview" width="480">
+  <img src="./media/10.png" alt="Star-Arm-102 assembly overview" width="480">
 </p>
 
 

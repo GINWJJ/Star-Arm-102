@@ -49,9 +49,7 @@ hardware/
 │   │   ├── stl/
 │   │   └── 3mf/
 │   ├── drawings/
-│   ├── images/
 │   ├── assembly-guide/
-│   │   └── images/
 │   └── robot-description/
 │       ├── stararm102_ld_hd_description/
 │       └── star-arm-102-ld-hd-urdf.zip

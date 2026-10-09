@@ -12,7 +12,7 @@ Check the product/order label before selecting software. The arms look similar; 
 | 102-HD | Pose-holding leader | Confirm the supplied button board/firmware, then use the HD instructions |
 | 102-FL | Follower for task execution | Check communication and calibration before sending motion commands |
 
-![Star Arm 102 overview](../media/images/11.png)
+![Star Arm 102 overview](../media/11.png)
 
 For ordering and product identification, see the [official series page](https://fashionstar.com.hk/robot-arm/star-arm-102/). A parts kit first needs assembly; [available DIY resources](../hardware/README.md) are organized by LD, HD, and FL with per-model availability status.
 
