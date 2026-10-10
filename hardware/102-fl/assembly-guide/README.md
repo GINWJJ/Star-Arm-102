@@ -22,7 +22,11 @@ Click the preview below to watch the 102-FL assembly video on YouTube.
 
 ## 🤏 Flexible Gripper Assembly
 
-Video coming soon.
+Click the preview below to watch the Star Arm 102 flexible gripper replacement and assembly guide on YouTube.
+
+[![Star Arm 102 flexible gripper assembly video](images/star-arm-flexible-gripper-assembly-preview.jpg)](https://www.youtube.com/watch?v=lqLOFoPuTgw)
+
+**[▶ Watch the Flexible Gripper Assembly Guide →](https://www.youtube.com/watch?v=lqLOFoPuTgw)**
 
 [→ Flexible Gripper Parts & BOM](../../flexible-gripper/README.md)
 

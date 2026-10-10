@@ -38,9 +38,9 @@ Printed-part names match the STEP, STL, and individual 3MF filenames. Print sett
 
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |
-| 1 | RP8-U45H-M | <img src="images/rp8-u45h-m.webp" alt="RP8-U45H-M" width="90"> | Firmware V225 | 4 | Installed part |
-| 2 | RP8-U45H-M-C028 | <img src="images/rp8-u45h-m-c028.webp" alt="RP8-U45H-M-C028" width="90"> | Single-shaft rear cover; firmware V225 | 2 | Installed part |
-| 3 | RP8-U45H-M-C029 | <img src="images/rp8-u45h-m-c029.webp" alt="RP8-U45H-M-C029" width="90"> | D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
+| 1 | RP8-U45H-M | <img src="images/rp8-u45h-m.webp" alt="RP8-U45H-M" width="90"> | UART Bus Servo/12V/45kg-cm/118rpm/<br>Dual-shaft/Coreless Motor/12-bit Magnetic Absolute Encoder/25T | 4 | Firmware V225 |
+| 2 | RP8-U45H-M-C028 | <img src="images/rp8-u45h-m-c028.webp" alt="RP8-U45H-M-C028" width="90"> | UART Bus Servo/12V/45kg-cm/118rpm/<br>Dual-shaft Housing (Flat Bottom Cover, No Rear Output Shaft)/Coreless Motor/12-bit Magnetic Absolute Encoder/25T | 2 | Firmware V225 |
+| 3 | RP8-U45H-M-C029 | <img src="images/rp8-u45h-m-c029.webp" alt="RP8-U45H-M-C029" width="90"> | UART Bus Servo/12V/45kg-cm/118rpm/<br>Dual-shaft Housing (Flat Bottom Cover, No Rear Output Shaft)/Coreless Motor/12-bit Magnetic Absolute Encoder/D-Type Shaft | 1 | Firmware V225 |
 | 4 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 5 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D printed part (ivory) | 1 | Settings vary by region; see 3MF |
 | 6 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 50% infill |

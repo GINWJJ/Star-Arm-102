@@ -38,9 +38,9 @@ Printed-part names match the STEP, STL, and individual 3MF filenames. Print sett
 
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |
-| 1 | RA8-U01H-M | <img src="images/ra8-u01h-m.webp" alt="RA8-U01H-M" width="90"> | Light lubrication; firmware V225 | 4 | Installed part |
-| 2 | RA8-U02H-M | <img src="images/ra8-u02h-m.webp" alt="RA8-U02H-M" width="90"> | Light lubrication; D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
-| 3 | RA8-U03H-M | <img src="images/ra8-u03h-m.webp" alt="RA8-U03H-M" width="90"> | Light lubrication; single-shaft rear cover; firmware V225 | 2 | Installed part |
+| 1 | RA8-U01H-M | <img src="images/ra8-u01h-m.webp" alt="RA8-U01H-M" width="90"> | UART Bus Servo/12V/Dual-shaft/No Motor (No Torque Output)/12-bit Magnetic Absolute Encoder/25T | 4 | Firmware V225 |
+| 2 | RA8-U02H-M | <img src="images/ra8-u02h-m.webp" alt="RA8-U02H-M" width="90"> | UART Bus Servo/12V/Dual-shaft Housing (Flat Bottom Cover, No Rear Output Shaft)/No Motor (No Torque Output)/12-bit Magnetic Absolute Encoder/D-Type Shaft | 1 | Firmware V225 |
+| 3 | RA8-U03H-M | <img src="images/ra8-u03h-m.webp" alt="RA8-U03H-M" width="90"> | UART Bus Servo/12V/Dual-shaft Housing (Flat Bottom Cover, No Rear Output Shaft)/No Motor (No Torque Output)/12-bit Magnetic Absolute Encoder/25T | 2 | Firmware V225 |
 | 4 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 5 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D printed part (ivory) | 1 | Settings vary by region; see 3MF |
 | 6 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 50% infill |

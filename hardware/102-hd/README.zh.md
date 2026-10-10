@@ -38,9 +38,9 @@
 
 | 序号 | 名称 | 图片 | 描述 | 数量 | 备注 |
 | :---: | --- | :---: | --- | :---: | --- |
-| 1 | RP8-U45H-M | <img src="images/rp8-u45h-m.webp" alt="RP8-U45H-M" width="90"> | RP8-U45H-M，固件版本V225 | 4 | 装机件 |
-| 2 | RP8-U45H-M-C028 | <img src="images/rp8-u45h-m-c028.webp" alt="RP8-U45H-M-C028" width="90"> | RP8-U45H-M-C028，半成品， 换单轴后盖，固件版本V225 | 2 | 装机件 |
-| 3 | RP8-U45H-M-C029 | <img src="images/rp8-u45h-m-c029.webp" alt="RP8-U45H-M-C029" width="90"> | RP8-U45H-M-C029，半成品，D轴，换单轴后盖，固件版本V225 | 1 | 装机件 |
+| 1 | RP8-U45H-M | <img src="images/rp8-u45h-m.webp" alt="RP8-U45H-M" width="90"> | UART 总线舵机/12V/45kg-cm/118rpm/<br>双轴/空心杯电机/12 位磁性绝对值编码器/25T | 4 | Firmware V225 |
+| 2 | RP8-U45H-M-C028 | <img src="images/rp8-u45h-m-c028.webp" alt="RP8-U45H-M-C028" width="90"> | UART 总线舵机/12V/45kg-cm/118rpm/<br>双轴款壳体（平面下盖，无后输出轴）/空心杯电机/12 位磁性绝对值编码器/25T | 2 | Firmware V225 |
+| 3 | RP8-U45H-M-C029 | <img src="images/rp8-u45h-m-c029.webp" alt="RP8-U45H-M-C029" width="90"> | UART 总线舵机/12V/45kg-cm/118rpm/<br>双轴款壳体（平面下盖，无后输出轴）/空心杯电机/12 位磁性绝对值编码器/D 型轴 | 1 | Firmware V225 |
 | 4 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 5 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D 打印件（象牙白） | 1 | 分区域参数，详见 3MF |
 | 6 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 5；填充 50% |

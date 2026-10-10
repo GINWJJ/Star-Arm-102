@@ -22,7 +22,11 @@
 
 ## 🤏 柔性夹爪装配
 
-装配视频待上线。
+点击下方封面，在 YouTube 观看 Star Arm 102 柔性夹爪更换与装配指南。
+
+[![Star Arm 102 柔性夹爪装配视频](images/star-arm-flexible-gripper-assembly-preview.jpg)](https://www.youtube.com/watch?v=lqLOFoPuTgw)
+
+**[▶ 观看柔性夹爪装配指南 →](https://www.youtube.com/watch?v=lqLOFoPuTgw)**
 
 [→ 柔性夹爪零件与 BOM](../../flexible-gripper/README.zh.md)
 
