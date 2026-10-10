@@ -3,12 +3,12 @@
 [← Hardware Resources](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
 <p align="center">
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-diy-kit-main-image-01.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-diy-kit-main-image-01.webp" alt="Star Arm 102-FL DIY kit" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-02.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-02.webp" alt="Star Arm 102-FL product view 2" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-03.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-03.webp" alt="Star Arm 102-FL product view 3" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-04.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-04.webp" alt="Star Arm 102-FL product view 4" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-05.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-05.webp" alt="Star Arm 102-FL product view 5" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-fl-main-image-06.webp" alt="Star Arm 102-FL product view 6" width="15%"></a>
+  <a href="images/102-fl-diy-kit-main-image-01.webp"><img src="images/102-fl-diy-kit-main-image-01.webp" alt="Star Arm 102-FL DIY kit" width="15%"></a>
+  <a href="images/102-fl-main-image-02.webp"><img src="images/102-fl-main-image-02.webp" alt="Star Arm 102-FL product view 2" width="15%"></a>
+  <a href="images/102-fl-main-image-03.webp"><img src="images/102-fl-main-image-03.webp" alt="Star Arm 102-FL product view 3" width="15%"></a>
+  <a href="images/102-fl-main-image-04.webp"><img src="images/102-fl-main-image-04.webp" alt="Star Arm 102-FL product view 4" width="15%"></a>
+  <a href="images/102-fl-main-image-05.webp"><img src="images/102-fl-main-image-05.webp" alt="Star Arm 102-FL product view 5" width="15%"></a>
+  <a href="images/102-fl-main-image-06.webp"><img src="images/102-fl-main-image-06.webp" alt="Star Arm 102-FL product view 6" width="15%"></a>
 </p>
 
 **On this page:**
@@ -22,11 +22,11 @@
 
 | Directory | Description | Status |
 | --- | --- | --- |
-| [assembly-guide/](assembly-guide/README.md) | Main arm assembly video | ✅ Video available<br>🟡 Revision and wiring coverage under review |
-| [step/](step/) | Part models in parts/; whole-arm assemblies in assembly/ | ✅ Files available<br>🟡 Revision alignment under review |
-| [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/stl/star-arm-102-fl-stl.zip) | ✅ 11 individual 3MF files and combined project available; 11 STL files and ZIP available<br>🟡 Link1 settings conflict with BOM; physical print validation pending |
-| [drawings/](drawings/) | PDF / DWG drawings | ✅ Reference files available<br>🟡 Revision under review |
-| [robot-description/](robot-description/) | ROS 1 package: [Browse source](robot-description/) · [Download ZIP](robot-description/star-arm-102-fl-urdf.zip) | ✅ Source and ZIP available<br>🟡 Joint parameters and runtime pending validation |
+| [assembly-guide/](assembly-guide/README.md) | Main arm assembly video | ✅ Complete |
+| [step/](step/) | Part models in parts/; whole-arm assemblies in assembly/ | ✅ Complete |
+| [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/star-arm-102-fl-stl.zip) | ✅ Complete |
+| [drawings/](drawings/) | PDF / DWG drawings | ✅ Complete |
+| [robot-description/](robot-description/) | URDF model: [Browse source](robot-description/) · [Download ZIP](robot-description/star-arm-102-fl-urdf.zip) | ✅ Complete |
 
 <a id="bill-of-materials"></a>
 
@@ -38,10 +38,10 @@ Printed-part names match the STEP, STL, and individual 3MF filenames. Print sett
 
 | No. | Name | Image | Description | Quantity | Notes |
 | :---: | --- | :---: | --- | :---: | --- |
-| 1 | RX8-U50H-M | Pending | Firmware V330 | 2 | Installed part |
-| 2 | RA8-U35H-M | Pending | Firmware V225 | 3 | Installed part |
-| 3 | RA8-U35H-M-C047 | Pending | Single-shaft rear cover; firmware V225 | 1 | Installed part |
-| 4 | RA8-U27H-M-C005 | Pending | D-shaft, single-shaft rear cover; firmware V225 | 1 | Installed part |
+| 1 | RX8-U50H-M | <img src="images/rx8-u50h-m-primary.webp" alt="RX8-U50H-M" width="90"> | UART Bus Servo/12V/50kg-cm/70rpm/<br>Dual-shaft/Brushless Motor/12-bit Magnetic Absolute Encoder/25T | 2 | Firmware V330 |
+| 2 | RA8-U35H-M | <img src="images/ra8-u35h-m.webp" alt="RA8-U35H-M" width="90"> | UART Bus Servo/12V/35kg-cm/55rpm/<br>Dual-shaft/Brushed Core Motor/12-bit Magnetic Absolute Encoder/25T | 3 | Firmware V225 |
+| 3 | RA8-U35H-M-C047 | <img src="images/ra8-u35h-m-c047.webp" alt="RA8-U35H-M-C047" width="90"> | UART Bus Servo/12V/35kg-cm/55rpm/<br>Dual-shaft Housing (Flat Bottom Cover, No Rear Output Shaft)/Brushed Core Motor/12-bit Magnetic Absolute Encoder/25T | 1 | Firmware V225 |
+| 4 | RA8-U27H-M-C005 | <img src="images/ra8-u27h-m-c005.webp" alt="RA8-U27H-M-C005" width="90"> | UART Bus Servo/12V/25kg-cm/72rpm/<br>Dual-shaft Housing (Flat Bottom Cover, No Rear Output Shaft)/Brushed Core Motor/12-bit Magnetic Absolute Encoder/D-Type Shaft | 1 | Firmware V225 |
 | 5 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 6 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D printed part (ivory) | 1 | Settings vary by region; see 3MF |
 | 7 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D printed part (ivory) | 1 | 5 wall loops; 50% infill |
@@ -54,7 +54,7 @@ Printed-part names match the STEP, STL, and individual 3MF filenames. Print sett
 | 14 | star-arm-102-fingertip-left | <img src="images/star-arm-102-fingertip-left.png" alt="star-arm-102-fingertip-left" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
 | 15 | star-arm-102-fingertip-right | <img src="images/star-arm-102-fingertip-right.png" alt="star-arm-102-fingertip-right" width="90"> | PLA 3D printed part (ivory) | 1 | 4 wall loops; 15% infill |
 | 16 | Thrust needle roller bearing | Pending | AXK2035 + 2AS | 1 | Installed part |
-| 17 | UC-01 board | <img src="https://fashionstar.com.cn/wiki/snippets/shop-info/images/uc-01-primary.webp" alt="UC-01" width="90"> | XT30 connector | 1 | Installed part |
+| 17 | UC-01 board | <img src="../../media/uc-01-primary.webp" alt="UC-01" width="90"> | XT30 connector | 1 | Installed part |
 | 18 | 120 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 4 | Installed part |
 | 19 | 200 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 3 | Installed part |
 | 20 | M3 × 10 socket-head screw | Pending | HSCS, grade 12.9 | 1 | Installed part |

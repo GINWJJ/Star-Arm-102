@@ -3,12 +3,12 @@
 [← 硬件资源](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
 <p align="center">
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-hd-diy-kit-main-image-01.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-hd-diy-kit-main-image-01.webp" alt="Star Arm 102-HD DIY 套件" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-02-1.webp" alt="Star Arm 102-HD 产品图片 2" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-04-1.webp" alt="Star Arm 102-HD 产品图片 3" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-05-1.webp" alt="Star Arm 102-HD 产品图片 4" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-06.webp" alt="Star Arm 102-HD 产品图片 5" width="15%"></a>
-  <a href="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07.webp"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-07.webp" alt="Star Arm 102-HD 产品图片 6" width="15%"></a>
+  <a href="images/102-hd-diy-kit-main-image-01.webp"><img src="images/102-hd-diy-kit-main-image-01.webp" alt="Star Arm 102-HD DIY 套件" width="15%"></a>
+  <a href="images/102-hd-main-image-02-1.webp"><img src="images/102-hd-main-image-02-1.webp" alt="Star Arm 102-HD 产品图片 2" width="15%"></a>
+  <a href="images/102-hd-main-image-04-1.webp"><img src="images/102-hd-main-image-04-1.webp" alt="Star Arm 102-HD 产品图片 3" width="15%"></a>
+  <a href="images/102-hd-main-image-05-1.webp"><img src="images/102-hd-main-image-05-1.webp" alt="Star Arm 102-HD 产品图片 4" width="15%"></a>
+  <a href="images/102-hd-main-image-06.webp"><img src="images/102-hd-main-image-06.webp" alt="Star Arm 102-HD 产品图片 5" width="15%"></a>
+  <a href="images/102-hd-main-image-07.webp"><img src="images/102-hd-main-image-07.webp" alt="Star Arm 102-HD 产品图片 6" width="15%"></a>
 </p>
 
 **本页导航：**
@@ -22,11 +22,11 @@
 
 | 目录 | 内容 | 状态 |
 | --- | --- | --- |
-| [assembly-guide/](assembly-guide/README.zh.md) | 参考 LD 视频并替换 HD 舵机 | ✅ 视频已提供<br>🟡 HD 按钮说明待补；版本及接线覆盖待核对 |
-| [step/](step/) | parts/ 零件模型；assembly/ 共用装配模型 | ✅ 文件已提供<br>🟡 配套版本待核对 |
-| [printing/](printing/) | 3MF 打印项目；STL：[查看零件](printing/stl/) · [下载整套 ZIP](printing/stl/star-arm-102-hd-stl.zip) | ✅ 13 个独立零件 3MF 及整套项目已提供；13 个 STL 及整套 ZIP 已提供<br>🟡 打印待验证 |
-| [drawings/](../102-ld/drawings/) | LD 共用主体参考图（PDF／DWG） | 🟡 HD 专用图纸待提供 |
-| [robot-description/](robot-description/) | ROS 1 软件包：[浏览源码](robot-description/) · [下载 ZIP](robot-description/star-arm-102-ld-hd-urdf.zip) | ✅ 源码与 ZIP 已提供<br>🟡 joint5 固定定义、HD 动力学参数及运行待验证 |
+| [assembly-guide/](assembly-guide/README.zh.md) | 主体装配视频（按说明替换 HD 舵机）及按钮接线照片 | ✅ 已完成 |
+| [step/](step/) | parts/ 零件模型；assembly/ 共用装配模型 | ✅ 已完成 |
+| [printing/](printing/) | 3MF 打印项目；STL：[查看零件](printing/stl/) · [下载整套 ZIP](printing/star-arm-102-hd-stl.zip) | ✅ 已完成 |
+| [drawings/](../102-ld/drawings/) | LD/HD 共用主体图纸（PDF／DWG） | ✅ 已完成 |
+| [robot-description/](robot-description/) | URDF 模型：[浏览源码](robot-description/) · [下载 ZIP](robot-description/star-arm-102-ld-hd-urdf.zip) | ✅ 已完成 |
 
 <a id="bill-of-materials"></a>
 
@@ -38,9 +38,9 @@
 
 | 序号 | 名称 | 图片 | 描述 | 数量 | 备注 |
 | :---: | --- | :---: | --- | :---: | --- |
-| 1 | RP8-U45H-M | 待补 | RP8-U45H-M，固件版本V225 | 4 | 装机件 |
-| 2 | RP8-U45H-M-C028 | 待补 | RP8-U45H-M-C028，半成品， 换单轴后盖，固件版本V225 | 2 | 装机件 |
-| 3 | RP8-U45H-M-C029 | 待补 | RP8-U45H-M-C029，半成品，D轴，换单轴后盖，固件版本V225 | 1 | 装机件 |
+| 1 | RP8-U45H-M | <img src="images/rp8-u45h-m.webp" alt="RP8-U45H-M" width="90"> | UART 总线舵机/12V/45kg-cm/118rpm/<br>双轴/空心杯电机/12 位磁性绝对值编码器/25T | 4 | Firmware V225 |
+| 2 | RP8-U45H-M-C028 | <img src="images/rp8-u45h-m-c028.webp" alt="RP8-U45H-M-C028" width="90"> | UART 总线舵机/12V/45kg-cm/118rpm/<br>双轴款壳体（平面下盖，无后输出轴）/空心杯电机/12 位磁性绝对值编码器/25T | 2 | Firmware V225 |
+| 3 | RP8-U45H-M-C029 | <img src="images/rp8-u45h-m-c029.webp" alt="RP8-U45H-M-C029" width="90"> | UART 总线舵机/12V/45kg-cm/118rpm/<br>双轴款壳体（平面下盖，无后输出轴）/空心杯电机/12 位磁性绝对值编码器/D 型轴 | 1 | Firmware V225 |
 | 4 | star-arm-102-base-bottom | <img src="images/star-arm-102-base-bottom.png" alt="star-arm-102-base-bottom" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 5 | star-arm-102-base-top | <img src="images/star-arm-102-base-top.png" alt="star-arm-102-base-top" width="90"> | PLA 3D 打印件（象牙白） | 1 | 分区域参数，详见 3MF |
 | 6 | star-arm-102-link1 | <img src="images/star-arm-102-link1.png" alt="star-arm-102-link1" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 5；填充 50% |
@@ -54,7 +54,7 @@
 | 14 | star-arm-102-finger-ring-right | <img src="images/star-arm-102-finger-ring-right.png" alt="star-arm-102-finger-ring-right" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 15 | hd-button-cover | <img src="images/hd-button-cover.png" alt="hd-button-cover" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 16 | hd-button-base | <img src="images/hd-button-base.png" alt="hd-button-base" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
-| 17 | PCBA | <img src="https://fashionstar.com.cn/wiki/snippets/shop-info/images/uc-01-primary.webp" alt="UC-01" width="90"> | UC-01 XT30接口 | 1 | 装机件 |
+| 17 | PCBA | <img src="../../media/uc-01-primary.webp" alt="UC-01" width="90"> | UC-01 XT30接口 | 1 | 装机件 |
 | 18 | PCBA | 待补 | UK-01带座子 | 1 | 装机件 |
 | 19 | 滚针轴承 | 待补 | AXK2035+2AS | 1 | 装机件 |
 | 20 | 线材 | 待补 | PH-3Y 双头反向60芯 0.08 黑色硅胶排线L=120 mm  黑色编织线 | 6 | 装机件 |

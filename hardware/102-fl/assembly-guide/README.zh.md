@@ -14,15 +14,19 @@
 
 点击下方封面，在 YouTube 观看 102-FL 装配视频。
 
-[![Star Arm 102-FL 装配视频](https://i.ytimg.com/vi/9-ufaI8dwys/hqdefault.jpg)](https://www.youtube.com/watch?v=9-ufaI8dwys)
+[![Star Arm 102-FL 装配视频](images/star-arm-102-fl-assembly-preview.jpg)](https://www.youtube.com/watch?v=9-ufaI8dwys)
 
-本视频适用于 **102-FL**。对应的硬件版本，以及接线和上电前检查的覆盖范围，仍需核对。
+✅ 主体机械臂装配指南已完成。
 
 <a id="flexible-gripper-assembly"></a>
 
 ## 🤏 柔性夹爪装配
 
-装配视频待上线。
+点击下方封面，在 YouTube 观看 Star Arm 102 柔性夹爪更换与装配指南。
+
+[![Star Arm 102 柔性夹爪装配视频](images/star-arm-flexible-gripper-assembly-preview.jpg)](https://www.youtube.com/watch?v=lqLOFoPuTgw)
+
+**[▶ 观看柔性夹爪装配指南 →](https://www.youtube.com/watch?v=lqLOFoPuTgw)**
 
 [→ 柔性夹爪零件与 BOM](../../flexible-gripper/README.zh.md)
 
