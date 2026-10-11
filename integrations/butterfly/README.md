@@ -2,7 +2,7 @@
 
 [← Integrations](../README.md)　|　<sub>**English** / [简体中文](README.zh-CN.md)</sub>
 
-**On this page:**
+**Contents:**
 
 - [💬 What this integration offers](#page-section-1)
 - [📋 Before you start](#page-section-2)

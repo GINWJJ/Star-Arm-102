@@ -1,8 +1,8 @@
 # Star Arm 102-FL 装配指南
 
-[← 102-FL 硬件资源](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
+[← DIY 装配](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
-**本页导航：**
+**目录：**
 
 - [🦾 手臂装配](#arm-assembly)
 - [🤏 柔性夹爪装配](#flexible-gripper-assembly)

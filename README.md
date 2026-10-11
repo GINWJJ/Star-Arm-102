@@ -36,7 +36,8 @@
 - [📖 Introduction](#introduction)
 - [🛒 Where to Buy](#where-to-buy)
 - [🚀 Get Started](docs/getting-started.md)
-- [🌐 Cross-Brand Follower Compatibility](#cross-brand-pairings)
+- [🔧 DIY Assembly](hardware/diy-assembly/README.md)
+- [🌐 Cross-Brand Follower Arm Compatibility](#cross-brand-pairings)
 - [🎮 Connect Your Leader to a Virtual Follower](#web-controller)
 - [🤖 Run Your First AI Task](#run-your-first-ai-task)
 - [⚙️ Hardware Resources](hardware/)
@@ -195,10 +196,13 @@ Star-Arm-102/
 │   │   │   ├── stl/
 │   │   │   └── 3mf/
 │   │   ├── drawings/
-│   │   ├── assembly-guide/
 │   │   └── robot-description/
 │   ├── 102-hd/
 │   ├── 102-fl/
+│   ├── diy-assembly/
+│   │   ├── 102-ld/
+│   │   ├── 102-hd/
+│   │   └── 102-fl/
 │   ├── camera-module/
 │   └── flexible-gripper/
 ├── integrations/

@@ -2,9 +2,10 @@
 
 [← Home](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
-**On this page:**
+**Contents:**
 
 - [🔧 Specifications](#product-specifications)
+- [🛠️ DIY Assembly](diy-assembly/)
 - [📂 Directory Structure](#directory-structure)
 
 Explore your model: **[102-LD](102-ld/)** · **[102-HD](102-hd/)** · **[102-FL](102-fl/)**.
@@ -51,17 +52,20 @@ hardware/
 │   │   ├── stl/
 │   │   └── 3mf/
 │   ├── drawings/
-│   ├── assembly-guide/
 │   └── robot-description/
 │       ├── stararm102_ld_hd_description/
 │       └── star-arm-102-ld-hd-urdf.zip
 ├── 102-hd/
 ├── 102-fl/
+├── diy-assembly/
+│   ├── 102-ld/
+│   ├── 102-hd/
+│   └── 102-fl/
 ├── camera-module/
 └── flexible-gripper/
 ```
 
-`step/assembly/` contains CAD assemblies; `assembly-guide/` is for customer assembly instructions. Each model provides its ROS 1 source package and complete ZIP in its own robot-description directory: [LD](102-ld/robot-description/), [HD](102-hd/robot-description/), [FL](102-fl/robot-description/). LD and HD contain the same model.
+`step/assembly/` contains CAD assemblies; `diy-assembly/` groups customer assembly instructions by model. Each model provides its ROS 1 source package and complete ZIP in its own robot-description directory: [LD](102-ld/robot-description/), [HD](102-hd/robot-description/), [FL](102-fl/robot-description/). LD and HD contain the same model.
 
 ## Licensing
 

@@ -2,7 +2,7 @@
 
 [← Home](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
-**On this page:**
+**Contents:**
 
 - [🛠️ Install and build](#page-section-1)
 - [🎮 Try the virtual arm first](#page-section-2)

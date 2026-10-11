@@ -1,8 +1,8 @@
 # Star Arm 102-HD Assembly Guide
 
-[← 102-HD Hardware Resources](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
+[← DIY Assembly](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
-**On this page:**
+**Contents:**
 
 - [🦾 Arm Assembly](#arm-assembly)
 - [🔘 Button Installation & Wiring](#button-installation-wiring)

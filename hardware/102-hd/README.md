@@ -11,7 +11,7 @@
   <a href="images/102-hd-main-image-07.webp"><img src="images/102-hd-main-image-07.webp" alt="Star Arm 102-HD product view 6" width="15%"></a>
 </p>
 
-**On this page:**
+**Contents:**
 
 - [📂 Resources](#resources)
 - [📋 Bill of Materials](#bill-of-materials)
@@ -22,7 +22,7 @@
 
 | Directory | Description | Status |
 | --- | --- | --- |
-| [assembly-guide/](assembly-guide/README.md) | Main arm video with HD servo substitution and button wiring photo | ✅ Complete |
+| [Assembly guide](../diy-assembly/102-hd/README.md) | Main arm video with HD servo substitution and button wiring photo | ✅ Complete |
 | [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Complete |
 | [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/star-arm-102-hd-stl.zip) | ✅ Complete |
 | [drawings/](../102-ld/drawings/) | Shared LD/HD body drawings (PDF / DWG) | ✅ Complete |
@@ -56,7 +56,7 @@ Printed-part names match the STEP, STL, and individual 3MF filenames. Print sett
 | 16 | hd-button-base | <img src="images/hd-button-base.png" alt="hd-button-base" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 17 | UC-01 board | <img src="../../media/uc-01-primary.webp" alt="UC-01" width="90"> | XT30 connector | 1 | Installed part |
 | 18 | UK-01 board | Pending | With socket | 1 | Installed part |
-| 19 | Thrust needle roller bearing | Pending | AXK2035 + 2AS | 1 | Installed part |
+| 19 | Thrust needle roller bearing | <img src="../../media/axk2035-2as-bearing.png" alt="AXK2035+2AS thrust needle roller bearing" width="90"> | AXK2035+2AS; inner diameter 20 mm, outer diameter 35 mm, thickness 4 mm | 1 | Installed part |
 | 20 | 120 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 6 | Installed part |
 | 21 | 200 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 2 | Installed part |
 | 22 | M3 × 10 socket-head screw | Pending | HSCS, grade 12.9 | 1 | Installed part |

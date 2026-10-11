@@ -2,7 +2,7 @@
 
 [← Home](../README.md)　|　<sub>**English**</sub>
 
-**On this page:**
+**Contents:**
 
 - [🛠️ Install](#page-section-1)
 - [🔌 Check communication without commanding motion](#page-section-2)
