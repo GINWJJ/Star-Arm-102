@@ -2,7 +2,7 @@
 
 [← Home](../README.md)　|　<sub>**English**</sub>
 
-**On this page:**
+**Contents:**
 
 - [🌐 Cross-brand follower pairings](#page-section-1)
 - [🧭 Choose a workflow](#page-section-2)

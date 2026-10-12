@@ -2,7 +2,7 @@
 
 [← Home](../README.md)　|　<sub>**English**</sub>
 
-**On this page:**
+**Contents:**
 
 - [📦 Release-compatible environment](#page-section-1)
 - [🎯 Calibrate the LD leader and FL follower](#page-section-2)

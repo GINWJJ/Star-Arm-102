@@ -2,7 +2,7 @@
 
 [← 首页](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
-**本页导航：**
+**目录：**
 
 - [🛠️ 安装与构建](#page-section-1)
 - [🎮 先体验虚拟机械臂](#page-section-2)
@@ -11,7 +11,7 @@
 - [🌐 Gazebo](#page-section-5)
 - [📂 工作区结构](#page-section-6)
 
-[开始使用](../docs/getting-started.md) · [排错](../docs/troubleshooting.md)
+[开始使用](../docs/getting-started.zh.md) · [排错](../docs/troubleshooting.md)
 
 本工作区包含 FL 驱动、URDF、MoveIt 配置、Gazebo 仿真和示教示例。Python 遥操作和 ACT 演示无需 ROS。
 

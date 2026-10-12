@@ -11,7 +11,7 @@
   <a href="images/102-fl-main-image-06.webp"><img src="images/102-fl-main-image-06.webp" alt="Star Arm 102-FL 产品图片 6" width="15%"></a>
 </p>
 
-**本页导航：**
+**目录：**
 
 - [📂 资源目录](#resources)
 - [📋 物料清单](#bill-of-materials)
@@ -22,7 +22,7 @@
 
 | 目录 | 内容 | 状态 |
 | --- | --- | --- |
-| [assembly-guide/](assembly-guide/README.zh.md) | 主体机械臂装配视频 | ✅ 已完成 |
+| [DIY 装配](../diy-assembly/102-fl/README.zh.md) | 主体机械臂装配视频 | ✅ 已完成 |
 | [step/](step/) | parts/ 零件模型；assembly/ 整机装配模型 | ✅ 已完成 |
 | [printing/](printing/) | 3MF 打印项目；STL：[查看零件](printing/stl/) · [下载整套 ZIP](printing/star-arm-102-fl-stl.zip) | ✅ 已完成 |
 | [drawings/](drawings/) | PDF／DWG 图纸 | ✅ 已完成 |
@@ -53,7 +53,7 @@
 | 13 | star-arm-102-gripper-body | <img src="images/star-arm-102-gripper-body.png" alt="star-arm-102-gripper-body" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 4；填充 15% |
 | 14 | star-arm-102-fingertip-left | <img src="images/star-arm-102-fingertip-left.png" alt="star-arm-102-fingertip-left" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 4；填充 15% |
 | 15 | star-arm-102-fingertip-right | <img src="images/star-arm-102-fingertip-right.png" alt="star-arm-102-fingertip-right" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 4；填充 15% |
-| 16 | 滚针轴承 | 待补 | AXK2035+2AS | 1 | 装机件 |
+| 16 | 滚针轴承 | <img src="../../media/axk2035-2as-bearing.png" alt="AXK2035+2AS 滚针轴承" width="90"> | AXK2035+2AS；内径 20 mm，外径 35 mm，厚度 4 mm | 1 | 装机件 |
 | 17 | PCBA | <img src="../../media/uc-01-primary.webp" alt="UC-01" width="90"> | UC-01 XT30 | 1 | 装机件 |
 | 18 | 线材 | 待补 | PH-3Y 双头反向60芯 0.08 黑色硅胶排线L=120 mm  黑色编织线 | 4 | 装机件 |
 | 19 | 线材 | 待补 | PH-3Y 双头反向60芯 0.08 黑色硅胶排线L=200 mm  黑色编织线 | 3 | 装机件 |

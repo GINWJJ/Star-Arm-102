@@ -1,8 +1,8 @@
 # Star Arm 102-HD Assembly Guide
 
-[← 102-HD Hardware Resources](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
+[← DIY Assembly](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
-**On this page:**
+**Contents:**
 
 - [🦾 Arm Assembly](#arm-assembly)
 - [🔘 Button Installation & Wiring](#button-installation-wiring)
@@ -16,8 +16,6 @@ Use Fashion Star’s 102-LD main arm assembly video to assemble your Star Arm 10
 > **For 102-HD: replace the servos shown in the LD video with the corresponding purple coreless bus servos supplied for HD. The remaining main arm assembly steps are the same as for 102-LD.**
 
 [![Star Arm 102-LD main arm assembly video — reference for 102-HD with the servo substitution above](../../../media/star-arm-102-ld-hd-assembly-preview.jpg)](https://www.youtube.com/watch?v=flTCgBx3K0M)
-
-✅ Main arm assembly guide complete. Follow the HD servo substitution instructions above.
 
 <a id="button-installation-wiring"></a>
 

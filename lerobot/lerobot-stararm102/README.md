@@ -2,7 +2,7 @@
 
 [← LeRobot](../README.md)　|　<sub>**English**</sub>
 
-**On this page:**
+**Contents:**
 
 - [🛠️ Install](#page-section-1)
 - [🚀 Quick Start](#page-section-4)

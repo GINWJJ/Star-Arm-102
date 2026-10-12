@@ -35,11 +35,12 @@
 
 - [📖 产品介绍](#introduction)
 - [🛒 购买入口](#where-to-buy)
-- [🚀 开始使用](docs/getting-started.md)
+- [🚀 开始使用](docs/getting-started.zh.md)
+- [🔧 DIY 装配](hardware/diy-assembly/README.zh.md)
 - [🌐 跨品牌从臂兼容性](#cross-brand-pairings)
 - [🎮 连接主臂，体验虚拟从臂](#web-controller)
 - [🤖 运行第一个 AI 任务](#run-your-first-ai-task)
-- [⚙️ 硬件资源](hardware/)
+- [⚙️ 硬件资源](hardware/README.zh.md)
 - [🤗 LeRobot](lerobot/README.md)
 - [💬 自然语言控制](integrations/butterfly/README.zh-CN.md)
 - [🦾 ROS 2 Humble 应用](ros2-humble/README.zh.md)
@@ -72,7 +73,7 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 | 规格 | Star Arm 102-LD | Star Arm 102-HD | Star Arm 102-FL |
 | --- | --- | --- | --- |
 | 产品类型 | 示教主臂（Leader Arm） | 姿态保持主臂（Leader Arm） | 执行从臂（Follower Arm） |
-| 电源规格 | 12V@3A | 12V@5A | 12V@8A |
+| 电源规格 | 12 V / 3 A | 12 V / 5 A | 12 V / 10 A |
 | 臂展 | 420mm | 420mm | 420mm |
 | 自由度 | 6+1 | 6+1 | 6+1 |
 | 负载 | — | — | 500g（建议在 70% 臂展处使用） |
@@ -195,10 +196,13 @@ Star-Arm-102/
 │   │   │   ├── stl/
 │   │   │   └── 3mf/
 │   │   ├── drawings/
-│   │   ├── assembly-guide/
 │   │   └── robot-description/
 │   ├── 102-hd/
 │   ├── 102-fl/
+│   ├── diy-assembly/
+│   │   ├── 102-ld/
+│   │   ├── 102-hd/
+│   │   └── 102-fl/
 │   ├── camera-module/
 │   └── flexible-gripper/
 ├── integrations/

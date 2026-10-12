@@ -2,7 +2,7 @@
 
 [← Integrations](../README.md)　|　<sub>**English**</sub>
 
-**On this page:**
+**Contents:**
 
 - [⚙️ Hardware and supported functions](#page-section-1)
 - [🐍 Python path](#page-section-2)

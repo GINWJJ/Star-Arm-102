@@ -2,7 +2,7 @@
 
 [← examples](../)　|　<sub>[English](README.md) / **简体中文**</sub>
 
-**本页导航：**
+**目录：**
 
 - [🎬 观看演示](#page-section-1)
 - [📋 所需条件](#page-section-2)

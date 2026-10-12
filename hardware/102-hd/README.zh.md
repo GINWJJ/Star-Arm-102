@@ -11,7 +11,7 @@
   <a href="images/102-hd-main-image-07.webp"><img src="images/102-hd-main-image-07.webp" alt="Star Arm 102-HD 产品图片 6" width="15%"></a>
 </p>
 
-**本页导航：**
+**目录：**
 
 - [📂 资源目录](#resources)
 - [📋 物料清单](#bill-of-materials)
@@ -22,7 +22,7 @@
 
 | 目录 | 内容 | 状态 |
 | --- | --- | --- |
-| [assembly-guide/](assembly-guide/README.zh.md) | 主体装配视频（按说明替换 HD 舵机）及按钮接线照片 | ✅ 已完成 |
+| [DIY 装配](../diy-assembly/102-hd/README.zh.md) | 主体装配视频（按说明替换 HD 舵机）及按钮接线照片 | ✅ 已完成 |
 | [step/](step/) | parts/ 零件模型；assembly/ 共用装配模型 | ✅ 已完成 |
 | [printing/](printing/) | 3MF 打印项目；STL：[查看零件](printing/stl/) · [下载整套 ZIP](printing/star-arm-102-hd-stl.zip) | ✅ 已完成 |
 | [drawings/](../102-ld/drawings/) | LD/HD 共用主体图纸（PDF／DWG） | ✅ 已完成 |
@@ -56,7 +56,7 @@
 | 16 | hd-button-base | <img src="images/hd-button-base.png" alt="hd-button-base" width="90"> | PLA 3D 打印件（象牙白） | 1 | 壁数 2；填充 15% |
 | 17 | PCBA | <img src="../../media/uc-01-primary.webp" alt="UC-01" width="90"> | UC-01 XT30接口 | 1 | 装机件 |
 | 18 | PCBA | 待补 | UK-01带座子 | 1 | 装机件 |
-| 19 | 滚针轴承 | 待补 | AXK2035+2AS | 1 | 装机件 |
+| 19 | 滚针轴承 | <img src="../../media/axk2035-2as-bearing.png" alt="AXK2035+2AS 滚针轴承" width="90"> | AXK2035+2AS；内径 20 mm，外径 35 mm，厚度 4 mm | 1 | 装机件 |
 | 20 | 线材 | 待补 | PH-3Y 双头反向60芯 0.08 黑色硅胶排线L=120 mm  黑色编织线 | 6 | 装机件 |
 | 21 | 线材 | 待补 | PH-3Y 双头反向60芯 0.08 黑色硅胶排线L=200 mm  黑色编织线 | 2 | 装机件 |
 | 22 | 螺丝 | 待补 | HSCS M3*10 12.9级内六角圆柱头螺钉 | 1 | 装机件 |

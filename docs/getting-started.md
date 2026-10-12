@@ -1,53 +1,79 @@
-# Get started with Star Arm 102
+# Get Started with Star Arm 102
 
-[Home](../README.md) · [Troubleshooting](troubleshooting.md)
+[← Home](../README.md)　|　<sub>**English** / [简体中文](getting-started.zh.md)</sub>
 
-## 1. Identify your equipment
+This guide starts with an assembled Star Arm 102. Connect your equipment, try the digital twin, then move on to real-arm teleoperation and your first AI task. You can start with a single arm.
 
-Check the product/order label before selecting software. The arms look similar; use the model label rather than appearance alone.
+> **Arm not assembled yet?** Start with the [DIY assembly guide](../hardware/diy-assembly/README.md), then return here to connect your equipment.
 
-| Model | Role | First task |
-| --- | --- | --- |
-| 102-LD | Lightweight, hand-guided leader | Read its seven servo IDs, then teleoperate a compatible follower |
-| 102-HD | Pose-holding leader | Confirm the supplied button board/firmware, then use the HD instructions |
-| 102-FL | Follower for task execution | Check communication and calibration before sending motion commands |
+**Contents:**
 
-![Star Arm 102 overview](../media/11.png)
+- [🔌 Connect your arm](#connect)
+- [🎮 Try the digital twin](#digital-twin)
+- [🦾 Teleoperate real arms](#teleoperation)
+- [🤖 Run your first AI task](#ai-task)
+- [📚 Next steps and help](#next-steps)
 
-For ordering and product identification, see the [official series page](https://fashionstar.com.hk/robot-arm/star-arm-102/). A parts kit first needs assembly; [available DIY resources](../hardware/README.md) are organized by LD, HD, and FL with per-model availability status.
+<a id="connect"></a>
 
-For a third-party follower, use the [cross-brand pairing directory](../integrations/README.md) and its hardware-specific preparation. The FL steps below are for Star Arm followers.
+## 🔌 1. Connect your arm
 
-## 2. Prepare and connect
+Check your model label: **LD** is a hand-guided leader, **HD** is a pose-holding leader, and **FL** is a follower. Use the model label rather than appearance alone.
 
-Follow [hardware setup](hardware-setup.md). You need the correct power adapter for each arm, a fixed base, USB data cables, and a computer. The customer examples target Ubuntu 22.04. Cameras are needed for the ACT demo, but not for a first communication or direct teleoperation check.
+Fix the base and prepare the supplied power adapter, USB data cable and computer. Switch off power before changing servo or power connections. Each arm needs its own matching supply; USB carries data and does not replace servo power.
 
-**Success:** each connected arm has an identifiable serial port, and its model and power adapter match. USB port numbers in examples are placeholders.
+- **LD / HD + FL:** follow the [hardware wiring guide](hardware-setup.md). Connect each arm's UC-01 to the computer and identify the leader and follower ports separately.
+- **LD / HD + another brand:** select your follower in the [cross-brand directory](../integrations/) and follow its connection requirements. Use that manufacturer's power and adapter instructions.
+- **One arm:** connect only the device you have. A leader can be used with a virtual follower in step 2. For FL alone, begin with the [communication check](../python-sdk/README.md#check-communication-without-commanding-motion).
 
-## 3. Select one path
+**Ready to continue:** the computer detects the connected device and you know which port belongs to it. Cameras are not needed for the initial communication check.
 
-| Your setup / goal | Follow this guide |
-| --- | --- |
-| LD + FL: first movement | [Python direct teleoperation](../python-sdk/README.md) |
-| HD + FL: first movement | [Python direct teleoperation](../python-sdk/README.md), including HD button configuration |
-| FL only: confirm the connection | [Communication check](../python-sdk/README.md#check-communication-without-commanding-motion) |
-| FL + two cameras: run the provided model | [Pretrained ACT model](../lerobot/examples/act_pick/inference.md) |
-| LD + FL: record demonstrations | [LeRobot release-compatible setup](../lerobot/README.md#release-compatible-environment) |
-| HD + FL: LeRobot with button integration | [Refactored HD/FL setup](../lerobot/lerobot-stararm102/README.md) |
-| Leader + Galaxea A1 / Lumos Touch / YAM | [Choose your follower pairing](../integrations/README.md) |
-| Leader + reBot B601 | [reBot guide](../integrations/seeed-rebot/README.md) |
-| ROS 2 development | [ROS 2 Humble](../ros2-humble/README.md) |
+<a id="digital-twin"></a>
 
-Do not install all paths into one environment. The [compatibility table](compatibility.md) explains which combinations have release evidence and which still require hardware validation.
+## 🎮 2. Try the digital twin
 
-## 4. Check before motion
+### Physical leader → virtual follower
 
-Use the Python communication check to identify servos before direct teleoperation. LeRobot users must also run their selected plugin's calibration procedure and keep the same device ID in subsequent commands. Each guide describes its own zero/reference convention; do not copy calibration files across plugin generations.
+Connect your LD / HD leader using the web tool's model-specific instructions. Move the leader and observe the virtual follower's response to become familiar with joint motion before connecting a real follower.
 
-**Success:** all seven servo IDs respond; calibration, when required, is saved; a small leader movement produces the expected follower movement. Start without cameras so that communication and motion can be checked independently.
+[![Web control interface preview](../media/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
 
-## 5. Continue to the ACT demo
+**[Open the web control guide →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)**
 
-After basic checks, set up the two cameras and reproduce the [ACT workspace](../lerobot/examples/act_pick/inference.md#prepare-the-follower-and-cameras). Start with one trial. You do not need to train this supplied policy yourself.
+Follow the guide for supported devices, browser requirements and calibration. The image shows the interface without hardware connected.
 
-If a step fails, stop there and use [troubleshooting](troubleshooting.md). Include the model, environment, command, and full error when [reporting an issue](https://github.com/servodevelop/Star-Arm-102/issues/new/choose).
+### Web control → physical follower
+
+**Instructions coming soon.** This entry will describe the supported follower models and connection procedure. For now, use the FL communication check in step 1; it does not command motion.
+
+<a id="teleoperation"></a>
+
+## 🦾 3. Teleoperate real arms
+
+Have both a leader and a follower? Continue from virtual motion to physical following.
+
+- **LD / HD + FL:** use the [Python direct teleoperation guide](../python-sdk/). HD users should also follow its button configuration instructions.
+- **Cross-brand pairing:** follow the software and joint-mapping procedure for your model in the [pairing directory](../integrations/).
+
+Check communication before commanding motion. For Star Arm 102, confirm all seven servo IDs respond. Follow the selected guide's reference-pose or calibration procedure, then make a small leader movement and check the follower's direction. The direct Python script resets multi-turn counts on connection; it does not perform LeRobot calibration. Do not copy calibration files between plugin generations.
+
+**Ready to continue:** the follower responds in the expected direction and the stop procedure in your selected guide is understood.
+
+<a id="ai-task"></a>
+
+## 🤖 4. Run your first AI task
+
+With 102-FL ready, set up the two cameras and the specified workspace, then run the supplied ACT block-placement policy. You do not need to train this policy yourself.
+
+**[Run the pretrained ACT demo →](../lerobot/examples/act_pick/README.md)**
+
+Follow the demo's environment and calibration instructions, and start with one trial.
+
+<a id="next-steps"></a>
+
+## 📚 Next steps and help
+
+- **Record demonstrations and train:** [LeRobot](../lerobot/README.md); for HD button integration, see the [HD / FL setup](../lerobot/lerobot-stararm102/README.md).
+- **Develop ROS 2 applications:** [ROS 2 Humble](../ros2-humble/).
+- **Choose compatible software:** [Compatibility guide](compatibility.md). Install only the environment required by your chosen workflow; customer Python examples target Ubuntu 22.04.
+- **Need help?** Start with [troubleshooting](troubleshooting.md). When [reporting an issue](https://github.com/servodevelop/Star-Arm-102/issues/new/choose), include your model, environment, command and full error message.

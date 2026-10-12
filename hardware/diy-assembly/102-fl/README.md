@@ -1,8 +1,8 @@
 # Star Arm 102-FL Assembly Guide
 
-[← 102-FL Hardware Resources](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
+[← DIY Assembly](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
-**On this page:**
+**Contents:**
 
 - [🦾 Arm Assembly](#arm-assembly)
 - [🤏 Flexible Gripper Assembly](#flexible-gripper-assembly)
@@ -15,8 +15,6 @@
 Click the preview below to watch the 102-FL assembly video on YouTube.
 
 [![Star Arm 102-FL assembly video](images/star-arm-102-fl-assembly-preview.jpg)](https://www.youtube.com/watch?v=9-ufaI8dwys)
-
-✅ Main arm assembly guide complete.
 
 <a id="flexible-gripper-assembly"></a>
 

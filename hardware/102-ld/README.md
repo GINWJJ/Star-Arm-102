@@ -11,7 +11,7 @@
   <a href="images/102-ld-main-image-06.webp"><img src="images/102-ld-main-image-06.webp" alt="Star Arm 102-LD product view 6" width="15%"></a>
 </p>
 
-**On this page:**
+**Contents:**
 
 - [📂 Resources](#resources)
 - [📋 Bill of Materials](#bill-of-materials)
@@ -22,7 +22,7 @@
 
 | Directory | Description | Status |
 | --- | --- | --- |
-| [assembly-guide/](assembly-guide/README.md) | Main arm assembly video | ✅ Complete |
+| [Assembly guide](../diy-assembly/102-ld/README.md) | Main arm assembly video | ✅ Complete |
 | [step/](step/) | Part models in parts/; shared assembly in assembly/ | ✅ Complete |
 | [printing/](printing/) | 3MF projects; STL: [View parts](printing/stl/) · [Download ZIP](printing/star-arm-102-ld-stl.zip) | ✅ Complete |
 | [drawings/](drawings/) | PDF / DWG drawings | ✅ Complete |
@@ -52,7 +52,7 @@ Printed-part names match the STEP, STL, and individual 3MF filenames. Print sett
 | 12 | star-arm-102-handle | <img src="images/star-arm-102-handle.png" alt="star-arm-102-handle" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 13 | star-arm-102-finger-ring-left | <img src="images/star-arm-102-finger-ring-left.png" alt="star-arm-102-finger-ring-left" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
 | 14 | star-arm-102-finger-ring-right | <img src="images/star-arm-102-finger-ring-right.png" alt="star-arm-102-finger-ring-right" width="90"> | PLA 3D printed part (ivory) | 1 | 2 wall loops; 15% infill |
-| 15 | Thrust needle roller bearing | Pending | AXK2035 + 2AS | 1 | Installed part |
+| 15 | Thrust needle roller bearing | <img src="../../media/axk2035-2as-bearing.png" alt="AXK2035+2AS thrust needle roller bearing" width="90"> | AXK2035+2AS; inner diameter 20 mm, outer diameter 35 mm, thickness 4 mm | 1 | Installed part |
 | 16 | UC-01 board | <img src="../../media/uc-01-primary.webp" alt="UC-01" width="90"> | DC power lead: 0.75 mm², 5.5 × 2.1 mm female, 0.15 m | 1 | Installed part |
 | 17 | 120 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 5 | Installed part |
 | 18 | 200 mm servo cable | Pending | PH-3Y, reverse-wired ends, black braided silicone cable | 2 | Installed part |

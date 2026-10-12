@@ -2,7 +2,7 @@
 
 [← Home](../README.md)　|　<sub>**English**</sub>
 
-**On this page:**
+**Contents:**
 
 - [🧰 Choose a tool](#choose-a-tool)
 - [🖥️ Interface preview](#interface-preview)
