@@ -8,9 +8,9 @@ Check the supplied adapter, arm label, and order packing list. Existing reposito
 
 | Model | Listed power specification | Connector listed for the arm |
 | --- | --- | --- |
-| 102-LD | 12 V, 3 A | DC5521 |
-| 102-HD | 12 V, 10 A | XT30 |
-| 102-FL | 12 V, 10 A | XT30 |
+| 102-LD | 12 V / 3 A | DC5521 |
+| 102-HD | 12 V / 5 A | XT30 |
+| 102-FL | 12 V / 10 A | XT30 |
 
 These values are carried forward from the product specifications, not newly measured. Earlier accessory lists describe spare adapter cables separately; do not select a supply by the spare cable alone. If your supplied hardware differs, confirm the revision with Fashion Star before connecting power. Do not use a reBot follower's supply for a 102 leader.
 

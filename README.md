@@ -73,7 +73,7 @@ Star Arm 102 is an open-source robot arm platform developed by **[Fashion Star](
 | Specification | Star Arm 102-LD | Star Arm 102-HD | Star Arm 102-FL |
 | --- | --- | --- | --- |
 | Arm type | Leader Arm | Pose-holding Leader Arm | Follower Arm |
-| Power | 12V@3A | 12V@5A | 12V@8A |
+| Power | 12 V / 3 A | 12 V / 5 A | 12 V / 10 A |
 | Reach | 420mm | 420mm | 420mm |
 | DoF | 6+1 | 6+1 | 6+1 |
 | Payload | — | — | 500g (70% reach recommended) |

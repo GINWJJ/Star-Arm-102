@@ -8,10 +8,10 @@
 
 **目录：**
 
-- [🔌 1. 连接机械臂](#connect)
-- [🎮 2. 体验数字孪生](#digital-twin)
-- [🦾 3. 让实体机械臂联动](#teleoperation)
-- [🤖 4. 运行第一个 AI 任务](#ai-task)
+- [🔌 连接机械臂](#connect)
+- [🎮 体验数字孪生](#digital-twin)
+- [🦾 让实体机械臂联动](#teleoperation)
+- [🤖 运行第一个 AI 任务](#ai-task)
 - [📚 进阶与帮助](#next-steps)
 
 <a id="connect"></a>

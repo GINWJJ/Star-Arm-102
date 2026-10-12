@@ -73,7 +73,7 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 | 规格 | Star Arm 102-LD | Star Arm 102-HD | Star Arm 102-FL |
 | --- | --- | --- | --- |
 | 产品类型 | 示教主臂（Leader Arm） | 姿态保持主臂（Leader Arm） | 执行从臂（Follower Arm） |
-| 电源规格 | 12V@3A | 12V@5A | 12V@8A |
+| 电源规格 | 12 V / 3 A | 12 V / 5 A | 12 V / 10 A |
 | 臂展 | 420mm | 420mm | 420mm |
 | 自由度 | 6+1 | 6+1 | 6+1 |
 | 负载 | — | — | 500g（建议在 70% 臂展处使用） |

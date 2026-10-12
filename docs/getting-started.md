@@ -8,10 +8,10 @@ This guide starts with an assembled Star Arm 102. Connect your equipment, try th
 
 **Contents:**
 
-- [🔌 1. Connect your arm](#connect)
-- [🎮 2. Try the digital twin](#digital-twin)
-- [🦾 3. Teleoperate real arms](#teleoperation)
-- [🤖 4. Run your first AI task](#ai-task)
+- [🔌 Connect your arm](#connect)
+- [🎮 Try the digital twin](#digital-twin)
+- [🦾 Teleoperate real arms](#teleoperation)
+- [🤖 Run your first AI task](#ai-task)
 - [📚 Next steps and help](#next-steps)
 
 <a id="connect"></a>
