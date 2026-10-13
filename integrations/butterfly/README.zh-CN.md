@@ -2,7 +2,7 @@
 
 [← 集成目录](../README.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
-**本页导航：**
+**目录：**
 
 - [💬 此集成提供什么](#page-section-1)
 - [📋 开始前](#page-section-2)

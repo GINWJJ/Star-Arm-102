@@ -2,7 +2,7 @@
 
 [← Hardware Resources](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
-**On this page:**
+**Contents:**
 
 - [📂 Resources](#resources)
 - [📋 Bill of Materials](#bill-of-materials)
@@ -13,7 +13,7 @@
 
 | Directory | Description | Status |
 | --- | --- | --- |
-| [Assembly guide](../102-fl/assembly-guide/README.md#camera-module-assembly) | Assembly and installation video | — Video coming soon |
+| [Assembly guide](../diy-assembly/102-fl/README.md#camera-module-assembly) | Assembly and installation video | — Video coming soon |
 | [step/](step/) | Part models in parts/; assemblies in assembly/ | ✅ 3 STEP files available<br>— Assembly model to be added |
 | [printing/](printing/) | Print projects in 3mf/; individual print files in stl/ | — To be added |
 | [drawings/](drawings/) | PDF / DWG drawings | — To be added |

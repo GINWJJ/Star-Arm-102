@@ -21,11 +21,16 @@ class HTMLAssets(HTMLParser):
         if tag == 'a' and attrs.get('href'):
             self.links.append(attrs['href'])
 
-def canonical(target):
+def canonical(target, source=None):
     # Language-specific targets may differ while referring to the same guide.
     target = unquote(target).split('#')[0]
+    # A directory entry and its localized README are the same reading destination.
+    if source is not None and target and ':' not in target:
+        destination = source.parent / target
+        if destination.is_dir() and (destination / 'README.md').is_file():
+            target = target.rstrip('/') + '/README.md'
     target = target.replace('README.zh-CN.md', 'README.md').replace('README.zh.md', 'README.md')
-    return target.replace('handoff-review.zh.md', 'handoff-review.md')
+    return target.replace('handoff-review.zh.md', 'handoff-review.md').replace('getting-started.zh.md', 'getting-started.md')
 
 def signature(path):
     text = path.read_text()
@@ -62,7 +67,7 @@ def signature(path):
             tables.append(rows)
             rows = []
     return {'headings': headings, 'code': code, 'images': Counter(images),
-            'tables': tables, 'links': {canonical(x) for x in links if canonical(x)}}
+            'tables': tables, 'links': {canonical(x, path) for x in links if canonical(x, path)}}
 
 def main():
     pairs = sorted(set(ROOT.rglob('README.zh.md')) | set(ROOT.rglob('README.zh-CN.md')))

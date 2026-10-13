@@ -2,7 +2,7 @@
 
 [← examples](../)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
-**On this page:**
+**Contents:**
 
 - [🎬 Watch the demo](#page-section-1)
 - [📋 What you need](#page-section-2)

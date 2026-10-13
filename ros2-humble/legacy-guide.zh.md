@@ -7,7 +7,7 @@
 
 <div align="center">
   <img
-    src="../media/images/11.png"
+    src="../media/11.png"
     alt="StarArm102 Robotic Arm"
     title="StarArm102"
     style="width: 60%; max-width: 800px; border-radius: 10px;"

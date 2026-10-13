@@ -2,9 +2,10 @@
 
 [← Home](../README.md)　|　<sub>**English** / [简体中文](README.zh.md)</sub>
 
-**On this page:**
+**Contents:**
 
 - [🔧 Specifications](#product-specifications)
+- [🛠️ DIY Assembly](diy-assembly/)
 - [📂 Directory Structure](#directory-structure)
 
 Explore your model: **[102-LD](102-ld/)** · **[102-HD](102-hd/)** · **[102-FL](102-fl/)**.
@@ -18,7 +19,7 @@ Accessories: **[Camera Module](camera-module/)** · **[Flexible Gripper](flexibl
 | Specification | Star Arm 102-LD | Star Arm 102-HD | Star Arm 102-FL |
 | --- | --- | --- | --- |
 | Arm type | Leader Arm | Pose-holding Leader Arm | Follower Arm |
-| Power | 12V@3A | 12V@5A | 12V@8A |
+| Power | 12 V / 3 A | 12 V / 5 A | 12 V / 10 A |
 | Reach | 420mm | 420mm | 420mm |
 | DoF | 6+1 | 6+1 | 6+1 |
 | Payload | — | — | 500g (70% reach recommended) |
@@ -46,22 +47,25 @@ hardware/
 │   │   ├── assembly/
 │   │   └── parts/
 │   ├── printing/
+│   │   ├── star-arm-102-ld-complete-print-project.3mf
+│   │   ├── star-arm-102-ld-stl.zip
 │   │   ├── stl/
 │   │   └── 3mf/
 │   ├── drawings/
-│   ├── images/
-│   ├── assembly-guide/
-│   │   └── images/
 │   └── robot-description/
 │       ├── stararm102_ld_hd_description/
 │       └── star-arm-102-ld-hd-urdf.zip
 ├── 102-hd/
 ├── 102-fl/
+├── diy-assembly/
+│   ├── 102-ld/
+│   ├── 102-hd/
+│   └── 102-fl/
 ├── camera-module/
 └── flexible-gripper/
 ```
 
-`step/assembly/` contains CAD assemblies; `assembly-guide/` is for customer assembly instructions. Each model provides its ROS 1 source package and complete ZIP in its own robot-description directory: [LD](102-ld/robot-description/), [HD](102-hd/robot-description/), [FL](102-fl/robot-description/). LD and HD contain the same model.
+`step/assembly/` contains CAD assemblies; `diy-assembly/` groups customer assembly instructions by model. Each model provides its ROS 1 source package and complete ZIP in its own robot-description directory: [LD](102-ld/robot-description/), [HD](102-hd/robot-description/), [FL](102-fl/robot-description/). LD and HD contain the same model.
 
 ## Licensing
 

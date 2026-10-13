@@ -2,23 +2,24 @@
 
 [← 首页](../README.zh.md)　|　<sub>[English](README.md) / **简体中文**</sub>
 
-**本页导航：**
+**目录：**
 
-- [🔧 规格](#product-specifications)
+- [🔧 产品规格](#product-specifications)
+- [🛠️ DIY 装配](diy-assembly/README.zh.md)
 - [📂 目录结构](#directory-structure)
 
-按型号查看详情：**[102-LD](102-ld/)** · **[102-HD](102-hd/)** · **[102-FL](102-fl/)**。
+按型号查看详情：**[102-LD](102-ld/README.zh.md)** · **[102-HD](102-hd/README.zh.md)** · **[102-FL](102-fl/README.zh.md)**。
 
-配件：**[摄像头模组](camera-module/)** · **[柔性夹爪](flexible-gripper/)**。
+配件：**[摄像头模组](camera-module/README.zh.md)** · **[柔性夹爪](flexible-gripper/README.zh.md)**。
 
 <a id="product-specifications"></a>
 
-## 规格
+## 产品规格
 
 | 规格 | Star Arm 102-LD | Star Arm 102-HD | Star Arm 102-FL |
 | --- | --- | --- | --- |
 | 产品类型 | 示教主臂（Leader Arm） | 姿态保持主臂（Leader Arm） | 执行从臂（Follower Arm） |
-| 电源规格 | 12V@3A | 12V@5A | 12V@8A |
+| 电源规格 | 12 V / 3 A | 12 V / 5 A | 12 V / 10 A |
 | 臂展 | 420mm | 420mm | 420mm |
 | 自由度 | 6+1 | 6+1 | 6+1 |
 | 负载 | — | — | 500g（建议在 70% 臂展处使用） |
@@ -46,22 +47,25 @@ hardware/
 │   │   ├── assembly/
 │   │   └── parts/
 │   ├── printing/
+│   │   ├── star-arm-102-ld-complete-print-project.3mf
+│   │   ├── star-arm-102-ld-stl.zip
 │   │   ├── stl/
 │   │   └── 3mf/
 │   ├── drawings/
-│   ├── images/
-│   ├── assembly-guide/
-│   │   └── images/
 │   └── robot-description/
 │       ├── stararm102_ld_hd_description/
 │       └── star-arm-102-ld-hd-urdf.zip
 ├── 102-hd/
 ├── 102-fl/
+├── diy-assembly/
+│   ├── 102-ld/
+│   ├── 102-hd/
+│   └── 102-fl/
 ├── camera-module/
 └── flexible-gripper/
 ```
 
-`step/assembly/` 存放 CAD 装配模型；`assembly-guide/` 用于客户装配说明。每个型号均在自身的 robot-description 目录提供 ROS 1 源码与完整 ZIP：[LD](102-ld/robot-description/)、[HD](102-hd/robot-description/)、[FL](102-fl/robot-description/)。LD 与 HD 包含相同模型。
+`step/assembly/` 存放 CAD 装配模型；`diy-assembly/` 按型号集中存放客户装配说明。每个型号均在自身的 robot-description 目录提供 ROS 1 源码与完整 ZIP：[LD](102-ld/robot-description/)、[HD](102-hd/robot-description/)、[FL](102-fl/robot-description/)。LD 与 HD 包含相同模型。
 
 ## 许可
 

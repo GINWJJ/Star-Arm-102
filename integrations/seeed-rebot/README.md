@@ -2,7 +2,7 @@
 
 [← Integrations](../README.md)　|　<sub>**English**</sub>
 
-**On this page:**
+**Contents:**
 
 - [🔌 Pairing and first connection](#pairing-and-first-connection)
 - [🧩 Software paths and remaining evidence](#software-paths-and-remaining-evidence)

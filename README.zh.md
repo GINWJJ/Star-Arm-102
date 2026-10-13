@@ -27,7 +27,7 @@
 
 <p align="center">
   <a href="https://fashionstar.com.hk/store/collections/robot-arm/star-arm-102/">
-    <img src="media/images/star-arm-102-hero.jpg" alt="Star Arm 102 robot arm" width="880">
+    <img src="media/star-arm-102-hero.jpg" alt="Star Arm 102 robot arm" width="880">
   </a>
 </p>
 
@@ -35,11 +35,12 @@
 
 - [📖 产品介绍](#introduction)
 - [🛒 购买入口](#where-to-buy)
-- [🚀 开始使用](docs/getting-started.md)
+- [🚀 开始使用](docs/getting-started.zh.md)
+- [🔧 DIY 装配](hardware/diy-assembly/README.zh.md)
 - [🌐 跨品牌从臂兼容性](#cross-brand-pairings)
 - [🎮 连接主臂，体验虚拟从臂](#web-controller)
 - [🤖 运行第一个 AI 任务](#run-your-first-ai-task)
-- [⚙️ 硬件资源](hardware/)
+- [⚙️ 硬件资源](hardware/README.zh.md)
 - [🤗 LeRobot](lerobot/README.md)
 - [💬 自然语言控制](integrations/butterfly/README.zh-CN.md)
 - [🦾 ROS 2 Humble 应用](ros2-humble/README.zh.md)
@@ -72,7 +73,7 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 | 规格 | Star Arm 102-LD | Star Arm 102-HD | Star Arm 102-FL |
 | --- | --- | --- | --- |
 | 产品类型 | 示教主臂（Leader Arm） | 姿态保持主臂（Leader Arm） | 执行从臂（Follower Arm） |
-| 电源规格 | 12V@3A | 12V@5A | 12V@8A |
+| 电源规格 | 12 V / 3 A | 12 V / 5 A | 12 V / 10 A |
 | 臂展 | 420mm | 420mm | 420mm |
 | 自由度 | 6+1 | 6+1 | 6+1 |
 | 负载 | — | — | 500g（建议在 70% 臂展处使用） |
@@ -93,9 +94,9 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 
 | 产品图片 | 购买 | 产品简介 |
 | :---: | --- | --- |
-| <a href="https://fashionstar.com.hk/store/product/star-arm-102-ld/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/04/102-ld-main-image-01-430x430.webp" alt="Star Arm 102-LD" width="120"></a> | **[购买&nbsp;102&#8209;LD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 |
-| <a href="https://fashionstar.com.hk/store/product/star-arm-102-hd/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/06/102-hd-main-image-01-2-430x430.webp" alt="Star Arm 102-HD" width="120"></a> | **[购买&nbsp;102&#8209;HD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **姿态保持主臂（Pose-holding）**：采用高扭矩空心杯总线舵机，用于稳定示范和长时间数据采集 |
-| <a href="https://fashionstar.com.hk/store/product/star-arm-102-fl/"><img src="https://fashionstar.com.hk/store/wp-content/uploads/2026/09/102-fl-main-image-01-430x430.webp" alt="Star Arm 102-FL" width="120"></a> | **[购买&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **任务执行从臂**：配备两个高扭矩无刷总线舵机关节，用于遥操作和策略执行，标称工作负载 500g |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-ld/"><img src="media/102-ld-main-image-01-430x430.webp" alt="Star Arm 102-LD" width="120"></a> | **[购买&nbsp;102&#8209;LD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-ld/)** | **轻量示教主臂**：关节在扭矩关闭时可自由手动引导，用于示教、遥操作和示范数据采集 |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-hd/"><img src="media/102-hd-main-image-01-2-430x430.webp" alt="Star Arm 102-HD" width="120"></a> | **[购买&nbsp;102&#8209;HD&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-hd/)** | **姿态保持主臂（Pose-holding）**：采用高扭矩空心杯总线舵机，用于稳定示范和长时间数据采集 |
+| <a href="https://fashionstar.com.hk/store/product/star-arm-102-fl/"><img src="media/102-fl-main-image-01-430x430.webp" alt="Star Arm 102-FL" width="120"></a> | **[购买&nbsp;102&#8209;FL&nbsp;→](https://fashionstar.com.hk/store/product/star-arm-102-fl/)** | **任务执行从臂**：配备两个高扭矩无刷总线舵机关节，用于遥操作和策略执行，标称工作负载 500g |
 
 **中文购买入口：** [淘宝购买](https://item.taobao.com/item.htm?id=1045277992605&skuId=6239416958433)。请在商品页面选择所需型号及整机／套件选项。
 
@@ -108,10 +109,10 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 <!-- reBot image: transparent image extracted with empty alpha margins trimmed from page 1 of Seeed Studio’s product sheet, hosted at https://akizukidenshi.com/goodsaffix/reBot_Arm_B601_DM_Physical_AI_Robotics_Arm.pdf -->
 <table>
   <tr>
-    <td align="center" width="25%"><a href="integrations/seeed-rebot/README.md"><img src="media/images/rebot-b601-dm.png" width="273" alt="Seeed reBot B601-DM" height="180"></a></td>
-    <td align="center" width="25%"><a href="integrations/yam/README.md"><img src="https://i2rt.com/cdn/shop/files/st0_768396f1-edfb-4839-96c1-f7b5dffa214a.png?v=1788854436&amp;width=600&amp;height=600&amp;crop=center" width="180" alt="I2RT YAM" height="180"></a></td>
-    <td align="center" width="25%"><a href="integrations/galaxea-a1/README.md"><img src="https://galaxea-dynamics.com/cdn/shop/files/Frame_183.png?v=1776231329&amp;width=1200" width="180" alt="Galaxea A1" height="180"></a></td>
-    <td align="center" width="25%"><a href="integrations/lumos-touch/README.md"><img src="https://www.lumosbot.tech/images/products/touch/front.webp" width="111" alt="Lumos Touch R1" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/seeed-rebot/README.md"><img src="media/rebot-b601-dm.png" width="273" alt="Seeed reBot B601-DM" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/yam/README.md"><img src="media/i2rt-yam.png" width="180" alt="I2RT YAM" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/galaxea-a1/README.md"><img src="media/galaxea-a1.png" width="180" alt="Galaxea A1" height="180"></a></td>
+    <td align="center" width="25%"><a href="integrations/lumos-touch/README.md"><img src="media/lumos-touch-front.webp" width="111" alt="Lumos Touch R1" height="180"></a></td>
   </tr>
   <tr>
     <td align="center"><a href="integrations/seeed-rebot/README.md"><strong>Seeed reBot<br>B601-DM &amp; B601-RS →</strong></a></td>
@@ -133,7 +134,7 @@ Star Arm 102 是 **[Fashion Star](https://fashionstar.com.hk/)** 开发的开源
 - 熟悉遥操作流程、准备设备配置，为连接实体从臂做好准备。
 - 支持的主臂型号、连接步骤和校准说明请参阅 Wiki 指南。
 
-[![Star Arm 102 网页控制界面预览](media/images/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
+[![Star Arm 102 网页控制界面预览](media/web-control-preview.jpg)](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)
 
 **[连接你的主臂 →](https://fashionstar.com.hk/wiki/software/robot-arm/web-config-tool/)**
 
@@ -190,14 +191,18 @@ Star-Arm-102/
 │   │   │   ├── assembly/
 │   │   │   └── parts/
 │   │   ├── printing/
+│   │   │   ├── star-arm-102-ld-complete-print-project.3mf
+│   │   │   ├── star-arm-102-ld-stl.zip
 │   │   │   ├── stl/
 │   │   │   └── 3mf/
 │   │   ├── drawings/
-│   │   ├── images/
-│   │   ├── assembly-guide/
 │   │   └── robot-description/
 │   ├── 102-hd/
 │   ├── 102-fl/
+│   ├── diy-assembly/
+│   │   ├── 102-ld/
+│   │   ├── 102-hd/
+│   │   └── 102-fl/
 │   ├── camera-module/
 │   └── flexible-gripper/
 ├── integrations/
